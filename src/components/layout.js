@@ -1,7 +1,10 @@
 import React from "react"
 import { Link } from "gatsby"
+import Loadable from "@loadable/component"
 
 import { rhythm, scale } from "../utils/typography"
+
+const OwlCarousel = Loadable(() => import("react-owl-carousel"))
 
 class Layout extends React.Component {
   render() {
@@ -11,24 +14,56 @@ class Layout extends React.Component {
 
     if (location.pathname === rootPath) {
       header = (
-        <h1
-          style={{
-            ...scale(1.5),
-            marginBottom: rhythm(1.5),
-            marginTop: 0,
+        <>
+          <div className="nav">
+            <div className="brand"><a href="index.html">Blog & Baby</a></div>
+            <i className="fa fa-bars" />
+            <ul className="icons">
+              <li><a className="bumps">Bumps & Babys</a></li>
+              <li><a className="out">Out & About</a></li>
+              <li><a className="day">Days & Nights</a></li>
+              <li><a href="index-grid.html">Grids</a></li>
+            </ul>
+          </div>
+          <OwlCarousel
+            className="owl-theme"
+            loop
+            nav
+            navText={["<i class='fa fa-nav fa-chevron-left'></i>", "<i class='fa fa-nav fa-chevron-right'></i>"]}
+            // autoplay
+            dots
+            autoPlay={500}
+            stopOnHover
+            smartSpeed={500}
+            responsive={{
+            0: {
+              items: 1,
+            },
           }}
-        >
-          <Link
-            style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
-            }}
-            to={`/`}
           >
-            {title}
-          </Link>
-        </h1>
+            <div className="heading">
+              <div className="content">
+                <h2>Welcome to Blog & Baby</h2>
+                <p>A blog all about my experiences as a parent living and learning as we went along.</p>
+                <a href="#" className="scroll-down">Please scroll down for more</a>
+              </div>
+            </div>
+            <div className="heading">
+              <div className="content">
+                <h2>Welcome to Blog & Baby</h2>
+                <p>A blog all about my experiences as a parent living and learning as we went along.</p>
+                <a href="#" className="scroll-down">Please scroll down for more</a>
+              </div>
+            </div>
+            <div className="heading">
+              <div className="content">
+                <h2>Welcome to Blog & Baby</h2>
+                <p>A blog all about my experiences as a parent living and learning as we went along.</p>
+                <a href="#" className="scroll-down">Please scroll down for more</a>
+              </div>
+            </div>
+          </OwlCarousel>
+        </>
       )
     } else {
       header = (
@@ -52,22 +87,24 @@ class Layout extends React.Component {
       )
     }
     return (
-      <div
-        style={{
-          marginLeft: `auto`,
-          marginRight: `auto`,
-          maxWidth: rhythm(24),
-          padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-        }}
-      >
-        <header>{header}</header>
-        <main>{children}</main>
+      <>
+        {/*<div*/}
+        {/*  style={{*/}
+        {/*    marginLeft: `auto`,*/}
+        {/*    marginRight: `auto`,*/}
+        {/*    maxWidth: rhythm(24),*/}
+        {/*    padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,*/}
+        {/*  }}*/}
+        {/*>*/}
+        {/*<header>{header}</header>*/}
+        {header}
+        {children}
         <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <p>© 2017 , Baby Theme.</p>
         </footer>
-      </div>
+
+        {/*</div>*/}
+      </>
     )
   }
 }
