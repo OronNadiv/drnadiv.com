@@ -87,7 +87,11 @@ class BlogPostTemplate extends React.Component {
                       </div>
                       <div className="social">
                         <div className="comments">
-                          <span>9 comments</span>
+                          <div
+                            className="fb-comments"
+                            data-href={`https://www.drnadiv.com/${post.frontmatter.id}`}
+                            data-width="100%"
+                          />
                         </div>
                       </div>
                     </div>
@@ -151,6 +155,7 @@ export const pageQuery = graphql`
       excerpt(pruneLength: 160)
       html
       frontmatter {
+        id
         title
         date(formatString: "MMMM DD, YYYY")
         description

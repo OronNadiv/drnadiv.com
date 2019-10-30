@@ -40,8 +40,8 @@ class Layout extends React.Component {
             loop
             nav
             navText={[
-              "<i class='fa fa-nav fa-chevron-left'></i>",
-              "<i class='fa fa-nav fa-chevron-right'></i>"
+              "<i class='fa fa-nav fa-chevron-left'/>",
+              "<i class='fa fa-nav fa-chevron-right'/>"
             ]}
             autoplay
             dots
@@ -68,7 +68,7 @@ class Layout extends React.Component {
                       learning as we went along.
                     </p>
                     <a href="#" className="scroll-down">
-                      Please scroll down for more
+                      Scroll down for more
                     </a>
                   </div>
                 </div>

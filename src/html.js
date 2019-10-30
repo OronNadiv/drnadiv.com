@@ -49,6 +49,12 @@ export default function HTML(props) {
         crossOrigin="anonymous"
       />
       <script type="text/javascript" src="/js/app.js" />
+      <script
+        async
+        defer
+        crossOrigin="anonymous"
+        src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v4.0&appId=634731470264758&autoLogAppEvents=1"
+      />
     </html>
   )
 }

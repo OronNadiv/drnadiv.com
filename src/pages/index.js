@@ -71,9 +71,9 @@ class BlogIndex extends React.Component {
                               <i className="fa fa-google-plus" />
                             </a>
                           </div>
-                          <div className="comments">
-                            <span>9 comments</span>
-                          </div>
+                          {/*<div className="comments">*/}
+                          {/*  <span>9 comments</span>*/}
+                          {/*</div>*/}
                         </div>
                       </div>
                     )
