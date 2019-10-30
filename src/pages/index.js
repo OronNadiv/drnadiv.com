@@ -1,7 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
-import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
@@ -46,11 +45,11 @@ class BlogIndex extends React.Component {
                               __html: node.frontmatter.description || node.excerpt,
                             }}
                           />
-                          <div className="tags">
-                            <span>baby</span>
-                            <span>cute</span>
-                            <span>feeding</span>
-                          </div>
+                          {/*<div className="tags">*/}
+                          {/*  <span>baby</span>*/}
+                          {/*  <span>cute</span>*/}
+                          {/*  <span>feeding</span>*/}
+                          {/*</div>*/}
                         </div>
                         <div className="social">
                           <div className="share">
@@ -70,10 +69,10 @@ class BlogIndex extends React.Component {
                 </div>
                 <div className="cell author">
                   <div className="image" />
-                  <h1>Hi,I'm Eliza</h1>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia rerum, tempora, eius maiores
-                    nobis illo quasi soluta minus dicta sed officiis sapiente adipisci quos rem similique! Mollitia
-                    accusantium vero ab.</p>
+                  <h1>About Me</h1>
+                  <p>
+                    I am a pediatrician at Permanente Medicine (aka Kaiser) in Daly City.  Originally from San Diego, I completed my undergraduate at Duke University and medical school at UCSD. I moved to the Bay Area in 2005, and joined Kaiser full time in 2014. I live in San Carlos with my husband and two daughters. In my free time, I enjoy exercise of any kind, being with my family, spending time in nature, reading and participating in book clubs, photography, and traveling.
+                  </p>
                 </div>
               </div>
             </div>

@@ -5,21 +5,20 @@ export default function HTML(props) {
   return (
     <html {...props.htmlAttributes}>
     <head>
-      <title>Blog & Baby</title>
+      <title>Elizabeth Nadiv MD</title>
       <meta charSet="utf-8" />
-      <meta name="description" content="Baby Theme" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta charSet="utf-8" />
       <meta httpEquiv="x-ua-compatible" content="ie=edge" />
       {props.headComponents}
+      {/*TODO: change favicon*/}
       <link rel="icon" href="/images/favicon.png" type="image/png" sizes="16x16" />
+
       <link href="https://fonts.googleapis.com/css?family=Lato:100,400%7CPlayfair+Display" rel="stylesheet" />
       <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
       <link rel="stylesheet" type="text/css" href="/styles/style.css" />
-      {/*<link rel="stylesheet" href="styles/owl.css" />*/}
       <link rel="stylesheet" href="/styles/owl.carousel.css" />
-      {/*<link rel="stylesheet" href="styles/owl-default.css" />*/}
       <link rel="stylesheet" href="/styles/owl.theme.default.css" />
     </head>
     <body {...props.bodyAttributes}>

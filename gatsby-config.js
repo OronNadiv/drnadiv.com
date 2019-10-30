@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Dr. Elizabeth Nadiv`,
+    title: `Elizabeth Nadiv MD`,
     author: `Oron Nadiv`,
     description: `TODO: A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://www..drnadiv.com/`,
+    siteUrl: `https://www.drnadiv.com/`,
     social: {
-      twitter: `TODO: kylemathews`,
+      twitter: `TODO:`,
     },
   },
   plugins: [
@@ -50,7 +50,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-151145434-213959138`,
       },
     },
     `gatsby-plugin-feed`,
