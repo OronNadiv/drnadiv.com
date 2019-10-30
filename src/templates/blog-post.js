@@ -74,11 +74,11 @@ class BlogPostTemplate extends React.Component {
 
           <div className="main">
             <a className="scrolltop">
-              <i className="fa fa-chevron-up" aria-hidden="true" />
+              <i className="fa fa-chevron-up text-white" aria-hidden="true" />
             </a>
             <div className="section-3 single-post">
               <div className="table-row">
-                <div className="container">
+                <div className="post-container">
                   <div className="cell posts">
                     <div className="post">
                       <div className="text">

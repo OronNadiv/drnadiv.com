@@ -37,8 +37,8 @@ class Layout extends React.Component {
             loop
             nav
             navText={[
-              '<i class=\'fa fa-nav fa-chevron-left\'/>',
-              '<i class=\'fa fa-nav fa-chevron-right\'/>'
+              '<i class=\'fa fa-nav fa-chevron-left text-white\'/>',
+              '<i class=\'fa fa-nav fa-chevron-right text-white\'/>'
             ]}
             autoplay
             dots

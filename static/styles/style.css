@@ -91,6 +91,10 @@ a {
     box-shadow: none;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 html {
     height: 100%
 }
@@ -169,8 +173,8 @@ footer {
     .section-1 .cell {
         display: table-cell;
         height: 300px;
-        /*text-align: center;*/
-        text-align: left;
+        text-align: center;
+        /*text-align: left;*/
         vertical-align: top
     }
 }
@@ -223,8 +227,8 @@ div.heading {
 
 .cell,
 .section-1 .cell {
-    /*text-align: center*/
-    text-align: left
+    text-align: center
+    /*text-align: left*/
 }
 
 @-webkit-keyframes fade {
@@ -369,7 +373,7 @@ div.heading {
     background-size: cover
 }
 
-.container {
+.post-container {
     max-width: 1200px;
     margin: 0 auto;
     border-spacing: 50px 0
@@ -491,7 +495,7 @@ footer p {
         font-size: 4rem
     }
 
-    .container .author {
+    .post-container .author {
         margin: 15px auto;
         margin-bottom: 30px
     }
@@ -583,12 +587,20 @@ footer p {
     color: #fff;
     border: 0;
     background: #38908d;
-    display: none
+    display: none;
+}
+.scrolltop i {
+    color: white;
+}
+.scrolltop:active i,
+.scrolltop:focus i,
+.scrolltop:hover i {
+    color: #38908d;
 }
 
 .scrolltop:active,
 .scrolltop:focus,
-.scrolltop:hover {
+.scrolltop:hover{
     border: 0;
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
@@ -596,7 +608,7 @@ footer p {
     background: #fff
 }
 
-.grid-styles .container {
+.grid-styles .post-container {
     max-width: 100%
 }
 
@@ -788,7 +800,6 @@ footer p {
 .owl-next,
 .owl-prev {
     background: 0 0 !important;
-    color: white !important;
 }
 
 .owl-next:focus, .owl-prev:focus {

@@ -21,7 +21,7 @@ class BlogIndex extends React.Component {
             <i className="fa fa-chevron-up" aria-hidden="true" />
           </a>
           <div className="section-3">
-            <div className="container">
+            <div className="post-container">
               <div className="table-row">
                 <div className="cell posts">
                   {posts.map(({ node }) => {
@@ -42,14 +42,16 @@ class BlogIndex extends React.Component {
                           <span className="date">{node.frontmatter.date}</span>
                           <Link to={node.fields.slug}>
                             <h1>{title}</h1>
+                            {/*<a href="single-post.html"><h1>{title}</h1></a>*/}
+                            <p style={{ color: 'black' }}
+                               dangerouslySetInnerHTML={{
+                                 __html:
+                                   node.frontmatter.description || node.excerpt
+                               }}
+                            />
+
+                            <div className='text-center'>Read more...</div>
                           </Link>
-                          {/*<a href="single-post.html"><h1>{title}</h1></a>*/}
-                          <p
-                            dangerouslySetInnerHTML={{
-                              __html:
-                                node.frontmatter.description || node.excerpt
-                            }}
-                          />
                           {/*<div className="tags">*/}
                           {/*  <span>baby</span>*/}
                           {/*  <span>cute</span>*/}
