@@ -83,7 +83,7 @@ class BlogPostTemplate extends React.Component {
                 <div className="post-container">
                   <div className="cell posts">
                     <div className="post">
-                      <div className="text">
+                      <div className="text pb-0">
                         <section
                           dangerouslySetInnerHTML={{ __html: post.html }}
                         />
