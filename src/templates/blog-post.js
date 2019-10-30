@@ -3,6 +3,7 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import { rhythm, scale } from '../utils/typography'
+import { FacebookProvider, Comments } from 'react-facebook'
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -86,12 +87,14 @@ class BlogPostTemplate extends React.Component {
                         />
                       </div>
                       <div className="social">
-                        <div className="comments">
-                          <div
-                            className="fb-comments"
-                            data-href={`https://www.drnadiv.com/${post.frontmatter.id}`}
-                            data-width="100%"
-                          />
+                        <div className="comments-single-post">
+                          <FacebookProvider appId="634731470264758">
+                            <Comments
+                              className="fb-comments"
+                              href={`https://www.drnadiv.com/${post.frontmatter.id}`}
+                              width="100%"
+                            />
+                          </FacebookProvider>
                         </div>
                       </div>
                     </div>

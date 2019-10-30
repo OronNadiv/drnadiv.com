@@ -5,6 +5,7 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import { rhythm } from '../utils/typography'
 import Img from 'gatsby-image'
+import { FacebookProvider, CommentsCount } from 'react-facebook'
 
 class BlogIndex extends React.Component {
   render() {
@@ -71,9 +72,16 @@ class BlogIndex extends React.Component {
                               <i className="fa fa-google-plus" />
                             </a>
                           </div>
-                          {/*<div className="comments">*/}
-                          {/*  <span>9 comments</span>*/}
-                          {/*</div>*/}
+                          <div className="comments">
+                            <FacebookProvider appId="634731470264758">
+                              <CommentsCount
+                                className="fb-comments"
+                                href={`https://www.drnadiv.com/${node.frontmatter.id}`}
+                              >
+                                <span>&nbsp;comments</span>
+                              </CommentsCount>
+                            </FacebookProvider>
+                          </div>
                         </div>
                       </div>
                     )
@@ -119,6 +127,7 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
+            id
             date(formatString: "MMMM DD, YYYY")
             title
             description

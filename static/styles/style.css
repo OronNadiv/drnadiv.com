@@ -436,8 +436,7 @@ div.heading {
     padding-right: 5px
 }
 
-.comments {
-    width: 100%;
+.comments, .comments-single-post {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -449,6 +448,10 @@ div.heading {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center
+}
+
+.comments-single-post {
+    width: 100%;
 }
 
 .fb-comments {
