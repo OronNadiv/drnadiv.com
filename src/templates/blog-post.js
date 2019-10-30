@@ -4,12 +4,14 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import { rhythm, scale } from '../utils/typography'
 import { FacebookProvider, Comments } from 'react-facebook'
+import { FacebookShareButton, TwitterShareButton } from 'react-share'
 
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
+    const linkUrl = `https://drnadiv.com${post.fields.slug}`
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -36,7 +38,7 @@ class BlogPostTemplate extends React.Component {
               <div className="brand">
                 <Link to={`/`}>Elizabeth Nadiv MD</Link>
               </div>
-              <i className="fa fa-bars"></i>
+              {/*<i className="fa fa-bars"></i>*/}
               <ul className="icons">
                 <li>
                   {/*<a href="index-left.html">Back to Articles</a>*/}
@@ -86,6 +88,20 @@ class BlogPostTemplate extends React.Component {
                           dangerouslySetInnerHTML={{ __html: post.html }}
                         />
                       </div>
+                      <div className="social float-right bg-white pt-0">
+                        <div className="share">
+                          <span>share</span>
+                          <TwitterShareButton url={linkUrl} className='d-inline'>
+                            <i className="fa fa-twitter" />
+                          </TwitterShareButton>
+                          <FacebookShareButton
+                            url={linkUrl}
+                            className='d-inline'>
+                            <i className="fa fa-facebook" />
+                          </FacebookShareButton>
+                        </div>
+                      </div>
+                      <div className="clearfix" />
                       <div className="social">
                         <div className="comments-single-post">
                           <FacebookProvider appId="634731470264758">
@@ -156,6 +172,9 @@ export const pageQuery = graphql`
       id
       excerpt(pruneLength: 160)
       html
+      fields {
+        slug
+      }
       frontmatter {
         id
         title

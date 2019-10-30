@@ -5,13 +5,16 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import Img from 'gatsby-image'
 import { FacebookProvider, CommentsCount } from 'react-facebook'
+import {
+  FacebookShareButton,
+  TwitterShareButton
+} from 'react-share'
 
 class BlogIndex extends React.Component {
   render() {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
     const posts = data.allMarkdownRemark.edges
-
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All posts" />
@@ -24,6 +27,7 @@ class BlogIndex extends React.Component {
               <div className="table-row">
                 <div className="cell posts">
                   {posts.map(({ node }) => {
+                    const linkUrl = `https://www.drnadiv.com${node.fields.slug}`
                     const title = node.frontmatter.title || node.fields.slug
                     return (
                       <div className="post" key={node.fields.slug}>
@@ -60,18 +64,14 @@ class BlogIndex extends React.Component {
                         <div className="social">
                           <div className="share">
                             <span>share</span>
-                            <a href="#">
+                            <TwitterShareButton url={linkUrl} className='d-inline'>
                               <i className="fa fa-twitter" />
-                            </a>
-                            <a href="#">
+                            </TwitterShareButton>
+                            <FacebookShareButton
+                              url={linkUrl}
+                              className='d-inline'>
                               <i className="fa fa-facebook" />
-                            </a>
-                            <a href="#">
-                              <i className="fa fa-pinterest" />
-                            </a>
-                            <a href="#">
-                              <i className="fa fa-google-plus" />
-                            </a>
+                            </FacebookShareButton>
                           </div>
                           <div className="comments">
                             <FacebookProvider appId="634731470264758">
