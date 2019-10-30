@@ -5,10 +5,8 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import Img from 'gatsby-image'
 import { FacebookProvider, CommentsCount } from 'react-facebook'
-import {
-  FacebookShareButton,
-  TwitterShareButton
-} from 'react-share'
+import FacebookShareButton from '../utils/FacebookShareButton'
+import TwitterShareButton from '../utils/TwitterShareButton'
 
 class BlogIndex extends React.Component {
   render() {
@@ -46,14 +44,15 @@ class BlogIndex extends React.Component {
                           <Link to={node.fields.slug}>
                             <h1>{title}</h1>
                             {/*<a href="single-post.html"><h1>{title}</h1></a>*/}
-                            <p style={{ color: 'black' }}
-                               dangerouslySetInnerHTML={{
-                                 __html:
-                                   node.frontmatter.description || node.excerpt
-                               }}
+                            <p
+                              style={{ color: 'black' }}
+                              dangerouslySetInnerHTML={{
+                                __html:
+                                  node.frontmatter.description || node.excerpt
+                              }}
                             />
 
-                            <div className='text-center'>Read more...</div>
+                            <div className="text-center">Read more...</div>
                           </Link>
                           {/*<div className="tags">*/}
                           {/*  <span>baby</span>*/}
@@ -64,22 +63,27 @@ class BlogIndex extends React.Component {
                         <div className="social">
                           <div className="share">
                             <span>share</span>
-                            <TwitterShareButton url={linkUrl} className='d-inline'>
+                            <TwitterShareButton
+                              url={linkUrl}
+                              // title={title}
+                              className="d-inline"
+                            >
                               <i className="fa fa-twitter" />
                             </TwitterShareButton>
                             <FacebookShareButton
                               url={linkUrl}
-                              className='d-inline'>
+                              // quote={title}
+                              className="d-inline"
+                            >
                               <i className="fa fa-facebook" />
                             </FacebookShareButton>
                           </div>
                           <div className="comments">
                             <FacebookProvider appId="634731470264758">
-                              <span className='d-flex flex-row'>
+                              <span className="d-flex flex-row">
                                 <CommentsCount
                                   href={`https://www.drnadiv.com/${node.frontmatter.id}`}
-                                >
-                                </CommentsCount>
+                                ></CommentsCount>
                                 &nbsp;comments
                               </span>
                             </FacebookProvider>

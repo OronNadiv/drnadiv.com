@@ -2,9 +2,10 @@ import React from 'react'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import { rhythm, scale } from '../utils/typography'
+import { rhythm } from '../utils/typography'
 import { FacebookProvider, Comments } from 'react-facebook'
-import { FacebookShareButton, TwitterShareButton } from 'react-share'
+import FacebookShareButton from '../utils/FacebookShareButton'
+import TwitterShareButton from '../utils/TwitterShareButton'
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -91,12 +92,18 @@ class BlogPostTemplate extends React.Component {
                       <div className="social float-right bg-white pt-0">
                         <div className="share">
                           <span>share</span>
-                          <TwitterShareButton url={linkUrl} className='d-inline'>
+                          <TwitterShareButton
+                            url={linkUrl}
+                            // title={post.frontmatter.title}
+                            className="d-inline"
+                          >
                             <i className="fa fa-twitter" />
                           </TwitterShareButton>
                           <FacebookShareButton
                             url={linkUrl}
-                            className='d-inline'>
+                            // quote={post.frontmatter.title}
+                            className="d-inline"
+                          >
                             <i className="fa fa-facebook" />
                           </FacebookShareButton>
                         </div>

@@ -37,13 +37,13 @@ class Layout extends React.Component {
             loop
             nav
             navText={[
-              '<i class=\'fa fa-nav fa-chevron-left text-white\'/>',
-              '<i class=\'fa fa-nav fa-chevron-right text-white\'/>'
+              "<i class='fa fa-nav fa-chevron-left text-white'/>",
+              "<i class='fa fa-nav fa-chevron-right text-white'/>"
             ]}
             autoplay
             dots
             autoPlay={500}
-            stopOnHover
+            stoponhover
             smartSpeed={500}
             responsive={{
               0: {
