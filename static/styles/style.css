@@ -451,6 +451,20 @@ div.heading {
     justify-content: center
 }
 
+.fb-comments {
+    width: 100% !important;
+    text-align: center;
+}
+
+.fb-comments iframe {
+    width: 100% !important;
+}
+
+.fb-comments span {
+    width: 100% !important;
+}
+
+
 .section-3 {
     padding-bottom: 100px;
     background: #f8f8f8
