@@ -1,10 +1,10 @@
-import React from "react"
-import { Link, graphql } from "gatsby"
+import React from 'react'
+import { Link, graphql } from 'gatsby'
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
-import Img from "gatsby-image"
+import Layout from '../components/layout'
+import SEO from '../components/seo'
+import { rhythm } from '../utils/typography'
+import Img from 'gatsby-image'
 
 class BlogIndex extends React.Component {
   render() {
@@ -16,7 +16,9 @@ class BlogIndex extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All posts" />
         <div className="main">
-          <a className="scrolltop"><i className="fa fa-chevron-up" aria-hidden="true" /></a>
+          <a className="scrolltop">
+            <i className="fa fa-chevron-up" aria-hidden="true" />
+          </a>
           <div className="section-3">
             <div className="container">
               <div className="table-row">
@@ -26,23 +28,25 @@ class BlogIndex extends React.Component {
                     return (
                       <div className="post" key={node.fields.slug}>
                         <Link to={node.fields.slug}>
-                        <Img
-                          className="img-fluid rounded mx-auto d-block"
-                          sizes={
-                            node.frontmatter.featuredImage.childImageSharp
-                              .sizes
-                          }
-                        />
+                          <Img
+                            className="img-fluid rounded mx-auto d-block"
+                            sizes={
+                              node.frontmatter.featuredImage.childImageSharp
+                                .sizes
+                            }
+                          />
                         </Link>
                         {/*<img src="images/placeholder.jpg" alt="Blog Post Image" />*/}
-                        <div className="text"><span className="date">{node.frontmatter.date}</span>
+                        <div className="text">
+                          <span className="date">{node.frontmatter.date}</span>
                           <Link to={node.fields.slug}>
                             <h1>{title}</h1>
                           </Link>
                           {/*<a href="single-post.html"><h1>{title}</h1></a>*/}
                           <p
                             dangerouslySetInnerHTML={{
-                              __html: node.frontmatter.description || node.excerpt,
+                              __html:
+                                node.frontmatter.description || node.excerpt
                             }}
                           />
                           {/*<div className="tags">*/}
@@ -54,10 +58,18 @@ class BlogIndex extends React.Component {
                         <div className="social">
                           <div className="share">
                             <span>share</span>
-                            <a href="#"><i className="fa fa-twitter" /></a>
-                            <a href="#"><i className="fa fa-facebook" /></a>
-                            <a href="#"><i className="fa fa-pinterest" /></a>
-                            <a href="#"><i className="fa fa-google-plus" /></a>
+                            <a href="#">
+                              <i className="fa fa-twitter" />
+                            </a>
+                            <a href="#">
+                              <i className="fa fa-facebook" />
+                            </a>
+                            <a href="#">
+                              <i className="fa fa-pinterest" />
+                            </a>
+                            <a href="#">
+                              <i className="fa fa-google-plus" />
+                            </a>
                           </div>
                           <div className="comments">
                             <span>9 comments</span>
@@ -71,7 +83,14 @@ class BlogIndex extends React.Component {
                   <div className="image" />
                   <h1>About Me</h1>
                   <p>
-                    I am a pediatrician at Permanente Medicine (aka Kaiser) in Daly City.  Originally from San Diego, I completed my undergraduate at Duke University and medical school at UCSD. I moved to the Bay Area in 2005, and joined Kaiser full time in 2014. I live in San Carlos with my husband and two daughters. In my free time, I enjoy exercise of any kind, being with my family, spending time in nature, reading and participating in book clubs, photography, and traveling.
+                    I am a pediatrician at Permanente Medicine (aka Kaiser) in
+                    Daly City. Originally from San Diego, I completed my
+                    undergraduate at Duke University and medical school at UCSD.
+                    I moved to the Bay Area in 2005, and joined Kaiser full time
+                    in 2014. I live in San Carlos with my husband and two
+                    daughters. In my free time, I enjoy exercise of any kind,
+                    being with my family, spending time in nature, reading and
+                    participating in book clubs, photography, and traveling.
                   </p>
                 </div>
               </div>

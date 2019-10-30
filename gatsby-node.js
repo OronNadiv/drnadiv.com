@@ -1,14 +1,12 @@
 const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
-exports.onCreateWebpackConfig = ({
-                                   actions,
-                                 }) => {
+exports.onCreateWebpackConfig = ({ actions }) => {
   const { setWebpackConfig } = actions
   setWebpackConfig({
     externals: {
-      jquery: "jQuery", // important: 'Q' capitalized
-    },
+      jquery: 'jQuery' // important: 'Q' capitalized
+    }
   })
 }
 
@@ -55,8 +53,8 @@ exports.createPages = async ({ graphql, actions }) => {
       context: {
         slug: post.node.fields.slug,
         previous,
-        next,
-      },
+        next
+      }
     })
   })
 }
@@ -69,7 +67,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     createNodeField({
       name: `slug`,
       node,
-      value,
+      value
     })
   }
 }

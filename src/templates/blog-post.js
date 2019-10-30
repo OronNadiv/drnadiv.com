@@ -1,8 +1,8 @@
-import React from "react"
-import { Link, graphql } from "gatsby"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import { rhythm, scale } from "../utils/typography"
+import React from 'react'
+import { Link, graphql } from 'gatsby'
+import Layout from '../components/layout'
+import SEO from '../components/seo'
+import { rhythm, scale } from '../utils/typography'
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -17,7 +17,12 @@ class BlogPostTemplate extends React.Component {
           description={post.frontmatter.description || post.excerpt}
         />
         <article>
-          <div className="heading" style={{ backgroundImage: `url("${post.frontmatter.featuredImage.publicURL}")` }}>
+          <div
+            className="heading"
+            style={{
+              backgroundImage: `url("${post.frontmatter.featuredImage.publicURL}")`
+            }}
+          >
             {/*{post.frontmatter.featuredImage && (*/}
             {/*  <Img*/}
             {/*    className="img-fluid rounded mx-auto d-block"*/}
@@ -28,27 +33,21 @@ class BlogPostTemplate extends React.Component {
             {/*)}*/}
             <div className="nav white sticky">
               <div className="brand">
-                <Link
-                  to={`/`}
-                >
-                  Elizabeth Nadiv MD
-                </Link>
+                <Link to={`/`}>Elizabeth Nadiv MD</Link>
               </div>
               <i className="fa fa-bars"></i>
               <ul className="icons">
                 <li>
                   {/*<a href="index-left.html">Back to Articles</a>*/}
-                  <Link
-                    to={`/`}
-                  >
-                    Back to Articles
-                  </Link>
+                  <Link to={`/`}>Back to Articles</Link>
                 </li>
               </ul>
             </div>
             <div className="top-post">
               <span className="date">{post.frontmatter.date}</span>
-              <a href="#"><h1>{post.frontmatter.title}</h1></a>
+              <a href="#">
+                <h1>{post.frontmatter.title}</h1>
+              </a>
             </div>
           </div>
 
@@ -73,14 +72,18 @@ class BlogPostTemplate extends React.Component {
           {/*</header>*/}
 
           <div className="main">
-            <a className="scrolltop"><i className="fa fa-chevron-up" aria-hidden="true" /></a>
+            <a className="scrolltop">
+              <i className="fa fa-chevron-up" aria-hidden="true" />
+            </a>
             <div className="section-3 single-post">
               <div className="table-row">
                 <div className="container">
                   <div className="cell posts">
                     <div className="post">
                       <div className="text">
-                        <section dangerouslySetInnerHTML={{ __html: post.html }} />
+                        <section
+                          dangerouslySetInnerHTML={{ __html: post.html }}
+                        />
                       </div>
                       <div className="social">
                         <div className="comments">
@@ -96,11 +99,10 @@ class BlogPostTemplate extends React.Component {
 
           <hr
             style={{
-              marginBottom: rhythm(1),
+              marginBottom: rhythm(1)
             }}
           />
-          <footer>
-          </footer>
+          <footer></footer>
         </article>
 
         <nav>
@@ -110,7 +112,7 @@ class BlogPostTemplate extends React.Component {
               flexWrap: `wrap`,
               justifyContent: `space-between`,
               listStyle: `none`,
-              padding: 0,
+              padding: 0
             }}
           >
             <li>

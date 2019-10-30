@@ -1,10 +1,10 @@
-import React from "react"
-import { Link } from "gatsby"
-import Loadable from "@loadable/component"
+import React from 'react'
+import { Link } from 'gatsby'
+import Loadable from '@loadable/component'
 
-import { rhythm, scale } from "../utils/typography"
+import { rhythm, scale } from '../utils/typography'
 
-const OwlCarousel = Loadable(() => import("react-owl-carousel"))
+const OwlCarousel = Loadable(() => import('react-owl-carousel'))
 
 class Layout extends React.Component {
   render() {
@@ -24,7 +24,9 @@ class Layout extends React.Component {
       header = (
         <>
           <div className="nav">
-            <div className="brand"><a href="/">Elizabeth Nadiv MD</a></div>
+            <div className="brand">
+              <a href="/">Elizabeth Nadiv MD</a>
+            </div>
             {/*<i className="fa fa-bars" />*/}
             {/*<ul className="icons">*/}
             {/*<li><a className="bumps">Bumps & Babys</a></li>*/}
@@ -37,7 +39,10 @@ class Layout extends React.Component {
             className="owl-theme"
             loop
             nav
-            navText={["<i class='fa fa-nav fa-chevron-left'></i>", "<i class='fa fa-nav fa-chevron-right'></i>"]}
+            navText={[
+              "<i class='fa fa-nav fa-chevron-left'></i>",
+              "<i class='fa fa-nav fa-chevron-right'></i>"
+            ]}
             autoplay
             dots
             autoPlay={500}
@@ -45,30 +50,36 @@ class Layout extends React.Component {
             smartSpeed={500}
             responsive={{
               0: {
-                items: 1,
-              },
+                items: 1
+              }
             }}
           >
-            {
-              mainImages.map((mainImage, key) => {
-                return (
-                <div key={key} className="heading" style={{ backgroundImage: `url("/images/${mainImage}")` }}>
+            {mainImages.map((mainImage, key) => {
+              return (
+                <div
+                  key={key}
+                  className="heading"
+                  style={{ backgroundImage: `url("/images/${mainImage}")` }}
+                >
                   <div className="content">
                     <h2>Welcome to Blog & Baby</h2>
-                    <p>A blog all about my experiences as a parent living and learning as we went along.</p>
-                    <a href="#" className="scroll-down">Please scroll down for more</a>
+                    <p>
+                      A blog all about my experiences as a parent living and
+                      learning as we went along.
+                    </p>
+                    <a href="#" className="scroll-down">
+                      Please scroll down for more
+                    </a>
                   </div>
                 </div>
-                )
-              })
-            }
+              )
+            })}
           </OwlCarousel>
         </>
       )
     } else {
       header = (
-        <>
-        </>
+        <></>
 
         // <h3
         //   style={{
@@ -104,8 +115,8 @@ class Layout extends React.Component {
         {children}
         <footer>
           <p>
-            This website was built with{" "}
-            <span style={{ color: "red" }}>♥️</span> by{" "}
+            This website was built with <span style={{ color: 'red' }}>♥️</span>{' '}
+            by{' '}
             <a
               href="https://www.oronnadiv.com"
               target="_blank"
