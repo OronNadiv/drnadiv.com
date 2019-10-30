@@ -30,60 +30,63 @@ class Layout extends React.Component {
             loop
             nav
             navText={["<i class='fa fa-nav fa-chevron-left'></i>", "<i class='fa fa-nav fa-chevron-right'></i>"]}
-            // autoplay
+            autoplay
             dots
             autoPlay={500}
             stopOnHover
             smartSpeed={500}
             responsive={{
-            0: {
-              items: 1,
-            },
-          }}
+              0: {
+                items: 1,
+              },
+            }}
           >
-            <div className="heading">
+            <div className="heading" style={{ backgroundImage: `url("/images/back.png")` }}>
               <div className="content">
                 <h2>Welcome to Blog & Baby</h2>
                 <p>A blog all about my experiences as a parent living and learning as we went along.</p>
                 <a href="#" className="scroll-down">Please scroll down for more</a>
               </div>
             </div>
-            <div className="heading">
+            <div className="heading" style={{ backgroundImage: `url("/images/baby-5.jpg")` }}>
               <div className="content">
                 <h2>Welcome to Blog & Baby</h2>
                 <p>A blog all about my experiences as a parent living and learning as we went along.</p>
                 <a href="#" className="scroll-down">Please scroll down for more</a>
               </div>
             </div>
-            <div className="heading">
-              <div className="content">
-                <h2>Welcome to Blog & Baby</h2>
-                <p>A blog all about my experiences as a parent living and learning as we went along.</p>
-                <a href="#" className="scroll-down">Please scroll down for more</a>
-              </div>
-            </div>
+            {/*<div className="heading">*/}
+            {/*  <div className="content">*/}
+            {/*    <h2>Welcome to Blog & Baby</h2>*/}
+            {/*    <p>A blog all about my experiences as a parent living and learning as we went along.</p>*/}
+            {/*    <a href="#" className="scroll-down">Please scroll down for more</a>*/}
+            {/*  </div>*/}
+            {/*</div>*/}
           </OwlCarousel>
         </>
       )
     } else {
       header = (
-        <h3
-          style={{
-            fontFamily: `Montserrat, sans-serif`,
-            marginTop: 0,
-          }}
-        >
-          <Link
-            style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
-            }}
-            to={`/`}
-          >
-            {title}
-          </Link>
-        </h3>
+        <>
+        </>
+
+        // <h3
+        //   style={{
+        //     fontFamily: `Montserrat, sans-serif`,
+        //     marginTop: 0,
+        //   }}
+        // >
+        //   <Link
+        //     style={{
+        //       boxShadow: `none`,
+        //       textDecoration: `none`,
+        //       color: `inherit`,
+        //     }}
+        //     to={`/`}
+        //   >
+        //     {title}
+        //   </Link>
+        // </h3>
       )
     }
     return (
@@ -100,7 +103,17 @@ class Layout extends React.Component {
         {header}
         {children}
         <footer>
-          <p>© 2017 , Baby Theme.</p>
+          <p>
+          This website was built with{' '}
+          <i className={`fas fa-heart`} aria-hidden="true" /> by{' '}
+          <a
+            href="https://www.oronnadiv.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Oron Nadiv
+          </a>
+          </p>
         </footer>
 
         {/*</div>*/}

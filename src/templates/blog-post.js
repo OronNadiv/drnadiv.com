@@ -19,33 +19,89 @@ class BlogPostTemplate extends React.Component {
           description={post.frontmatter.description || post.excerpt}
         />
         <article>
-          <header>
-            <h1
-              style={{
-                marginTop: rhythm(1),
-                marginBottom: 0,
-              }}
-            >
-              {post.frontmatter.title}
-            </h1>
-            <p
-              style={{
-                ...scale(-1 / 5),
-                display: `block`,
-                marginBottom: rhythm(1),
-              }}
-            >
-              {post.frontmatter.date}
-            </p>
-          </header>
-          <section dangerouslySetInnerHTML={{ __html: post.html }} />
+          <div className="heading" style={{ backgroundImage: `url("${post.frontmatter.featuredImage.publicURL}")` }}>
+            {/*{post.frontmatter.featuredImage && (*/}
+            {/*  <Img*/}
+            {/*    className="img-fluid rounded mx-auto d-block"*/}
+            {/*    sizes={*/}
+            {/*      post.frontmatter.featuredImage.childImageSharp.sizes*/}
+            {/*    }*/}
+            {/*  />*/}
+            {/*)}*/}
+            <div className="nav white sticky">
+              <div className="brand">
+                <Link
+                  to={`/`}
+                >
+                  Blog & Baby
+                </Link>
+              </div>
+              <i className="fa fa-bars"></i>
+              <ul className="icons">
+                <li>
+                  {/*<a href="index-left.html">Back to Articles</a>*/}
+                  <Link
+                    to={`/`}
+                  >
+                    Back to Articles
+                  </Link>
+                </li>
+              </ul>
+            </div>
+            <div className="top-post">
+              <span className="date">{post.frontmatter.date}</span>
+              <a href="#"><h1>{post.frontmatter.title}</h1></a>
+            </div>
+          </div>
+
+          {/*<header>*/}
+          {/*  <h1*/}
+          {/*    style={{*/}
+          {/*      marginTop: rhythm(1),*/}
+          {/*      marginBottom: 0,*/}
+          {/*    }}*/}
+          {/*  >*/}
+          {/*    {post.frontmatter.title}*/}
+          {/*  </h1>*/}
+          {/*  <p*/}
+          {/*    style={{*/}
+          {/*      ...scale(-1 / 5),*/}
+          {/*      display: `block`,*/}
+          {/*      marginBottom: rhythm(1),*/}
+          {/*    }}*/}
+          {/*  >*/}
+          {/*    {post.frontmatter.date}*/}
+          {/*  </p>*/}
+          {/*</header>*/}
+
+          <div className="main">
+            <a className="scrolltop"><i className="fa fa-chevron-up" aria-hidden="true" /></a>
+            <div className="section-3 single-post">
+              <div className="table-row">
+                <div className="container">
+                  <div className="cell posts">
+                    <div className="post">
+                      <div className="text">
+                        <section dangerouslySetInnerHTML={{ __html: post.html }} />
+                      </div>
+                      <div className="social">
+                        <div className="comments">
+                          <span>9 comments</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <hr
             style={{
               marginBottom: rhythm(1),
             }}
           />
           <footer>
-            <Bio />
           </footer>
         </article>
 
@@ -98,6 +154,9 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        featuredImage {
+          publicURL
+        }
       }
     }
   }

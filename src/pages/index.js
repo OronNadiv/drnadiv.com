@@ -26,6 +26,7 @@ class BlogIndex extends React.Component {
                     const title = node.frontmatter.title || node.fields.slug
                     return (
                       <div className="post" key={node.fields.slug}>
+                        <Link to={node.fields.slug}>
                         <Img
                           className="img-fluid rounded mx-auto d-block"
                           sizes={
@@ -33,10 +34,13 @@ class BlogIndex extends React.Component {
                               .sizes
                           }
                         />
-
+                        </Link>
                         {/*<img src="images/placeholder.jpg" alt="Blog Post Image" />*/}
                         <div className="text"><span className="date">{node.frontmatter.date}</span>
-                          <a href="single-post.html"><h1>{title}</h1></a>
+                          <Link to={node.fields.slug}>
+                            <h1>{title}</h1>
+                          </Link>
+                          {/*<a href="single-post.html"><h1>{title}</h1></a>*/}
                           <p
                             dangerouslySetInnerHTML={{
                               __html: node.frontmatter.description || node.excerpt,
