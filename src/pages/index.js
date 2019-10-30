@@ -3,7 +3,6 @@ import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import { rhythm } from '../utils/typography'
 import Img from 'gatsby-image'
 import { FacebookProvider, CommentsCount } from 'react-facebook'
 
@@ -76,11 +75,13 @@ class BlogIndex extends React.Component {
                           </div>
                           <div className="comments">
                             <FacebookProvider appId="634731470264758">
-                              <CommentsCount
-                                href={`https://www.drnadiv.com/${node.frontmatter.id}`}
-                              >
-                                <span>&nbsp;comments</span>
-                              </CommentsCount>
+                              <span className='d-flex flex-row'>
+                                <CommentsCount
+                                  href={`https://www.drnadiv.com/${node.frontmatter.id}`}
+                                >
+                                </CommentsCount>
+                                &nbsp;comments
+                              </span>
                             </FacebookProvider>
                           </div>
                         </div>
