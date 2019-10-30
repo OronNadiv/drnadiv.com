@@ -1,8 +1,5 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import Loadable from '@loadable/component'
-
-import { rhythm, scale } from '../utils/typography'
 
 const OwlCarousel = Loadable(() => import('react-owl-carousel'))
 
@@ -40,8 +37,8 @@ class Layout extends React.Component {
             loop
             nav
             navText={[
-              "<i class='fa fa-nav fa-chevron-left'/>",
-              "<i class='fa fa-nav fa-chevron-right'/>"
+              '<i class=\'fa fa-nav fa-chevron-left\'/>',
+              '<i class=\'fa fa-nav fa-chevron-right\'/>'
             ]}
             autoplay
             dots

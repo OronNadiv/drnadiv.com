@@ -75,7 +75,6 @@ class BlogIndex extends React.Component {
                           <div className="comments">
                             <FacebookProvider appId="634731470264758">
                               <CommentsCount
-                                className="fb-comments"
                                 href={`https://www.drnadiv.com/${node.frontmatter.id}`}
                               >
                                 <span>&nbsp;comments</span>

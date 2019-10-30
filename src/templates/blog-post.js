@@ -90,7 +90,6 @@ class BlogPostTemplate extends React.Component {
                         <div className="comments-single-post">
                           <FacebookProvider appId="634731470264758">
                             <Comments
-                              className="fb-comments"
                               href={`https://www.drnadiv.com/${post.frontmatter.id}`}
                               width="100%"
                             />
