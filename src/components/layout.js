@@ -10,10 +10,10 @@ class Layout extends React.Component {
     const mainImages = [
       'main-1.png',
       'main-2.jpg',
-      'main-3.jpg',
-      'main-4.jpg',
+      // 'main-3.jpg',
+      'main-4.jpg'
       // 'main-5.jpg',
-      'main-6.jpg'
+      // 'main-6.jpg'
     ]
     let header
 
