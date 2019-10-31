@@ -11,14 +11,6 @@ export default function HTML(props) {
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         {props.headComponents}
-        {/*TODO: change favicon*/}
-        <link
-          rel="icon"
-          href="/images/favicon.png"
-          type="image/png"
-          sizes="16x16"
-        />
-
         <link
           href="https://fonts.googleapis.com/css?family=Lato:100,400%7CPlayfair+Display"
           rel="stylesheet"
@@ -54,7 +46,6 @@ export default function HTML(props) {
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossOrigin="anonymous"
       />
-      <script type="text/javascript" src="/js/app.js" />
     </html>
   )
 }
