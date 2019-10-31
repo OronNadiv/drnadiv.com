@@ -390,7 +390,7 @@ div.heading {
     width: 250px;
     height: 250px;
     border-radius: 100%;
-    background: url(../images/profile.jpg) no-repeat center center;
+    background: url(../images/profile.png) no-repeat center center;
     background-size: cover
 }
 
