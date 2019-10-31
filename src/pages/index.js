@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
-
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import Img from 'gatsby-image'
@@ -8,6 +7,20 @@ import { FacebookProvider, CommentsCount } from 'react-facebook'
 import FacebookShareButton from '../utils/FacebookShareButton'
 import TwitterShareButton from '../utils/TwitterShareButton'
 import ScrollToTop from 'react-scroll-up'
+import Loadable from '@loadable/component'
+import * as Scroll from 'react-scroll'
+
+const ScrollLink = Scroll.Link
+
+const OwlCarousel = Loadable(() => import('react-owl-carousel'))
+const mainImages = [
+  'main-1.png',
+  'main-2.jpg',
+  // 'main-3.jpg',
+  'main-4.jpg'
+  // 'main-5.jpg',
+  // 'main-6.jpg'
+]
 
 class BlogIndex extends React.Component {
   render() {
@@ -24,7 +37,51 @@ class BlogIndex extends React.Component {
             </a>
           </ScrollToTop>
 
-          <div className="section-3">
+          <div className="nav">
+            <div className="brand">
+              <a href="/">Elizabeth Nadiv MD</a>
+            </div>
+          </div>
+          <OwlCarousel
+            className="owl-theme"
+            loop
+            nav
+            navText={[
+              '<i class=\'fa fa-nav fa-chevron-left text-white\'/>',
+              '<i class=\'fa fa-nav fa-chevron-right text-white\'/>'
+            ]}
+            autoplay
+            dots
+            autoPlay={500}
+            smartSpeed={500}
+            responsive={{
+              0: {
+                items: 1
+              }
+            }}
+          >
+            {mainImages.map((mainImage, key) => {
+              return (
+                <div
+                  key={key}
+                  className="heading"
+                  style={{ backgroundImage: `url("/images/${mainImage}")` }}
+                >
+                  <div className="content">
+                    <h2>The Well Child</h2>
+                    <p>
+                      A blog about my experience as a mother and pediatrician.
+                    </p>
+                    <ScrollLink href='#' className="scroll-down" to="posts-list" smooth duration={800}>
+                      Scroll down for more
+                    </ScrollLink>
+                  </div>
+                </div>
+              )
+            })}
+          </OwlCarousel>
+
+          <div id='posts-list' className="section-3">
             <div className="post-container">
               <div className="table-row">
                 <div className="cell posts">
@@ -53,28 +110,20 @@ class BlogIndex extends React.Component {
                                   node.frontmatter.description || node.excerpt
                               }}
                             />
-
                             <div className="text-center">Read more</div>
                           </Link>
-                          {/*<div className="tags">*/}
-                          {/*  <span>baby</span>*/}
-                          {/*  <span>cute</span>*/}
-                          {/*  <span>feeding</span>*/}
-                          {/*</div>*/}
                         </div>
                         <div className="social">
                           <div className="share">
                             <span>share</span>
                             <TwitterShareButton
                               url={linkUrl}
-                              // title={title}
                               className="d-inline"
                             >
                               <i className="fa fa-twitter" />
                             </TwitterShareButton>
                             <FacebookShareButton
                               url={linkUrl}
-                              // quote={title}
                               className="d-inline"
                             >
                               <i className="fa fa-facebook" />
@@ -83,9 +132,7 @@ class BlogIndex extends React.Component {
                           <div className="comments">
                             <FacebookProvider appId="634731470264758">
                               <span className="d-flex flex-row">
-                                <CommentsCount
-                                  href={`https://www.drnadiv.com/${node.frontmatter.id}`}
-                                ></CommentsCount>
+                                <CommentsCount href={`https://www.drnadiv.com/${node.frontmatter.id}`} />
                                 &nbsp;comments
                               </span>
                             </FacebookProvider>
