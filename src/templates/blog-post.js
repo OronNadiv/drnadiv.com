@@ -6,6 +6,7 @@ import { rhythm } from '../utils/typography'
 import { FacebookProvider, Comments } from 'react-facebook'
 import FacebookShareButton from '../utils/FacebookShareButton'
 import TwitterShareButton from '../utils/TwitterShareButton'
+import ScrollToTop from 'react-scroll-up'
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -48,9 +49,11 @@ class BlogPostTemplate extends React.Component {
           </div>
 
           <div className="main">
-            <a className="scrolltop">
-              <i className="fa fa-chevron-up text-white" aria-hidden="true" />
-            </a>
+            <ScrollToTop showUnder={100} duration={800}>
+              <a className="scrolltop">
+                <i className="fa fa-chevron-up" aria-hidden="true" />
+              </a>
+            </ScrollToTop>
             <div className="section-3 single-post">
               <div className="table-row">
                 <div className="post-container">

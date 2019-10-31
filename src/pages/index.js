@@ -7,6 +7,7 @@ import Img from 'gatsby-image'
 import { FacebookProvider, CommentsCount } from 'react-facebook'
 import FacebookShareButton from '../utils/FacebookShareButton'
 import TwitterShareButton from '../utils/TwitterShareButton'
+import ScrollToTop from 'react-scroll-up'
 
 class BlogIndex extends React.Component {
   render() {
@@ -17,9 +18,12 @@ class BlogIndex extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All posts" />
         <div className="main">
-          <a className="scrolltop">
-            <i className="fa fa-chevron-up" aria-hidden="true" />
-          </a>
+          <ScrollToTop showUnder={100} duration={800}>
+            <a className="scrolltop">
+              <i className="fa fa-chevron-up" aria-hidden="true" />
+            </a>
+          </ScrollToTop>
+
           <div className="section-3">
             <div className="post-container">
               <div className="table-row">

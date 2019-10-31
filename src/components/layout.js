@@ -5,7 +5,7 @@ const OwlCarousel = Loadable(() => import('react-owl-carousel'))
 
 class Layout extends React.Component {
   render() {
-    const { location, title, children } = this.props
+    const { location, children } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
     const mainImages = [
       'main-1.png',
@@ -24,21 +24,14 @@ class Layout extends React.Component {
             <div className="brand">
               <a href="/">Elizabeth Nadiv MD</a>
             </div>
-            {/*<i className="fa fa-bars" />*/}
-            {/*<ul className="icons">*/}
-            {/*<li><a className="bumps">Bumps & Babys</a></li>*/}
-            {/*<li><a className="out">Out & About</a></li>*/}
-            {/*<li><a className="day">Days & Nights</a></li>*/}
-            {/*<li><a href="index-grid.html">Grids</a></li>*/}
-            {/*</ul>*/}
           </div>
           <OwlCarousel
             className="owl-theme"
             loop
             nav
             navText={[
-              "<i class='fa fa-nav fa-chevron-left text-white'/>",
-              "<i class='fa fa-nav fa-chevron-right text-white'/>"
+              '<i class=\'fa fa-nav fa-chevron-left text-white\'/>',
+              '<i class=\'fa fa-nav fa-chevron-right text-white\'/>'
             ]}
             autoplay
             dots
@@ -75,37 +68,10 @@ class Layout extends React.Component {
     } else {
       header = (
         <></>
-
-        // <h3
-        //   style={{
-        //     fontFamily: `Montserrat, sans-serif`,
-        //     marginTop: 0,
-        //   }}
-        // >
-        //   <Link
-        //     style={{
-        //       boxShadow: `none`,
-        //       textDecoration: `none`,
-        //       color: `inherit`,
-        //     }}
-        //     to={`/`}
-        //   >
-        //     {title}
-        //   </Link>
-        // </h3>
       )
     }
     return (
       <>
-        {/*<div*/}
-        {/*  style={{*/}
-        {/*    marginLeft: `auto`,*/}
-        {/*    marginRight: `auto`,*/}
-        {/*    maxWidth: rhythm(24),*/}
-        {/*    padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,*/}
-        {/*  }}*/}
-        {/*>*/}
-        {/*<header>{header}</header>*/}
         {header}
         {children}
         <footer>
@@ -121,8 +87,6 @@ class Layout extends React.Component {
             </a>
           </p>
         </footer>
-
-        {/*</div>*/}
       </>
     )
   }
