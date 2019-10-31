@@ -93,30 +93,34 @@ class BlogPostTemplate extends React.Component {
                       </div>
                     </div>
                     <nav>
-                      <div className='row mx-2'>
-                        <div
-                          className='col-lg-6 col-md-6 col-12'>
+                      <div className="row mx-2">
+                        <div className="col-lg-6 col-md-6 col-12">
                           {previous && (
-                            <Link to={previous.fields.slug} rel="prev"
-                                  className='flex-row d-flex justify-content-start align-items-center'>
-                              <i className='fa fa-chevron-left text-muted mr-3 mt-2' />
-                              <div className='text-left'>
-                                <span className='text-muted'>Prev Post</span>
+                            <Link
+                              to={previous.fields.slug}
+                              rel="prev"
+                              className="flex-row d-flex justify-content-start align-items-center"
+                            >
+                              <i className="fa fa-chevron-left text-muted mr-3 mt-2" />
+                              <div className="text-left">
+                                <span className="text-muted">Prev Post</span>
                                 <h4>{previous.frontmatter.title}</h4>
                               </div>
                             </Link>
                           )}
                         </div>
-                        <div
-                          className='col-lg-6 col-md-6 col-12'>
+                        <div className="col-lg-6 col-md-6 col-12">
                           {next && (
-                            <Link to={next.fields.slug} rel="next"
-                                  className='flex-row d-flex justify-content-end align-items-center'>
-                              <div className='text-right'>
-                                <div className='text-muted'>Next Post</div>
+                            <Link
+                              to={next.fields.slug}
+                              rel="next"
+                              className="flex-row d-flex justify-content-end align-items-center"
+                            >
+                              <div className="text-right">
+                                <div className="text-muted">Next Post</div>
                                 <h4>{next.frontmatter.title}</h4>
                               </div>
-                              <i className='fa fa-chevron-right text-muted ml-3 mt-2' />
+                              <i className="fa fa-chevron-right text-muted ml-3 mt-2" />
                             </Link>
                           )}
                         </div>

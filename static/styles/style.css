@@ -210,6 +210,19 @@ a {
     color: #38908d;
 }
 
+.fb-comments {
+    width: 100% !important;
+    text-align: center;
+}
+
+.fb-comments iframe {
+    width: 100% !important;
+}
+
+.fb-comments span {
+    width: 100% !important;
+}
+
 a:active,
 a:focus,
 a:hover {

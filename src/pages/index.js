@@ -38,12 +38,10 @@ class BlogIndex extends React.Component {
                             }
                           />
                         </Link>
-                        {/*<img src="images/placeholder.jpg" alt="Blog Post Image" />*/}
                         <div className="text">
                           <span className="date">{node.frontmatter.date}</span>
                           <Link to={node.fields.slug}>
                             <h1>{title}</h1>
-                            {/*<a href="single-post.html"><h1>{title}</h1></a>*/}
                             <p
                               style={{ color: 'black' }}
                               dangerouslySetInnerHTML={{
