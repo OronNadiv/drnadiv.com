@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Elizabeth Nadiv MD`,
+    title: `The Well Child | Elizabeth Nadiv MD`,
     author: `Oron Nadiv`,
-    description: `TODO: A starter blog demonstrating what Gatsby can do.`,
+    description: `Elizabeth Nadiv, MD is an experienced pediatrician who works at Kaiser in Daly City. This blog focuses on nutrition, sleep, parenting, and overall wellness.`,
     siteUrl: `https://www.drnadiv.com/`,
     social: {
       twitter: `TODO:`

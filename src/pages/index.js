@@ -52,7 +52,7 @@ class BlogIndex extends React.Component {
                               }}
                             />
 
-                            <div className="text-center">Read more...</div>
+                            <div className="text-center">Read more</div>
                           </Link>
                           {/*<div className="tags">*/}
                           {/*  <span>baby</span>*/}

@@ -59,10 +59,9 @@ class Layout extends React.Component {
                   style={{ backgroundImage: `url("/images/${mainImage}")` }}
                 >
                   <div className="content">
-                    <h2>Welcome to Blog & Baby</h2>
+                    <h2>The Well Child</h2>
                     <p>
-                      A blog all about my experiences as a parent living and
-                      learning as we went along.
+                      A blog about my experience as a mother and pediatrician.
                     </p>
                     <a href="#" className="scroll-down">
                       Scroll down for more

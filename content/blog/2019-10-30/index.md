@@ -1,6 +1,6 @@
 ---
 id: 'oiusfoiuser'
-title: 'Suger, Suger, Suger'
+title: 'Sugar, Sugar, Sugar'
 date: '2019-10-30T00'
 description: 'My daughter often comes home complaining that other kids have yummier lunches than her (granola bars, cookies, juice, etc). And I know the pain of...'
 featuredImage: './featured.jpg'
