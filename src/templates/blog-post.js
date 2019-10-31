@@ -27,14 +27,6 @@ class BlogPostTemplate extends React.Component {
               backgroundImage: `url("${post.frontmatter.featuredImage.publicURL}")`
             }}
           >
-            {/*{post.frontmatter.featuredImage && (*/}
-            {/*  <Img*/}
-            {/*    className="img-fluid rounded mx-auto d-block"*/}
-            {/*    sizes={*/}
-            {/*      post.frontmatter.featuredImage.childImageSharp.sizes*/}
-            {/*    }*/}
-            {/*  />*/}
-            {/*)}*/}
             <div className="nav white sticky">
               <div className="brand">
                 <Link to={`/`}>Elizabeth Nadiv MD</Link>
@@ -54,26 +46,6 @@ class BlogPostTemplate extends React.Component {
               </a>
             </div>
           </div>
-
-          {/*<header>*/}
-          {/*  <h1*/}
-          {/*    style={{*/}
-          {/*      marginTop: rhythm(1),*/}
-          {/*      marginBottom: 0,*/}
-          {/*    }}*/}
-          {/*  >*/}
-          {/*    {post.frontmatter.title}*/}
-          {/*  </h1>*/}
-          {/*  <p*/}
-          {/*    style={{*/}
-          {/*      ...scale(-1 / 5),*/}
-          {/*      display: `block`,*/}
-          {/*      marginBottom: rhythm(1),*/}
-          {/*    }}*/}
-          {/*  >*/}
-          {/*    {post.frontmatter.date}*/}
-          {/*  </p>*/}
-          {/*</header>*/}
 
           <div className="main">
             <a className="scrolltop">
@@ -120,6 +92,36 @@ class BlogPostTemplate extends React.Component {
                         </div>
                       </div>
                     </div>
+                    <nav>
+                      <div className='row mx-2'>
+                        <div
+                          className='col-lg-6 col-md-6 col-12'>
+                          {previous && (
+                            <Link to={previous.fields.slug} rel="prev"
+                                  className='flex-row d-flex justify-content-start align-items-center'>
+                              <i className='fa fa-chevron-left text-muted mr-3 mt-2' />
+                              <div className='text-left'>
+                                <span className='text-muted'>Prev Post</span>
+                                <h4>{previous.frontmatter.title}</h4>
+                              </div>
+                            </Link>
+                          )}
+                        </div>
+                        <div
+                          className='col-lg-6 col-md-6 col-12'>
+                          {next && (
+                            <Link to={next.fields.slug} rel="next"
+                                  className='flex-row d-flex justify-content-end align-items-center'>
+                              <div className='text-right'>
+                                <div className='text-muted'>Next Post</div>
+                                <h4>{next.frontmatter.title}</h4>
+                              </div>
+                              <i className='fa fa-chevron-right text-muted ml-3 mt-2' />
+                            </Link>
+                          )}
+                        </div>
+                      </div>
+                    </nav>
                   </div>
                 </div>
               </div>
@@ -131,35 +133,7 @@ class BlogPostTemplate extends React.Component {
               marginBottom: rhythm(1)
             }}
           />
-          <footer></footer>
         </article>
-
-        <nav>
-          <ul
-            style={{
-              display: `flex`,
-              flexWrap: `wrap`,
-              justifyContent: `space-between`,
-              listStyle: `none`,
-              padding: 0
-            }}
-          >
-            <li>
-              {previous && (
-                <Link to={previous.fields.slug} rel="prev">
-                  ← {previous.frontmatter.title}
-                </Link>
-              )}
-            </li>
-            <li>
-              {next && (
-                <Link to={next.fields.slug} rel="next">
-                  {next.frontmatter.title} →
-                </Link>
-              )}
-            </li>
-          </ul>
-        </nav>
       </Layout>
     )
   }

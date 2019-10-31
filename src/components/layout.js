@@ -43,7 +43,6 @@ class Layout extends React.Component {
             autoplay
             dots
             autoPlay={500}
-            stoponhover
             smartSpeed={500}
             responsive={{
               0: {

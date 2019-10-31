@@ -208,13 +208,11 @@ a {
     line-height: 44px;
     padding-bottom: 6px;
     color: #38908d;
-    border-bottom: 1px dashed transparent
 }
 
 a:active,
 a:focus,
 a:hover {
-    border-bottom: 1px dashed #38908d;
     -webkit-transition: all .4s ease;
     transition: all .4s ease;
     color: #1b4745
@@ -229,7 +227,6 @@ p {
 }
 
 div.heading {
-    min-height: 700px;
     min-height: 100vh;
     /*background: url(../images/main-1.png) no-repeat center center;*/
     background-size: cover;
@@ -474,22 +471,8 @@ div.heading {
     width: 100%;
 }
 
-/*.fb-comments {*/
-/*    width: 100% !important;*/
-/*    text-align: center;*/
-/*}*/
-
-/*.fb-comments iframe {*/
-/*    width: 100% !important;*/
-/*}*/
-
-/*.fb-comments span {*/
-/*    width: 100% !important;*/
-/*}*/
-
-
 .section-3 {
-    padding-bottom: 100px;
+    padding-bottom: 2em;
     background: #f8f8f8
 }
 
@@ -630,7 +613,6 @@ footer p {
 
 .main {
     min-height: 100%;
-    -ms-flex-negative: 0;
     flex-shrink: 0
 }
 
@@ -656,7 +638,6 @@ footer p {
 }
 
 .author-center {
-    display: block;
     display: table;
     max-width: 300px;
     min-height: 100%;
