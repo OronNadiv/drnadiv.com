@@ -14,9 +14,7 @@ class BlogPostTemplate extends React.Component {
     const siteTitle = this.props.data.site.siteMetadata.title
     const siteUrl = this.props.data.site.siteMetadata.siteUrl
     const { previous, next } = this.props.pageContext
-    const linkUrl = `${siteUrl.substr(0, siteUrl.length - 1)}${
-      post.fields.slug
-    }`
+    const linkUrl = `${siteUrl}${post.fields.slug}`
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -72,14 +70,12 @@ class BlogPostTemplate extends React.Component {
                           <span>share</span>
                           <TwitterShareButton
                             url={linkUrl}
-                            // title={post.frontmatter.title}
                             className="d-inline"
                           >
                             <i className="fa fa-twitter" />
                           </TwitterShareButton>
                           <FacebookShareButton
                             url={linkUrl}
-                            // quote={post.frontmatter.title}
                             className="d-inline"
                           >
                             <i className="fa fa-facebook" />

@@ -41,8 +41,8 @@ class BlogIndex extends React.Component {
             loop
             nav
             navText={[
-              "<i class='fa fa-nav fa-chevron-left text-white'/>",
-              "<i class='fa fa-nav fa-chevron-right text-white'/>"
+              '<i class=\'fa fa-nav fa-chevron-left text-white\'/>',
+              '<i class=\'fa fa-nav fa-chevron-right text-white\'/>'
             ]}
             autoplay
             dots
@@ -86,9 +86,7 @@ class BlogIndex extends React.Component {
               <div className="table-row">
                 <div className="cell posts">
                   {posts.map(({ node }) => {
-                    const linkUrl = `${siteUrl.substr(0, siteUrl.length - 1)}${
-                      node.fields.slug
-                    }`
+                    const linkUrl = `${siteUrl}${node.fields.slug}`
                     const title = node.frontmatter.title || node.fields.slug
                     return (
                       <div className="post" key={node.fields.slug}>
