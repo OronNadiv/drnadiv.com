@@ -21,6 +21,10 @@ class BlogPostTemplate extends React.Component {
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
+          image={
+            post.frontmatter.featuredImage.publicURL &&
+            `${siteUrl}${post.frontmatter.featuredImage.publicURL}`
+          }
         />
         <article>
           <div

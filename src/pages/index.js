@@ -13,7 +13,7 @@ import * as Scroll from 'react-scroll'
 const ScrollLink = Scroll.Link
 
 const OwlCarousel = Loadable(() => import('react-owl-carousel'))
-const mainImages = ['main-1.png']
+const mainImages = ['/images/main-1.png']
 
 class BlogIndex extends React.Component {
   render() {
@@ -23,7 +23,7 @@ class BlogIndex extends React.Component {
     const posts = data.allMarkdownRemark.edges
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="All posts" />
+        <SEO title={siteTitle} image={`${siteUrl}${mainImages[0]}`} />
         <div className="main">
           <ScrollToTop showUnder={100} duration={800}>
             <a className="scrolltop">
@@ -41,8 +41,8 @@ class BlogIndex extends React.Component {
             loop
             nav
             navText={[
-              '<i class=\'fa fa-nav fa-chevron-left text-white\'/>',
-              '<i class=\'fa fa-nav fa-chevron-right text-white\'/>'
+              "<i class='fa fa-nav fa-chevron-left text-white'/>",
+              "<i class='fa fa-nav fa-chevron-right text-white'/>"
             ]}
             autoplay
             dots
@@ -59,7 +59,7 @@ class BlogIndex extends React.Component {
                 <div
                   key={key}
                   className="heading"
-                  style={{ backgroundImage: `url("/images/${mainImage}")` }}
+                  style={{ backgroundImage: `url("${mainImage}")` }}
                 >
                   <div className="content">
                     <h2>The Well Child</h2>
