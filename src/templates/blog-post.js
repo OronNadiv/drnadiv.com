@@ -12,8 +12,11 @@ class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
+    const siteUrl = this.props.data.site.siteMetadata.siteUrl
     const { previous, next } = this.props.pageContext
-    const linkUrl = `https://drnadiv.com${post.fields.slug}`
+    const linkUrl = `${siteUrl.substr(0, siteUrl.length - 1)}${
+      post.fields.slug
+    }`
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -88,7 +91,7 @@ class BlogPostTemplate extends React.Component {
                         <div className="comments-single-post">
                           <FacebookProvider appId="634731470264758">
                             <Comments
-                              href={`https://www.drnadiv.com/${post.frontmatter.id}`}
+                              href={`${siteUrl}${post.frontmatter.id}`}
                               width="100%"
                             />
                           </FacebookProvider>
@@ -154,6 +157,7 @@ export const pageQuery = graphql`
       siteMetadata {
         title
         author
+        siteUrl
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {

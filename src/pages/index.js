@@ -13,14 +13,13 @@ import * as Scroll from 'react-scroll'
 const ScrollLink = Scroll.Link
 
 const OwlCarousel = Loadable(() => import('react-owl-carousel'))
-const mainImages = [
-  'main-1.png'
-]
+const mainImages = ['main-1.png']
 
 class BlogIndex extends React.Component {
   render() {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
+    const siteUrl = data.site.siteMetadata.siteUrl
     const posts = data.allMarkdownRemark.edges
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -87,7 +86,9 @@ class BlogIndex extends React.Component {
               <div className="table-row">
                 <div className="cell posts">
                   {posts.map(({ node }) => {
-                    const linkUrl = `https://www.drnadiv.com${node.fields.slug}`
+                    const linkUrl = `${siteUrl.substr(0, siteUrl.length - 1)}${
+                      node.fields.slug
+                    }`
                     const title = node.frontmatter.title || node.fields.slug
                     return (
                       <div className="post" key={node.fields.slug}>
@@ -134,7 +135,7 @@ class BlogIndex extends React.Component {
                             <FacebookProvider appId="634731470264758">
                               <span className="d-flex flex-row">
                                 <CommentsCount
-                                  href={`https://www.drnadiv.com/${node.frontmatter.id}`}
+                                  href={`${siteUrl}${node.frontmatter.id}`}
                                 />
                                 &nbsp;comments
                               </span>
@@ -174,6 +175,7 @@ export const pageQuery = graphql`
   query {
     site {
       siteMetadata {
+        siteUrl
         title
       }
     }
