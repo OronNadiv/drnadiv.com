@@ -68,6 +68,15 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
     `gatsby-plugin-sitemap`,
+    {
+      resolve: 'gatsby-plugin-sentry',
+      options: {
+        dsn: 'https://e6292b9337954a0e8f07672e0d3accd7@sentry.io/1804852',
+        environment: process.env.NODE_ENV,
+        enabled: (() =>
+          ['production', 'stage'].indexOf(process.env.NODE_ENV) !== -1)()
+      }
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-typography`,

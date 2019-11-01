@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import ErrorBoundary from './utils/ErrorBoundary'
 
 export default function HTML(props) {
   return (
@@ -29,16 +30,18 @@ export default function HTML(props) {
         <link rel="stylesheet" type="text/css" href="/styles/style.css" />
       </head>
       <body {...props.bodyAttributes}>
-        {props.preBodyComponents}
-        <noscript key="noscript" id="gatsby-noscript">
-          This app works best with JavaScript enabled.
-        </noscript>
-        <div
-          key={`body`}
-          id="___gatsby"
-          dangerouslySetInnerHTML={{ __html: props.body }}
-        />
-        {props.postBodyComponents}
+        <ErrorBoundary>
+          {props.preBodyComponents}
+          <noscript key="noscript" id="gatsby-noscript">
+            This app works best with JavaScript enabled.
+          </noscript>
+          <div
+            key={`body`}
+            id="___gatsby"
+            dangerouslySetInnerHTML={{ __html: props.body }}
+          />
+          {props.postBodyComponents}
+        </ErrorBoundary>
       </body>
       <script
         src="https://code.jquery.com/jquery-3.3.1.min.js"
