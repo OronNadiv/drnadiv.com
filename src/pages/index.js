@@ -47,8 +47,8 @@ class BlogIndex extends React.Component {
             loop
             nav
             navText={[
-              '<i class=\'fa fa-nav fa-chevron-left text-white\'/>',
-              '<i class=\'fa fa-nav fa-chevron-right text-white\'/>'
+              "<i class='fa fa-nav fa-chevron-left text-white'/>",
+              "<i class='fa fa-nav fa-chevron-right text-white'/>"
             ]}
             autoplay
             dots
@@ -72,7 +72,13 @@ class BlogIndex extends React.Component {
                     <p>
                       A blog about my experience as a mother and pediatrician.
                     </p>
-                    <ScrollLink href='#' className="scroll-down" to="posts-list" smooth duration={800}>
+                    <ScrollLink
+                      href="#"
+                      className="scroll-down"
+                      to="posts-list"
+                      smooth
+                      duration={800}
+                    >
                       Scroll down for more
                     </ScrollLink>
                   </div>
@@ -81,7 +87,7 @@ class BlogIndex extends React.Component {
             })}
           </OwlCarousel>
 
-          <div id='posts-list' className="section-3">
+          <div id="posts-list" className="section-3">
             <div className="post-container">
               <div className="table-row">
                 <div className="cell posts">
@@ -132,7 +138,9 @@ class BlogIndex extends React.Component {
                           <div className="comments">
                             <FacebookProvider appId="634731470264758">
                               <span className="d-flex flex-row">
-                                <CommentsCount href={`https://www.drnadiv.com/${node.frontmatter.id}`} />
+                                <CommentsCount
+                                  href={`https://www.drnadiv.com/${node.frontmatter.id}`}
+                                />
                                 &nbsp;comments
                               </span>
                             </FacebookProvider>

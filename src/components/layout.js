@@ -7,14 +7,9 @@ class Layout extends React.Component {
     let header
 
     if (location.pathname === rootPath) {
-      header = (
-        <>
-        </>
-      )
+      header = <></>
     } else {
-      header = (
-        <></>
-      )
+      header = <></>
     }
     return (
       <>
