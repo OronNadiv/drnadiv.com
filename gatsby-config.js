@@ -60,10 +60,10 @@ module.exports = {
         name: `The Well Child`,
         short_name: `The Well Child`,
         start_url: `/`,
-        background_color: `#000000`,
-        theme_color: `#663399`,
+        background_color: `#ffffff`,
+        theme_color: `#39CDE0`,
         display: `minimal-ui`,
-        icon: `content/assets/image.png`
+        icon: `content/assets/doctor-2411135_1280.png`
       }
     },
     `gatsby-plugin-offline`,

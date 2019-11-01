@@ -14,12 +14,7 @@ const ScrollLink = Scroll.Link
 
 const OwlCarousel = Loadable(() => import('react-owl-carousel'))
 const mainImages = [
-  'main-1.png',
-  'main-2.jpg',
-  // 'main-3.jpg',
-  'main-4.jpg'
-  // 'main-5.jpg',
-  // 'main-6.jpg'
+  'main-1.png'
 ]
 
 class BlogIndex extends React.Component {

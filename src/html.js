@@ -24,9 +24,9 @@ export default function HTML(props) {
           type="text/css"
           href="/styles/bootstrap.min.css"
         />
-        <link rel="stylesheet" type="text/css" href="/styles/style.css" />
         <link rel="stylesheet" href="/styles/owl.carousel.min.css" />
         <link rel="stylesheet" href="/styles/owl.theme.default.min.css" />
+        <link rel="stylesheet" type="text/css" href="/styles/style.css" />
       </head>
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}
