@@ -133,7 +133,7 @@ class BlogIndex extends React.Component {
                             <FacebookProvider appId="634731470264758">
                               <span className="d-flex flex-row">
                                 <CommentsCount
-                                  href={`${siteUrl}${node.frontmatter.id}`}
+                                  href={`${siteUrl}/${node.frontmatter.id}`}
                                 />
                                 &nbsp;comments
                               </span>
