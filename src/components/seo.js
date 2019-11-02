@@ -59,6 +59,10 @@ function SEO({ description, lang, meta, title, image }) {
     {
       name: `twitter:description`,
       content: metaDescription
+    },
+    {
+      name: 'fb:app_id',
+      content: 634731470264758
     }
   ].concat(meta)
   image && metaArray.push({ property: `og:image`, content: image })
