@@ -42,12 +42,17 @@ export default function HTML(props) {
           />
           {props.postBodyComponents}
         </ErrorBoundary>
+        <script src="/__/firebase/7.2.3/firebase-app.js" />
+
+        <script src="/__/firebase/7.2.3/firebase-analytics.js" />
+
+        <script src="/__/firebase/init.js" />
+        <script
+          src="https://code.jquery.com/jquery-3.3.1.min.js"
+          integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+          crossOrigin="anonymous"
+        />
       </body>
-      <script
-        src="https://code.jquery.com/jquery-3.3.1.min.js"
-        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossOrigin="anonymous"
-      />
     </html>
   )
 }

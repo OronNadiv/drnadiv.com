@@ -47,12 +47,6 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: `UA-151145434-213959138`
-      }
-    },
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
@@ -66,7 +60,6 @@ module.exports = {
         icon: `content/assets/doctor-2411135_1280.png`
       }
     },
-    `gatsby-plugin-offline`,
     `gatsby-plugin-sitemap`,
     {
       resolve: 'gatsby-plugin-sentry',
