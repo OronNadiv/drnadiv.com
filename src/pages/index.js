@@ -7,13 +7,11 @@ import { FacebookProvider, CommentsCount } from 'react-facebook'
 import FacebookShareButton from '../utils/FacebookShareButton'
 import TwitterShareButton from '../utils/TwitterShareButton'
 import ScrollToTop from 'react-scroll-up'
-import Loadable from '@loadable/component'
 import * as Scroll from 'react-scroll'
 
 const ScrollLink = Scroll.Link
 
-const OwlCarousel = Loadable(() => import('react-owl-carousel'))
-const mainImages = ['/images/main-1.png']
+const mainImage = '/images/main-1.png'
 
 class BlogIndex extends React.Component {
   render() {
@@ -23,7 +21,7 @@ class BlogIndex extends React.Component {
     const posts = data.allMarkdownRemark.edges
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title={siteTitle} image={`${siteUrl}${mainImages[0]}`} />
+        <SEO title={siteTitle} image={`${siteUrl}${mainImage}`} />
         <div className="main">
           <ScrollToTop showUnder={100} duration={800}>
             <a className="scrolltop">
@@ -36,50 +34,26 @@ class BlogIndex extends React.Component {
               <a href="/">Elizabeth Nadiv MD</a>
             </div>
           </div>
-          <OwlCarousel
-            className="owl-theme"
-            loop
-            nav
-            navText={[
-              "<i class='fa fa-nav fa-chevron-left text-white'/>",
-              "<i class='fa fa-nav fa-chevron-right text-white'/>"
-            ]}
-            autoplay
-            dots
-            autoPlay={500}
-            smartSpeed={500}
-            responsive={{
-              0: {
-                items: 1
-              }
-            }}
+          <div
+            className="heading"
+            style={{ backgroundImage: `url("${mainImage}")` }}
           >
-            {mainImages.map((mainImage, key) => {
-              return (
-                <div
-                  key={key}
-                  className="heading"
-                  style={{ backgroundImage: `url("${mainImage}")` }}
-                >
-                  <div className="content">
-                    <h2>The Well Child</h2>
-                    <p>
-                      A blog about my experience as a mother and pediatrician.
-                    </p>
-                    <ScrollLink
-                      href="#"
-                      className="scroll-down"
-                      to="posts-list"
-                      smooth
-                      duration={800}
-                    >
-                      Scroll down for more
-                    </ScrollLink>
-                  </div>
-                </div>
-              )
-            })}
-          </OwlCarousel>
+            <div className="content">
+              <h2>The Well Child</h2>
+              <p>
+                A blog about my experience as a mother and pediatrician.
+              </p>
+              <ScrollLink
+                href="#"
+                className="scroll-down"
+                to="posts-list"
+                smooth
+                duration={800}
+              >
+                Scroll down for more
+              </ScrollLink>
+            </div>
+          </div>
 
           <div id="posts-list" className="section-3">
             <div className="post-container">

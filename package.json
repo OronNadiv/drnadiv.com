@@ -1,14 +1,13 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "drnadiv.com",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "A blog about dr. Nadiv's experience as a mother and pediatrician.",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Oron Nadiv <oron@nadiv.us>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/OronNadiv/drnadiv.com/issues"
   },
   "dependencies": {
-    "@loadable/component": "^5.10.3",
     "classnames": "^2.2.6",
     "gatsby": "^2.17.7",
     "gatsby-image": "^2.2.30",
@@ -33,7 +32,6 @@
     "react-dom": "^16.11.0",
     "react-facebook": "^8.0.4",
     "react-helmet": "^5.2.1",
-    "react-owl-carousel": "^2.3.1",
     "react-scroll": "^1.7.14",
     "react-scroll-up": "^1.3.3",
     "react-typography": "^0.16.19",
@@ -45,7 +43,7 @@
   "devDependencies": {
     "prettier": "^1.18.2"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://github.com/OronNadiv/drnadiv.com#readme",
   "keywords": [
     "gatsby"
   ],
@@ -53,7 +51,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/OronNadiv/drnadiv.com.git"
   },
   "scripts": {
     "build": "rm -rf public && gatsby build",
