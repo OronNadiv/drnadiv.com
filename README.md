@@ -1,8 +1,10 @@
-### www.DrNadiv.com
+### The well child
 
 Elizabeth Nadiv, MD is an experienced pediatrician who works at Kaiser in Daly City. This blog focuses on nutrition, sleep, parenting, and overall wellness.
 
-####Tools, technologies and third parties:
+Link: [www.DrNadiv.com](https://www.drnadiv.com)
+
+#### Tools, technologies and third parties:
 * Gatsby (headless CMS built using React and markdown)
 * Bootstrap v4
 * Firebase hosting
@@ -11,7 +13,7 @@ Elizabeth Nadiv, MD is an experienced pediatrician who works at Kaiser in Daly C
 * Sentry.io
 * Cloudflare (DNS, caching and DDoS protection)
 
-####Start developing.
+#### Start developing.
 ```
 git clone git@github.com:OronNadiv/drnadiv.com.git
 cd drnadiv.com
