@@ -8,8 +8,6 @@ featuredImage: './photo-1576633587217-5c9b4930956b.jpeg'
 
 ## Development and Screen Time
 
-* [Screen Time Guidelines](https://www.chop.edu/news/health-tip/screen-time-know-your-child-s-limits)
-
 * [Dr. Dimitri Christakis on Screen Time and Development](https://www.youtube.com/watch?v=BoT7qH_uVNo)
 
 * [The Dangers of Distracted Parenting](https://www.theatlantic.com/magazine/archive/2018/07/the-dangers-of-distracted-parenting/561752/)
@@ -21,6 +19,14 @@ featuredImage: './photo-1576633587217-5c9b4930956b.jpeg'
 * [CDC Screen Time Infographics For Big Kids](https://www.cdc.gov/nccdphp/dnpao/multimedia/infographics/getmoving.html)
 
 * [AAP Family Media Plan](https://www.healthychildren.org/English/media/Pages/default.aspx)
+
+![alttext](https://blog.chocchildrens.org/wp-content/uploads/2016/12/Screen-time-graphic-768x1015.jpg)
+
+<br/>
+
+---
+
+<br/>
 
 ![alttext](https://www.cdc.gov/nccdphp/dnpao/multimedia/infographics/images/getmoving_8-10.png)
 
@@ -40,10 +46,3 @@ featuredImage: './photo-1576633587217-5c9b4930956b.jpeg'
 
 ![alttext](https://www.cdc.gov/nccdphp/dnpao/multimedia/infographics/images/getmoving_15-18.png)
 
-<br/>
-
----
-
-<br/>
-
-![alttext](https://blog.chocchildrens.org/wp-content/uploads/2016/12/Screen-time-graphic-768x1015.jpg)
