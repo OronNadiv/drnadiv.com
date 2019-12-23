@@ -2,11 +2,11 @@
 id: 'oiusfoiuser'
 title: 'Sugar, Sugar, Sugar'
 date: '2019-10-30T00'
-description: 'My daughter often comes home complaining that other kids have yummier lunches than her (granola bars, cookies, juice, etc). And I know the pain of packing a wholesome lunch and having it come back untouched. It’s so hard to avoid the ubiquity of processed, sugar-laden foods--they are everywhere and we eat WAY too much of it!'
+description: 'My daughter often comes home complaining that other kids have yummier lunches than her (granola bars, cookies, juice, etc). And I know the pain of packing a wholesome lunch and having it come back untouched. It’s so hard to avoid the ubiquity of processed, sugar-laden foods--they are everywhere and we eat WAY too much of them!'
 featuredImage: './featured.jpg'
 ---
 
-My daughter often comes home complaining that other kids have yummier lunches than her (granola bars, cookies, juice, etc). And I know the pain of packing a wholesome lunch and having it come back untouched. It’s so hard to avoid the ubiquity of processed, sugar-laden foods--they are everywhere and we eat WAY too much of it!
+My daughter often comes home complaining that other kids have yummier lunches than her (granola bars, cookies, juice, etc). And I know the pain of packing a wholesome lunch and having it come back untouched. It’s so hard to avoid the ubiquity of processed, sugar-laden foods--they are everywhere and we eat WAY too much of them!
 
 I am a big fan of [That Sugar Film](https://thatsugarmovement.com/), [Fed Up](http://fedupmovie.com/), and Michael Pollan’s [In Defense of Food](https://www.imdb.com/title/tt4785640/).
 
