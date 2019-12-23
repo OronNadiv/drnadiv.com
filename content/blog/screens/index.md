@@ -6,8 +6,6 @@ description: "Babies, toddlers and kids are exposed to screens early and often, 
 featuredImage: './photo-1576633587217-5c9b4930956b.jpeg'
 ---
 
-## Development and Screen Time
-
 * [Dr. Dimitri Christakis on Screen Time and Development](https://www.youtube.com/watch?v=BoT7qH_uVNo)
 
 * [The Dangers of Distracted Parenting](https://www.theatlantic.com/magazine/archive/2018/07/the-dangers-of-distracted-parenting/561752/)
