@@ -122,7 +122,10 @@ class BlogIndex extends React.Component {
                   <div className="image" />
                   <h1>About Me</h1>
                   <p>
-                    I am a pediatrician at Permanente Medicine (aka Kaiser) in
+                    I am a <a href="https://mydoctor.kaiserpermanente.org/ncal/providers/elizabethnadiv"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                  >pediatrician at Permanente Medicine (aka Kaiser)</a> in
                     Daly City. Originally from San Diego, I completed my
                     undergraduate at Duke University and medical school at UCSD.
                     I moved to the Bay Area in 2005, and joined Kaiser full time
