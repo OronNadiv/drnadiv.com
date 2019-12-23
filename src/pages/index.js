@@ -41,7 +41,7 @@ class BlogIndex extends React.Component {
             <div className="content">
               <h2>The Well Child</h2>
               <p>
-                A blog about my experience as a mother and pediatrician.
+                Advice for my patients and their families.
               </p>
               <ScrollLink
                 href="#"
