@@ -6,41 +6,17 @@ description: "Babies, toddlers and kids are exposed to screens early and often, 
 featuredImage: './photo-1576633587217-5c9b4930956b.jpeg'
 ---
 
-* [Dr. Dimitri Christakis on Screen Time and Development](https://www.youtube.com/watch?v=BoT7qH_uVNo)
+* [Dr. Dimitri Christakis on Screen Time and Development](https://www.youtube.com/watch?v=BoT7qH_uVNo): Enlightening Ted Talk on how screens are affecting childhood development and attention
 
-* [The Dangers of Distracted Parenting](https://www.theatlantic.com/magazine/archive/2018/07/the-dangers-of-distracted-parenting/561752/)
+* [The Dangers of Distracted Parenting](https://www.theatlantic.com/magazine/archive/2018/07/the-dangers-of-distracted-parenting/561752/): How parents' time on their own screens affects their children's development
 
-* [Common Sense Media](https://www.commonsensemedia.org/)
+* [Common Sense Media](https://www.commonsensemedia.org/): Independent, non-profit organization that provides ratings for different types of media
 
-* [Screenagers Movie](https://www.screenagersmovie.com/)
+* [Screenagers Movie](https://www.screenagersmovie.com/):"SCREENAGERS reveals how tech time impacts kids’ development and offers solutions on how adults can empower kids to best navigate the digital world and find balance."
 
-* [CDC Screen Time Infographics For Big Kids](https://www.cdc.gov/nccdphp/dnpao/multimedia/infographics/getmoving.html)
+* [CDC Screen Time Infographics For Big Kids](https://www.cdc.gov/nccdphp/dnpao/multimedia/infographics/getmoving.html): Colorful infographics that point out the ACTUAL versus RECOMMENDED screen time habits for kids 
 
-* [AAP Family Media Plan](https://www.healthychildren.org/English/media/Pages/default.aspx)
+* [AAP Family Media Plan](https://www.healthychildren.org/English/media/Pages/default.aspx): Where do we go from here? How to make changes in your own family
 
 ![alttext](https://blog.chocchildrens.org/wp-content/uploads/2016/12/Screen-time-graphic-768x1015.jpg)
-
-<br/>
-
----
-
-<br/>
-
-![alttext](https://www.cdc.gov/nccdphp/dnpao/multimedia/infographics/images/getmoving_8-10.png)
-
-<br/>
-
----
-
-<br/>
-
-![alttext](https://www.cdc.gov/nccdphp/dnpao/multimedia/infographics/images/getmoving_11-14.png)
-
-<br/>
-
----
-
-<br/>
-
-![alttext](https://www.cdc.gov/nccdphp/dnpao/multimedia/infographics/images/getmoving_15-18.png)
 
