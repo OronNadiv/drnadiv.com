@@ -1,4 +1,5 @@
 import React from 'react'
+import Disclaimer from './disclaimer'
 
 class Layout extends React.Component {
   render() {
@@ -13,6 +14,7 @@ class Layout extends React.Component {
     }
     return (
       <>
+        <Disclaimer />
         {header}
         {children}
         <footer>
