@@ -74,7 +74,7 @@ class BlogPostTemplate extends React.Component {
                           post.frontmatter.tags.map((tag, index) => {
                             return (
                               <Link key={index} to={`/tags/${tag.toLowerCase()}`}>
-                                {tag}
+                                {tag.replace(/_/g, ' ')}
                               </Link>
                             )
                           })}

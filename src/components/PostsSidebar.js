@@ -71,11 +71,11 @@ export default ({ posts, recent = [] }) => {
               .map((category, index) => {
                 return (
                   <li key={index}>
-                    <Link to={`/categories/${category.toLowerCase()}`}>
+                    <Link to={`/categories/${category.toLowerCase()}`} className='text-capitalize'>
                       {_s(category)
                         .clean()
-                        .titleize()
-                        .value()}{' '}
+                        .value()
+                        .replace(/_/g, ' ')}{' '}
                       ({categories[category]})
                     </Link>
                   </li>
@@ -143,7 +143,7 @@ export default ({ posts, recent = [] }) => {
                     {_s(tag)
                       .clean()
                       .titleize()
-                      .value()}{' '}
+                      .value().replace(/_/g, ' ')}{' '}
                     ({tags[tag]})
                   </Link>
                 )

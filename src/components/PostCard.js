@@ -14,6 +14,7 @@ export default ({ node, data }) => {
       .clean()
       .titleize()
       .value()
+      .replace(/_/g, ' ')
   const siteUrl = data.site.siteMetadata.siteUrl
   const linkUrl = `${siteUrl}${node.fields.slug}`
   return (
@@ -31,7 +32,7 @@ export default ({ node, data }) => {
         <span className="date">{node.frontmatter.date}</span>
         <Link to={node.fields.slug}>
           <h1>{title}</h1>
-          <h3 className='text-muted'>{category}</h3>
+          <h3 className='text-muted text-capitalize'>{category}</h3>
           <p
             style={{ color: 'black' }}
             dangerouslySetInnerHTML={{
@@ -46,7 +47,7 @@ export default ({ node, data }) => {
           node.frontmatter.tags.map((tag, index) => {
             return (
               <Link key={index} to={`/tags/${tag.toLowerCase()}`}>
-                {tag}
+                {tag.replace(/_/g, ' ')}
               </Link>
             )
           })}
@@ -71,12 +72,12 @@ export default ({ node, data }) => {
         </div>
         <div className="comments">
           <FacebookProvider appId="634731470264758">
-                              <span className="d-flex flex-row">
-                                <CommentsCount
-                                  href={`${siteUrl}/${node.frontmatter.id}`}
-                                />
-                                &nbsp;comments
-                              </span>
+            <span className="d-flex flex-row">
+              <CommentsCount
+                href={`${siteUrl}/${node.frontmatter.id}`}
+              />
+              &nbsp;comments
+            </span>
           </FacebookProvider>
         </div>
       </div>

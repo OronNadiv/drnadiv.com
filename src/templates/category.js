@@ -15,6 +15,7 @@ const CategoryTemplate = ({ location, pageContext, data }) => {
     .clean()
     .titleize()
     .value()
+    .replace(/_/g, ' ')
   const posts = data.allMarkdownRemark.edges
   const siteUrl = data.site.siteMetadata.siteUrl
   const title = `category "${category}"`
@@ -27,7 +28,7 @@ const CategoryTemplate = ({ location, pageContext, data }) => {
             <div className="rounded bg-white mb-5 py-5 px-5 col d-flex justify-content-between">
               <div className="brand">
                 <h5 className="d-inline text-black-50">Category: </h5>
-                <h2 className="d-inline">{category}</h2>
+                <h2 className="d-inline text-capitalize">{category}</h2>
               </div>
               <Link to={`/`}>Back to Articles</Link>
             </div>
@@ -58,6 +59,7 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+        siteUrl
       }
     }
     allCategoriesAndTags: allMarkdownRemark(
@@ -110,6 +112,7 @@ export const pageQuery = graphql`
           excerpt
           timeToRead
           frontmatter {
+            id
             title
             date(formatString: "MMMM DD, YYYY")
             category
