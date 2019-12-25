@@ -17,7 +17,7 @@ Newborns are undoubtedly **terrifying**, especially if you are a **first time pa
 
 ![alt text](https://betterdoctor.com/assets/img/blog/baby.jpg)
 
-- **It’s important to feed a newborn every 2-3 hours around the clock at least until she has regained her birth weight**. After that point, I advise my families to feed every 2-3 hours during the day, but let her sleep for long stretches (as long as she will go!) at night.
+- **It’s important to feed a newborn every 2-3 hours around the clock at least until she has regained her birth weight**. After that point, I advise my families to wake and feed their baby every 2-3 hours during the day, but allow baby to wake them up at night (it's ok to go longer stretches at this point)
 
 - **You can tell a lot about a newborn from her poop and pee**
  * Babies poop is black and sticky at first: this is called meconium 
@@ -61,4 +61,4 @@ Other fun diaper finds!
 * [More from AAP Healthy Children.org](https://www.healthychildren.org/English/Pages/default.aspx)
 * [Healthy Kids Healthy Futures Handouts](https://mydoctor.kaiserpermanente.org/ncal/structured-content/Health_Topic_Well_Child_Visits_Birth_to_12.xml?co=%2Fregions%2Fncal)
 * [Normal Infant and Toddler Development](https://mydoctor.kaiserpermanente.org/ncal/structured-content/#/Health_Topic_Infants_Toddlers_-_Normal_Growth_Development_-_Staying_Healthy.xml)
-* [Reference Book for Parents Written by a Pediatrician: Baby 411](https://baby411.com)
+* [Baby 411: Handy Reference Book Written by a Pediatrician](https://baby411.com)
