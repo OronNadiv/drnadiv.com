@@ -13,13 +13,13 @@ tags:
 
 I spend A LOT of time talking to families about nutrition and I hear one comment several times each day:
 
-### **“Doctor, my child doesn’t like vegetables!”**
-
+### **“Doctor, my child doesn’t like vegetables!”** 
+<br/>
 I know parents struggle to give their kids healthy meals, but I suggest a frameshift.  I endorse the [**Division of Responsibility in Feeding**](https://www.ellynsatterinstitute.org/satter-feeding-dynamics-model/) where parents decide what to serve and children decide what and how much they eat.  This model does not include accomodating a child’s likes and dislikes. 
 
 ![alttext](https://www.noodlesoup.com/ProductImages/8552hr.png)
 
-**Simply put, parents are in charge of providing healthy nutrition, and children LEARN TO EAT what is served.**
+**Simply put, parents are in charge of providing healthy nutrition, and children LEARN TO EAT what is served**.
 
 When I talk to families about starting babies on solids, I also emphasize that it often takes a baby up to 15 tries to accept some foods, especially vegetables that are more bitter.
 
@@ -27,7 +27,7 @@ When I talk to families about starting babies on solids, I also emphasize that i
 
 Now I know this is much easier said than done, and I get frequent complaints from my own kids when they don’t like the food I’ve made…
 
-As I’ve said many times, **parenting isn’t easy** and it’s not our job to be our childrens’ friends. **Rather, we are their teachers, supporters and loving guides.** 
+As I’ve said many times, **parenting isn’t easy** and it’s not our job to be our childrens’ friends. **Rather, we are their teachers, supporters and loving guides**. 
 
 **There are ways to encourage healthy eating:**
 * Bring your kids to the farmer’s market and let them select produce
