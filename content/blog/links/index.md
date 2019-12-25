@@ -6,7 +6,7 @@ description: "I love reading and sharing helpful information with anyone who wil
 featuredImage: './photo-1557825835-495b8f089eb6.jpeg'
 category: General Information
 tags:
-  - Websites
+  - links
 ---
 
 ## Helpful and Interesting Websites
