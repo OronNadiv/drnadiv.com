@@ -14,7 +14,7 @@ tags:
 I spend A LOT of time talking to families about nutrition and I hear one comment several times each day:
 
 ### **“Doctor, my child doesn’t like vegetables!”** 
-<br/>
+
 I know parents struggle to give their kids healthy meals, but I suggest a frameshift.  I endorse the [**Division of Responsibility in Feeding**](https://www.ellynsatterinstitute.org/satter-feeding-dynamics-model/) where parents decide what to serve and children decide what and how much they eat.  This model does not include accomodating a child’s likes and dislikes. 
 
 ![alttext](https://www.noodlesoup.com/ProductImages/8552hr.png)

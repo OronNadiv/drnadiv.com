@@ -1,57 +1,37 @@
 import React from 'react'
-import { Link, graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
+
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import ScrollToTop from 'react-scroll-up'
-import * as Scroll from 'react-scroll'
-import PostsSidebar from '../components/PostsSidebar'
 import PostCard from '../components/PostCard'
-
-const ScrollLink = Scroll.Link
+import PostsSidebar from '../components/PostsSidebar'
+import _s from 'underscore.string'
 
 const mainImage = '/images/main-1.png'
 
-export default ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata.title
-  const siteUrl = data.site.siteMetadata.siteUrl
+const CategoryTemplate = ({ location, pageContext, data }) => {
+  let { tag } = pageContext
+  tag = _s(tag)
+    .clean()
+    .titleize()
+    .value()
   const posts = data.allMarkdownRemark.edges
+  const siteUrl = data.site.siteMetadata.siteUrl
+  const title = `tag "${tag}"`
   return (
-    <Layout location={location} title={siteTitle}>
-      <SEO title={siteTitle} image={`${siteUrl}${mainImage}`} />
+    <Layout location={location} title={title}>
+      <SEO title={title} image={`${siteUrl}${mainImage}`} />
       <div className="main">
-        <ScrollToTop showUnder={100} duration={800}>
-          <a className="scrolltop">
-            <i className="fa fa-chevron-up" aria-hidden="true" />
-          </a>
-        </ScrollToTop>
-
-        <div className="nav">
-          <div className="brand">
-            <a href="/">Elizabeth Nadiv MD</a>
-          </div>
-        </div>
-        <div
-          className="heading"
-          style={{ backgroundImage: `url("${mainImage}")` }}
-        >
-          <div className="content">
-            <h2>The Well Child</h2>
-            <p>
-              Advice for my patients and their families.
-            </p>
-            <ScrollLink
-              href="#"
-              className="scroll-down"
-              to="posts-list"
-              smooth
-              duration={800}
-            >
-              Scroll down for more
-            </ScrollLink>
-          </div>
-        </div>
-
         <div id="posts-list" className="section-3">
+          <div className='mx-5'>
+            <div className="rounded bg-white mb-5 py-5 px-5 col d-flex justify-content-between">
+              <div className="brand">
+                <h5 className="d-inline text-black-50">Tag: </h5>
+                <h2 className="d-inline">{tag}</h2>
+              </div>
+              <Link to={`/`}>Back to Articles</Link>
+            </div>
+          </div>
           <div className="post-container">
             <div className="table-row">
               <div className="cell posts">
@@ -74,10 +54,9 @@ export default ({ data, location }) => {
 }
 
 export const pageQuery = graphql`
-  query {
+  query TagPage($tag: String) {
     site {
       siteMetadata {
-        siteUrl
         title
       }
     }
@@ -117,20 +96,24 @@ export const pageQuery = graphql`
         }
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: DESC }
+      limit: 1000
+      filter: { fields: { tags: { in: [$tag] } } }
+    ) {
+      totalCount
       edges {
         node {
-          excerpt
           fields {
             slug
           }
+          excerpt
+          timeToRead
           frontmatter {
-            id
-            date(formatString: "MMMM DD, YYYY")
             title
+            date(formatString: "MMMM DD, YYYY")
             category
             tags
-            description
             featuredImage {
               childImageSharp {
                 sizes(maxWidth: 630) {
@@ -144,3 +127,5 @@ export const pageQuery = graphql`
     }
   }
 `
+
+export default CategoryTemplate

@@ -4,6 +4,9 @@ title: 'Sleep Is SOOOO Important For Kids Of All Ages'
 date: '2019-12-23T00'
 description: "From talking to my patients and families, I know that parents STRUGGLE with their kids' sleep, and most kids don't get anywhere near the amount of sleep they need (especially teens!)."
 featuredImage: './Ella15.jpg'
+category: mythologer
+tags:
+  - verkrampte
 ---
 
 ## Sleep Is SOOOO Important For Kids Of All Ages
@@ -20,11 +23,5 @@ featuredImage: './Ella15.jpg'
 
 
 ![alttext](http://sleepeducation.org/images/healthy-sleep-awareness-project/healthy-sleep-duration-large.jpg?sfvrsn=0)
-
-<br/>
-
----
-
-<br/>
 
 ![alttext](http://www.sleepeducation.org/images/infographiclibrary/rsz_sleep-recharges-you-school-flyer.jpg?sfvrsn=2)

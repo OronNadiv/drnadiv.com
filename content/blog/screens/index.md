@@ -4,6 +4,10 @@ title: 'Screen Time'
 date: '2019-12-25T00'
 description: "Babies, toddlers and kids are exposed to screens early and often, and I'm concerned that this is negatively affecting their growth, development, attention span, and sleep. It also affects their relationships with loved ones and their ability to interact with their peers."
 featuredImage: './photo-1576633587217-5c9b4930956b.jpeg'
+category: amet
+tags:
+  - amet34as
+  - aliqua
 ---
 
 * [Dr. Dimitri Christakis on Screen Time and Development](https://www.youtube.com/watch?v=BoT7qH_uVNo): Enlightening Ted Talk on how screens are affecting childhood development and attention

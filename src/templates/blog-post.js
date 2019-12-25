@@ -7,6 +7,7 @@ import { FacebookProvider, Comments } from 'react-facebook'
 import FacebookShareButton from '../utils/FacebookShareButton'
 import TwitterShareButton from '../utils/TwitterShareButton'
 import ScrollToTop from 'react-scroll-up'
+import "./blog-post.scss"
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -68,6 +69,16 @@ class BlogPostTemplate extends React.Component {
                         <section
                           dangerouslySetInnerHTML={{ __html: post.html }}
                         />
+                        <div className="tags">
+                          {post.frontmatter.tags &&
+                          post.frontmatter.tags.map((tag, index) => {
+                            return (
+                              <Link key={index} to={`/tags/${tag.toLowerCase()}`}>
+                                {tag}
+                              </Link>
+                            )
+                          })}
+                        </div>
                       </div>
                       <div className="social float-right bg-white pt-0">
                         <div className="share">
@@ -160,6 +171,42 @@ export const pageQuery = graphql`
         siteUrl
       }
     }
+    allCategoriesAndTags: allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: DESC }
+      limit: 1000
+    ) {
+      edges {
+        node {
+          frontmatter {
+            category
+            tags
+          }
+        }
+      }
+    }
+    mostResentPosts: allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: DESC }
+      limit: 3
+    ) {
+      edges {
+        node {
+          fields {
+            slug
+          }
+          frontmatter {
+            date(formatString: "MMMM DD, YYYY")
+            title
+            featuredImage {
+              childImageSharp {
+                sizes(maxWidth: 630) {
+                  ...GatsbyImageSharpSizes
+                }
+              }
+            }
+          }
+        }
+      }
+    }
     markdownRemark(fields: { slug: { eq: $slug } }) {
       id
       excerpt(pruneLength: 160)
@@ -172,6 +219,8 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        category
+        tags
         featuredImage {
           publicURL
         }

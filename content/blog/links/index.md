@@ -4,6 +4,9 @@ title: 'Helpful and Interesting Websites'
 date: '2019-12-24T00'
 description: "I love reading and sharing helpful information with anyone who will listen! Here are a few of my favorite pediatric websites."
 featuredImage: './photo-1557825835-495b8f089eb6.jpeg'
+category: management
+tags:
+  - jackhammer
 ---
 
 ## Helpful and Interesting Websites
