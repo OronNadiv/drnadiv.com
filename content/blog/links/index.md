@@ -9,7 +9,7 @@ tags:
   - links
 ---
 
-## Helpful and Interesting Websites
+## Helpful Websites
 * [Permanante Medicine Thriving Families Blog](https://kpthrivingfamilies.org/pediatricsblog/)
 * [Dr. Greene, Stanford Pediatrician and Baby Feeding Guru](https://www.drgreene.com/)
 * [Harvey Karp and the 5 S’s](https://www.happiestbaby.com/blogs/baby/the-5-s-s-for-soothing-babies)
