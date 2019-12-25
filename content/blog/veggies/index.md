@@ -27,13 +27,13 @@ When I talk to families about starting babies on solids, I also emphasize that i
 
 Now I know this is much easier said than done, and I get frequent complaints from my own kids when they don’t like the food I’ve made…
 
-As I’ve said many times, **parenting isn’t easy** and it’s not our job to be our childrens’ friends. #####**Rather, we are their teachers, supporters and loving guides.** 
+As I’ve said many times, **parenting isn’t easy** and it’s not our job to be our childrens’ friends. **Rather, we are their teachers, supporters and loving guides.** 
 
 **There are ways to encourage healthy eating:**
-*Bring your kids to the farmer’s market and let them select produce
-*Let your kids help with food prep and cooking
-*Get involved in a community garden, or grow a few plants at home
-*Check out [Adventures in Veggieland](https://www.youtube.com/watch?v=XwPy0AAavXY), expert feeding advice from [Melanie Potock](https://mymunchbug.com/)
+* Bring your kids to the farmer’s market and let them select produce
+* Let your kids help with food prep and cooking
+* Get involved in a community garden, or grow a few plants at home
+* Check out [Adventures in Veggieland](https://www.youtube.com/watch?v=XwPy0AAavXY), expert feeding advice from [Melanie Potock](https://mymunchbug.com/)
 
 
 
