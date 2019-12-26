@@ -577,6 +577,9 @@ footer p {
     .icons a {
         border: 0
     }
+    .author {
+        width: 75%;
+    }
 }
 
 @media (max-width: 479px) {

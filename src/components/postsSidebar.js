@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import _s from 'underscore.string'
 import _ from 'underscore'
 
-const postsSidebar = ({ posts, recent = [] }) => {
+const postsSidebar = ({ posts }) => {
   const [categories, setCategories] = useState({})
   const [tags, setTags] = useState({})
 
@@ -55,7 +55,7 @@ const postsSidebar = ({ posts, recent = [] }) => {
           <div className="sidebar_widget_title font-weight-bold text-uppercase">
             Categories
           </div>
-          <ul className="list-unstyled widget_list ml-0">
+          <ul className="list-unstyled widget_list my-3 ml-0">
             {Object.keys(categories)
               .sort(_s.naturalCmp)
               .map((category, index) => {
