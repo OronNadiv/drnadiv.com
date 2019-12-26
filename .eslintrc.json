@@ -21,7 +21,8 @@
     "sourceType": "module"
   },
   "plugins": [
-    "react"
+    "react",
+    "markdown"
   ],
   "rules": {
     "react/prop-types": [0]

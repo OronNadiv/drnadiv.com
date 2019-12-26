@@ -32,7 +32,9 @@ const postsSidebar = ({ posts, recent = [] }) => {
   }, [posts])
   return (
     <div className='cell author'>
-      <div className="image" />
+      <div className='d-flex justify-content-center'>
+        <div className="image" />
+      </div>
       <h1>About Me</h1>
       <p>
         I am a <a href="https://mydoctor.kaiserpermanente.org/ncal/providers/elizabethnadiv"
@@ -49,22 +51,10 @@ const postsSidebar = ({ posts, recent = [] }) => {
       </p>
 
       <div className="mt-3 blog_sidebar rounded text-center">
-        {/* <div className="widget side_widget_search"> */}
-        {/*  <div className="sidebar_widget_title font-weight-bold text-uppercase">Search</div> */}
-        {/*  <img src="images/divider.png" alt="" className="d-block mt-2 mb-4" /> */}
-        {/*  <form> */}
-        {/*    <input className="form-control" type="search" placeholder="Search..." /> */}
-        {/*    <button className="search_icon" type="submit"> */}
-        {/*      <span className="mdi mdi-magnify"></span> */}
-        {/*    </button> */}
-        {/*  </form> */}
-        {/* </div> */}
-
         <div className="widget mt-5">
           <div className="sidebar_widget_title font-weight-bold text-uppercase">
             Categories
           </div>
-          <img src="images/divider.png" alt="" className="d-block mt-2 mb-3" />
           <ul className="list-unstyled widget_list ml-0">
             {Object.keys(categories)
               .sort(_s.naturalCmp)
@@ -84,69 +74,25 @@ const postsSidebar = ({ posts, recent = [] }) => {
           </ul>
         </div>
 
-        {/* <div className="widget mt-5 widget_recent_entries_custom"> */}
-        {/*  <div className="sidebar_widget_title font-weight-bold text-uppercase"> */}
-        {/*    Recent Post */}
-        {/*  </div> */}
-
-        {/*  <img src="images/divider.png" alt="" className="d-block mt-2 mb-4" /> */}
-        {/*  <ul className="list-unstyled"> */}
-        {/*    {recent.map(({ node }, index) => { */}
-        {/*      return ( */}
-        {/*        <li key={index} className="clearfix"> */}
-        {/*          <div className="re_post_img"> */}
-        {/*            <Link to={node.fields.slug}> */}
-        {/*              <Img */}
-        {/*                className="img-fluid rounded" */}
-        {/*                sizes={ */}
-        {/*                  node.frontmatter.featuredImage.childImageSharp.sizes */}
-        {/*                } */}
-        {/*              /> */}
-        {/*            </Link> */}
-        {/*          </div> */}
-        {/*          <div className="re_post_desc"> */}
-        {/*            <Link to={node.fields.slug} className="font-weight-bold"> */}
-        {/*              {node.frontmatter.title} */}
-        {/*            </Link> */}
-        {/*            <span className="post-date fonts-italic"> */}
-        {/*              {node.frontmatter.date} */}
-        {/*            </span> */}
-        {/*          </div> */}
-        {/*        </li> */}
-        {/*      ) */}
-        {/*    })} */}
-        {/*  </ul> */}
-        {/* </div> */}
-
-        {/* <div className="widget mt-5"> */}
-        {/*  <div className="sidebar_widget_title font-weight-bold text-uppercase">Archives</div> */}
-        {/*  <img src="images/divider.png" alt="" className="d-block mt-2 mb-3" /> */}
-        {/*  <ul className="list-unstyled widget_list"> */}
-        {/*    <li><a href="#"><i className="mdi mdi-chevron-double-right"></i> January 2018</a></li> */}
-        {/*    <li><a href="#"><i className="mdi mdi-chevron-double-right"></i> February 2018</a></li> */}
-        {/*    <li><a href="#"><i className="mdi mdi-chevron-double-right"></i> March 2018</a></li> */}
-        {/*    <li><a href="#"><i className="mdi mdi-chevron-double-right"></i> April 2018</a></li> */}
-        {/*  </ul> */}
-        {/* </div> */}
-
         <div className="widget mt-5">
           <div className="sidebar_widget_title font-weight-bold text-uppercase">
             Tags
           </div>
-          <img src="images/divider.png" alt="" className="d-block mt-2 mb-4" />
           <div className="blog_tag d-flex flex-row flex-wrap justify-content-center my-3">
-            {_.shuffle(Object.keys(tags))
-              .map((tag, index) => {
-                return (
-                  <Link className='p-2 m-1' key={index} to={`/tags/${tag.toLowerCase()}`}>
-                    {_s(tag)
-                      .clean()
-                      .titleize()
-                      .value().replace(/_/g, ' ')}{' '}
-                    ({tags[tag]})
-                  </Link>
-                )
-              })}
+            {
+              _.shuffle(Object.keys(tags))
+                .map((tag, index) => {
+                  return (
+                    <Link className='p-2 m-1' key={index} to={`/tags/${tag.toLowerCase()}`}>
+                      {_s(tag)
+                        .clean()
+                        .titleize()
+                        .value().replace(/_/g, ' ')}{' '}
+                      ({tags[tag]})
+                    </Link>
+                  )
+                })
+            }
           </div>
         </div>
       </div>

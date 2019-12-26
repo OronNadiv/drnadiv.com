@@ -16,6 +16,9 @@ jobs:
           name: Build Application
           command: npm run build
       - run:
+          name: lint
+          command: npm run lint
+      - run:
           name: Install Firebase Tools
           command: npm install --prefix=./firebase-deploy firebase-tools
       - run:

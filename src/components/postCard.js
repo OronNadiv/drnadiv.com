@@ -1,11 +1,11 @@
 import { Link } from 'gatsby'
 import Img from 'gatsby-image'
 import React from 'react'
-import _ from 'underscore'
 import _s from 'underscore.string'
 import TwitterShareButton from '../utils/TwitterShareButton'
 import FacebookShareButton from '../utils/FacebookShareButton'
 import { CommentsCount, FacebookProvider } from 'react-facebook'
+import PostTags from './postTags'
 
 const postCard = ({ node, data }) => {
   const title = node.frontmatter.title || node.fields.slug
@@ -44,19 +44,7 @@ const postCard = ({ node, data }) => {
           <div className="text-center">Read more</div>
         </Link>
 
-        <div className="tags d-flex flex-row justify-content-start flex-wrap py-5">
-          {
-            node.frontmatter.tags &&
-            _.shuffle(node.frontmatter.tags).map((tag, index) => {
-              return (
-                <Link className='text-uppercase mb-3 mr-2 py-2 px-3'
-                  key={index} to={`/tags/${tag.toLowerCase()}`}>
-                  {tag.replace(/_/g, ' ')}
-                </Link>
-              )
-            })
-          }
-        </div>
+        <PostTags tags={node.frontmatter.tags} />
 
       </div>
       <div className="social">
