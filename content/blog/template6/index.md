@@ -1,4 +1,5 @@
 ---
+isVisible: no
 id: 'kjhkdfs6'
 title: Template title
 date: '2020-01-06T00'

@@ -1,5 +1,6 @@
 ---
-id: 'zsd,jknkjhwerr2'
+isVisible: no
+id: 'zsdasdjknkjhwerr2'
 title: Template title
 date: '2020-01-02T00'
 description: 'Template description'

@@ -1,7 +1,6 @@
 import { Link } from 'gatsby'
 import React, { useEffect, useState } from 'react'
 import _s from 'underscore.string'
-import Img from 'gatsby-image'
 
 export default ({ posts, recent = [] }) => {
   const [categories, setCategories] = useState({})
