@@ -367,16 +367,11 @@ div.heading {
 .tags {
     font-family: Lato, sans-serif;
     font-size: 13px;
-    padding: 30PX 0;
     text-align: left;
     color: grey
 }
 
 .tags a {
-    line-height: 50px;
-    margin-right: 5px;
-    padding: 10px 15px;
-    text-transform: uppercase;
     color: grey;
     background: #f1f9f8
 }

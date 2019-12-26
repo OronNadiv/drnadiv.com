@@ -7,7 +7,8 @@ import { FacebookProvider, Comments } from 'react-facebook'
 import FacebookShareButton from '../utils/FacebookShareButton'
 import TwitterShareButton from '../utils/TwitterShareButton'
 import ScrollToTop from 'react-scroll-up'
-import "./blog-post.scss"
+import _ from 'underscore'
+import './blog-post.scss'
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -69,15 +70,18 @@ class BlogPostTemplate extends React.Component {
                         <section
                           dangerouslySetInnerHTML={{ __html: post.html }}
                         />
-                        <div className="tags">
-                          {post.frontmatter.tags &&
-                          post.frontmatter.tags.map((tag, index) => {
-                            return (
-                              <Link key={index} to={`/tags/${tag.toLowerCase()}`}>
-                                {tag.replace(/_/g, ' ')}
-                              </Link>
-                            )
-                          })}
+                        <div className="tags d-flex flex-row justify-content-start flex-wrap py-5">
+                          {
+                            post.frontmatter.tags &&
+                            _.shuffle(post.frontmatter.tags).map((tag, index) => {
+                              return (
+                                <Link className='text-uppercase mb-3 mr-2 py-2 px-3'
+                                      key={index} to={`/tags/${tag.toLowerCase()}`}>
+                                  {tag.replace(/_/g, ' ')}
+                                </Link>
+                              )
+                            })
+                          }
                         </div>
                       </div>
                       <div className="social float-right bg-white pt-0">
