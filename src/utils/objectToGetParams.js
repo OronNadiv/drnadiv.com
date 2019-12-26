@@ -1,5 +1,5 @@
 /* eslint-disable prefer-template */
-export default function objectToGetParams(object) {
+export default function objectToGetParams (object) {
   return (
     '?' +
     Object.keys(object)

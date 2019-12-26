@@ -5,7 +5,7 @@ import assert from 'assert'
 import objectToGetParams from './objectToGetParams'
 import createShareButton from './createShareButton'
 
-function twitterLink(url, { title, via, hashtags = [] }) {
+function twitterLink (url, { title, via, hashtags = [] }) {
   assert(url, 'twitter.url')
   assert(Array.isArray(hashtags), 'twitter.hashtags is not an array')
 

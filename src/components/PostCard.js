@@ -50,7 +50,7 @@ export default ({ node, data }) => {
             _.shuffle(node.frontmatter.tags).map((tag, index) => {
               return (
                 <Link className='text-uppercase mb-3 mr-2 py-2 px-3'
-                      key={index} to={`/tags/${tag.toLowerCase()}`}>
+                  key={index} to={`/tags/${tag.toLowerCase()}`}>
                   {tag.replace(/_/g, ' ')}
                 </Link>
               )

@@ -30,7 +30,7 @@ const CategoryTemplate = ({ location, pageContext, data }) => {
                 <h5 className="d-inline text-black-50">Category: </h5>
                 <h2 className="d-inline text-capitalize">{category}</h2>
               </div>
-              <Link to={`/`}>Back to Articles</Link>
+              <Link to={'/'}>Back to Articles</Link>
             </div>
           </div>
           <div className="post-container">

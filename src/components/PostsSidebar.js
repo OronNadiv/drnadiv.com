@@ -19,7 +19,7 @@ export default ({ posts, recent = [] }) => {
           : (categoriesCollection[category] = 1)
       }
       setCategories(categoriesCollection)
-      let tags = node.frontmatter.tags
+      const tags = node.frontmatter.tags
       tags &&
       tags.forEach(tag => {
         tag = tag.toLowerCase()
@@ -36,9 +36,9 @@ export default ({ posts, recent = [] }) => {
       <h1>About Me</h1>
       <p>
         I am a <a href="https://mydoctor.kaiserpermanente.org/ncal/providers/elizabethnadiv"
-                  target="_blank"
-                  rel="noopener noreferrer"
-      >pediatrician at Permanente Medicine (aka Kaiser)</a> in
+          target="_blank"
+          rel="noopener noreferrer"
+        >pediatrician at Permanente Medicine (aka Kaiser)</a> in
         Daly City. Originally from San Diego, I completed my
         undergraduate at Duke University and medical school at UCSD.
         I moved to the Bay Area in 2005, and joined Kaiser full time
@@ -49,16 +49,16 @@ export default ({ posts, recent = [] }) => {
       </p>
 
       <div className="mt-3 blog_sidebar rounded text-center">
-        {/*<div className="widget side_widget_search">*/}
-        {/*  <div className="sidebar_widget_title font-weight-bold text-uppercase">Search</div>*/}
-        {/*  <img src="images/divider.png" alt="" className="d-block mt-2 mb-4" />*/}
-        {/*  <form>*/}
-        {/*    <input className="form-control" type="search" placeholder="Search..." />*/}
-        {/*    <button className="search_icon" type="submit">*/}
-        {/*      <span className="mdi mdi-magnify"></span>*/}
-        {/*    </button>*/}
-        {/*  </form>*/}
-        {/*</div>*/}
+        {/* <div className="widget side_widget_search"> */}
+        {/*  <div className="sidebar_widget_title font-weight-bold text-uppercase">Search</div> */}
+        {/*  <img src="images/divider.png" alt="" className="d-block mt-2 mb-4" /> */}
+        {/*  <form> */}
+        {/*    <input className="form-control" type="search" placeholder="Search..." /> */}
+        {/*    <button className="search_icon" type="submit"> */}
+        {/*      <span className="mdi mdi-magnify"></span> */}
+        {/*    </button> */}
+        {/*  </form> */}
+        {/* </div> */}
 
         <div className="widget mt-5">
           <div className="sidebar_widget_title font-weight-bold text-uppercase">
@@ -84,50 +84,50 @@ export default ({ posts, recent = [] }) => {
           </ul>
         </div>
 
-        {/*<div className="widget mt-5 widget_recent_entries_custom">*/}
-        {/*  <div className="sidebar_widget_title font-weight-bold text-uppercase">*/}
-        {/*    Recent Post*/}
-        {/*  </div>*/}
+        {/* <div className="widget mt-5 widget_recent_entries_custom"> */}
+        {/*  <div className="sidebar_widget_title font-weight-bold text-uppercase"> */}
+        {/*    Recent Post */}
+        {/*  </div> */}
 
-        {/*  <img src="images/divider.png" alt="" className="d-block mt-2 mb-4" />*/}
-        {/*  <ul className="list-unstyled">*/}
-        {/*    {recent.map(({ node }, index) => {*/}
-        {/*      return (*/}
-        {/*        <li key={index} className="clearfix">*/}
-        {/*          <div className="re_post_img">*/}
-        {/*            <Link to={node.fields.slug}>*/}
-        {/*              <Img*/}
-        {/*                className="img-fluid rounded"*/}
-        {/*                sizes={*/}
-        {/*                  node.frontmatter.featuredImage.childImageSharp.sizes*/}
-        {/*                }*/}
-        {/*              />*/}
-        {/*            </Link>*/}
-        {/*          </div>*/}
-        {/*          <div className="re_post_desc">*/}
-        {/*            <Link to={node.fields.slug} className="font-weight-bold">*/}
-        {/*              {node.frontmatter.title}*/}
-        {/*            </Link>*/}
-        {/*            <span className="post-date fonts-italic">*/}
-        {/*              {node.frontmatter.date}*/}
-        {/*            </span>*/}
-        {/*          </div>*/}
-        {/*        </li>*/}
-        {/*      )*/}
-        {/*    })}*/}
-        {/*  </ul>*/}
-        {/*</div>*/}
+        {/*  <img src="images/divider.png" alt="" className="d-block mt-2 mb-4" /> */}
+        {/*  <ul className="list-unstyled"> */}
+        {/*    {recent.map(({ node }, index) => { */}
+        {/*      return ( */}
+        {/*        <li key={index} className="clearfix"> */}
+        {/*          <div className="re_post_img"> */}
+        {/*            <Link to={node.fields.slug}> */}
+        {/*              <Img */}
+        {/*                className="img-fluid rounded" */}
+        {/*                sizes={ */}
+        {/*                  node.frontmatter.featuredImage.childImageSharp.sizes */}
+        {/*                } */}
+        {/*              /> */}
+        {/*            </Link> */}
+        {/*          </div> */}
+        {/*          <div className="re_post_desc"> */}
+        {/*            <Link to={node.fields.slug} className="font-weight-bold"> */}
+        {/*              {node.frontmatter.title} */}
+        {/*            </Link> */}
+        {/*            <span className="post-date fonts-italic"> */}
+        {/*              {node.frontmatter.date} */}
+        {/*            </span> */}
+        {/*          </div> */}
+        {/*        </li> */}
+        {/*      ) */}
+        {/*    })} */}
+        {/*  </ul> */}
+        {/* </div> */}
 
-        {/*<div className="widget mt-5">*/}
-        {/*  <div className="sidebar_widget_title font-weight-bold text-uppercase">Archives</div>*/}
-        {/*  <img src="images/divider.png" alt="" className="d-block mt-2 mb-3" />*/}
-        {/*  <ul className="list-unstyled widget_list">*/}
-        {/*    <li><a href="#"><i className="mdi mdi-chevron-double-right"></i> January 2018</a></li>*/}
-        {/*    <li><a href="#"><i className="mdi mdi-chevron-double-right"></i> February 2018</a></li>*/}
-        {/*    <li><a href="#"><i className="mdi mdi-chevron-double-right"></i> March 2018</a></li>*/}
-        {/*    <li><a href="#"><i className="mdi mdi-chevron-double-right"></i> April 2018</a></li>*/}
-        {/*  </ul>*/}
-        {/*</div>*/}
+        {/* <div className="widget mt-5"> */}
+        {/*  <div className="sidebar_widget_title font-weight-bold text-uppercase">Archives</div> */}
+        {/*  <img src="images/divider.png" alt="" className="d-block mt-2 mb-3" /> */}
+        {/*  <ul className="list-unstyled widget_list"> */}
+        {/*    <li><a href="#"><i className="mdi mdi-chevron-double-right"></i> January 2018</a></li> */}
+        {/*    <li><a href="#"><i className="mdi mdi-chevron-double-right"></i> February 2018</a></li> */}
+        {/*    <li><a href="#"><i className="mdi mdi-chevron-double-right"></i> March 2018</a></li> */}
+        {/*    <li><a href="#"><i className="mdi mdi-chevron-double-right"></i> April 2018</a></li> */}
+        {/*  </ul> */}
+        {/* </div> */}
 
         <div className="widget mt-5">
           <div className="sidebar_widget_title font-weight-bold text-uppercase">

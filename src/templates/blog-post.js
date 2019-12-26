@@ -11,7 +11,7 @@ import _ from 'underscore'
 import './blog-post.scss'
 
 class BlogPostTemplate extends React.Component {
-  render() {
+  render () {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
     const siteUrl = this.props.data.site.siteMetadata.siteUrl
@@ -37,13 +37,13 @@ class BlogPostTemplate extends React.Component {
           >
             <div className="nav white sticky">
               <div className="brand">
-                <Link to={`/`}>Elizabeth Nadiv MD</Link>
+                <Link to={'/'}>Elizabeth Nadiv MD</Link>
               </div>
-              {/*<i className="fa fa-bars"></i>*/}
+              {/* <i className="fa fa-bars"></i> */}
               <ul className="icons">
                 <li>
-                  {/*<a href="index-left.html">Back to Articles</a>*/}
-                  <Link to={`/`}>Back to Articles</Link>
+                  {/* <a href="index-left.html">Back to Articles</a> */}
+                  <Link to={'/'}>Back to Articles</Link>
                 </li>
               </ul>
             </div>
@@ -76,7 +76,7 @@ class BlogPostTemplate extends React.Component {
                             _.shuffle(post.frontmatter.tags).map((tag, index) => {
                               return (
                                 <Link className='text-uppercase mb-3 mr-2 py-2 px-3'
-                                      key={index} to={`/tags/${tag.toLowerCase()}`}>
+                                  key={index} to={`/tags/${tag.toLowerCase()}`}>
                                   {tag.replace(/_/g, ' ')}
                                 </Link>
                               )

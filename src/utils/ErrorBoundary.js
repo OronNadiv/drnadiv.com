@@ -2,12 +2,12 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
 class ErrorBoundary extends Component {
-  constructor(props) {
+  constructor (props) {
     super(props)
     this.state = { error: null }
   }
 
-  componentDidCatch(error, errorInfo) {
+  componentDidCatch (error, errorInfo) {
     this.setState({ error })
     Sentry.configureScope(scope => {
       Object.keys(errorInfo).forEach(key => {
@@ -17,7 +17,7 @@ class ErrorBoundary extends Component {
     Sentry.captureException(error)
   }
 
-  render() {
+  render () {
     return this.props.children
   }
 }
