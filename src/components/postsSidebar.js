@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import _s from 'underscore.string'
 import _ from 'underscore'
 
-export default ({ posts, recent = [] }) => {
+const postsSidebar = ({ posts, recent = [] }) => {
   const [categories, setCategories] = useState({})
   const [tags, setTags] = useState({})
 
@@ -153,3 +153,5 @@ export default ({ posts, recent = [] }) => {
     </div>
   )
 }
+
+export default postsSidebar

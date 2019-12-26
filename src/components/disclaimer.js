@@ -7,7 +7,7 @@ const KEY = 'disclaimer'
 const VALUE = 'accepted'
 const expires = 7
 
-export default () => {
+const disclaimer = () => {
   const [show, setShow] = useState(false)
 
   const handleAccept = () => {
@@ -49,3 +49,5 @@ export default () => {
     </Modal>
   )
 }
+
+export default disclaimer

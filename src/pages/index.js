@@ -4,14 +4,14 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import ScrollToTop from 'react-scroll-up'
 import * as Scroll from 'react-scroll'
-import PostsSidebar from '../components/PostsSidebar'
-import PostCard from '../components/PostCard'
+import PostsSidebar from '../components/postsSidebar'
+import PostCard from '../components/postCard'
 
 const ScrollLink = Scroll.Link
 
 const mainImage = '/images/main-1.png'
 
-export default ({ data, location }) => {
+const index = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
   const siteUrl = data.site.siteMetadata.siteUrl
   const posts = data.allMarkdownRemark.edges
@@ -149,3 +149,5 @@ export const pageQuery = graphql`
     }
   }
 `
+
+export default index

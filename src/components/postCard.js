@@ -7,7 +7,7 @@ import TwitterShareButton from '../utils/TwitterShareButton'
 import FacebookShareButton from '../utils/FacebookShareButton'
 import { CommentsCount, FacebookProvider } from 'react-facebook'
 
-export default ({ node, data }) => {
+const postCard = ({ node, data }) => {
   const title = node.frontmatter.title || node.fields.slug
   const category =
     node.frontmatter.category &&
@@ -89,3 +89,5 @@ export default ({ node, data }) => {
     </div>
   )
 }
+
+export default postCard

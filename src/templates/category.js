@@ -3,8 +3,8 @@ import { graphql, Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import PostCard from '../components/PostCard'
-import PostsSidebar from '../components/PostsSidebar'
+import PostCard from '../components/postCard'
+import PostsSidebar from '../components/postsSidebar'
 import _s from 'underscore.string'
 
 const mainImage = '/images/main-1.png'
