@@ -28,3 +28,5 @@ To learn more about over the counter allergy medicines, please see this [guide](
 
 
 [Overview of Allergy Symptoms, Treatment, and Prevention](https://mydoctor.kaiserpermanente.org/ncal/structured-content/Condition_Allergic_Rhinitis_in_Children_-_Pedi_Allergy.xml?co=%2Fregions%2Fncal)
+
+See more detailed information and videos from the [Asthma and Allergy Foundation of America](https://www.aafa.org/)
