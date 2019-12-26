@@ -1,6 +1,7 @@
 import { Link } from 'gatsby'
 import React, { useEffect, useState } from 'react'
 import _s from 'underscore.string'
+import _ from 'underscore'
 
 export default ({ posts, recent = [] }) => {
   const [categories, setCategories] = useState({})
@@ -134,8 +135,7 @@ export default ({ posts, recent = [] }) => {
           </div>
           <img src="images/divider.png" alt="" className="d-block mt-2 mb-4" />
           <div className="blog_tag d-flex flex-row flex-wrap justify-content-center my-3">
-            {Object.keys(tags)
-              .sort(_s.naturalCmp)
+            {_.shuffle(Object.keys(tags))
               .map((tag, index) => {
                 return (
                   <Link className='p-2 m-1' key={index} to={`/tags/${tag.toLowerCase()}`}>
