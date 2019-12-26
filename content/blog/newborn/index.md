@@ -4,12 +4,12 @@ title: Let's Talk About Newborns
 date: '2019-12-22T00'
 description: "Newborns are undoubtedly terrifying, especially if you are a first time parent. Everything is so NEW: day-night reversal, pimply/greasy skin, endless gas, noisy breathing, why do they need so much sleep?!"
 featuredImage: './Ella1.jpg'
-category: Well_Child_Tips
+category: well_child_tips
 tags:
-  - Newborns
-  - Links
-  - Breastfeeding
-  - Development
+  - newborns
+  - links
+  - breastfeeding
+  - development
 ---
 
 Newborns are undoubtedly **terrifying**, especially if you are a **first time parent**.   Everything is so **NEW**: day-night reversal, pimply/greasy skin, endless gas, noisy breathing, why do they need so much sleep?!

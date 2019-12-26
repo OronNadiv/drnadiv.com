@@ -4,10 +4,10 @@ title: 'Tackling Allergies'
 date: '2020-01-01T00'
 description: 'Nasal allergies are very common, and the most common cause of morning stuffy nose is an allergy to dust mites (especially if the symptoms are present year round).'
 featuredImage: './featured.jpg'
-category: Common_Health_Concerns
+category: common_health_concerns
 tags:
-  - Allergies
-  - OTC dosing
+  - allergies
+  - otc_dosing
 ---
 
 #All About Environmental Allergies

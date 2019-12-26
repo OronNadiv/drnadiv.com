@@ -4,10 +4,10 @@ title: Introduction
 date: '2019-10-29T00'
 description: 'Hi and welcome to my blog! As a pediatrician, I spend my days talking with children and their parents. It’s a wonderful profession, and I am honored to interface with families daily. There is always so much to talk about, so I hope to expand on my thoughts here!'
 featuredImage: './featured.jpg'
-category: About Me
+category: about_me
 tags:
-  - Intro
-  - About Me
+  - intro
+  - about_me
 ---
 
 Hi and welcome to my blog! As a pediatrician, I spend my days talking with children and their parents. It’s a wonderful profession, and I am honored to interface with families daily. There is always so much to talk about, so I hope to expand on my thoughts here!
