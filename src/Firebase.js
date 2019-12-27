@@ -12,5 +12,7 @@ const firebaseConfig = {
 }
 
 export default () => {
+  require('firebase/analytics')
+
   firebase.initializeApp(firebaseConfig)
 }
