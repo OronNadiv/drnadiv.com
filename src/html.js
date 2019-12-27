@@ -1,13 +1,8 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import PropTypes from 'prop-types'
 import ErrorBoundary from './utils/ErrorBoundary'
-import firebase from './Firebase'
 
 export default function HTML (props) {
-  useEffect(() => {
-    firebase()
-  }, [])
-
   return (
     <html {...props.htmlAttributes}>
       <head>

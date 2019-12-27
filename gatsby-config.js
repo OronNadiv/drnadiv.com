@@ -90,6 +90,25 @@ module.exports = {
         pathToConfigModule: 'src/utils/typography'
       }
     },
-    'gatsby-plugin-sass'
+    'gatsby-plugin-sass',
+    {
+      resolve: 'gatsby-plugin-firebase',
+      options: {
+        features: {
+          analytics: true
+        },
+        credentials: {
+          apiKey: 'AIzaSyC7vIjGwuSOdr0yDoMIKrgerPlWaL-yFLI',
+          authDomain: 'dr-nadiv.firebaseapp.com',
+          databaseURL: 'https://dr-nadiv.firebaseio.com',
+          projectId: 'dr-nadiv',
+          storageBucket: 'dr-nadiv.appspot.com',
+          messagingSenderId: '268607776968',
+          appId: '1:268607776968:web:3639471a5a4fd8f22fddfd',
+          measurementId: 'G-P1KNZQTJ42'
+        }
+      }
+    }
+
   ]
 }
