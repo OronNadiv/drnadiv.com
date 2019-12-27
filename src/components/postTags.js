@@ -3,7 +3,6 @@ import { Link } from 'gatsby'
 import _ from 'underscore'
 
 const postTags = ({ tags }) => {
-  console.log('tags:', tags)
   return tags && tags.length &&
     <div className="tags d-flex flex-row justify-content-start flex-wrap py-5">
       {

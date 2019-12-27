@@ -1,8 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import PropTypes from 'prop-types'
 import ErrorBoundary from './utils/ErrorBoundary'
+import firebase from './Firebase'
 
 export default function HTML (props) {
+  useEffect(() => {
+    firebase()
+  }, [])
+
   return (
     <html {...props.htmlAttributes}>
       <head>
@@ -31,7 +36,7 @@ export default function HTML (props) {
         <ErrorBoundary>
           {props.preBodyComponents}
           <noscript key="noscript" id="gatsby-noscript">
-            This app works best with JavaScript enabled.
+        This app works best with JavaScript enabled.
           </noscript>
           <div
             key={'body'}
@@ -40,11 +45,6 @@ export default function HTML (props) {
           />
           {props.postBodyComponents}
         </ErrorBoundary>
-        <script src="/__/firebase/7.2.3/firebase-app.js" />
-
-        <script src="/__/firebase/7.2.3/firebase-analytics.js" />
-
-        <script src="/__/firebase/init.js" />
         <script
           src="https://code.jquery.com/jquery-3.3.1.min.js"
           integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
