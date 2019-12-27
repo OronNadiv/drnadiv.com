@@ -6,6 +6,7 @@ import ScrollToTop from 'react-scroll-up'
 import * as Scroll from 'react-scroll'
 import PostsSidebar from '../components/postsSidebar'
 import PostCard from '../components/postCard'
+import { useFirebase } from 'gatsby-plugin-firebase'
 
 const ScrollLink = Scroll.Link
 
@@ -15,6 +16,12 @@ const index = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
   const siteUrl = data.site.siteMetadata.siteUrl
   const posts = data.allMarkdownRemark.edges
+
+  useFirebase(firebase => {
+    // initialize google analytics
+    firebase.analytics()
+  }, [])
+
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title={siteTitle} image={`${siteUrl}${mainImage}`} />
