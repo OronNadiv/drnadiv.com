@@ -1,6 +1,6 @@
 ---
 id: 'asdjnkjer'
-title: 'Sleep Is SOOOO Important For Kids Of All Ages'
+title: 'Sleep Is SOOOO Important For Kids Of All Ages...And Adults Too!'
 date: '2019-12-23T00'
 description: "From talking to my patients and families, I know that parents STRUGGLE with their kids' sleep, and most kids don't get anywhere near the amount of sleep they need (especially teens!)."
 featuredImage: './Ella15.jpg'
