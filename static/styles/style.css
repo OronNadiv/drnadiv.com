@@ -988,3 +988,33 @@ footer p {
         min-height: 120vh
     }
 }
+
+.gsc-orderby {
+    display: none;
+}
+.gsc-input, .gsc-search-button {
+    border: none;
+    margin-bottom: 0;
+}
+.gsc-search-box {
+    line-height: initial;
+}
+#gs_tti50{
+    padding: 0 0.5em;
+    border: 1px solid hsla(0,0%,0%,0.12);
+}
+#gs_st50 {
+    padding-top: 0;
+    padding-bottom: 0;
+    /*padding-left: 5px;*/
+}
+.gsc-control-cse {
+    padding: 0 !important;
+}
+.gsib_b {
+    display: none;
+}
+
+.gsc-above-wrapper-area {
+    /*display: none;*/
+}

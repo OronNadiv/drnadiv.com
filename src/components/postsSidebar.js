@@ -2,10 +2,13 @@ import { Link } from 'gatsby'
 import React, { useEffect, useState } from 'react'
 import _s from 'underscore.string'
 import _ from 'underscore'
+import useScript from '../hooks/useScript'
 
 const postsSidebar = ({ posts }) => {
   const [categories, setCategories] = useState({})
   const [tags, setTags] = useState({})
+
+  useScript('https://cse.google.com/cse.js?cx=011403241769599577810:cqrlh1yawvj')
 
   useEffect(() => {
     const categoriesCollection = {}
@@ -74,7 +77,7 @@ const postsSidebar = ({ posts }) => {
           </ul>
         </div>
 
-        <div className="widget mt-5">
+        <div className="widget mt-5 mb-5">
           <div className="sidebar_widget_title font-weight-bold text-uppercase">
             Tags
           </div>
@@ -96,6 +99,7 @@ const postsSidebar = ({ posts }) => {
           </div>
         </div>
       </div>
+      <div className="gcse-search"/>
     </div>
   )
 }
