@@ -23,7 +23,7 @@ const disclaimer = () => {
   }, [])
 
   return (
-    <Modal centered show={show}>
+    <Modal centered show={show} backdrop='static'>
       <Modal.Header className="border-0">
         <Modal.Title className="text-center">Disclaimer</Modal.Title>
       </Modal.Header>
