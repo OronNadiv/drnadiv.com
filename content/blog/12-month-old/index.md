@@ -12,7 +12,7 @@ tags:
   - screens
 ---
 
-Happy Birthday! 12-18 months
+Happy Birthday! 
 
 Happy Birthday to You, Happy Birthday to You, Happy 1st Birthday to Your Child, Happy 1st Birthday to You! 12 months is such a momentous time. Your infant is now a toddler and will continue to keep you busy as ever---even more so! I recommend the following changes at 12 months:
 
