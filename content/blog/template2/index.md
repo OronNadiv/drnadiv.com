@@ -41,12 +41,12 @@ You also don't need to wait 3-5 days between each new food. **Variety is key!** 
 
 You only need to feed your baby 1-2 times a day at first, increasing as s/he gets closer to 9 months.  And let your baby decide how much to eat; it may be a teaspoon or a whole bowl.  Don't force him/her to eat after s/he loses interest.  
 
-PLEASE DO NOT GIVE YOUR BABY JUICE. JUICE IS NOT HEALTHY. 
+**PLEASE DO NOT GIVE YOUR BABY JUICE. JUICE IS NOT HEALTHY**. I also recommend limiting processed baby food pouches and snacks as they are sweet and do not prepare your baby to eat different textures. 
 
 From 6-9 months, continue to give your baby milk first, but starting at around 9 months, s/he can have solids before milk.  By 12 months, s/he should be eating three meals and two snacks per day.  Have fun with this new stage!!
 
 
-Sleep: 
+###Sleep
 At this point, @FNAME@ is capable of sleeping for 12 hours straight at night, and does not need nighttime feedings anymore.  If @FNAME@ is feeding at night, @HE@ is likely a trained night feeder.  REMEMBER, @FNAME@ CAN SLEEP 12 HOURS AT NIGHT WITHOUT NEEDING TO FEED!  
  
 Now is the time to say goodbye to @HIS@ pacifier.  @FNAME@ needs to be able to fall asleep on @HIS@ own (i.e., no binky, no bottle, no breast, no rocking, etc)!!  All healthy 6 month olds CAN fall asleep on their own!  
