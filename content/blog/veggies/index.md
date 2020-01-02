@@ -36,8 +36,7 @@ As I’ve said many times, **parenting isn’t easy** and it’s not our job to 
 * Get involved in a community garden, or grow a few plants at home
 * Check out [Adventures in Veggieland](https://www.youtube.com/watch?v=XwPy0AAavXY), expert feeding advice from [Melanie Potock](https://mymunchbug.com/)
 
+![Healthy plate 1](./healthyplate-page-001.jpg)
 
-
-
-
+![Healthy plate 2](./healthyplate-page-002.jpg)
 
