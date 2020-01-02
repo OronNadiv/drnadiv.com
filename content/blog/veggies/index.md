@@ -31,6 +31,7 @@ As I’ve said many times, **parenting isn’t easy** and it’s not our job to 
 
 **There are ways to encourage healthy eating:**
 * Bring your kids to the farmer’s market and let them select produce
+* Role model healthy eating and prioritize family meals
 * Let your kids help with food prep and cooking
 * Get involved in a community garden, or grow a few plants at home
 * Check out [Adventures in Veggieland](https://www.youtube.com/watch?v=XwPy0AAavXY), expert feeding advice from [Melanie Potock](https://mymunchbug.com/)
