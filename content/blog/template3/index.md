@@ -1,7 +1,7 @@
 ---
 isVisible: no
 id: 'sdjkhksadjfh3'
-title: Template title
+title: 'Template title'
 date: '2020-01-03T00'
 description: 'Template description'
 featuredImage: './featured.jpg'
