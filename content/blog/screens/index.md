@@ -22,5 +22,4 @@ tags:
 
 * [AAP Family Media Plan](https://www.healthychildren.org/English/media/Pages/default.aspx): Where do we go from here? How to make changes in your own family
 
-![alttext](https://blog.chocchildrens.org/wp-content/uploads/2016/12/Screen-time-graphic-768x1015.jpg)
-
+![recommendations for screen time for kids](./Screen-time-graphic-768x1015.jpg)
