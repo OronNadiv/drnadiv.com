@@ -21,14 +21,14 @@ Newborns are undoubtedly **terrifying**, especially if you are a **first time pa
 * Skin peeling is normal and newborns don’t need lotions  
 * [Size of your newborn's stomach](https://www.lllc.ca/thursday-tip-newborns-have-small-stomachs)
 
-![alt text](https://betterdoctor.com/assets/img/blog/baby.jpg)
+![Size of your newborn’s stomach](./baby.jpg)
 
 - **It’s important to feed a newborn every 2-3 hours around the clock at least until she has regained her birth weight**. After that point, I advise my families to wake and feed their baby every 2-3 hours during the day, but allow baby to wake them up at night (it's ok to go longer stretches at this point)
 
 - **You can tell a lot about a newborn from her poop and pee**
  * Babies poop is black and sticky at first: this is called meconium 
  * Once babies start drinking milk (breast or formula), their poop will start to “transition” first to brown, and then to green, and ultimately to yellow (in the case of breast fed babies).
- ![alt text](https://hugyourbaby.org/wp-content/uploads/2017/11/NEWBORN-STOOLS.png)
+ ![newborn stools](./NEWBORN-STOOLS.png)
  * Breast fed babies have yellow, mustardy, seedy poops, and after the first week or so, parents can expect 6-8 of these poops per day
  * By around 6-8 weeks of life, a baby’s GI system becomes more efficient at absorbing nutrients, and it’s not unusual for a baby to have one poop per week.  Some continue to poop many times per day. As pediatricians, we don’t tend to worry how often baby is pooping as long as the poop is soft
  * Poop comes in all shapes and colors and is different based on whether the baby is drinking breast milk or formula and [the balanced breast milk your baby is drinking](https://www.llli.org/breastfeeding-info/foremilk-and-hindmilk/). When babies are having a lot of green frothy poops, this is often due to an excessive amount of foremilk, which can happen if the baby feeds for a shorter period of time per breast and isn’t drinking the fatty hindmilk.
@@ -39,15 +39,11 @@ Newborns are undoubtedly **terrifying**, especially if you are a **first time pa
 * One pee pee diaper per day per age of life for the first 5 days 
 * In the first week of life when babies are still losing weight, we often see orange/red crystals in the diaper, and these are common in slightly dehydrated babies. They are called urate crystals and will go away once the baby is getting more milk
 
-<p class="text-center">
-  <img src="https://www.easybabylife.com/wp-content/uploads/2013/07/how-often-should-a-newborn-pee.jpg" alt="alttext" style="width:initial"/>
-</p>
+![how often should a newborn pee](./how-often-should-a-newborn-pee.jpg)
 
 Other fun diaper finds! 
  - It’s also ok for newborn girls to have a mini-period (some blood in their diaper) in the first week of life 
-<p class="text-center">
-  <img src="http://gregorygordonmd.com/images/blood-vaginal-diaper.jpeg" alt="alttext" style="width:initial"/>
-</p>
+![blood vaginal diaper](./blood-vaginal-diaper.jpeg)
    
 * [TPMG's Guide To Newborn Care](https://mydoctor.kaiserpermanente.org/ncal/structured-content/#/Health_Topic_Newborn_Care_Bathing_and_Changing_Your_Baby_-_Pediatrics.xml)
 
