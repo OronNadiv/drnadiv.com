@@ -32,7 +32,7 @@ You also don't need to wait 3-5 days between each new food. **Variety is key!** 
 
 "Feeding Baby Green" by Alan Greene is a great book on starting solids.  I also like "Baby 411" for quick questions about amounts of solids versus breast milk/formula.
 
-**Make sure to start finger foods after 1-2 months of purees!** Finger foods include small, soft pieces of scrambled eggs, shredded cheese, soft pieces of fruits, vegetables, beans, tofu, lentils, cottage cheese, whole milk plain yogurt, thinly spread peanut butter on soft bread, and [Bamba]( https://en.wikipedia.org/wiki/Bamba_(snack) (peanut butter puffs).  When deciding when to offer your baby finger foods, there are a few considerations.
+**Make sure to start finger foods after 1-2 months of purees!** Finger foods include small, soft pieces of scrambled eggs, shredded cheese, soft pieces of fruits, vegetables, beans, tofu, lentils, cottage cheese, whole milk plain yogurt, thinly spread peanut butter on soft bread, and [Bamba](http://en.wikipedia.org/wiki/Bamba_%28snack%29) (peanut butter puffs).  When deciding when to offer your baby finger foods, there are a few considerations.
 
 * Your baby should be able to “chew” using his/her gums to mash foods 
 * Your baby can sit up unassisted. A baby eating finger foods is more likely to choke and being reclined or supported may only increase this risk.
