@@ -19,9 +19,6 @@ tags:
 * [Sleep Tips For Kids](http://sleepforkids.org/index.html): A Kid-Friendly Website that Educates Kids about Why They Need Sleep and How to Sleep Better
 * [Dr. Craig Canapari, Pediatric Sleep Specialist at Yale](https://drcraigcanapari.com/): Expert Advice for Solving Sleep Problems
 
+![healthy sleep duration](./healthy-sleep-duration-large.jpg)
 
-
-
-![alttext](http://sleepeducation.org/images/healthy-sleep-awareness-project/healthy-sleep-duration-large.jpg?sfvrsn=0)
-
-![alttext](http://www.sleepeducation.org/images/infographiclibrary/rsz_sleep-recharges-you-school-flyer.jpg?sfvrsn=2)
+![sleep recharges you](./rsz_sleep-recharges-you-school-flyer.jpg)
