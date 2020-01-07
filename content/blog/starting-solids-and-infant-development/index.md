@@ -16,11 +16,11 @@ Your 6-month-old is ready to explore eating, can sleep on his/her own, and is go
 
 ###Nutrition
 
-[It's time to start your baby on solids if you haven't already!]( https://cl.kp.org/ncal/home/refcontainerpage.dam.html?damrefpath=/content/dam/clinicallibrary/ncal/clib/health_education/region/96440.pdf&q=solid%20food&context=searchkp)  I recommend starting with different vegetable and fruit purees, but you can also give ground meats early on (a great source of iron).  Be sure to incorporate iron rich foods (fortified baby cereal, lentils, beans, tofu, leafy greens, meat) early on especially if you have been exclusively breastfeeding!
+[It's time to start your baby on solids if you haven't already!](https://cl.kp.org/ncal/home/refcontainerpage.dam.html?damrefpath=/content/dam/clinicallibrary/ncal/clib/health_education/region/96440.pdf&q=solid%20food&context=searchkp)  I recommend starting with different vegetable and fruit purees, but you can also give ground meats early on (a great source of iron).  Be sure to incorporate iron rich foods (fortified baby cereal, lentils, beans, tofu, leafy greens, meat) early on especially if you have been exclusively breastfeeding!
 
 [Check out pediatrician and healthy eating advocate Nimali Fernando’s detailed blog post on starting solids and how easy it is to make your own baby food!](https://doctoryum.org/baby-feedin-making-homemade-baby-food/)
 
-I also really like [Melanie Potuck]( https://mymunchbug.com/)’s book for an overview of how to set your baby up for lifelong healthy eating habits!
+I also really like [Melanie Potuck](https://mymunchbug.com/)’s book for an overview of how to set your baby up for lifelong healthy eating habits!
 
 ![baby self-feeding]( ./91MYvkelf7L.jpg)
 
@@ -50,11 +50,11 @@ Now is the time to say goodbye to @HIS@ pacifier.  @FNAME@ needs to be able to f
 
 Set up good sleep habits NOW! And make sure your baby, toddler and child gets enough sleep. Babies and children need more sleep than adults!
 See below for sleep needs by age:
-4-12 months: 12-16 hours/day
-1-2 years: 11-14 hours/day
-3-5 years: 10-13 hours/day 
-6-12 years: 9-12 hours/day
-13-18 years: 8-10 hours/day 
+* 4-12 months: 12-16 hours/day
+* 1-2 years: 11-14 hours/day
+* 3-5 years: 10-13 hours/day 
+* 6-12 years: 9-12 hours/day
+* 13-18 years: 8-10 hours/day 
 
 If your baby is not sleeping enough, try to move bedtime earlier. Most babies and children should go to bed between 6:30-7:30 pm! Kids need a LOT of sleep!
 
@@ -112,9 +112,3 @@ This one hour class is offered on the 2nd Thursday of the month at 4 pm and the 
 Our medical assistants can book this appointment at the well care visit or if you are not sure of your schedule can be arranged with a phone call through the advice center (650 742-2050).
 
 ===================================================
-
-
-
-
-
-
