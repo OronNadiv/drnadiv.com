@@ -6,7 +6,6 @@ import SEO from '../components/seo'
 import PostCard from '../components/postCard'
 import PostsSidebar from '../components/postsSidebar'
 import _s from 'underscore.string'
-import { useFirebase } from 'gatsby-plugin-firebase'
 
 const mainImage = '/images/main-1.png'
 
@@ -21,10 +20,6 @@ const CategoryTemplate = ({ location, pageContext, data }) => {
       .value()
       .replace(/_/g, ' ')
     setTag(tagPretty)
-  }, [])
-
-  useFirebase(firebase => {
-    firebase.analytics().logEvent('tag_view', { name: tag })
   }, [])
 
   const posts = data.allMarkdownRemark.edges
