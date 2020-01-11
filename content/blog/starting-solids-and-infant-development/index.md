@@ -1,10 +1,10 @@
 ---
 isVisible: no
 id: 'zsdasdjknkjhwerr2'
-title: 'Starting Solids and Infant Development: 6-12 months'
+title: '6 - 12 months: Starting Solids and Infant Development'
 date: '2020-01-02T00'
 description: 'Your 6-month-old is ready to explore eating, can sleep on his/her own, and is going to start moving soon (if s/he hasn’t already!). The next several months are busy and exciting. Read more about how to encourage your baby’s development!'
-featuredImage: './DSC_0614.JPG'
+featuredImage: './featured.jpg'
 category: well_child_tips
 tags:
   - solids
@@ -31,8 +31,7 @@ Babies don't need to eat rice cereal as the first food or ever. Rice cereal is a
 You also don't need to wait 3-5 days between each new food. **Variety is key!** Try to introduce as many different foods in the first year as possible. When you are introducing foods that are common allergens (soy, milk, egg, fish, wheat, peanut), wait 1-2 days before introducing the next possible allergen. 
 
 ![Feeding baby green](./51iZ57GZjJL.jpg) 
-
-![Baby 411](./680157838.jpg)
+![Baby 411](https://d188rgcu4zozwl.cloudfront.net/content/B07Z6SM1QZ/resources/680157838)
 
 **Make sure to start finger foods after 1-2 months of purees!** Finger foods include small, soft pieces of scrambled eggs, shredded cheese, soft pieces of fruits, vegetables, beans, tofu, lentils, cottage cheese, whole milk plain yogurt, thinly spread peanut butter on soft bread, and [Bamba](http://en.wikipedia.org/wiki/Bamba_%28snack%29) (peanut butter puffs).  When deciding when to offer your baby finger foods, there are a few considerations.
 
@@ -91,15 +90,18 @@ Your baby is going to be mobile before you know it!  And once she starts to move
   * lead awareness
   * ask visitors to put purses/etc out of reach
 
-* Remember sun safety
-  * Sunscreen (ewg.org for recommendations) + hats/long sleeves
-  * Avoid being outside for long periods between 10 am - 4 pm
+* [Remember sun safety](https://pedsderm.net/site/assets/files/1028/spd_sun_protection_color_web-2_final.pdf)
+  
 * **Watch out for choking hazards and learn infant CPR! 
+
 `youtube: ksLwSIUljP4`
+
 * NEVER LEAVE YOUR BABY IN THE BATHTUB ALONE
 * **Car safety: your baby should stay rear facing until he is at least 2, longer if possible**
 * Air quality and fire safety
   * Install carbon monoxide detectors, smoke alarms in all rooms
   * Have at least one, ideally many fire extinguishers at home
   * Consider radon testing (radon is an odorless gas)
+
+
 
