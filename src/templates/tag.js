@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { graphql, Link } from 'gatsby'
 
 import Layout from '../components/layout'
@@ -6,16 +6,27 @@ import SEO from '../components/seo'
 import PostCard from '../components/postCard'
 import PostsSidebar from '../components/postsSidebar'
 import _s from 'underscore.string'
+import { useFirebase } from 'gatsby-plugin-firebase'
 
 const mainImage = '/images/main-1.png'
 
 const CategoryTemplate = ({ location, pageContext, data }) => {
-  let { tag } = pageContext
-  tag = _s(tag)
-    .clean()
-    .titleize()
-    .value()
-    .replace(/_/g, ' ')
+  const [tag, setTag] = useState()
+
+  useEffect(() => {
+    const { tag } = pageContext
+    const tagPretty = _s(tag)
+      .clean()
+      .titleize()
+      .value()
+      .replace(/_/g, ' ')
+    setTag(tagPretty)
+  }, [])
+
+  useFirebase(firebase => {
+    firebase.analytics().logEvent('tag_view', { name: tag })
+  }, [])
+
   const posts = data.allMarkdownRemark.edges
   const siteUrl = data.site.siteMetadata.siteUrl
   const title = `tag "${tag}"`
