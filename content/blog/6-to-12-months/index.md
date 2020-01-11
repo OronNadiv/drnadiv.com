@@ -43,7 +43,7 @@ You only need to feed your baby 1-2 times a day at first, increasing as s/he get
 
 **PLEASE DO NOT GIVE YOUR BABY JUICE. JUICE IS NOT HEALTHY**. I also recommend limiting processed baby food pouches and snacks as they are sweet and do not prepare your baby to eat different textures. 
 
-From 6-9 months, continue to give your baby milk first, but starting at around 9 months of age, s/he can have solids before milk.  By 12 months, s/he should be eating three meals and two snacks per day.  Have fun with this new stage!!
+From 6 - 9 months, continue to give your baby milk first, but starting at around 9 months of age, s/he can have solids before milk.  By 12 months, s/he should be eating three meals and two snacks per day.  Have fun with this new stage!!
 
 ##Sleep
 By around 6 months (although this can be a little later for exclusively breast fed babies), your baby is capable of sleeping for 12 hours straight at night, and does not need nighttime feedings anymore.  If your baby is feeding at night, s/he is likely a [**trained night feeder**](https://drcraigcanapari.com/learned-hunger-nighttime-feeding-stop-night-feeding/).  
@@ -75,8 +75,9 @@ Read to your baby every day.  Give him lots of floor time with new and interesti
 **MAKE SURE YOUR BABY IS GETTING ENOUGH SLEEP**
 
 
-##Safety
+##[Safety](https://www.safekids.org/)
 Your baby is going to be mobile before you know it!  And once she starts to move, there will be no stopping her! 
+
 **Program the [Poison Control Number](https://www.poison.org/18002221222) into your phone 1-800-222-1222 now!**
 
 ### [Childproofing](https://www.parents.com/toddlers-preschoolers/safety/toddlerproofing/home-safe-home-childproof-your-home-room-by-room/) and constant supervision are essential!
@@ -89,12 +90,9 @@ Your baby is going to be mobile before you know it!  And once she starts to move
 
 `youtube: ksLwSIUljP4`
 
-* NEVER LEAVE YOUR BABY IN THE BATHTUB ALONE
-* **Car safety: your baby should stay rear facing until he is at least 2, longer if possible**
-* Air quality and fire safety
-  * Install carbon monoxide detectors, smoke alarms in all rooms
-  * Have at least one, ideally many fire extinguishers at home
-  * Consider radon testing (radon is an odorless gas)
+
+* **[Car safety: your baby should stay rear facing until he is at least 2, longer if possible](https://www.safekids.org/safetytips/field_age/little-kids-1%E2%80%934-years/field_risks/car-seat)**
+
 
 
 
