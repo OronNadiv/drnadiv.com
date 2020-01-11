@@ -34,7 +34,9 @@ const CategoryTemplate = ({ location, pageContext, data }) => {
             <div className="rounded bg-white mb-5 py-5 px-5 col d-flex justify-content-between">
               <div className="brand">
                 <h5 className="d-inline text-black-50">Tag: </h5>
-                <h2 className="d-inline text-capitalize">{tag}</h2>
+                <h2 className="d-inline text-capitalize">
+                  <Link to={location.pathname}>{tag}</Link>
+                </h2>
               </div>
               <Link to={'/'}>Back to Articles</Link>
             </div>
