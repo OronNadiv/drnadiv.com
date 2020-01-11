@@ -81,14 +81,15 @@ Your baby is going to be mobile before you know it!  And once she starts to move
 
 ![Safe kids home safety infographic](safe_kids_home_safety_infographic_v3-page-001.jpg)
 
-* [Remember sun safety](https://pedsderm.net/site/assets/files/1028/spd_sun_protection_color_web-2_final.pdf)
+[Remember sun safety](https://pedsderm.net/site/assets/files/1028/spd_sun_protection_color_web-2_final.pdf)
+
+**[Car safety: your baby should stay rear facing until he is at least 2, longer if possible](https://www.safekids.org/safetytips/field_age/little-kids-1%E2%80%934-years/field_risks/car-seat)**
   
-* **Watch out for choking hazards and learn infant CPR! 
+**Watch out for choking hazards and learn infant CPR!**
 
 `youtube: ksLwSIUljP4`
 
 
-* **[Car safety: your baby should stay rear facing until he is at least 2, longer if possible](https://www.safekids.org/safetytips/field_age/little-kids-1%E2%80%934-years/field_risks/car-seat)**
 
 
 
