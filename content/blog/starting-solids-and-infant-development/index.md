@@ -31,7 +31,8 @@ Babies don't need to eat rice cereal as the first food or ever. Rice cereal is a
 You also don't need to wait 3-5 days between each new food. **Variety is key!** Try to introduce as many different foods in the first year as possible. When you are introducing foods that are common allergens (soy, milk, egg, fish, wheat, peanut), wait 1-2 days before introducing the next possible allergen. 
 
 ![Feeding baby green](./51iZ57GZjJL.jpg) 
-![Baby 411](https://d188rgcu4zozwl.cloudfront.net/content/B07Z6SM1QZ/resources/680157838)
+
+![Baby 411](./680157838.jpg)
 
 **Make sure to start finger foods after 1-2 months of purees!** Finger foods include small, soft pieces of scrambled eggs, shredded cheese, soft pieces of fruits, vegetables, beans, tofu, lentils, cottage cheese, whole milk plain yogurt, thinly spread peanut butter on soft bread, and [Bamba](http://en.wikipedia.org/wiki/Bamba_%28snack%29) (peanut butter puffs).  When deciding when to offer your baby finger foods, there are a few considerations.
 
