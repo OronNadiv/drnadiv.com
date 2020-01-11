@@ -4,7 +4,7 @@ id: 'zsdasdjknkjhwerr2'
 title: 'Starting Solids and Infant Development: 6-12 months'
 date: '2020-01-02T00'
 description: 'Your 6-month-old is ready to explore eating, can sleep on his/her own, and is going to start moving soon (if s/he hasn’t already!). The next several months are busy and exciting. Read more about how to encourage your baby’s development!'
-featuredImage: './featured.jpg'
+featuredImage: './DSC_0614.JPG'
 category: well_child_tips
 tags:
   - solids
