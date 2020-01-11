@@ -80,16 +80,8 @@ Your baby is going to be mobile before you know it!  And once she starts to move
 **Program the [Poison Control Number](https://www.poison.org/18002221222) into your phone 1-800-222-1222 now!**
 
 ### [Childproofing](https://www.parents.com/toddlers-preschoolers/safety/toddlerproofing/home-safe-home-childproof-your-home-room-by-room/) and constant supervision are essential!
-  * toilet locks 
-  * gates to prevent injuries from falling down stairs, etc
-  * cabinet locks
-  * window locks
-  * securing heavy bookcases, televisions, dressers, etc
-  * electrical outlet covers
-  * cover sharp corners
-  * check ties on blinds and curtains (http://www.windowcoverings.org/)
-  * lead awareness
-  * ask visitors to put purses/etc out of reach
+
+![Safe kids home safety infographic](safe_kids_home_safety_infographic_v3-page-001.jpg)
 
 * [Remember sun safety](https://pedsderm.net/site/assets/files/1028/spd_sun_protection_color_web-2_final.pdf)
   
