@@ -15,7 +15,9 @@ Your 6-month-old is ready to explore eating, can sleep on his/her own, and is go
 
 ##Nutrition
 
-[It's time to start your baby on solids if you haven't already!](https://cl.kp.org/ncal/home/refcontainerpage.dam.html?damrefpath=/content/dam/clinicallibrary/ncal/clib/health_education/region/96440.pdf&q=solid%20food&context=searchkp)  I recommend starting with different vegetable and fruit purees, but you can also give ground meats early on (a great source of iron).  Be sure to incorporate iron rich foods (fortified baby cereal, lentils, beans, tofu, leafy greens, meat) early on especially if you have been exclusively breastfeeding!
+[It's time to start your baby on solids if you haven't already!](https://cl.kp.org/ncal/home/refcontainerpage.dam.html?damrefpath=/content/dam/clinicallibrary/ncal/clib/health_education/region/96440.pdf&q=solid%20food&context=searchkp)  I recommend starting with different vegetable and fruit purees, but you can also give ground meats early on (a great source of iron).  Be sure to incorporate iron rich foods (fortified baby cereal, lentils, beans, tofu, leafy greens, meat) early on especially if you have been exclusively breastfeeding!  [**WE NOW KNOW THAT STARTING HIGHLY ALLERGIC FOODS (PEANUT BUTTER POWDER, EGGS, FISH, ETC) IN THE FIRST FEW MONTHS OF EATING SOLIDS PREVENTS FOOD ALLERGIES**](https://www.aaaai.org/conditions-and-treatments/library/allergy-library/prevention-of-allergies-and-asthma-in-children)
+
+`youtube: https://www.youtube.com/watch?v=H4Td_OqGn4w`
 
 [Check out pediatrician and healthy eating advocate Nimali Fernando’s detailed blog post on starting solids and how easy it is to make your own baby food!](https://doctoryum.org/baby-feedin-making-homemade-baby-food/)
 
