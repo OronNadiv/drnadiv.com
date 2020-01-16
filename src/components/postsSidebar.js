@@ -83,7 +83,7 @@ const postsSidebar = ({ posts }) => {
           </div>
           <div className="blog_tag d-flex flex-row flex-wrap justify-content-center my-3">
             {
-              _.sortBy(Object.keys(tags), ({ order }) => order)
+              _.sortBy(Object.keys(tags), (key) => tags[key].order)
                 .map((key, index) => {
                   const { link, text, count } = tags[key]
                   return (
