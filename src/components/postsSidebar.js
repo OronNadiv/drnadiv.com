@@ -27,7 +27,7 @@ const postsSidebar = ({ posts }) => {
         const tagLink = tag.toLowerCase()
         const tagText = _s(tag).clean().titleize().value().replace(/_/g, ' ')
         if (!tagsCollection[tagLink]) {
-          tagsCollection[tagLink] = { count: 0, link: tagLink, text: tagText, order: _.random() }
+          tagsCollection[tagLink] = { count: 0, link: tagLink, text: tagText, order: _.random(Number.MAX_SAFE_INTEGER) }
         }
         tagsCollection[tagLink].count += 1
       })
