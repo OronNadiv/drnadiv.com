@@ -11,25 +11,30 @@ const postsSidebar = ({ posts }) => {
     const categoriesCollection = {}
     const tagsCollection = {}
     posts.forEach(({ node }) => {
-      let category = node.frontmatter.category
+      const category = node.frontmatter.category
       if (category) {
-        category = category.toLowerCase()
-        categoriesCollection[category]
-          ? (categoriesCollection[category] += 1)
-          : (categoriesCollection[category] = 1)
+        const categoryLink = category.toLowerCase()
+        const categoryText = _s(category).clean().titleize().value().replace(/_/g, ' ')
+        if (!categoriesCollection[categoryLink]) {
+          categoriesCollection[categoryLink] = { count: 0, link: categoryLink, text: categoryText }
+        }
+        categoriesCollection[categoryLink].count += 1
       }
       setCategories(categoriesCollection)
+
       const tags = node.frontmatter.tags
-      tags &&
-      tags.forEach(tag => {
-        tag = tag.toLowerCase()
-        tagsCollection[tag]
-          ? (tagsCollection[tag] += 1)
-          : (tagsCollection[tag] = 1)
+      tags && tags.forEach(tag => {
+        const tagLink = tag.toLowerCase()
+        const tagText = _s(tag).clean().titleize().value().replace(/_/g, ' ')
+        if (!tagsCollection[tagLink]) {
+          tagsCollection[tagLink] = { count: 0, link: tagLink, text: tagText, order: _.random() }
+        }
+        tagsCollection[tagLink].count += 1
       })
       setTags(tagsCollection)
     })
   }, [posts])
+
   return (
     <div className='cell author'>
       <div className='d-flex justify-content-center'>
@@ -37,8 +42,7 @@ const postsSidebar = ({ posts }) => {
       </div>
       <h1>About Me</h1>
       <p>
-        I am a <a href="https://mydoctor.kaiserpermanente.org/ncal/providers/elizabethnadiv"
-          target="_blank"
+        I am a <a href="https://mydoctor.kaiserpermanente.org/ncal/providers/elizabethnadiv" target="_blank"
           rel="noopener noreferrer"
         >pediatrician at Permanente Medicine (aka Kaiser)</a> in
         Daly City. Originally from San Diego, I completed my
@@ -56,21 +60,20 @@ const postsSidebar = ({ posts }) => {
             Categories
           </div>
           <ul className="list-unstyled widget_list my-3 ml-0">
-            {Object.keys(categories)
-              .sort(_s.naturalCmp)
-              .map((category, index) => {
-                return (
-                  <li key={index}>
-                    <Link to={`/categories/${category.toLowerCase()}`} className='text-capitalize'>
-                      {_s(category)
-                        .clean()
-                        .value()
-                        .replace(/_/g, ' ')}{' '}
-                      ({categories[category]})
-                    </Link>
-                  </li>
-                )
-              })}
+            {
+              Object.keys(categories)
+                .sort(_s.naturalCmp)
+                .map((key, index) => {
+                  const { link, text, count } = categories[key]
+                  return (
+                    <li key={index}>
+                      <Link to={`/categories/${link}`} className='text-capitalize'>
+                        {text} ({count})
+                      </Link>
+                    </li>
+                  )
+                })
+            }
           </ul>
         </div>
 
@@ -80,15 +83,12 @@ const postsSidebar = ({ posts }) => {
           </div>
           <div className="blog_tag d-flex flex-row flex-wrap justify-content-center my-3">
             {
-              _.shuffle(Object.keys(tags))
-                .map((tag, index) => {
+              _.sortBy(Object.keys(tags), ({ order }) => order)
+                .map((key, index) => {
+                  const { link, text, count } = tags[key]
                   return (
-                    <Link className='p-2 m-1' key={index} to={`/tags/${tag.toLowerCase()}`}>
-                      {_s(tag)
-                        .clean()
-                        .titleize()
-                        .value().replace(/_/g, ' ')}{' '}
-                      ({tags[tag]})
+                    <Link className='p-2 m-1' key={index} to={`/tags/${link}`}>
+                      {text} ({count})
                     </Link>
                   )
                 })
