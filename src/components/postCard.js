@@ -1,6 +1,7 @@
 import { Link } from 'gatsby'
 import Img from 'gatsby-image'
 import React from 'react'
+import _ from 'underscore'
 import _s from 'underscore.string'
 import TwitterShareButton from '../utils/TwitterShareButton'
 import FacebookShareButton from '../utils/FacebookShareButton'
@@ -44,7 +45,7 @@ const postCard = ({ node, data }) => {
           <div className="text-center">Read more</div>
         </Link>
 
-        <PostTags tags={node.frontmatter.tags} />
+        <PostTags tags={_.shuffle(node.frontmatter.tags)} />
 
       </div>
       <div className="social">

@@ -9,6 +9,7 @@ import TwitterShareButton from '../utils/TwitterShareButton'
 import ScrollToTop from 'react-scroll-up'
 import PostTags from '../components/postTags'
 import './blog-post.scss'
+import _ from 'underscore'
 
 class BlogPostTemplate extends React.Component {
   render () {
@@ -70,7 +71,7 @@ class BlogPostTemplate extends React.Component {
                         <section
                           dangerouslySetInnerHTML={{ __html: post.html }}
                         />
-                        <PostTags tags={post.frontmatter.tags} />
+                        <PostTags tags={_.shuffle(post.frontmatter.tags)} />
                       </div>
                       <div className="social float-right bg-white pt-0">
                         <div className="share">

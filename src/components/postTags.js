@@ -1,9 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import _ from 'underscore'
 
 const postTags = ({ tags = [] }) => {
-  tags = _.shuffle(tags)
   return tags.length &&
     <div className="tags d-flex flex-row justify-content-start flex-wrap py-5">
       {
