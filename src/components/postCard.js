@@ -1,6 +1,6 @@
 import { Link } from 'gatsby'
 import Img from 'gatsby-image'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import _ from 'underscore'
 import _s from 'underscore.string'
 import TwitterShareButton from '../utils/TwitterShareButton'
@@ -9,6 +9,12 @@ import { CommentsCount, FacebookProvider } from 'react-facebook'
 import PostTags from './postTags'
 
 const postCard = ({ node, data }) => {
+  const [tags, setTags] = useState([])
+
+  useEffect(() => {
+    setTags(_.shuffle(node.frontmatter.tags))
+  }, [])
+
   const title = node.frontmatter.title || node.fields.slug
   const category =
     node.frontmatter.category &&
@@ -45,7 +51,7 @@ const postCard = ({ node, data }) => {
           <div className="text-center">Read more</div>
         </Link>
 
-        <PostTags tags={_.shuffle(node.frontmatter.tags)} />
+        <PostTags tags={tags} />
 
       </div>
       <div className="social">
