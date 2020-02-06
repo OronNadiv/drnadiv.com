@@ -12,7 +12,7 @@ tags:
   - abdominal pain
 ---
 
-The ubiquity of refined processed foods, "kid's meals," and "picky eaters" naturally leads to constipation. **Many children have hard or painful poops and/or strain to have a bowel movement. Over time, this can cause a variety of medical issues including abdominal pain, stool leakage (encopresis), bladder infections, bed wetting, and anal fissues/hemorrhoids.**
+The ubiquity of refined processed foods, "kid's meals," and "picky eaters" often leads to constipation. **Many children have hard or painful poops and/or strain to have a bowel movement. Over time, this can cause a variety of medical issues including abdominal pain, stool leakage (encopresis), bladder infections, bed wetting, and anal fissues/hemorrhoids.**
 
 When this is a concern, I always counsel parents to keep a "poop diary"---gross, I know, but it really helps! Knowing how often your child is pooping and what it looks/feels like can help stay on top of any constipation issues. 
 
