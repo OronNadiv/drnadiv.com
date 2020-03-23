@@ -11,7 +11,7 @@ tags:
   - Guest_Post
 ---
 
-COVID-19 Insights from [Dr. Dan Parry](https://mydoctor.kaiserpermanente.org/ncal/providers/danielparry)(my fantastic colleague and office neighbor!)
+##**COVID-19 Insights from [Dr. Dan Parry](https://mydoctor.kaiserpermanente.org/ncal/providers/danielparry)(my fantastic colleague and office neighbor!)**
 
 I'll just speak from my experience here seeing patients and reading quite extensively over the past two weeks.
 
