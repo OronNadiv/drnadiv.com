@@ -13,8 +13,9 @@ tags:
 
 # **Feeling Overwhelmed with COVID-19 Information? Here are a few trusted sources specifically geared towards children**
 
-Hello everyone! As many of us are overwhelmed by COVID-19 information, here are some helpful, trusted resources. 
-As hard as this is for all of us, remember to hug your children (and wash your hands!)
+Hello everyone! As many of us are overwhelmed by COVID-19 information, here are some helpful, trusted resources.  
+
+As hard as this is for all of us, remember to hug your children (and wash your hands!) 
 
 * [KP Thriving Families Blog](https://kpthrivingfamilies.org/pediatricsblog/protecting-your-family-from-covid-19-coronavirus/)
 Pediatric Blog for families
