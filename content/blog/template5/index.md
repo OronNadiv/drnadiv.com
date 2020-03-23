@@ -20,7 +20,7 @@ Pediatric Blog for families
 
 * [My Doctor Online Coronavirus Information](https://mydoctor.kaiserpermanente.org/covid-19/)
 
-* [Coping with Working and Learning from Home from Healthy Children (American Academy of Pediatrics](https://healthychildren.org/English/health-issues/conditions/chest-lungs/Pages/Working-and-Learning-from-Home-During-the-COVID-19-Outbreak.aspx)
+* [Coping with Working and Learning from Home: Healthy Children (American Academy of Pediatrics)](https://healthychildren.org/English/health-issues/conditions/chest-lungs/Pages/Working-and-Learning-from-Home-During-the-COVID-19-Outbreak.aspx)
 
 * [Wendy Sue Swanson](https://www.wendysueswanson.com/covid19-q-a-the-cost-of-covid19-especially-for-children/) 
 Amazing Pediatrician Blog by the former "Seattle Mama Doc"
