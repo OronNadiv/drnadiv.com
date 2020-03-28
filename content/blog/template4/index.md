@@ -19,9 +19,10 @@ When this is a concern, I always counsel parents to keep a "poop diary"---gross,
 ![Poop diary](https://i.etsystatic.com/17472605/r/il/718a42/1929781614/il_794xN.1929781614_jtih.jpg)
 
 # **How to prevent constipation**
+
 * Minimize constipating foods: 
--Give no more than 16 ounces of milk per day.
--Bananas, white rice, white bread, bagels, pizza, cheese, ice cream can also be constipating
+  * Give no more than 16 ounces of milk per day.
+  * Bananas, white rice, white bread, bagels, pizza, cheese, ice cream can also be constipating
 
 * Drink plenty of water and eat plenty (9 servings!) of fruits and vegetables every day.  Prunes and pears often work great:  Try 2-3 prunes daily to start (dried or pureed).
 
