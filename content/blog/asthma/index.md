@@ -17,11 +17,11 @@ Asthma is very common and often takes a while to diagnose definitively. To make 
 ###Asthma Resources
 #####Sample Asthma Action Plan
 
-![child asthma action plan](./section3_component2f3-10b.jpg)
+![Child Asthma Action Plan](./section3_component2f3-10b.jpg)
 
 ####Living With Asthma 
 
-(kaiser pdf--both sides)
+![Could My Toddler Have Asthma?](https://www.nationaljewish.org/NJH/media/img/Health%20Insights/Infographics/Clues-Your-Toddler-May-Have-Asthma-Infographic.jpg)
 
 ####Educational Video and Comic Series 
 
