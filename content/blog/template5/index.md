@@ -18,7 +18,6 @@ Hello everyone! As many of us are overwhelmed by COVID-19 information, here are 
 As hard as this is for all of us, remember to hug your children (and wash your hands!) 
 
 * [KP Thriving Families Blog](https://kpthrivingfamilies.org/pediatricsblog/protecting-your-family-from-covid-19-coronavirus/)
-Pediatric Blog for families
 
 * [My Doctor Online Coronavirus Information](https://mydoctor.kaiserpermanente.org/covid-19/)
 
