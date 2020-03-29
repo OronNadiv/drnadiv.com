@@ -28,7 +28,7 @@ Pediatric Blog for families
 
 * [John Hopkins Coronavirus Resource Center](https://coronavirus.jhu.edu/)
 
-* [CDC Resources](https://www.cdc.gov/coronavirus/2019-ncov/index.html)
+* [CDC COVID-19 Website](https://www.cdc.gov/coronavirus/2019-ncov/index.html)
 
 
 
