@@ -3,7 +3,7 @@ id: 'klsjdkfjhsu32iruhksefw'
 title: 'All About Poop!'
 date: '2020-03-01T00'
 description: 'Recognizing and treating constipation'
-featuredImage: './8215398958_31e5d15d30_o.jpg'
+featuredImage: './8215398958_31e5d15d30_o.jpg' #https://www.flickr.com/photos/wandasiewicz/8215398958/
 category: common_health_concerns
 tags:
   - constipation
