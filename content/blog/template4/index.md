@@ -18,7 +18,7 @@ When this is a concern, I always counsel parents to keep a "poop diary"---gross,
 
 ![Poop diary](https://i.etsystatic.com/17472605/r/il/718a42/1929781614/il_794xN.1929781614_jtih.jpg)
 
-# **How to prevent constipation**
+# **How To Manage Constipation**
 
 * Minimize constipating foods: 
   * Give no more than 16 ounces of milk per day.
@@ -26,9 +26,9 @@ When this is a concern, I always counsel parents to keep a "poop diary"---gross,
 
 * Drink plenty of water and eat plenty (9 servings!) of fruits and vegetables every day.  Prunes and pears often work great:  Try 2-3 prunes daily to start (dried or pureed).
 
-* Fiber:  Ground flax seed or benefiber:  1/2-1 tablespoon twice daily, mixed with food or drink. Increase or decrease the dose as needed to achieve about 1 soft stool daily.  Ground flax seed can be purchased at most supermarkets, and benefiber at most pharmacies. 
+* Fiber:  Ground flax seed or Benefiber:  1/2-1 tablespoon twice daily, mixed with food or drink. Increase or decrease the dose as needed to achieve about 1 soft stool daily.  Ground flax seed can be purchased at most supermarkets, and Benefiber at most pharmacies. 
 
-* If this does not work, try Miralax:  1/2 to 1 capful daily mixed with 8 oz of water.   Increase or decrease the dose as needed to achieve about 1 soft stool daily. 
+* If this does not work, ask your doctor if your child can try Miralax or another laxative. 
 
 Check out the following website for more information
 https://gikids.org/constipation/
@@ -36,4 +36,6 @@ https://gikids.org/constipation/
 `youtube: https://youtu.be/SgBj7Mc_4sc`
 
 ## Helpful Websites and More Information
-[Healthy Children.Org](https://www.healthychildren.org/English/health-issues/conditions/abdominal/Pages/Constipation.aspx)
+[Healthy Children.Org Constipation Summary](https://www.healthychildren.org/English/health-issues/conditions/abdominal/Pages/Constipation.aspx)
+[KP My Doctor Online Constipation Summary(https://healthy.kaiserpermanente.org/northern-california/health-wellness/health-encyclopedia/he.constipation-in-children-care-instructions.ut1883?kpSearch=constipation)
+
