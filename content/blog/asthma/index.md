@@ -12,7 +12,7 @@ tags:
 
 ## Living With Asthma
 
-Asthma is very common and often takes a while to diagnose definitively. To make life more complicated, not all children who wheeze have asthma, and children can have asthma without wheezing. And kids often grow out of asthma. I spend A LOT of time discussing asthma and inhaler use
+Asthma is very common and is often underrecognized. To make life more complicated, not all children who wheeze have asthma, and children can have asthma without wheezing (cough-variant asthma). Kids often grow out of their asthma. And most of the children I treat have *intermittent asthma symptoms* that are triggered by viral infections, allergies, or exercise. I spend A LOT of time discussing asthma and inhaler use.
 
 #### Sample Asthma Action Plan
 
