@@ -11,7 +11,7 @@ tags:
   - sars-cov-2
 ---
 
-# Overwhelmed by COVID-19 information? It's a scary time, but know that we at are here for you!
+# Overwhelmed by COVID-19 information? It's a scary time, but know that we are here for you!
 
 Hello everyone! At this surreal time of social distancing, working from home and overwhelming online information about COVID-19, I want to share a few of my thoughts. 
 
