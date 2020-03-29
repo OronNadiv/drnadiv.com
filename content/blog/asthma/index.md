@@ -14,12 +14,11 @@ tags:
 
 Asthma is very common and often takes a while to diagnose definitively. To make life more complicated, not all children who wheeze have asthma, and children can have asthma without wheezing. And kids often grow out of asthma. I spend A LOT of time discussing asthma and inhaler use
 
-### Asthma Resources
-##### Sample Asthma Action Plan
+#### Sample Asthma Action Plan
 
 ![Child Asthma Action Plan](./section3_component2f3-10b.jpg)
 
-#### Living With Asthma 
+### Could My Toddler Have Asthma? 
 
 ![Could My Toddler Have Asthma?](https://www.nationaljewish.org/NJH/media/img/Health%20Insights/Infographics/Clues-Your-Toddler-May-Have-Asthma-Infographic.jpg)
 
