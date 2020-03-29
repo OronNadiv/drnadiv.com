@@ -11,7 +11,7 @@ tags:
   - Links
 ---
 
-# **Feeling Overwhelmed with COVID-19 Information? Here are a few trusted sources specifically geared towards children**
+# **Overwhelmed by COVID-19 information? Here are a few trusted sources specifically geared towards children**
 
 Hello everyone! As many of us are overwhelmed by COVID-19 information, here are some helpful, trusted resources.  
 
