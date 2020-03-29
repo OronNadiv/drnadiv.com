@@ -36,7 +36,7 @@ https://gikids.org/constipation/
 `youtube: https://youtu.be/SgBj7Mc_4sc`
 
 ## Helpful Websites and More Information
-[Healthy Children.Org Constipation Summary](https://www.healthychildren.org/English/health-issues/conditions/abdominal/Pages/Constipation.aspx)
+[Healthy Children Constipation Summary](https://www.healthychildren.org/English/health-issues/conditions/abdominal/Pages/Constipation.aspx)
 
 [KP My Doctor Online Constipation Summary](https://healthy.kaiserpermanente.org/northern-california/health-wellness/health-encyclopedia/he.constipation-in-children-care-instructions.ut1883?kpSearch=constipation)
 
