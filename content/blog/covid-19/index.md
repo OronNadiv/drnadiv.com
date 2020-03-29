@@ -2,9 +2,9 @@
 id: 'ljhsdfkhu8uksjhefhuihksdf' 
 title: 'COVID-19 Links'
 date: '2020-01-05T00'
-description: 'Template description'
+description: 'Overwhelmed by COVID-19 information? Here are a few trusted sources specifically geared towards children.'
 featuredImage: './pexels-photo-695954.jpeg' #https://www.pexels.com/photo/boy-wearing-surgical-mask-695954/
-category: template_category
+category: common_health_concerns
 tags:
   - covid-19
   - coronavirus
@@ -28,6 +28,3 @@ As hard as this is for all of us, remember to hug your children (and wash your h
 * [John Hopkins Coronavirus Resource Center](https://coronavirus.jhu.edu/)
 
 * [CDC COVID-19 Website](https://www.cdc.gov/coronavirus/2019-ncov/index.html)
-
-
-

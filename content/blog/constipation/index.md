@@ -8,7 +8,7 @@ category: common_health_concerns
 tags:
   - constipation
   - nutrition
-  - abdominal pain
+  - abdominal_pain
 ---
 
 The ubiquity of refined processed foods, "kid's meals," and "picky eaters" often leads to constipation. **Many children have hard or painful poops and/or strain to have a bowel movement. Over time, this can cause a variety of medical issues including abdominal pain, stool leakage (encopresis), bladder infections, bed wetting, and anal fissues/hemorrhoids.**
@@ -19,7 +19,7 @@ When this is a concern, I always counsel parents to keep a "poop diary"---gross,
 
 # **How To Manage Constipation**
 
-* Minimize constipating foods: 
+* Minimize constipating foods:
   * Give no more than 16 ounces of milk per day.
   * Bananas, white rice, white bread, bagels, pizza, cheese, ice cream can also be constipating
 
@@ -29,13 +29,9 @@ When this is a concern, I always counsel parents to keep a "poop diary"---gross,
 
 * If this does not work, ask your doctor if your child can try Miralax or another laxative. 
 
-Check out the following website for more information
-https://gikids.org/constipation/
-
-`youtube: https://youtu.be/SgBj7Mc_4sc`
+`youtube: SgBj7Mc_4sc`
 
 ## Helpful Websites and More Information
-[Healthy Children Constipation Summary](https://www.healthychildren.org/English/health-issues/conditions/abdominal/Pages/Constipation.aspx)
-
-[KP My Doctor Online Constipation Summary](https://healthy.kaiserpermanente.org/northern-california/health-wellness/health-encyclopedia/he.constipation-in-children-care-instructions.ut1883?kpSearch=constipation)
-
+* [Tips from Pediatrics GI Doctors](https://gikids.org/constipation)
+* [Healthy Children Constipation Summary](https://www.healthychildren.org/English/health-issues/conditions/abdominal/Pages/Constipation.aspx)
+* [KP My Doctor Online Constipation Summary](https://healthy.kaiserpermanente.org/northern-california/health-wellness/health-encyclopedia/he.constipation-in-children-care-instructions.ut1883?kpSearch=constipation)
