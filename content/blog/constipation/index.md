@@ -1,7 +1,7 @@
 ---
 id: 'klsjdkfjhsu32iruhksefw'
 title: 'All About Poop!'
-date: '2020-01-04T00'
+date: '2020-03-01T00'
 description: 'Recognizing and treating constipation'
 featuredImage: './featured.jpg'
 category: common_health_concerns
