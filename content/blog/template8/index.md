@@ -2,7 +2,7 @@
 isVisible: no
 id: 'kjskdjfsodf33fd8'
 title: 'Template title'
-date: '2020-01-08T00'
+date: '2020-08-01T00'
 description: 'Template description'
 featuredImage: './featured.jpg'
 category: template_category

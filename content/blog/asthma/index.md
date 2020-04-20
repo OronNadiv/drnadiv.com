@@ -19,13 +19,13 @@ Asthma is very common and is often underrecognized. To make life more complicate
 * ### Albuterol (Ventolin, Pro-Air) is a **RESCUE MEDICINE** that works quickly to open up tight airways, but only lasts for a few hours. 
   * **SHOULD NOT BE NEEDED ON A DAILY BASIS!!**
 
-![Albuterol](https://www.allivet.com/images/PRODUCT/large/7665.jpg)
+![Albuterol](./7665.jpg)
   
 * ### Inhaled Corticosteroids (Flovent, Alvesco, Qvar, etc) are **CONTROLLER MEDICINES** that work more slowly but are longer lasting. They should be taken twice daily as directed by your doctor.  Some children take these medicines for 2 weeks at a time when asthma symptoms act up. Other children take these throughout the winter/cold season, and some take them year round. Many parents worry about the side effects of these medicines, but they are **[VERY SAFE](https://www.chop.edu/health-resources/safety-steroids-asthma)**
 
 * ### Singulair (Montelukast) = **CONTROLLER MEDICINE** that is not a steroid. It is a "mast cell inhibitor."
 
-![Common Asthma Controllers](https://asthmaallergieschildren.com/wp-content/uploads/2012/05/asthma_medications3.jpg)
+![Common Asthma Controllers](./asthma_medications3.jpg)
 
 ### Please Watch this AMAZING video to learn more!
 
@@ -37,5 +37,5 @@ Asthma is very common and is often underrecognized. To make life more complicate
 
 ### Could My Toddler Have Asthma? 
 
-![Could My Toddler Have Asthma?](https://www.nationaljewish.org/NJH/media/img/Health%20Insights/Infographics/Clues-Your-Toddler-May-Have-Asthma-Infographic.jpg)
+![Could My Toddler Have Asthma?](./Clues-Your-Toddler-May-Have-Asthma-Infographic.jpg)
 
