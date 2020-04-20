@@ -12,7 +12,23 @@ tags:
 
 ## Living With Asthma
 
-Asthma is very common and is often underrecognized. To make life more complicated, not all children who wheeze have asthma, and children can have asthma without wheezing (cough-variant asthma). Kids often grow out of their asthma. And most of the children I treat have *intermittent asthma symptoms* that are triggered by viral infections, allergies, or exercise. I spend A LOT of time discussing asthma and inhaler use.
+Asthma is very common and is often underrecognized. To make life more complicated, not all children who wheeze have asthma, and children can have asthma without wheezing (cough-variant asthma). Kids often grow out of their asthma. And most of the children I treat have **intermittent asthma symptoms** that are triggered by viral infections, allergies, or exercise. I spend A LOT of time discussing asthma and inhaler use.
+
+## Medicines Commonly Used To Treat Asthma---And How They Work
+
+* ###Albuterol (Ventolin, Pro-Air)= **RESCUE MEDICINE** --> works quickly to open up tight airways, but only lasts for a few hours. **GENERALLY SHOULD NOT BE USED ON A DAILY BASIS!!!
+
+![Albuterol](https://www.allivet.com/images/PRODUCT/large/7665.jpg)
+  
+* ###Inhaled Corticosteroids (Flovent, Alvesco, Qvar, etc) are usually orange or brown = **CONTROLLER MEDICINE** --> works more slowly but is longer lasting. Should be taken twice daily as directed by your doctor.  Some children take these medicines for 2 weeks at a time when asthma symptoms act up. Other children take these throughout the winter/cold season, and some take them year round. Many parents worry about the side effects of these medicines, but they are **[VERY SAFE](https://www.chop.edu/health-resources/safety-steroids-asthma)**
+
+* ###Singulair (Montelukast) = **CONTROLLER MEDICINE** that is not a steroid. It is a "mast cell inhibitor"
+
+![Common Asthma Controllers](https://asthmaallergieschildren.com/wp-content/uploads/2012/05/asthma_medications3.jpg)
+
+### Please Watch this AMAZING video to learn more!
+
+`youtube: https://www.youtube.com/watch?v=Et_alsghel8`
 
 #### Sample Asthma Action Plan
 
@@ -22,6 +38,3 @@ Asthma is very common and is often underrecognized. To make life more complicate
 
 ![Could My Toddler Have Asthma?](https://www.nationaljewish.org/NJH/media/img/Health%20Insights/Infographics/Clues-Your-Toddler-May-Have-Asthma-Infographic.jpg)
 
-### Educational Video and Comic Series 
-
-`youtube: https://www.youtube.com/watch?v=Et_alsghel8`
