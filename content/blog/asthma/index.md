@@ -39,3 +39,12 @@ Asthma is very common and is often underrecognized. To make life more complicate
 
 ![Could My Toddler Have Asthma?](./Clues-Your-Toddler-May-Have-Asthma-Infographic.jpg)
 
+---
+
+![Asthma on a page 1](./asthma-on-a-page/asthma-on-a-page-1.jpg)
+
+![Asthma on a page 2](./asthma-on-a-page/asthma-on-a-page-2.jpg)
+
+![Kaiser AAP page 1](./kaiserAAP/kaiserAAP-1.jpg)
+
+![Kaiser AAP page 2](./kaiserAAP/kaiserAAP-2.jpg)
