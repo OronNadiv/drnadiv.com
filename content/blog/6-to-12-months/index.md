@@ -13,9 +13,13 @@ tags:
 
 Your 6-month-old is ready to explore eating, can sleep on his/her own, and is going to start moving soon (if s/he hasn’t already!). The next several months are busy and exciting. Read more about how to encourage your baby’s development!
 
-##Nutrition
+## Nutrition
 
-[It's time to start your baby on solids if you haven't already!](https://cl.kp.org/ncal/home/refcontainerpage.dam.html?damrefpath=/content/dam/clinicallibrary/ncal/clib/health_education/region/96440.pdf&q=solid%20food&context=searchkp)  I recommend starting with different vegetable and fruit purees, but you can also give ground meats early on (a great source of iron).  Be sure to incorporate **iron rich foods** (fortified baby cereal, lentils, beans, tofu, leafy greens, meat) early on especially if you have been exclusively breastfeeding!  [**WE NOW KNOW THAT STARTING HIGHLY ALLERGIC FOODS (PEANUT BUTTER POWDER, EGGS, FISH, ETC) IN THE FIRST FEW MONTHS OF EATING SOLIDS PREVENTS FOOD ALLERGIES**](https://www.aaaai.org/conditions-and-treatments/library/allergy-library/prevention-of-allergies-and-asthma-in-children)
+[It's time to start your baby on solids if you haven't already!](https://cl.kp.org/ncal/home/refcontainerpage.dam.html?damrefpath=/content/dam/clinicallibrary/ncal/clib/health_education/region/96440.pdf&q=solid%20food&context=searchkp)  I recommend starting with different vegetable and fruit purees, but you can also give ground meats early on (a great source of iron).  
+
+Be sure to incorporate **iron rich foods** (fortified baby cereal, lentils, beans, tofu, leafy greens, meat) early on especially if you have been exclusively breastfeeding!  Please also continue to give your baby a Vitamin D supplement if you are breastfeeding. 
+
+[**WE NOW KNOW THAT STARTING HIGHLY ALLERGIC FOODS (PEANUT BUTTER POWDER, EGGS, FISH, ETC) IN THE FIRST FEW MONTHS OF EATING SOLIDS PREVENTS FOOD ALLERGIES**](https://www.aaaai.org/conditions-and-treatments/library/allergy-library/prevention-of-allergies-and-asthma-in-children)
 
 `youtube: https://www.youtube.com/watch?v=H4Td_OqGn4w`
 
@@ -25,9 +29,9 @@ I also really like [Melanie Potuck](https://mymunchbug.com/)’s book for an ove
 
 ![baby self-feeding]( ./91MYvkelf7L.jpg)
 
-Babies are more likely to accept new flavors between 6-7 months of age, so I recommend plenty of variety early on! Please also start offering your baby a cup with tap water now. 
+Babies are more likely to accept new flavors between 6-7 months of age, so I recommend plenty of variety early on! Please also start offering your baby a cup with tap water now. The fluoride in tap water is good for babies' developing teeth. 
 
-Babies don't need to eat rice cereal as the first food or ever. Rice cereal is a convenient source of iron, but it can be constipating and teaches babies to like processed white foods (white bread, etc), and that may predispose to obesity later in life.  I prefer iron-fortified barley cereal or oatmeal. And as I mentioned above, you can also feed your baby lentils, beans, tofu and leafy greens! Please don't add salt or sugar, and stay away from honey and cow's milk until one year. 
+Babies don't need to eat rice cereal as the first food or ever. Rice cereal is a convenient source of iron, but it can be constipating and teaches babies to like processed white foods (white bread, etc), and that may predispose to obesity later in life.  I prefer iron-fortified barley cereal or oatmeal. And as I mentioned above, you can also feed your baby lentils, beans, tofu and leafy greens! Please don't add salt or sugar, and stay away from honey and cow's milk until one year of age. 
 
 You also don't need to wait 3-5 days between each new food. **Variety is key!** Try to introduce as many different foods in the first year as possible. When you are introducing foods that are common allergens (soy, milk, egg, fish, wheat, peanut), wait 1-2 days before introducing the next possible allergen. 
 
@@ -44,7 +48,7 @@ You only need to feed your baby 1-2 times a day at first, increasing as s/he get
 
 From 6 - 9 months, continue to give your baby milk first, but starting at around 9 months of age, s/he can have solids before milk.  By 12 months, s/he should be eating three meals and two snacks per day.  Have fun with this new stage!!
 
-##Sleep
+## Sleep
 By around 6 months (although this can be a little later for exclusively breast fed babies), your baby is capable of sleeping for 12 hours straight at night, and does not need nighttime feedings anymore.  If your baby is feeding at night, s/he is likely a [**trained night feeder**](https://drcraigcanapari.com/learned-hunger-nighttime-feeding-stop-night-feeding/).  
  
 Now is the time to say goodbye to the pacifier.  Your baby needs to be able to fall asleep on his own (i.e., no binky, no bottle, no breast, no rocking, etc)!!  **All healthy 6 month olds CAN fall asleep on their own!**  
@@ -56,7 +60,7 @@ Set up good sleep habits NOW! And make sure your baby, toddler and child gets en
 If your baby is not sleeping enough, try to move bedtime earlier. Most babies and children should go to bed between 6:30-7:30 pm! Kids need a LOT of sleep!
 
 
-##Teeth
+## Teeth
 Some babies get teeth as early as four months, and some as late as 12 months (or later), but most get their first tooth at around 6-7 months.  Once your baby has teeth (even one), please start brushing it/them twice per day using a tiny smear (the size of a grain of rice) of fluoride containing toothpaste.  
 
 ![kids toothpaste tip](./infographic-kids-toothpaste-tip-7-HR.jpg)
@@ -64,7 +68,7 @@ Some babies get teeth as early as four months, and some as late as 12 months (or
 Drinking 4-6 ounces of tap water per day is also good for her teeth.  She should have her first dental visit between 12-24 months.  At her 12 month well check, we will offer your baby a fluoride treatment to protect her teeth.  We recommend doing this treatment every 6 months (either in our office or with your dentist).   
 
 
-##Development
+## Development
 Studies show that babies do not learn when they are passively watching a program on the television or a computer/tablet/smart phone.  **In addition, data is mounting that EARLY EXPOSURE TO TV PROGRAMS (EVEN BABY EINSTEIN) can increase the risk for attention problems in the future, such as Attention Deficit Disorder.** 
 
 For more information, please check out this video. `youtube: https://www.youtube.com/watch?v=BoT7qH_uVNo`
