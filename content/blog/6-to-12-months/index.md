@@ -78,7 +78,7 @@ Read to your baby every day.  Give him lots of floor time with new and interesti
 **MAKE SURE YOUR BABY IS GETTING ENOUGH SLEEP**
 
 
-##[Safety](https://www.safekids.org/)
+## [Safety](https://www.safekids.org/)
 Your baby is going to be mobile before you know it!  And once she starts to move, there will be no stopping her! 
 
 **Program the [Poison Control Number](https://www.poison.org/18002221222) into your phone 1-800-222-1222 now!**
