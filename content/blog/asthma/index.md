@@ -27,13 +27,19 @@ Asthma is very common and is often underrecognized. To make life more complicate
 
 ![Common Asthma Controllers](./asthma_medications3.jpg)
 
+![Asthma on a page 1](./asthma-on-a-page/asthma-on-a-page-1.jpg)
+
+![Asthma on a page 2](./asthma-on-a-page/asthma-on-a-page-2.jpg)
+
 ### Please Watch this AMAZING video to learn more!
 
 `youtube: https://www.youtube.com/watch?v=Et_alsghel8`
 
-#### Sample Asthma Action Plan
+#### Asthma Action Plan
 
-![Child Asthma Action Plan](./section3_component2f3-10b.jpg)
+![Kaiser AAP page 1](./kaiserAAP/kaiserAAP-1.jpg)
+
+![Kaiser AAP page 2](./kaiserAAP/kaiserAAP-2.jpg)
 
 ### Could My Toddler Have Asthma? 
 
@@ -41,10 +47,3 @@ Asthma is very common and is often underrecognized. To make life more complicate
 
 ---
 
-![Asthma on a page 1](./asthma-on-a-page/asthma-on-a-page-1.jpg)
-
-![Asthma on a page 2](./asthma-on-a-page/asthma-on-a-page-2.jpg)
-
-![Kaiser AAP page 1](./kaiserAAP/kaiserAAP-1.jpg)
-
-![Kaiser AAP page 2](./kaiserAAP/kaiserAAP-2.jpg)
