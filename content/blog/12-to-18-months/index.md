@@ -38,7 +38,7 @@ Some babies try a food 15 times before they will accept it!! So keep trying! Tas
 
 - Many parents transition to whole milk at this time. Whole milk is a convenient source of fat, protein, calcium, and some (but not enough) Vitamin D. It is not, however, necessary since toddlers can get these nutrients from other foods as well. If you choose to give your toddler whole milk, it's important to give no more than 16 ounces per day. Too much whole milk can lead to iron deficiency anemia. Please avoid giving 2%, 1% and non-fat milk until your toddler is at least 18 months old
 
-- You can also give a multivitamin with Vitamin D and iron. If you are not giving an iron supplement, make sure to continue giving your toddler [iron-rich foods](https://thrive.kaiserpermanente.org/care-near-you/northern-california/sanfrancisco/wp-content/uploads/sites/11/2017/01/IronReHandoutToddlers.pdf). Iron is a key ingredient for early brain development.
+- You can also give a multivitamin with Vitamin D and iron. **Toddlers and bigger kids should continue taking a [Vitamin D supplement](https://www.healthychildren.org/English/healthy-living/nutrition/Pages/Vitamin-D-On-the-Double.aspx) through childhood.** If you are not giving an iron supplement, make sure to continue giving your toddler [iron-rich foods](https://thrive.kaiserpermanente.org/care-near-you/northern-california/sanfrancisco/wp-content/uploads/sites/11/2017/01/IronReHandoutToddlers.pdf). Iron is a key ingredient for early brain development.
 
 ![iron rich food for kids](./iron-rich-food-for-kids-featured.jpg)
 
