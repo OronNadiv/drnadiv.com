@@ -10,11 +10,15 @@ tags:
   - otc_dosing
 ---
 
-#All About Environmental Allergies
+# All About Environmental Allergies
 
 Nasal allergies are very common, and the **most common cause of
 morning stuffy nose is an allergy to dust mites (especially if the symptoms are present year
 round).** 
+
+Other symptoms of allergies include sneezing, clear runny nose, throat clearing, itchy/watery eyes, itchy nose, and cough. With allergies, the cough is usually dry and is often worse at night. Allergies are a common trigger of asthma---it's important to control nasal allergies if they are causing a child to have wheezing, shortness of breath, and/or coughing fits. 
+
+If you child starts coughing and sneezing starting in around March/April when the weather warms up, he/she may have "seasonal allergies."  Some of these children benefit from taking allergies medicines (i.e.: cetirizine, flonase) daily during the warm months of the year.  
 
 ![asthma awareness common allergic triggers dust mites mold pets pollen](./asthma-awareness-common-allergic-triggers-dust-mites-mold-pets-pollen.png)
 
