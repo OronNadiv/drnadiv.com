@@ -23,6 +23,8 @@ Hello everyone! At this surreal time of social distancing, working from home and
 
 Check out some of my favorite COVID-19 resources below:
 
+* [Online Children's Book About Coronavirus](https://wpg-assets.s3.us-east-1.amazonaws.com/pdf/coronavirus.pdf?utm_source=newsletter&utm_medium=email&utm_campaign=20200417&ts=20200417)
+
 * [KP Thriving Families Blog](https://kpthrivingfamilies.org/pediatricsblog/protecting-your-family-from-covid-19-coronavirus/)
 
 * [My Doctor Online Coronavirus Information](https://mydoctor.kaiserpermanente.org/covid-19/)
