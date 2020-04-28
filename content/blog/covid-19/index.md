@@ -21,7 +21,7 @@ Hello everyone! At this surreal time of social distancing, working from home and
 
 * I know how isolating it can feel at home, but please reach out with your questions/concerns/fears! We are HERE for you! As hard as this is for all of us, remember to hug your children, try to focus on the present moment, and wash your hands!
 
-Check out some of my favorite COVID-19 resources below:
+### Check out some of my favorite COVID-19 resources below:
 
 * [Online Children's Book About Coronavirus](https://wpg-assets.s3.us-east-1.amazonaws.com/pdf/coronavirus.pdf?utm_source=newsletter&utm_medium=email&utm_campaign=20200417&ts=20200417)
 
