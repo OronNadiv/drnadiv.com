@@ -13,7 +13,9 @@ tags:
 
 # Overwhelmed by COVID-19 information? It's a scary time, but know that we are here for you!
 
-Hello everyone! At this surreal time of social distancing, working from home and overwhelming online information about COVID-19, I want to share a few of my thoughts. 
+Hello everyone!  
+
+At this surreal time of social distancing, working from home and overwhelming online information about COVID-19, I want to share a few of my thoughts. 
 
 * Many families are concerned about COVID-19 exposures and asking for children to be tested. For children specifically, testing is unlikely to change how we care for your child, since COVID-19 will likely cause symptoms similar to the common cold in most children. We know that children can become infected with COVID-19 and can spread it to others in the community, so it's **important to keep sick kids at home.** 
 
