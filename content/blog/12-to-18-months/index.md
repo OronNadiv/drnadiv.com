@@ -17,7 +17,7 @@ Happy Birthday!
 Happy Birthday to You, Happy Birthday to You, Happy 1st Birthday to Your Child, Happy 1st Birthday to You! 12 months is such a momentous time. Your infant is now a toddler and will continue to keep you busy as ever---even more so! I recommend the following changes at 12 months:
 
 ## Nutrition
-- Whereas breast milk and formula made up the bulk of your infant's diet (although less so as s/he approached 12 months), **your 12 month old should be eating mostly solid foods**, and can eat soft versions of the food you are making for the whole family ([just limit the salt!](https://www.cdc.gov/vitalsigns/children-sodium/index.html)). Most families transition to cow's milk at this time. **CHILDREN DO NOT NEED TO DRINK COW'S MILK.** 
+- Whereas breast milk and formula made up the bulk of your infant's diet (although less so as s/he approached 12 months), **your 12 month old should be eating mostly solid foods**, and can eat soft versions of the food you are making for the whole family ([just limit the salt!](https://www.cdc.gov/vitalsigns/children-sodium/index.html)). Most families transition to cow's milk at this time. **CHILDREN DO NOT NEED TO DRINK COW'S MILK.**  
 - Toddlers (and kids) DO NOT NEED special "kid food" although the food industry would like you to think they do... It's MUCH healthier to give your baby steamed carrots rather than a [fruit/veggie pouch](https://www.ohbabynutrition.com/blog/the-dark-truth-about-puree-pouches). I also recommend limiting or avoiding juice since it has [a lot of sugar](https://www.drnadiv.com/sugar/). 
 
 ![Re-think your drink](./CHST190528_-Infographic-Sugary-Drinks-(14944)_v3_800.jpg)
