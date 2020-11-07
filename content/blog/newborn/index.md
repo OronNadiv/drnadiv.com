@@ -60,7 +60,7 @@ Other fun diaper finds!
    
 * [TPMG's Guide To Newborn Care](https://mydoctor.kaiserpermanente.org/ncal/structured-content/#/Health_Topic_Newborn_Care_Bathing_and_Changing_Your_Baby_-_Pediatrics.xml)
 
-## References
+## Additional Helpful Reading
 * [Common birthmarks](https://www.healthychildren.org/English/ages-stages/baby/bathing-skin-care/Pages/Your-Newborns-Skin-Birthmarks-and-Rashes.aspx)  
 * [Sleep Needs](https://www.healthychildren.org/English/healthy-living/sleep/Pages/Healthy-Sleep-Habits-How-Many-Hours-Does-Your-Child-Need.aspx)
 * [Vaccines for Parents and Other Caregivers](https://www.cdc.gov/vaccines/pregnancy/family-caregivers/index.html)
