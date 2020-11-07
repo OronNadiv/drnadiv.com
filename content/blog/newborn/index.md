@@ -20,9 +20,9 @@ Newborns are undoubtedly **terrifying**, especially if you are a **first time pa
 
 * Newborns are noisy! It's normal for newborns to hiccup, sneeze, and sound congested in their noses (they have tiny nostrils!). As long as a baby's stuffy nose isn't interfering with feeding (like you baby pulls off the breast to catch his breath), and your baby is otherwise looking comfortable, we don't worry about these noises
 
-* When we see newborns for their first clinic visit, we are primarily checking to see how much weight she has lost (up to 10% weight loss is acceptable), how she is feeding and if she is jaundiced. Jaundice is the yellow tint of the skin. It is due to a substance in our body called bilirubin. [Check out this article for detailed information](https://www.healthychildren.org/English/ages-stages/baby/Pages/Jaundice.aspx)
+* When we see newborns for their first clinic visit, we are primarily checking to see how much weight she has lost (up to 10% weight loss is acceptable), how she is feeding and if she is jaundiced. [Jaundice is the yellow tint of the skin. It is due to a substance in our body called bilirubin.](https://www.healthychildren.org/English/ages-stages/baby/Pages/Jaundice.aspx)
 
-* Newborns also have dry/peeling skin and develop several different types of rashes. Most of these are normal.  [Read all about newborn skin care](https://www.healthychildren.org/English/ages-stages/baby/bathing-skin-care/Pages/default.aspx)  
+* [Newborns also have dry/peeling skin and develop several different types of rashes. Most of these are normal.](https://www.healthychildren.org/English/ages-stages/baby/bathing-skin-care/Pages/default.aspx)  
 
 * The [umbilical cord](https://www.mayoclinic.org/healthy-lifestyle/infant-and-toddler-health/in-depth/umbilical-cord/art-20048250) falls off in the first couple of weeks of a baby’s life, on average at around 10 days of life. Once the cord falls off, it's safe to give your baby a bath. 
 
