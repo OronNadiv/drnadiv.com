@@ -20,7 +20,9 @@ Newborns are undoubtedly **terrifying**, especially if you are a **first time pa
 
 * Newborns are noisy! It's normal for newborns to hiccup, sneeze, and sound congested in their noses (they have tiny nostrils!). As long as a baby's stuffy nose isn't interfering with feeding (like you baby pulls off the breast to catch his breath), and your baby is otherwise looking comfortable, we don't worry about these noises
 
-* Newborns also have dry/peeling skin and develop several different types of rashes. Most of these are normal.  [This website has a comprehensive collection of photos of these types of rashes (and more!)](http://med.stanford.edu/newborns/professional-education/photo-gallery/skin.html)  
+* When we see newborns for their first clinic visit, we are primarily checking to see how much weight she has lost (up to 10% weight loss is acceptable), how she is feeding and if she is jaundiced. Jaundice is the yellow tint of the skin. It is due to a substance in our body called bilirubin. [Check out this article for detailed information](https://www.healthychildren.org/English/ages-stages/baby/Pages/Jaundice.aspx)
+
+* Newborns also have dry/peeling skin and develop several different types of rashes. Most of these are normal.  [Read all about newborn skin care](https://www.healthychildren.org/English/ages-stages/baby/bathing-skin-care/Pages/default.aspx)  
 
 * The [umbilical cord](https://www.mayoclinic.org/healthy-lifestyle/infant-and-toddler-health/in-depth/umbilical-cord/art-20048250) falls off in the first couple of weeks of a baby’s life, on average at around 10 days of life. Once the cord falls off, it's safe to give your baby a bath. 
 
@@ -58,18 +60,17 @@ Other fun diaper finds!
  - It’s also ok for newborn girls to have a mini-period (some blood in their diaper) in the first week of life 
 ![blood vaginal diaper](./blood-vaginal-diaper.jpeg)
    
+
+## HELPFUL WEBSITES AND RESOURCES
+
+* [**AAP Healthy Children.org**](https://www.healthychildren.org/English/Pages/default.aspx)
+
+* [**Baby 411: Handy Reference Book Written by a Pediatrician**](https://baby411.com)
+  
+* [Vaccines for Parents and Other Caregivers](https://www.cdc.gov/vaccines/pregnancy/family-caregivers/index.html)
+
 * [TPMG's Guide To Newborn Care](https://mydoctor.kaiserpermanente.org/ncal/structured-content/#/Health_Topic_Newborn_Care_Bathing_and_Changing_Your_Baby_-_Pediatrics.xml)
 
-## Additional Helpful Reading
-* [Common birthmarks](https://www.healthychildren.org/English/ages-stages/baby/bathing-skin-care/Pages/Your-Newborns-Skin-Birthmarks-and-Rashes.aspx)  
-* [Sleep Needs](https://www.healthychildren.org/English/healthy-living/sleep/Pages/Healthy-Sleep-Habits-How-Many-Hours-Does-Your-Child-Need.aspx)
-* [Vaccines for Parents and Other Caregivers](https://www.cdc.gov/vaccines/pregnancy/family-caregivers/index.html)
-* [Cradle Cap](https://www.healthychildren.org/English/ages-stages/baby/bathing-skin-care/Pages/Cradle-Cap.aspx)
-* [All About Jaundice](https://www.healthychildren.org/English/ages-stages/baby/Pages/Jaundice.aspx)
-* [Safe Sleep](https://www.healthychildren.org/English/ages-stages/baby/sleep/Pages/A-Parents-Guide-to-Safe-Sleep.aspx)
-* [The Fussy Baby](https://www.healthychildren.org/English/ages-stages/baby/crying-colic/Pages/Calming-A-Fussy-Baby.aspx); [The 5 S's](https://www.youtube.com/watch?v=a_64-LbhT3M)
-* [FPIES](https://www.kidswithfoodallergies.org/food-protein-induced-enterocolitis-syndrome-fpies.aspx)
-* [More from AAP Healthy Children.org](https://www.healthychildren.org/English/Pages/default.aspx)
 * [Healthy Kids Healthy Futures Handouts](https://mydoctor.kaiserpermanente.org/ncal/structured-content/Health_Topic_Well_Child_Visits_Birth_to_12.xml?co=%2Fregions%2Fncal)
 * [Normal Infant and Toddler Development](https://mydoctor.kaiserpermanente.org/ncal/structured-content/#/Health_Topic_Infants_Toddlers_-_Normal_Growth_Development_-_Staying_Healthy.xml)
-* [Baby 411: Handy Reference Book Written by a Pediatrician](https://baby411.com)
+
