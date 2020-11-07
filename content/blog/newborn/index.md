@@ -37,7 +37,7 @@ Newborns are undoubtedly **terrifying**, especially if you are a **first time pa
 - **It’s important to feed a newborn every 2-3 hours around the clock at least until she has regained her birth weight**. After that point, I advise my families to wake and feed their baby every 2-3 hours during the day, but allow baby to wake them up at night (it's ok to go longer stretches at this point).
 * [All About Breastfeeding](https://www.llli.org/)
 
-- **Newborns need A LOT of sleep!** Parents often tell me that their baby cries often at night, and doesn't sleep much (or at all) during the day. Newborns get overtired if they are awake for more than 45 minuntes to an hour at a stretch. But since your baby won't tell you he's tired (or yawn or rub his eyes), you need to watch the clock and make sure to put your baby to sleep after no more than one hour of awake time (often it is less!). This is not intuitive, but I have found paying attention to newborn sleep to be very helpful both as a mother and a pediatrician! [Check out this sleep consultant blog post for excellent tips!](https://www.weebeedreaming.com/my-blog/category/Newborns)
+- [**Newborns need A LOT of sleep!**](https://www.weebeedreaming.com/my-blog/category/Newborns) Parents often tell me that their baby cries inconsolably in the early evening, and doesn't sleep much (or at all) during the day. Newborns get overtired if they are awake for more than 45 minuntes to an hour at a stretch. But since your baby won't tell you he's tired (or yawn or rub his eyes), you need to watch the clock and make sure to put your baby to sleep after no more than one hour of awake time (often it is less!). This is not intuitive, but I have found paying attention to newborn sleep to be very helpful both as a mother and a pediatrician! 
 
 - **You can tell a lot about a newborn from her poop and pee**
 
@@ -72,5 +72,6 @@ Other fun diaper finds!
 * [TPMG's Guide To Newborn Care](https://mydoctor.kaiserpermanente.org/ncal/structured-content/#/Health_Topic_Newborn_Care_Bathing_and_Changing_Your_Baby_-_Pediatrics.xml)
 
 * [Healthy Kids Healthy Futures Handouts](https://mydoctor.kaiserpermanente.org/ncal/structured-content/Health_Topic_Well_Child_Visits_Birth_to_12.xml?co=%2Fregions%2Fncal)
+
 * [Normal Infant and Toddler Development](https://mydoctor.kaiserpermanente.org/ncal/structured-content/#/Health_Topic_Infants_Toddlers_-_Normal_Growth_Development_-_Staying_Healthy.xml)
 
