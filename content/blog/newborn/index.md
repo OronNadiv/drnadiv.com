@@ -14,19 +14,32 @@ tags:
 
 Newborns are undoubtedly **terrifying**, especially if you are a **first time parent**.   Everything is so **NEW**: day-night reversal, pimply/greasy skin, endless gas, noisy breathing, why do they need so much sleep?!
 
+[I recommend that all first time parents check out this **Kaiser Video Series For New Parents**](https://mydoctor.kaiserpermanente.org/ncal/healthtools/#/?id=935218)
+
 ## A Few Fun Facts
-* The [umbilical cord](https://www.mayoclinic.org/healthy-lifestyle/infant-and-toddler-health/in-depth/umbilical-cord/art-20048250) falls off in the first couple of weeks of a baby’s life, on average at around 10 days of life
+
+* Newborns are noisy! It's normal for newborns to hiccup, sneeze, and sound congested in their noses (they have tiny nostrils!). As long as a baby's stuffy nose isn't interfering with feeding (like you baby pulls off the breast to catch his breath), and your baby is otherwise looking comfortable, we don't worry about these noises
+
+* Newborns also have dry/peeling skin and develop several different types of rashes. Most of these are normal.  [This website has a comprehensive collection of photos of these types of rashes (and more!)](http://med.stanford.edu/newborns/professional-education/photo-gallery/skin.html)  
+
+* The [umbilical cord](https://www.mayoclinic.org/healthy-lifestyle/infant-and-toddler-health/in-depth/umbilical-cord/art-20048250) falls off in the first couple of weeks of a baby’s life, on average at around 10 days of life. Once the cord falls off, it's safe to give your baby a bath. 
+
 * [Umbilical hernias](http://www.childrenshospital.org/conditions-and-treatments/conditions/u/umbilical-hernia) are quite common, and as long as you can reduce them, most doctors recommend observing until kids are ready for kindergarten at which point it may make sense to correct it surgically
+
 * Newborns don’t get very dirty, so you don’t need to bathe them more than 1-2 times per week
-* Skin peeling is normal and newborns don’t need lotions  
+ 
 * [Size of your newborn's stomach](https://www.lllc.ca/thursday-tip-newborns-have-small-stomachs)
 
 ![Size of your newborn’s stomach](./baby.jpg)
 
-- **It’s important to feed a newborn every 2-3 hours around the clock at least until she has regained her birth weight**. After that point, I advise my families to wake and feed their baby every 2-3 hours during the day, but allow baby to wake them up at night (it's ok to go longer stretches at this point)
+- **It’s important to feed a newborn every 2-3 hours around the clock at least until she has regained her birth weight**. After that point, I advise my families to wake and feed their baby every 2-3 hours during the day, but allow baby to wake them up at night (it's ok to go longer stretches at this point).
+* [All About Breastfeeding](https://www.llli.org/)
+
+- **Newborns need A LOT of sleep!** Parents often tell me that their baby cries often at night, and doesn't sleep much (or at all) during the day. Newborns get overtired if they are awake for more than 45 minuntes to an hour at a stretch. But since your baby won't tell you he's tired (or yawn or rub his eyes), you need to watch the clock and make sure to put your baby to sleep after no more than one hour of awake time (often it is less!). This is not intuitive, but I have found paying attention to newborn sleep to be very helpful both as a mother and a pediatrician! [Check out this sleep consultant blog post for excellent tips!](https://www.weebeedreaming.com/my-blog/category/Newborns)
 
 - **You can tell a lot about a newborn from her poop and pee**
- * Babies poop is black and sticky at first: this is called meconium 
+
+ * Baby poop is black and sticky at first: this is called meconium 
  * Once babies start drinking milk (breast or formula), their poop will start to “transition” first to brown, and then to green, and ultimately to yellow (in the case of breast fed babies).
  ![newborn stools](./NEWBORN-STOOLS.png)
  * Breast fed babies have yellow, mustardy, seedy poops, and after the first week or so, parents can expect 6-8 of these poops per day
@@ -48,10 +61,6 @@ Other fun diaper finds!
 * [TPMG's Guide To Newborn Care](https://mydoctor.kaiserpermanente.org/ncal/structured-content/#/Health_Topic_Newborn_Care_Bathing_and_Changing_Your_Baby_-_Pediatrics.xml)
 
 ## References
-
-* [Kaiser Video Series For New Parents](https://mydoctor.kaiserpermanente.org/ncal/healthtools/#/?id=935218)
-* [Stanford Newborn Guide](http://med.stanford.edu/newborns.html)  
-* [All About Breastfeeding](https://www.llli.org/)
 * [Common birthmarks](https://www.healthychildren.org/English/ages-stages/baby/bathing-skin-care/Pages/Your-Newborns-Skin-Birthmarks-and-Rashes.aspx)  
 * [Sleep Needs](https://www.healthychildren.org/English/healthy-living/sleep/Pages/Healthy-Sleep-Habits-How-Many-Hours-Does-Your-Child-Need.aspx)
 * [Vaccines for Parents and Other Caregivers](https://www.cdc.gov/vaccines/pregnancy/family-caregivers/index.html)
