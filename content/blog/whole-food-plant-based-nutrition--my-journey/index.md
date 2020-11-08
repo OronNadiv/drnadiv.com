@@ -1,7 +1,7 @@
 ---
 id: 'amsdhksjdfh8uy34jnsedf'
 title: 'Whole Food Plant Based Nutrition: My Journey'
-date: '2020-10-08T00'
+date: '2020-11-08T00'
 description: 'Template description'
 featuredImage: './featured.jpg'
 category: nutrition
