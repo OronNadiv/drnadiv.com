@@ -1,3 +1,5 @@
+const path = require('path')
+
 module.exports = {
   siteMetadata: {
     title: 'The Well Child | Elizabeth Nadiv MD',
@@ -12,14 +14,14 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/content/blog`,
+        path: path.join(__dirname, '/content/blog'),
         name: 'blog'
       }
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/content/assets`,
+        path: path.join(__dirname, '/content/assets'),
         name: 'assets'
       }
     },
@@ -89,14 +91,14 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-categories',
       options: {
-        templatePath: `${__dirname}/src/templates/category.js`,
+        templatePath: path.join(__dirname, '/src/templates/category.js'),
         prefix: '/categories/'
       }
     },
     {
       resolve: 'gatsby-plugin-tags',
       options: {
-        templatePath: `${__dirname}/src/templates/tag.js`
+        templatePath: path.join(__dirname, '/src/templates/tag.js')
       }
     },
     'gatsby-plugin-react-helmet',
