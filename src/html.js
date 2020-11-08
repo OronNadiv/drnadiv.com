@@ -25,6 +25,7 @@ export default function HTML (props) {
           type="text/css"
           href="/styles/bootstrap.min.css"
         />
+        <link rel="stylesheet" type="text/css" href="/styles/animate.min.css" />
         <link rel="stylesheet" type="text/css" href="/styles/style.css" />
       </head>
       <body {...props.bodyAttributes}>

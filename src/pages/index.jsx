@@ -56,6 +56,17 @@ const index = ({ data, location }) => {
               Scroll down for more
             </ScrollLink>
           </div>
+          <div className="scroll_down">
+            <ScrollLink
+              href="#"
+              className="scroll"
+              to="posts-list"
+              smooth
+              duration={800}
+            >
+              <i className="fa fa-chevron-down text-black-50"></i>
+            </ScrollLink>
+          </div>
         </div>
 
         <div id="posts-list" className="section-3">
