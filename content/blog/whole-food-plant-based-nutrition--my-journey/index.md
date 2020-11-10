@@ -2,7 +2,7 @@
 id: 'amsdhksjdfh8uy34jnsedf'
 title: 'Whole Food Plant Based Nutrition: My Journey'
 date: '2020-11-08T00'
-description: 'My personal journey to a Whole Food Plant Based Diet'
+description: 'I have been vegetarian for over twenty years, and although I knew that a fully plant-based diet was best for the environment, I always thought it was not sustainable from a nutrition perspective.  It always seemed too impossible to have a healthy and balanced diet without any animal products. I recently took a course in plant-based nutrition and now feel confident being plant-based for myself and my family, and recommending plant-based diets for children'
 featuredImage: './strawberry-619397_1920.jpg' #https://pixabay.com/photos/strawberry-show-red-finger-hand-619397/
 category: nutrition
 tags:
