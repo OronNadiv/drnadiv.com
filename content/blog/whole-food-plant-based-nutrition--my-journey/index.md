@@ -31,7 +31,7 @@ Twenty plus years, a husband and two kids later, I have just had another epiphan
 
 Admittedly, after breastfeeding my girls for a year and thinking that I was supposed to now start them on cow’s milk, it felt more than a little weird to me.  I never really drank cow’s milk growing up, and I remember feeling awkward buying a gallon of cow’s milk to feed my daughters instead of my own milk. No one suggested that I continue breastfeeding for 2+ years. I loved breastfeeding and continued until both of my girls were 2 and a half years old. Funnily, I did this thinking that I was mainly giving my girls emotional support and connection. **Despite the fact that the [WHO and UNICEF recommend breastfeeding until age 2 or longer](https://www.who.int/news-room/fact-sheets/detail/infant-and-young-child-feeding#:~:text=WHO%20and%20UNICEF%20recommend%3A,years%20of%20age%20or%20beyond.), since I have always lived in the US, long-term breastfeeding for nutrition seemed trivial and maybe even wrong.**
 
-![WHO Breastfeeding Global Target](https://www.who.int/nutrition/global-target-2025/infographic_breastfeeding.pdf)
+![WHO Breastfeeding Global Target](https://www.who.int/images/default-source/infographics/nutrition/breastfeeding/infographic-breastfeeding.tmb-549v.jpg?sfvrsn=24b9875_1)
 
 That is because we live in a country with a VERY strong dairy industry. **Dairy is part of the USDA [my plate](https://www.choosemyplate.gov/). It’s actually declared “a food group”: vegetables, fruit, protein, grains and dairy. I never thought to question it because it was government-approved (and promoted)!**
 
