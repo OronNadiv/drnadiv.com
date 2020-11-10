@@ -37,7 +37,7 @@ That is because we live in a country with a VERY strong dairy industry. **Dairy 
 
 ![Got Milk](https://images.fastcompany.net/image/upload/w_596,c_limit,q_auto:best,f_auto/wp-cms/uploads/2018/05/i-15-gotmilk.jpg)
 
-**But look at what [Canada advises](https://food-guide.canada.ca/en/)?!!** 
+# **But look at what [Canada advises](https://food-guide.canada.ca/en/)?!!** 
 
 ![Canada Food Guide](https://food-guide.canada.ca/static/assets/visual_en.png)
 
