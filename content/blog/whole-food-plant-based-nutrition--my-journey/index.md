@@ -3,7 +3,7 @@ id: 'amsdhksjdfh8uy34jnsedf'
 title: 'Whole Food Plant Based Nutrition: My Journey'
 date: '2020-11-08T00'
 description: 'My personal journey to a Whole Food Plant Based Diet'
-featuredImage: 'https://cdn.pixabay.com/photo/2015/02/01/12/31/strawberry-619397_1280.jpg'
+featuredImage: './strawberry-619397_1920.jpg' #https://pixabay.com/photos/strawberry-show-red-finger-hand-619397/
 category: nutrition
 tags:
   - nutrition
@@ -17,11 +17,11 @@ I became a vegetarian during my junior year of college when I spent a semester i
 
 During and after my semester in Mexico, I read a book by [John Robbins](https://www.johnrobbins.info/) called Diet for a New World.  (Not coincidentally, John Robbins is the only son of the founder of the Baskin-Robbins ice cream empire). 
 
-![Diet for a New World](https://images-na.ssl-images-amazon.com/images/I/61t8EVmIcHL._SX337_BO1,204,203,200_.jpg)
+![Diet for a New World](./61t8EVmIcHL._SX337_BO1,204,203,200_.jpg)
 
 Reading his book, I was astonished to learn how eating meat is an ENORMOUS contributor to [greenhouse gas emissions](https://interactive.carbonbrief.org/what-is-the-climate-impact-of-eating-meat-and-dairy/#:~:text=A%20taste%20for%20meat%20has,of%2015%2Dto%2D1.&text=Meat%20and%20dairy%20specifically%20accounts,and%20Agricultural%20Organization%20(FAO).) and global warming.
 
-![Greenhouse Gas Emissions](https://www.universityofcalifornia.edu/sites/default/files/uc_climatechange_illustrations_greenhouse-gas-emissions.png)
+![Greenhouse Gas Emissions](./uc_climatechange_illustrations_greenhouse-gas-emissions.png)
 
 This was a major epiphany for me, and I passionately re-envisioned my personal and career goals. In fact, I returned to Duke my junior year and changed my major from Biology (I was pre-med along with at least half of my freshman class) to Religion and told my parents I planned to work in [sustainable agriculture](https://www.ucsusa.org/resources/what-sustainable-agriculture)!  I spent much of my senior year of college learning about Integrative Medicine. I even found a kindred spirit amongst my friends and we led a student-led ”[house course](https://trinity.duke.edu/house-courses)” at Duke on Integrative Medicine for two semesters. 
 
@@ -31,19 +31,17 @@ Twenty plus years, a husband and two kids later, I have just had another epiphan
 
 Admittedly, after breastfeeding my girls for a year and thinking that I was supposed to now start them on cow’s milk, it felt more than a little weird to me.  I never really drank cow’s milk growing up, and I remember feeling awkward buying a gallon of cow’s milk to feed my daughters instead of my own milk. No one suggested that I continue breastfeeding for 2+ years. I loved breastfeeding and continued until both of my girls were 2 and a half years old. Funnily, I did this thinking that I was mainly giving my girls emotional support and connection. **Despite the fact that the [WHO and UNICEF recommend breastfeeding until age 2 or longer](https://www.who.int/news-room/fact-sheets/detail/infant-and-young-child-feeding#:~:text=WHO%20and%20UNICEF%20recommend%3A,years%20of%20age%20or%20beyond.), since I have always lived in the US, long-term breastfeeding for nutrition seemed trivial and maybe even wrong.**
 
-![WHO Breastfeeding Global Target](https://www.who.int/images/default-source/infographics/nutrition/breastfeeding/infographic-breastfeeding.tmb-549v.jpg?sfvrsn=24b9875_1)
+![WHO Breastfeeding Global Target](./infographic-breastfeeding.tmb-549v.jpg)
 
 That is because we live in a country with a VERY strong dairy industry. **Dairy is part of the USDA [my plate](https://www.choosemyplate.gov/). It’s actually declared “a food group”: vegetables, fruit, protein, grains and dairy. I never thought to question it because it was government-approved (and promoted)!**
 
-![Got Milk](https://images.fastcompany.net/image/upload/w_596,c_limit,q_auto:best,f_auto/wp-cms/uploads/2018/05/i-15-gotmilk.jpg)
-
 # **But look at what [Canada advises](https://food-guide.canada.ca/en/)?!!** 
 
-![Canada Food Guide](https://food-guide.canada.ca/static/assets/visual_en.png)
+![Canada Food Guide](./visual_en.png)
 
 Now, the groups are vegetables and fruits, grains and protein with water to drink. How logical.  Absolutely fascinating! And disturbing.  We have been brainwashed into thinking that we need to drink cow’s milk, but we should not and do not need to.  [Frank Oski](https://en.wikipedia.org/wiki/Frank_Oski), a well-renowned pediatrician (the Oski of _Oski’s Pediatrics_--a popular pediatrics textbook, former chair of Pediatrics at Johns Hopkins Medical School, and a founder and editor of the Contemporary Pediatrics journal) wrote a book in 1977 called [Don’t Drink Your Milk](https://www.amazon.com/Dont-Drink-Your-Milk-Frank/dp/1479601659).  
 
-![Don't Drink Your Milk](https://images-na.ssl-images-amazon.com/images/I/41FkIuzjMmL._SX322_BO1,204,203,200_.jpg)
+![Don't Drink Your Milk](./41FkIuzjMmL._SX322_BO1,204,203,200_.jpg)
 
 He also worked collaboratively with the famous [Dr. Benjamin Spock](https://en.wikipedia.org/wiki/Benjamin_Spock) and the [Physicians Committee for Responsible Medicine](https://www.pcrm.org/good-nutrition/nutrition-for-kids) to [criticize the dairy industry](https://greensboro.com/dr-spock-leads-criticism-dairy-industry-denies-charge-that-milk-is-bad-for-children/article_8c6c1569-36a6-5e1a-9532-1d54131bca2c.html).  
 
