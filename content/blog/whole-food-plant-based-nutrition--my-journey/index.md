@@ -2,8 +2,8 @@
 id: 'amsdhksjdfh8uy34jnsedf'
 title: 'Whole Food Plant Based Nutrition: My Journey'
 date: '2020-11-08T00'
-description: ''
-featuredImage: './featured.jpg'
+description: 'My personal journey to a Whole Food Plant Based Diet'
+featuredImage: 'https://cdn.pixabay.com/photo/2015/02/01/12/31/strawberry-619397_1280.jpg'
 category: nutrition
 tags:
   - nutrition
