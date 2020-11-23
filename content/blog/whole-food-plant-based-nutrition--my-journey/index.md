@@ -11,12 +11,10 @@ tags:
   - dairy
 ---
 
-Always a tentative meat eater, I became a vegetarian during my junior year of college when I spent a semester in southern Mexico with the [School for International Training](https://www.sit.edu/). It just so happened that of the five other students in my program, four were vegetarian. Up until that semester, I hadn't met any vegetarians, and did not know that it is a healthy nutrition option.  **I was happy to learn that I could legitimately label my natural dietary tendencies, and stop apologizing for not liking meat.**
+Always a tentative meat eater, I became a vegetarian during my junior year of college when I spent a semester in southern Mexico with the [School for International Training](https://www.sit.edu/). Of the five other students in my program, four were vegetarian, and I learned about the connection between our nutrition and the environment. Up until that semester, I hadn't met any vegetarians, and did not know that it is a healthy nutrition option.  **I was happy to learn that I could legitimately label my natural dietary tendencies, and stop apologizing for not liking meat.**
 
-As I read more about vegetarian diets, I came across a book by [John Robbins](https://www.johnrobbins.info/) called Diet for a New World.  (Not coincidentally, John Robbins is the only son of the founder of the Baskin-Robbins ice cream empire).  In it, he discusses how the production of meat and dairy products negatively impacts the environment. In particular, I learned that:
-
+As I read more about vegetarian diets, I came across a book by [John Robbins](https://www.johnrobbins.info/) called Diet for a New World.  (Not coincidentally, John Robbins is the only son of the founder of the Baskin-Robbins ice cream empire).  In it, he discusses how the production of meat and dairy products negatively impacts the environment. 
 ![Diet for a New World](./61t8EVmIcHL._SX337_BO1,204,203,200_.jpg)
-
 Reading his book, I was astonished to learn how eating meat is an ENORMOUS contributor to [greenhouse gas emissions](https://interactive.carbonbrief.org/what-is-the-climate-impact-of-eating-meat-and-dairy/#:~:text=A%20taste%20for%20meat%20has,of%2015%2Dto%2D1.&text=Meat%20and%20dairy%20specifically%20accounts,and%20Agricultural%20Organization%20(FAO).) and global warming.
 
 ![Greenhouse Gas Emissions](./uc_climatechange_illustrations_greenhouse-gas-emissions.png)
