@@ -11,9 +11,9 @@ tags:
   - dairy
 ---
 
-Always a tentative meat eater, I became a vegetarian during my junior year of college when I spent a semester in southern Mexico with the [School for International Training](https://www.sit.edu/). It just so happened that of the five other students in my program, four were vegetarian. Up until that semester, I didn’t even know that being vegetarian was something you could do.  **I was thrilled to learn that I could legitimately label my natural dietary tendencies, and stop apologizing for not liking meat.**
+Always a tentative meat eater, I became a vegetarian during my junior year of college when I spent a semester in southern Mexico with the [School for International Training](https://www.sit.edu/). It just so happened that of the five other students in my program, four were vegetarian. Up until that semester, I hadn't met any vegetarians, and did not know that it is a healthy nutrition option.  **I was happy to learn that I could legitimately label my natural dietary tendencies, and stop apologizing for not liking meat.**
 
-During and after my semester in Mexico, I read a book by [John Robbins](https://www.johnrobbins.info/) called Diet for a New World.  (Not coincidentally, John Robbins is the only son of the founder of the Baskin-Robbins ice cream empire).  
+As I read more about vegetarian diets, I came across a book by [John Robbins](https://www.johnrobbins.info/) called Diet for a New World.  (Not coincidentally, John Robbins is the only son of the founder of the Baskin-Robbins ice cream empire).  In it, he discusses how the production of meat and dairy products negatively impacts the environment. In particular, I learned that:
 
 ![Diet for a New World](./61t8EVmIcHL._SX337_BO1,204,203,200_.jpg)
 
@@ -31,7 +31,7 @@ When my daughters were 12 months old, I felt uncomfortable fully transitioning t
 
 ![WHO Breastfeeding Global Target](./infographic-breastfeeding.jpg)
 
-The United States, along with many other Western countries with strong dairy industries, strongly promotes dairy as part of a health diet. **Dairy (along with fruits, vegetables, grains and protein) is part of the USDA [my plate](https://www.choosemyplate.gov/), and I never thought to question it.**  
+The United States, along with many other Western countries with strong dairy industries, promotes dairy as part of a healthy diet. **Dairy (along with fruits, vegetables, grains and protein) is part of the USDA [my plate](https://www.choosemyplate.gov/), and I never thought to question it.**  
 
 However, as I started to learn more about plant-based nutrition, I came across the [Canadian government's nutrition guidelines](https://food-guide.canada.ca/en/)?!!** 
 
