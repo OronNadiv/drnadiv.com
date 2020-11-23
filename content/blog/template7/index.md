@@ -19,7 +19,7 @@ I recently completed a course on plant-based nutrition and would like to share s
 
 # All Children Who Eat the Standard American Diet Have Fatty Streaks (Atherosclerosis) by Age 10. These Fatty Streaks Lead to Heart Disease
 
-[!Standard American Diet](https://images.unsplash.com/photo-1594078186749-7500028c07da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)
+![Standard American Diet](https://images.unsplash.com/photo-1594078186749-7500028c07da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)
 
 **I truly believe that the BEST GIFT we can give our children is healthy nutrition from the start! I am a pediatrician because I strongly believe in prevention, and healthy nutrition is the best way to prevent most chronic diseases.** 
 Dr. Michael Gregor discusses the evidence behind plant-based nutrition and has a wealth of information on his web site, [nutritionfacts.org](nutritionfacts.org).  
