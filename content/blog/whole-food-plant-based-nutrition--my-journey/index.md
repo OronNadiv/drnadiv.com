@@ -18,7 +18,7 @@ I was astonished to learn how eating meat is an ENORMOUS contributor to [greenho
 
 This diagram shows how food and agriculture production directly affects every aspect of environmental health
 
-![how food and agriculture production directly affects every aspect of environmental health](https://ourworldindata.org/environmental-impacts-of-food#)
+![how food and agriculture production directly affects every aspect of environmental health](https://ourworldindata.org/uploads/2019/11/What-are-the-environmental-impacts-of-agriculture-800x518.png)
 
 ![Greenhouse Gas Emissions](./uc_climatechange_illustrations_greenhouse-gas-emissions.png)
 
