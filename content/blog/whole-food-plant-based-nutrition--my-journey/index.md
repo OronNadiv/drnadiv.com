@@ -1,8 +1,8 @@
 ---
 id: 'amsdhksjdfh8uy34jnsedf'
-title: 'Whole Food Plant Based Nutrition: My Journey'
+title: 'Whole Food Plant Based Nutrition'
 date: '2020-11-08T00'
-description: 'I have been vegetarian for over twenty years, and although I knew that a fully plant-based diet was best for the environment, I always thought it was not sustainable from a nutrition perspective.  It always seemed too impossible to have a healthy and balanced diet without any animal products. I recently took a course in plant-based nutrition and now feel confident being plant-based for myself and my family, and recommending plant-based diets for children'
+description: 'I have been vegetarian for over twenty years, and although I knew that a fully plant-based diet was best for the environment, I always thought it was nutritionally incomplete.  It always seemed too impossible to have a healthy and balanced diet without any animal products. I recently took a course in plant-based nutrition and now feel confident being plant-based for myself and my family, and recommending plant-based diets for children'
 featuredImage: './strawberry-619397_1920.jpg' #https://pixabay.com/photos/strawberry-show-red-finger-hand-619397/
 category: nutrition
 tags:
@@ -11,24 +11,19 @@ tags:
   - dairy
 ---
 
-Always a tentative meat eater, I became a vegetarian during my junior year of college when I spent a semester in southern Mexico with the [School for International Training](https://www.sit.edu/). Of the five other students in my program, four were vegetarian, and I learned about the connection between our nutrition and the environment. Up until that semester, I hadn't met any vegetarians, and did not know that it is a healthy nutrition option.  **I was happy to learn that I could legitimately label my natural dietary tendencies, and stop apologizing for not liking meat.**
-
-As I read more about vegetarian diets, I came across a book by [John Robbins](https://www.johnrobbins.info/) called Diet for a New World.  (Not coincidentally, John Robbins is the only son of the founder of the Baskin-Robbins ice cream empire).  In it, he discusses how the production of meat and dairy products negatively impacts the environment. 
-I was astonished to learn how eating meat is an ENORMOUS contributor to [greenhouse gas emissions](https://interactive.carbonbrief.org/what-is-the-climate-impact-of-eating-meat-and-dairy/#:~:text=A%20taste%20for%20meat%20has,of%2015%2Dto%2D1.&text=Meat%20and%20dairy%20specifically%20accounts,and%20Agricultural%20Organization%20(FAO).) and global warming.
+Always a tentative meat eater, I became a vegetarian during my junior year of college when I spent a semester in southern Mexico with the [School for International Training](https://www.sit.edu/).  It was easy to be vegetarian in Oaxaca: I learned that I loved black beans, freshly made corn tortillas, pico de gallo, and avocados.  As I read more about vegetarian diets, I came across a book by [John Robbins](https://www.johnrobbins.info/) called Diet for a New World.  Robbins details how the production of meat and dairy products negatively impacts the environment, as well as the health benefits of plant-based diets.  
 
 This diagram shows how food and agriculture production directly affects environmental health
 
 ![how food and agriculture production directly affects environmental health](https://ourworldindata.org/uploads/2019/11/What-are-the-environmental-impacts-of-agriculture-800x518.png)
 
-This was a major epiphany for me, and I naturally incorporated this knowledge into my final three semesters of undergraduate education. I had started college pre-med, and planned to major in biology.  However, once I returned from Mexico, I wanted to broaden my education, and switched to a major in Religion. As I learned more about Eastern religions in particular (Hinduism, Buddhism), I awoke to the connection between mind and body in health.  I spent much of my senior year of college learning about what I now think of as [Lifestyle Medicine](https://www.lifestylemedicine.org/ACLM/About/What_is_Lifestyle_Medicine_/Lifestyle_Medicine.aspx)---the centrality of our lifestyle choices in promoting and maintaining our health.  Along with healthy nutrition, I focused on the benefits of yoga and mindfulness, regular exercise, and spiritual health.   
+The [EAT-Lancet Commission on Food, Planet Health](https://eatforum.org/eat-lancet-commission/) asks, "Can we feed a future population of 10 billion people a healthy diet within planetary boundaries?"  Their [report](https://eatforum.org/eat-lancet-commission/eat-lancet-commission-summary-report/) details how a diet rich in plants and lower in animal sources is both healthier and environmentally sustainable. 
 
-**While I have known a purely plant-based diet is healthiest for the environment, being completely plant-based seemed too complicated and nutritionally-risky, and so I continued eating dairy products and eggs.**  But due to my recent immersive studies in plant-based nutrition, I now know that I can eat a whole foods plant-based diet without taking nutritional risks.  
+> "Transformation to healthy diets by 2050 will require substantial dietary shifts. Global consumption of fruits, vegetables, nuts and legumes will have to double, and consumption of foods such as red meat and sugar will have to be reduced by more than 50%. A diet rich in plant-based foods and with fewer animal source foods confers both improved health and environmental benefits."
 
-When my daughters were 12 months old, I felt uncomfortable fully transitioning to cow's milk, so I continued to breastfeed while also supplementing with some cow's milk.  I loved breastfeeding and continued until both of my girls were 2 and a half years old.  I did this to give my girls emotional support and connection more so than for nutritional reasons. **Despite the fact that the [WHO and UNICEF recommend breastfeeding until age 2 or longer](https://www.who.int/news-room/fact-sheets/detail/infant-and-young-child-feeding#:~:text=WHO%20and%20UNICEF%20recommend%3A,years%20of%20age%20or%20beyond.), since I have always lived in the US, I was not focused on long-term breastfeeding for nutrition.**
+`youtube: PIc42oIU0Ik`
 
-![WHO Breastfeeding Global Target](./infographic-breastfeeding.jpg)
-
-The United States, along with many other Western countries with strong dairy industries, promotes dairy as part of a healthy diet. **Dairy (along with fruits, vegetables, grains and protein) is part of the USDA [my plate](https://www.choosemyplate.gov/), and I never thought to question it.**  However, as I started to learn more about plant-based nutrition, I came across the [Canadian government's nutrition guidelines](https://food-guide.canada.ca/en/)** 
+As I learn more about whole food plant-based nutrition, I am increasingly questioning the health benefits of cow's milk and other dairy products.  The United States, along with many other Western countries with strong dairy industries, promotes dairy as part of a healthy diet. **Dairy (along with fruits, vegetables, grains and protein) is part of the USDA [my plate](https://www.choosemyplate.gov/), and I never thought to question it.**  However, as I started to learn more about plant-based nutrition, I came across the [Canadian government's nutrition guidelines](https://food-guide.canada.ca/en/).
 
 ![Canada Food Guide](./visual_en.png)
 
