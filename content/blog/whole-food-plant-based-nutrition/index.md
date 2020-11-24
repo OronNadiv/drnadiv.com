@@ -20,8 +20,6 @@ How does eating meat and dairy negatively impact our environment? [Our World In 
 
 ![environmental impacts of food](./What-are-the-environmental-impacts-of-agriculture-800x518.png)
 
-As you can see: 
-
 * ### [Food and agriculture production accounts for **26%** of global greenhouse gas emissions](https://ourworldindata.org/food-ghg-emissions)
 
 ![How Food and Agriculture Contribute to Greenhouse Gas Emissions](https://ourworldindata.org/uploads/2019/11/How-much-of-GHGs-come-from-food-544x550.png)
@@ -30,9 +28,9 @@ As you can see:
 
 ![Land Use for Agriculture](https://ourworldindata.org/uploads/2020/01/Global-land-use-graphic-800x506.png)
 
-* ### [**70% of the world's freshwater consumption is used for agriculture**](https://ourworldindata.org/water-use-stress), and this continues to increase over time.
+* ### [70% of the world's freshwater consumption is used for agriculture](https://ourworldindata.org/water-use-stress), and this continues to increase over time.
 
-* ### [* Almost 80% of global ocean and freshwater pollution is due to food and agriculture production](https://foodprint.org/issues/how-industrial-agriculture-affects-our-water/)
+* ### [Almost 80% of global ocean and freshwater pollution is due to food and agriculture production](https://foodprint.org/issues/how-industrial-agriculture-affects-our-water/)
 
 * ### [Agriculture and aquaculture dramatically reduce the earth's biodiversity, and are the biggest contributors to further threatening endangered species. This BBC article illustrates why this is happening and what we can do to help](https://www.bbc.com/news/science-environment-54357899)
 
