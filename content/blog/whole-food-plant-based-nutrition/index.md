@@ -15,7 +15,7 @@ Always a tentative meat eater, I became a vegetarian during my junior year of co
 
 This diagram shows how food and agriculture production directly affects environmental health
 
-![how food and agriculture production directly affects environmental health](https://ourworldindata.org/uploads/2019/11/What-are-the-environmental-impacts-of-agriculture-800x518.png)
+![how food and agriculture production directly affects environmental health](./What-are-the-environmental-impacts-of-agriculture-800x518.png)
 
 The [EAT-Lancet Commission on Food, Planet Health](https://eatforum.org/eat-lancet-commission/) asks, "Can we feed a future population of 10 billion people a healthy diet within planetary boundaries?"  Their [report](https://eatforum.org/eat-lancet-commission/eat-lancet-commission-summary-report/) details how a diet rich in plants and lower in animal sources is both healthier and environmentally sustainable. 
 
@@ -33,7 +33,7 @@ Dr. Oski's book illuminated several key points about cow's milk consumption:
 
 1. Evolutionarily, we are not designed to drink milk past the age of natural weaning. In many countries around the world, mothers breast feed until age 2 or older (as is recommended by the CDC), and then children are weaned to a diet with plant-based foods and water. As a species, we have evolved to digest lactose due to our reliance on cattle farming.  But for much of the world's population, lactose intolerance is the norm rather than the exception. 
 
-![Lactose intolerance](https://en.wikipedia.org/wiki/Lactose_intolerance#/media/File:Worldwide_prevalence_of_lactose_intolerance_in_recent_populations.jpg)
+![Lactose intolerance](./Worldwide_prevalence_of_lactose_intolerance_in_recent_populations.jpg)
 
 2. Data suggest that consuming cow's milk protein may increase a child's risk of developing allergic diseases like eczema and asthma. [A 2016 European study found that "In high risk infants, diet in infancy influences subsequent risk of atopy and asthma in young adulthood."](https://erj.ersjournals.com/content/48/suppl_60/PA4586). 
 
