@@ -22,23 +22,23 @@ How does eating meat and dairy negatively impact our environment? [Our World In 
 
 As you can see: 
 
-[* Food and agriculture production accounts for **26%** of global greenhouse gas emissions](https://ourworldindata.org/food-ghg-emissions)
+* ### [Food and agriculture production accounts for **26%** of global greenhouse gas emissions](https://ourworldindata.org/food-ghg-emissions)
 
 ![How Food and Agriculture Contribute to Greenhouse Gas Emissions](https://ourworldindata.org/uploads/2019/11/How-much-of-GHGs-come-from-food-544x550.png)
 
-* Half of the world’s habitable land is used for agriculture
+* ### Half of the world’s habitable land is used for agriculture
 
 ![Land Use for Agriculture](https://ourworldindata.org/uploads/2020/01/Global-land-use-graphic-800x506.png)
 
-[* **70% of the world's freshwater consumption is used for agriculture**](https://ourworldindata.org/water-use-stress), and this continues to increase over time.
+* ### [**70% of the world's freshwater consumption is used for agriculture**](https://ourworldindata.org/water-use-stress), and this continues to increase over time.
 
-[* Almost 80% of global ocean and freshwater pollution is due to food and agriculture production](https://foodprint.org/issues/how-industrial-agriculture-affects-our-water/)
+* ### [* Almost 80% of global ocean and freshwater pollution is due to food and agriculture production](https://foodprint.org/issues/how-industrial-agriculture-affects-our-water/)
 
-[* Agriculture and aquaculture dramatically reduce the earth's biodiversity, and are the biggest contributors to further threatening endangered species. This BBC article illustrates why this is happening and what we can do to help](https://www.bbc.com/news/science-environment-54357899)
-
-The [EAT-Lancet Commission on Food, Planet Health](https://eatforum.org/eat-lancet-commission/) asks, "Can we feed a future population of 10 billion people a healthy diet within planetary boundaries?"  Their [report](https://eatforum.org/eat-lancet-commission/eat-lancet-commission-summary-report/) details how a diet rich in plants and lower in animal sources is both healthier and environmentally sustainable. 
+* ### [Agriculture and aquaculture dramatically reduce the earth's biodiversity, and are the biggest contributors to further threatening endangered species. This BBC article illustrates why this is happening and what we can do to help](https://www.bbc.com/news/science-environment-54357899)
 
 ![Restore biodiversity](https://ichef.bbci.co.uk/news/800/cpsprodpb/7007/production/_114697682_biodiversity_restore_plan_gra640-nc.png)
+
+# The [EAT-Lancet Commission on Food, Planet Health](https://eatforum.org/eat-lancet-commission/) asks, "Can we feed a future population of 10 billion people a healthy diet within planetary boundaries?"  Their [report](https://eatforum.org/eat-lancet-commission/eat-lancet-commission-summary-report/) details how a diet rich in plants and lower in animal sources is both healthier and environmentally sustainable. 
 
 > "Transformation to healthy diets by 2050 will require substantial dietary shifts. Global consumption of fruits, vegetables, nuts and legumes will have to double, and consumption of foods such as red meat and sugar will have to be reduced by more than 50%. A diet rich in plant-based foods and with fewer animal source foods confers both improved health and environmental benefits."
 
