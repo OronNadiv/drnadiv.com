@@ -1,4 +1,5 @@
 ---
+isVisible: no
 id: 'amsdhksjdfh8uy34jnsedf'
 title: 'Whole Food Plant Based Nutrition'
 date: '2020-11-08T00'
@@ -23,7 +24,11 @@ The [EAT-Lancet Commission on Food, Planet Health](https://eatforum.org/eat-lanc
 
 `youtube: PIc42oIU0Ik`
 
-As I learn more about whole food plant-based nutrition, I am increasingly questioning the health benefits of cow's milk and other dairy products.  The United States, along with many other Western countries with strong dairy industries, promotes dairy as part of a healthy diet. **Dairy (along with fruits, vegetables, grains and protein) is part of the USDA [my plate](https://www.choosemyplate.gov/), and I never thought to question it.**  However, as I started to learn more about plant-based nutrition, I came across the [Canadian government's nutrition guidelines](https://food-guide.canada.ca/en/).
+So we can eat predominantly plants and lower our risk for chronic diseases while simultaneously improving planetary health.  But don't kids need to drink their milk to grow? Actually, no. The WHO and UNICEF recommend breastfeeding until age 2 or longer
+
+When my daughters were 12 months old, I felt uncomfortable fully transitioning to cow’s milk, so I continued to breastfeed while also supplementing with some cow’s milk. I loved breastfeeding and continued until both of my girls were 2 and a half years old. I did this to give my girls emotional support and connection more so than for nutritional reasons. Despite the fact that the WHO and UNICEF recommend breastfeeding until age 2 or longer, since I have always lived in the US, I was not focused on long-term breastfeeding for nutrition.
+
+The United States, along with many other Western countries with strong dairy industries, promotes dairy as part of a healthy diet. **Dairy (along with fruits, vegetables, grains and protein) is part of the USDA [my plate](https://www.choosemyplate.gov/), and I never thought to question it.**  However, as I started to learn more about plant-based nutrition, I came across the [Canadian government's nutrition guidelines](https://food-guide.canada.ca/en/).
 
 ![Canada Food Guide](./visual_en.png)
 
@@ -39,5 +44,6 @@ Dr. Oski's book illuminated several key points about cow's milk consumption:
 
 3. Cow's milk protein intolerance is quite common, and can manifest in infancy as colic, reflux, diarrhea, blood-flecked stools, and poor growth. As children grow, cow's milk protein intolerance may play a role in chronic constipation and abdominal pain. In my personal practice, I often suggest a dairy-free diet for breastfeeding mothers whose babies are struggling with excessive crying and/or reflux.
 
+4. Cow's milk contributes to iron deficiency anemia because cow's milk is low in iron, and it interferes with iron's absorption in the intestine.  Some children are also sensitive to cow's milk, and in these children, drinking cow's milk can induce bleeding in their intestines.  If a child has iron deficiency anemia and cow's milk allergy, taking an iron supplement will not treat the anemia until that child stops drinking cow's milk.
 
-I recently completed a course on [plant-based nutrition](https://nutritionstudies.org/courses/plant-based-nutrition/), and I hope to inspire you all to re-think what we eat and why. **I want to emphasize that thinking about changing our diets is HARD, and it doesn’t have to be 100%.** I just want to help raise awareness that the healthiest foods are whole foods and plant-based. I still get my girls pizza on occasion, and they love sour cream and cheese when we order burritos. We do this maybe once a week----I’m ok with that. I know that, for me, I have been feeling so much more energetic on a fully plant-based diet, but everyone has their own comfort levels. The more plant-based whole foods you can incorporate into your family’s diet, the healthier you will be. 
+I hope to inspire you all to re-think what we eat and why. **I want to emphasize that thinking about changing our diets is HARD, and it doesn’t have to be 100%.** I just want to help raise awareness that the healthiest foods are whole foods and plant-based. I still get my girls pizza on occasion, and they love sour cream and cheese when we order burritos. We do this maybe once a week----I’m ok with that. I know that, for me, I have been feeling so much more energetic on a fully plant-based diet, but everyone has their own comfort levels. The more plant-based whole foods you can incorporate into your family’s diet, the healthier you will be. 
