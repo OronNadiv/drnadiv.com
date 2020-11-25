@@ -15,13 +15,13 @@ tags:
 ## I am excited to share my thoughts with you about the health and environmental benefits of a whole foods plant based diet!  First, I'd like to explain what I mean by a whole foods plant-based diet.  Essentially, the goals are twofold:
 
 * ### To eat mostly plant-based foods (fruits, vegetables, legumes and grains) and minimize or avoid animal based foods (beef, poultry, eggs, dairy, fish)
-* ### To eat predominantly whole foods and avoid highly processed foods. This means limiting/avoiding eating food with more than five ingredients or ingredients that are hard to understand/pronounce
+* ### To eat predominantly whole foods and avoid highly processed and sugary foods. This means limiting/avoiding eating food with more than five ingredients or ingredients that are hard to understand/pronounce
 
 As an example of a whole foods plant-based diet, I would like to share [Canada's Nutrition Guidelines for a Healthy Plate](https://food-guide.canada.ca/en/):
 
 ![Canada's Food Guide](https://food-guide.canada.ca/static/assets/visual_en.png)
 
-I hope to inspire you all to re-think what we eat and why. ### **I want to emphasize that thinking about changing our diets is HARD, and it doesn’t have to be 100%.** The more whole plant-based foods you can incorporate and the more animal products you can limit, the better, but we have to do what is best for our families.  I mainly want to help raise awareness that the healthiest foods are whole foods and plant-based. I know that, for me, I have been feeling so much more energetic on a fully plant-based diet, but everyone has their own comfort levels.  Eating a whole foods plant-based diet is safe and health-promoting for children of all ages, and is also a crucial part of slowing global warming. In this post, I would like to share what I have learned about the environmental benefits of eating a plant-based diet.  My next two blog posts are about 1) Health Benefits of a Plant-Based Diet and 2) How to Feed Children a Plant-Based Diet.
+I hope to inspire you to re-think what we eat and why. ### **I want to emphasize that thinking about changing our diets is HARD, and it doesn’t have to be 100%.** The more whole plant-based foods you can incorporate and the more animal products you can limit, the better, but we have to do what is best for our individual families. My goal is to raise awareness that the healthiest foods are whole foods and plant-based. I know that, for me, I have been feeling so much more energetic on a fully plant-based diet, but everyone has their own comfort levels.  Eating a whole foods plant-based diet is safe and health-promoting for children of all ages, and is also a crucial part of slowing global warming. With the worsening California wildfires, we are seeing the direct consequences of a warming planet. As we all experienced in the Bay Area, the poor air quality limited our ability to be outside and exacerbated asthma and other respiratory issues.  **Changing our collective eating habits is a necessary step to slow global warming.**  In this post, I would like to share what I have learned about the environmental benefits of eating a plant-based diet.  My next two blog posts are about 1) Health Benefits of a Plant-Based Diet and 2) How to Feed Children a Plant-Based Diet.
 
 Always a tentative meat eater, I became a vegetarian during my junior year of college when I spent a semester in southern Mexico with the [School for International Training](https://www.sit.edu/).  It was easy to be vegetarian in Oaxaca: I learned that I loved black beans, freshly made corn tortillas, pico de gallo, and avocados.  As I read more about vegetarian diets, I came across a book by [John Robbins](https://www.johnrobbins.info/) called Diet for a New World.  Robbins details how the production of meat and dairy products negatively impacts the environment, as well as the health benefits of plant-based diets.  
 
@@ -56,26 +56,3 @@ I have started talking to my nine year old daughter about the environmental bene
 Again, I want to emphasize that eating a plant-based diet doesn't mean completely cutting out all animal-based foods. The more plants we can incorporate into our diets, and the more animal foods we can cut out, the better. 
 
 `youtube: nUnJQWO4YJY`
-
-
-So we can eat predominantly plants and lower our risk for chronic diseases while simultaneously improving planetary health.  But don't kids need to drink their milk to grow? Actually, no. The WHO and UNICEF recommend breastfeeding until age 2 or longer
-
-When my daughters were 12 months old, I felt uncomfortable fully transitioning to cow’s milk, so I continued to breastfeed while also supplementing with some cow’s milk. I loved breastfeeding and continued until both of my girls were 2 and a half years old. I did this to give my girls emotional support and connection more so than for nutritional reasons. Despite the fact that the WHO and UNICEF recommend breastfeeding until age 2 or longer, since I have always lived in the US, I was not focused on long-term breastfeeding for nutrition.
-
-The United States, along with many other Western countries with strong dairy industries, promotes dairy as part of a healthy diet. **Dairy (along with fruits, vegetables, grains and protein) is part of the USDA [my plate](https://www.choosemyplate.gov/), and I never thought to question it.**  However, as I started to learn more about plant-based nutrition, I came across the [Canadian government's nutrition guidelines](https://food-guide.canada.ca/en/).
-
-![Canada Food Guide](./visual_en.png)
-
-In Canada, the food groups are vegetables and fruits, grains and protein with water to drink.  [Frank Oski](https://en.wikipedia.org/wiki/Frank_Oski), a well-renowned pediatrician (the Oski of _Oski’s Pediatrics_--a popular pediatrics textbook, former chair of Pediatrics at Johns Hopkins Medical School, and a founder and editor of the Contemporary Pediatrics journal) wrote a book in 1977 called [Don’t Drink Your Milk](https://www.amazon.com/Dont-Drink-Your-Milk-Frank/dp/1479601659).  He also worked collaboratively with the famous [Dr. Benjamin Spock](https://en.wikipedia.org/wiki/Benjamin_Spock) and the [Physicians Committee for Responsible Medicine](https://www.pcrm.org/good-nutrition/nutrition-for-kids) to [criticize the dairy industry](https://greensboro.com/dr-spock-leads-criticism-dairy-industry-denies-charge-that-milk-is-bad-for-children/article_8c6c1569-36a6-5e1a-9532-1d54131bca2c.html).  
-
-Dr. Oski's book illuminated several key points about cow's milk consumption:
-
-1. Evolutionarily, we are not designed to drink milk past the age of natural weaning. In many countries around the world, mothers breast feed until age 2 or older (as is recommended by the CDC), and then children are weaned to a diet with plant-based foods and water. As a species, we have evolved to digest lactose due to our reliance on cattle farming.  But for much of the world's population, lactose intolerance is the norm rather than the exception. 
-
-![Lactose intolerance](./Worldwide_prevalence_of_lactose_intolerance_in_recent_populations.jpg)
-
-2. Data suggest that consuming cow's milk protein may increase a child's risk of developing allergic diseases like eczema and asthma. [A 2016 European study found that "In high risk infants, diet in infancy influences subsequent risk of atopy and asthma in young adulthood."](https://erj.ersjournals.com/content/48/suppl_60/PA4586). 
-
-3. Cow's milk protein intolerance is quite common, and can manifest in infancy as colic, reflux, diarrhea, blood-flecked stools, and poor growth. As children grow, cow's milk protein intolerance may play a role in chronic constipation and abdominal pain. In my personal practice, I often suggest a dairy-free diet for breastfeeding mothers whose babies are struggling with excessive crying and/or reflux.
-
-4. Cow's milk contributes to iron deficiency anemia because cow's milk is low in iron, and it interferes with iron's absorption in the intestine.  Some children are also sensitive to cow's milk, and in these children, drinking cow's milk can induce bleeding in their intestines.  If a child has iron deficiency anemia and cow's milk allergy, taking an iron supplement will not treat the anemia until that child stops drinking cow's milk.
