@@ -12,7 +12,16 @@ tags:
   - dairy
 ---
 
-I am excited to share my thoughts with you about the health and environmental benefits of a whole foods plant based diet!  I hope to inspire you all to re-think what we eat and why. **I want to emphasize that thinking about changing our diets is HARD, and it doesn’t have to be 100%.** I want to help raise awareness that the healthiest foods are whole foods and plant-based. I still give my girls pizza on occasion, and they love sour cream and cheese when we order black bean burritos. We do this maybe once a week----I’m ok with that. I know that, for me, I have been feeling so much more energetic on a fully plant-based diet, but everyone has their own comfort levels. The more plant-based whole foods you can incorporate into your family’s diet, the healthier you will be. In this post, I would like to share what I have learned about the environmental benefits of eating a plant-based diet.  My next two blog posts are about 1) Health Benefits of a Plant-Based Diet and 2) How to Feed Children a Plant-Based Diet.
+## I am excited to share my thoughts with you about the health and environmental benefits of a whole foods plant based diet!  First, I'd like to explain what I mean by a whole foods plant-based diet.  Essentially, the goals are twofold:
+
+* ### To eat mostly plant-based foods (fruits, vegetables, legumes and grains) and minimize or avoid animal based foods (beef, poultry, eggs, dairy, fish)
+* ### To eat predominantly whole foods and avoid highly processed foods. This means limiting/avoiding eating food with more than five ingredients or ingredients that are hard to understand/pronounce
+
+As an example of a whole foods plant-based diet, I would like to share [Canada's Nutrition Guidelines for a Healthy Plate](https://food-guide.canada.ca/en/):
+
+![Canada's Food Guide](https://food-guide.canada.ca/static/assets/visual_en.png)
+
+I hope to inspire you all to re-think what we eat and why. ### **I want to emphasize that thinking about changing our diets is HARD, and it doesn’t have to be 100%.** The more whole plant-based foods you can incorporate and the more animal products you can limit, the better, but we have to do what is best for our families.  I mainly want to help raise awareness that the healthiest foods are whole foods and plant-based. I know that, for me, I have been feeling so much more energetic on a fully plant-based diet, but everyone has their own comfort levels.  Eating a whole foods plant-based diet is safe and health-promoting for children of all ages, and is also a crucial part of slowing global warming. In this post, I would like to share what I have learned about the environmental benefits of eating a plant-based diet.  My next two blog posts are about 1) Health Benefits of a Plant-Based Diet and 2) How to Feed Children a Plant-Based Diet.
 
 Always a tentative meat eater, I became a vegetarian during my junior year of college when I spent a semester in southern Mexico with the [School for International Training](https://www.sit.edu/).  It was easy to be vegetarian in Oaxaca: I learned that I loved black beans, freshly made corn tortillas, pico de gallo, and avocados.  As I read more about vegetarian diets, I came across a book by [John Robbins](https://www.johnrobbins.info/) called Diet for a New World.  Robbins details how the production of meat and dairy products negatively impacts the environment, as well as the health benefits of plant-based diets.  
 
