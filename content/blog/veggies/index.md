@@ -4,7 +4,7 @@ title: 'My Child Does Not Like Vegetables'
 date: '2019-12-26T00'
 description: 'I spend A LOT of time talking to families about nutrition and I hear one comment several times each day: "Doctor, my child doesn’t like vegetables!"  I know parents struggle to give their kids healthy meals, but I suggest a frameshift.'
 featuredImage: './photo-1518843875459-f738682238a6.jpeg'
-category: mind_body_health
+category: nutrition
 tags:
   - nutrition
   - picky_eating
