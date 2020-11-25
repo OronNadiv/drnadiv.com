@@ -1,7 +1,7 @@
 ---
 isVisible: no
 id: 'drnadiv.com/plant_based_nutrition__the_why'
-title: 'Why Should We Feed Our Kids (and Ourselves) a Whole Food Plant Based Diet?'
+title: 'The Health Benefits of a Whole Food Plant Based Diet'
 date: '2020-10-11T00'
 description: 'The data are clear! People who eat a plant-based diet are healthier. Children who eat the "Standard American Diet" have cholesterol fatty streaks in their blood vessels by age 10. The absolutely MOST important gift you can give your child is healthy nutrition!'
 featuredImage: './featured.jpg'
