@@ -12,7 +12,7 @@ tags:
   - dairy
 ---
 
-I am excited to share my thoughts with you about the health and environmental benefits of a whole foods plant based diet!  I hope to inspire you all to re-think what we eat and why. **I want to emphasize that thinking about changing our diets is HARD, and it doesn’t have to be 100%.** I want to help raise awareness that the healthiest foods are whole foods and plant-based. I still give my girls pizza on occasion, and they love sour cream and cheese when we order black bean burritos. We do this maybe once a week----I’m ok with that. I know that, for me, I have been feeling so much more energetic on a fully plant-based diet, but everyone has their own comfort levels. The more plant-based whole foods you can incorporate into your family’s diet, the healthier you will be. In this post, I would like to share what I have learned about the environmental benefits of eating a plant-based diet.  My next two blog posts are about 1) Health Benefits of a Plant-Based Diet and 2)How to Feed Children a Plant-Based Diet.
+I am excited to share my thoughts with you about the health and environmental benefits of a whole foods plant based diet!  I hope to inspire you all to re-think what we eat and why. **I want to emphasize that thinking about changing our diets is HARD, and it doesn’t have to be 100%.** I want to help raise awareness that the healthiest foods are whole foods and plant-based. I still give my girls pizza on occasion, and they love sour cream and cheese when we order black bean burritos. We do this maybe once a week----I’m ok with that. I know that, for me, I have been feeling so much more energetic on a fully plant-based diet, but everyone has their own comfort levels. The more plant-based whole foods you can incorporate into your family’s diet, the healthier you will be. In this post, I would like to share what I have learned about the environmental benefits of eating a plant-based diet.  My next two blog posts are about 1) Health Benefits of a Plant-Based Diet and 2) How to Feed Children a Plant-Based Diet.
 
 Always a tentative meat eater, I became a vegetarian during my junior year of college when I spent a semester in southern Mexico with the [School for International Training](https://www.sit.edu/).  It was easy to be vegetarian in Oaxaca: I learned that I loved black beans, freshly made corn tortillas, pico de gallo, and avocados.  As I read more about vegetarian diets, I came across a book by [John Robbins](https://www.johnrobbins.info/) called Diet for a New World.  Robbins details how the production of meat and dairy products negatively impacts the environment, as well as the health benefits of plant-based diets.  
 
@@ -41,6 +41,13 @@ How does eating meat and dairy negatively impact our environment? [Our World In 
 > "Transformation to healthy diets by 2050 will require substantial dietary shifts. Global consumption of fruits, vegetables, nuts and legumes will have to double, and consumption of foods such as red meat and sugar will have to be reduced by more than 50%. A diet rich in plant-based foods and with fewer animal source foods confers both improved health and environmental benefits."
 
 `youtube: PIc42oIU0Ik`
+
+I have started talking to my nine year old daughter about the environmental benefits of eating a plant-based diet. Since she was a baby, we have fed her a variety of fruits and vegetables. She eats most of what I cook, and I'm sure she would like it even more if I improved my cooking skills!  She did a report last year on [Greta Thunberg](https://en.wikipedia.org/wiki/Greta_Thunberg), the now 17 year old Swedish environmental activist, and she hopes to start a Climate Change Club at her school.
+
+Again, I want to emphasize that eating a plant-based diet doesn't mean completely cutting out all animal-based foods. The more plants we can incorporate into our diets, and the more animal foods we can cut out, the better. 
+
+`youtube: nUnJQWO4YJY`
+
 
 So we can eat predominantly plants and lower our risk for chronic diseases while simultaneously improving planetary health.  But don't kids need to drink their milk to grow? Actually, no. The WHO and UNICEF recommend breastfeeding until age 2 or longer
 
