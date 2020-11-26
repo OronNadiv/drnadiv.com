@@ -6,7 +6,6 @@ import { rhythm } from '../utils/typography'
 import { FacebookProvider, Comments } from 'react-facebook'
 import FacebookShareButton from '../utils/FacebookShareButton'
 import TwitterShareButton from '../utils/TwitterShareButton'
-import ScrollToTop from 'react-scroll-up'
 import PostTags from '../components/postTags'
 import './blog-post.scss'
 import _ from 'underscore'
@@ -62,11 +61,6 @@ const BlogPostTemplate = ({ data, location, pageContext }) => {
         </div>
 
         <div className="main">
-          <ScrollToTop showUnder={100} duration={800}>
-            <a className="scrolltop">
-              <i className="fa fa-chevron-up" aria-hidden="true" />
-            </a>
-          </ScrollToTop>
           <div className="section-3 single-post">
             <div className="table-row">
               <div className="post-container">
@@ -81,16 +75,10 @@ const BlogPostTemplate = ({ data, location, pageContext }) => {
                     <div className="social float-right bg-white pt-0">
                       <div className="share">
                         <span>share</span>
-                        <TwitterShareButton
-                          url={linkUrl}
-                          className="d-inline"
-                        >
+                        <TwitterShareButton url={linkUrl} className="d-inline">
                           <i className="fa fa-twitter" />
                         </TwitterShareButton>
-                        <FacebookShareButton
-                          url={linkUrl}
-                          className="d-inline"
-                        >
+                        <FacebookShareButton url={linkUrl} className="d-inline">
                           <i className="fa fa-facebook" />
                         </FacebookShareButton>
                       </div>

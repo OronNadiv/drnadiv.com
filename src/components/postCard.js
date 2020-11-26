@@ -7,6 +7,7 @@ import TwitterShareButton from '../utils/TwitterShareButton'
 import FacebookShareButton from '../utils/FacebookShareButton'
 import { CommentsCount, FacebookProvider } from 'react-facebook'
 import PostTags from './postTags'
+import './postCard.scss'
 
 const postCard = ({ node, data }) => {
   const [tags, setTags] = useState([])
@@ -18,11 +19,7 @@ const postCard = ({ node, data }) => {
   const title = node.frontmatter.title || node.fields.slug
   const category =
     node.frontmatter.category &&
-    _s(node.frontmatter.category)
-      .clean()
-      .titleize()
-      .value()
-      .replace(/_/g, ' ')
+    _s(node.frontmatter.category).clean().titleize().value().replace(/_/g, ' ')
   const siteUrl = data.site.siteMetadata.siteUrl
   const linkUrl = `${siteUrl}${node.fields.slug}`
   return (
@@ -30,52 +27,39 @@ const postCard = ({ node, data }) => {
       <Link to={node.fields.slug}>
         <Img
           className="img-fluid rounded mx-auto d-block"
-          sizes={
-            node.frontmatter.featuredImage.childImageSharp
-              .sizes
-          }
+          sizes={node.frontmatter.featuredImage.childImageSharp.sizes}
         />
       </Link>
       <div className="text">
         <span className="date">{node.frontmatter.date}</span>
         <Link to={node.fields.slug}>
           <h1>{title}</h1>
-          <h3 className='text-muted text-capitalize'>{category}</h3>
+          <h3 className="text-muted text-capitalize">{category}</h3>
           <p
             style={{ color: 'black' }}
             dangerouslySetInnerHTML={{
-              __html:
-                node.frontmatter.description || node.excerpt
+              __html: node.frontmatter.description || node.excerpt
             }}
           />
           <div className="text-center">Read more</div>
         </Link>
 
         <PostTags tags={tags} />
-
       </div>
       <div className="social">
         <div className="share">
           <span>share</span>
-          <TwitterShareButton
-            url={linkUrl}
-            className="d-inline"
-          >
+          <TwitterShareButton url={linkUrl} className="d-inline">
             <i className="fa fa-twitter" />
           </TwitterShareButton>
-          <FacebookShareButton
-            url={linkUrl}
-            className="d-inline"
-          >
+          <FacebookShareButton url={linkUrl} className="d-inline">
             <i className="fa fa-facebook" />
           </FacebookShareButton>
         </div>
         <div className="comments">
           <FacebookProvider appId="634731470264758">
             <span className="d-flex flex-row">
-              <CommentsCount
-                href={`${siteUrl}/${node.frontmatter.id}`}
-              />
+              <CommentsCount href={`${siteUrl}/${node.frontmatter.id}`} />
               &nbsp;comments
             </span>
           </FacebookProvider>

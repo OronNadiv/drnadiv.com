@@ -4,13 +4,15 @@ module.exports = {
   siteMetadata: {
     title: 'The Well Child | Elizabeth Nadiv MD',
     author: 'Oron Nadiv',
-    description: 'Elizabeth Nadiv, MD is an experienced pediatrician who works at Kaiser in Daly City. This blog focuses on nutrition, sleep, parenting, and overall wellness.',
+    description:
+      'Elizabeth Nadiv, MD is an experienced pediatrician who works at Kaiser in Daly City. This blog focuses on nutrition, sleep, parenting, and overall wellness.',
     siteUrl: 'https://www.drnadiv.com/',
     social: {
       twitter: 'TODO:'
     }
   },
   plugins: [
+    'gatsby-plugin-sass',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -46,7 +48,8 @@ module.exports = {
               urlOverrides: [
                 {
                   id: 'youtube',
-                  embedURL: (videoId) => `https://www.youtube-nocookie.com/embed/${videoId}`
+                  embedURL: (videoId) =>
+                    `https://www.youtube-nocookie.com/embed/${videoId}`
                 }
               ]
             }

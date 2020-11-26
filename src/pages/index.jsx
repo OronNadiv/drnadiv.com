@@ -2,7 +2,6 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import ScrollToTop from 'react-scroll-up'
 import * as Scroll from 'react-scroll'
 import PostsSidebar from '../components/postsSidebar'
 import PostCard from '../components/postCard'
@@ -17,7 +16,7 @@ const index = ({ data, location }) => {
   const siteUrl = data.site.siteMetadata.siteUrl
   const posts = data.allMarkdownRemark.edges
 
-  useFirebase(firebase => {
+  useFirebase((firebase) => {
     // initialize google analytics
     firebase.analytics()
   }, [])
@@ -26,12 +25,6 @@ const index = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <SEO title={siteTitle} image={`${siteUrl}${mainImage}`} />
       <div className="main">
-        <ScrollToTop showUnder={100} duration={800}>
-          <a className="scrolltop">
-            <i className="fa fa-chevron-up" aria-hidden="true" />
-          </a>
-        </ScrollToTop>
-
         <div className="nav">
           <div className="brand">
             <a href="/">Elizabeth Nadiv MD</a>
@@ -43,9 +36,7 @@ const index = ({ data, location }) => {
         >
           <div className="content">
             <h2>The Well Child</h2>
-            <p>
-              Advice for my patients and their families.
-            </p>
+            <p>Advice for my patients and their families.</p>
             <ScrollLink
               href="#"
               className="scroll-down"
@@ -64,25 +55,39 @@ const index = ({ data, location }) => {
               smooth
               duration={800}
             >
-              <i className="fa fa-chevron-down text-black-50"></i>
+              <i className="fa fa-chevron-down text-black-50" />
             </ScrollLink>
           </div>
         </div>
 
-        <div id="posts-list" className="section-3">
+        <div className="section-3">
           <div className="post-container">
-            <div className="table-row">
-              <div className="cell posts">
-                {
-                  posts.map(({ node }, index) => {
-                    return <PostCard key={index} node={node} data={data} />
-                  })
-                }
+            <div id="posts-list" className="container">
+              <div className="row">
+                <div className="col-12 col-lg-8 text-center">
+                  <div className="container">
+                    <div className="row">
+                      {posts.map(({ node }, index) => {
+                        return (
+                          <div
+                            key={index}
+                            className="col-12 col-md-6"
+                            style={{ margin: 0 }}
+                          >
+                            <PostCard node={node} data={data} />
+                          </div>
+                        )
+                      })}
+                    </div>
+                  </div>
+                </div>
+                <div className="col-12 col-lg-4 order-first order-md-last">
+                  <PostsSidebar
+                    posts={data.allCategoriesAndTags.edges}
+                    recent={data.mostResentPosts.edges}
+                  />
+                </div>
               </div>
-              <PostsSidebar
-                posts={data.allCategoriesAndTags.edges}
-                recent={data.mostResentPosts.edges}
-              />
             </div>
           </div>
         </div>

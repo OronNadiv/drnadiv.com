@@ -1,5 +1,6 @@
 import React from 'react'
 import Disclaimer from './disclaimer'
+import ScrollToTop from 'react-scroll-up'
 
 class Layout extends React.Component {
   render () {
@@ -14,6 +15,16 @@ class Layout extends React.Component {
     }
     return (
       <>
+        <div className="position-absolute" style={{ zIndex: 9999 }}>
+          <div className="position-relative">
+            <ScrollToTop showUnder={100} duration={800}>
+              <a className="scrolltop">
+                <i className="fa fa-chevron-up" aria-hidden="true" />
+              </a>
+            </ScrollToTop>
+          </div>
+        </div>
+
         <Disclaimer />
         {header}
         {children}
