@@ -2,8 +2,10 @@ import React from 'react'
 import Disclaimer from './disclaimer'
 import ScrollToTop from 'react-scroll-up'
 import '../style.scss'
+import './layout.scss'
+
 class Layout extends React.Component {
-  render() {
+  render () {
     const { location, children } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
     let header

@@ -1,0 +1,19 @@
+.section-3 {
+  padding: 30px 0
+}
+.section-3 {
+  padding-bottom: 2em;
+  background: #f8f8f8
+}
+@media (max-width: 479px) {
+  .section-3 {
+    padding-bottom: 50px
+  }
+}
+
+@media (max-width: 768px) {
+  .section-3 .table-row {
+    display: flex;
+    flex-direction: column
+  }
+}

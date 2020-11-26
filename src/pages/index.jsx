@@ -3,10 +3,9 @@ import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import * as Scroll from 'react-scroll'
-import PostsSidebar from '../components/posts-sidebar'
-import PostCard from '../components/post-card'
 import { useFirebase } from 'gatsby-plugin-firebase'
 import Section3 from '../components/section-3'
+import './index.scss'
 
 const ScrollLink = Scroll.Link
 

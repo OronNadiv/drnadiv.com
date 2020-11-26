@@ -6,7 +6,7 @@ import { rhythm } from '../utils/typography'
 import { FacebookProvider, Comments } from 'react-facebook'
 import FacebookShareButton from '../utils/FacebookShareButton'
 import TwitterShareButton from '../utils/TwitterShareButton'
-import PostTags from '../components/postTags'
+import PostTags from '../components/post-tags'
 import './blog-post.scss'
 import _ from 'underscore'
 
@@ -44,10 +44,8 @@ const BlogPostTemplate = ({ data, location, pageContext }) => {
             <div className="brand">
               <Link to={'/'}>Elizabeth Nadiv MD</Link>
             </div>
-            {/* <i className="fa fa-bars"></i> */}
             <ul className="icons">
               <li>
-                {/* <a href="index-left.html">Back to Articles</a> */}
                 <Link to={'/'}>Back to Articles</Link>
               </li>
             </ul>

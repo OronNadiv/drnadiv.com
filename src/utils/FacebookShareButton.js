@@ -5,7 +5,7 @@ import assert from 'assert'
 import objectToGetParams from './objectToGetParams'
 import createShareButton from './createShareButton'
 
-function facebookLink(url, { quote, hashtag }) {
+function facebookLink (url, { quote, hashtag }) {
   assert(url, 'facebook.url')
 
   return (

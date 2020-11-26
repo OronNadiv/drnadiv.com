@@ -1,6 +1,7 @@
 import React from 'react'
-import PostsSidebar from '../components/posts-sidebar'
-import PostCard from '../components/post-card'
+import './section-3.scss'
+import PostsSidebar from './posts-sidebar'
+import PostCard from './post-card'
 
 const index = ({
   posts,
