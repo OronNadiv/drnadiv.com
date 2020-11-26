@@ -24,7 +24,12 @@ const postCard = ({ node, siteUrl }) => {
           <div className="col-8 text-left">
             <div className="d-flex flex-column justify-content-between h-100">
               <div className="text-muted text-capitalize d-flex align-items-center align-content-center mb-2 mr-2">
-                <h3>{category}</h3>
+                <Link
+                  to={`/categories/${node.frontmatter.category}`}
+                  className="p-0"
+                >
+                  <h3 className="text-muted">{category}</h3>
+                </Link>
                 <h3 className="mx-2">·</h3>
                 <h3>{node.frontmatter.date}</h3>
               </div>
