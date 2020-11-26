@@ -25,7 +25,7 @@ I hope to inspire you to re-think what we eat and why. **I want to emphasize tha
 
 Always a tentative meat eater, I became a vegetarian during my junior year of college when I spent a semester in southern Mexico with the [School for International Training](https://www.sit.edu/).  It was easy to be vegetarian in Oaxaca: I learned that I loved black beans, freshly made corn tortillas, pico de gallo, and avocados.  As I read more about vegetarian diets, I came across a book by [John Robbins](https://www.johnrobbins.info/) called Diet for a New World.  Robbins details how the production of meat and dairy products negatively impacts the environment, as well as the health benefits of plant-based diets.  
 
-How does eating meat and dairy negatively impact our environment? [Our World In Data](https://ourworldindata.org/environmental-impacts-of-food) clearly describes how food and agriculture production directly affects the planet.
+[Our World In Data](https://ourworldindata.org/environmental-impacts-of-food) clearly diagrams how food and agriculture production directly affects the planet.
 
 ![environmental impacts of food](./What-are-the-environmental-impacts-of-agriculture-800x518.png)
 
