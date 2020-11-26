@@ -9,6 +9,7 @@ import TwitterShareButton from '../utils/TwitterShareButton'
 import PostTags from '../components/post-tags'
 import './blog-post.scss'
 import _ from 'underscore'
+import BackgroundImage from 'gatsby-background-image'
 
 const BlogPostTemplate = ({ data, location, pageContext }) => {
   const post = data.markdownRemark
@@ -33,12 +34,11 @@ const BlogPostTemplate = ({ data, location, pageContext }) => {
           `${siteUrl}${post.frontmatter.featuredImage.publicURL}`
         }
       />
-      <article>
-        <div
+      <div className="blog-post">
+        <BackgroundImage
+          Tag="div"
           className="heading"
-          style={{
-            backgroundImage: `url("${post.frontmatter.featuredImage.publicURL}")`
-          }}
+          fluid={post.frontmatter.featuredImage.childImageSharp.fluid}
         >
           <div className="nav white sticky">
             <div className="brand">
@@ -56,7 +56,7 @@ const BlogPostTemplate = ({ data, location, pageContext }) => {
               <h1>{post.frontmatter.title}</h1>
             </a>
           </div>
-        </div>
+        </BackgroundImage>
 
         <div className="main">
           <div className="section-3 single-post">
@@ -138,7 +138,7 @@ const BlogPostTemplate = ({ data, location, pageContext }) => {
             marginBottom: rhythm(1)
           }}
         />
-      </article>
+      </div>
     </Layout>
   )
 }
@@ -212,6 +212,15 @@ export const pageQuery = graphql`
         tags
         featuredImage {
           publicURL
+          childImageSharp {
+            fluid {
+              aspectRatio
+              base64
+              sizes
+              src
+              srcSet
+            }
+          }
         }
       }
     }

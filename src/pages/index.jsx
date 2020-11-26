@@ -1,3 +1,4 @@
+import './index.scss'
 import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
@@ -5,11 +6,11 @@ import SEO from '../components/seo'
 import * as Scroll from 'react-scroll'
 import { useFirebase } from 'gatsby-plugin-firebase'
 import Section3 from '../components/section-3'
-import './index.scss'
+import BackgroundImage from 'gatsby-background-image'
 
 const ScrollLink = Scroll.Link
 
-const mainImage = '/images/main-1.png'
+const mainImage = '/images/main.png'
 
 const index = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
@@ -24,15 +25,16 @@ const index = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title={siteTitle} image={`${siteUrl}${mainImage}`} />
-      <div className="main">
+      <div className="main main-page">
         <div className="nav">
           <div className="brand">
             <a href="/">Elizabeth Nadiv MD</a>
           </div>
         </div>
-        <div
+        <BackgroundImage
+          Tag="div"
           className="heading"
-          style={{ backgroundImage: `url("${mainImage}")` }}
+          fluid={data.mainImage.childImageSharp.fluid}
         >
           <div className="content">
             <h2>The Well Child</h2>
@@ -58,13 +60,14 @@ const index = ({ data, location }) => {
               <i className="fa fa-chevron-down text-black-50" />
             </ScrollLink>
           </div>
-        </div>
+        </BackgroundImage>
 
         <Section3
           posts={posts}
           allCategoriesAndTags={data.allCategoriesAndTags}
           mostResentPosts={data.mostResentPosts}
           siteUrl={data.site.siteMetadata.siteUrl}
+          profileImage={data.profileImage.childImageSharp.fluid}
         />
       </div>
     </Layout>
@@ -73,6 +76,36 @@ const index = ({ data, location }) => {
 
 export const pageQuery = graphql`
   query {
+    profileImage: file(
+      sourceInstanceName: { eq: "images" }
+      name: { eq: "profile" }
+    ) {
+      childImageSharp {
+        fluid {
+          base64
+          tracedSVG
+          srcWebp
+          srcSetWebp
+          originalImg
+          originalName
+        }
+      }
+    }
+    mainImage: file(
+      sourceInstanceName: { eq: "images" }
+      name: { eq: "main" }
+    ) {
+      childImageSharp {
+        fluid {
+          base64
+          tracedSVG
+          srcWebp
+          srcSetWebp
+          originalImg
+          originalName
+        }
+      }
+    }
     site {
       siteMetadata {
         siteUrl

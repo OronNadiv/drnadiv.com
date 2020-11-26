@@ -13,6 +13,7 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-sass',
+    'gatsby-background-image',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -25,6 +26,13 @@ module.exports = {
       options: {
         path: path.join(__dirname, '/content/assets'),
         name: 'assets'
+      }
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: path.join(__dirname, '/src/images'),
+        name: 'images'
       }
     },
     {

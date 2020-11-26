@@ -242,12 +242,6 @@ p {
   border: 0
 }
 
-div.heading {
-  min-height: 100vh;
-  /*background: url(../images/main-1.png) no-repeat center center;*/
-  background-size: cover;
-  position: relative
-}
 
 .cell {
   text-align: center
@@ -284,14 +278,6 @@ div.heading {
 
 .blank {
   width: 100px
-}
-
-.image {
-  width: 250px;
-  height: 250px;
-  border-radius: 100%;
-  background: url(./images/profile.png) no-repeat center center;
-  background-size: cover
 }
 
 .post-container {
@@ -375,14 +361,6 @@ div.heading {
   }
 }
 
-@media (max-width: 479px) {
-  div.heading {
-    min-height: 420px;
-    background-position: top center;
-    background-size: cover
-  }
-}
-
 .scrolltop {
   position: fixed;
   z-index: 9999;
@@ -414,10 +392,6 @@ div.heading {
   background: #fff;
 }
 
-.grid-styles .post-container {
-  max-width: 100%
-}
-
 .main {
   min-height: 100%;
   flex-shrink: 0
@@ -442,34 +416,12 @@ div.heading {
 }
 
 @media (max-width: 991px) {
-  .grid {
-    border-spacing: 10px 0
-  }
-
-  .grid .cell {
-    vertical-align: top
-  }
-
-  div.heading {
-    min-height: 70vh
-  }
-
   .content {
     height: 40vh
   }
 }
 
-@media (min-width: 769px) and (max-width: 991px) {
-  .grid .share span {
-    display: block
-  }
-}
-
 @media (max-width: 1199px) {
-  .grid {
-    border-spacing: 5px 0
-  }
-
   .content {
     margin: 0 50px
   }
@@ -583,20 +535,8 @@ div.heading {
   max-width: 100%
 }
 
-@media (max-width: 479px) {
-  div.heading {
-    min-height: 100vh
-  }
-}
-
-
 @media only screen and (min-device-width: 480px) and (max-device-width: 860px) and (orientation: landscape) {
   .content {
     min-height: 50vh !important
   }
-
-  div.heading {
-    min-height: 120vh
-  }
 }
-

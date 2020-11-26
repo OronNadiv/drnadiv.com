@@ -110,3 +110,11 @@
 .single-post {
   padding-top: 0 !important;
 }
+
+.blog-post {
+  div.heading {
+    min-height: 70vh;
+    background-size: cover;
+    position: relative;
+  }
+}

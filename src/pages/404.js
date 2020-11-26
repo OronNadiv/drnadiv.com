@@ -1,16 +1,16 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 import SEO from '../components/seo'
+import Img from 'gatsby-image'
 
 const color = 'rgba(48, 41, 105)'
 
-const notFound = () => {
+const notFound = ({ data }) => {
   return (
     <>
       <SEO title="Not Found" />
-      <img
-        src={'/images/sad-child-1380992577sV3.jpg'}
-        alt="nature"
+      <Img
+        fluid={data.sadChildImage.childImageSharp.fluid}
         style={{
           position: 'absolute',
           zIndex: -100,
@@ -51,5 +51,25 @@ const notFound = () => {
     </>
   )
 }
+
+export const pageQuery = graphql`
+  query {
+    sadChildImage: file(
+      sourceInstanceName: { eq: "images" }
+      name: { eq: "sad-child-1380992577sV3" }
+    ) {
+      childImageSharp {
+        fluid {
+          base64
+          tracedSVG
+          srcWebp
+          srcSetWebp
+          originalImg
+          originalName
+        }
+      }
+    }
+  }
+`
 
 export default notFound

@@ -8,6 +8,7 @@ const index = ({
   allCategoriesAndTags,
   mostResentPosts,
   siteUrl,
+  profileImage,
   children
 }) => {
   return (
@@ -25,6 +26,7 @@ const index = ({
               <PostsSidebar
                 posts={allCategoriesAndTags.edges}
                 recent={mostResentPosts.edges}
+                profileImage={profileImage}
               />
             </div>
           </div>

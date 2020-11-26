@@ -5,7 +5,7 @@ import SEO from '../components/seo'
 import _s from 'underscore.string'
 import Section3 from '../components/section-3'
 
-const mainImage = '/images/main-1.png'
+const mainImage = '/images/main.png'
 
 const CategoryTemplate = ({ location, pageContext, data }) => {
   const [tag, setTag] = useState()

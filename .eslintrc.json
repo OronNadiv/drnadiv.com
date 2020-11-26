@@ -19,7 +19,8 @@
   },
   "plugins": ["react", "markdown"],
   "rules": {
-    "react/prop-types": [0]
+    "react/prop-types": [0],
+    "space-before-function-paren": ["error", "never"]
   },
   "settings": {
     "react": {

@@ -1,10 +1,11 @@
+import Img from 'gatsby-image'
 import { Link } from 'gatsby'
 import React, { useEffect, useState } from 'react'
 import _s from 'underscore.string'
 import _ from 'underscore'
 import './posts-sidebar.scss'
 
-const postsSidebar = ({ posts }) => {
+const postsSidebar = ({ posts, profileImage }) => {
   const [categories, setCategories] = useState({})
   const [tags, setTags] = useState({})
 
@@ -53,7 +54,7 @@ const postsSidebar = ({ posts }) => {
   return (
     <div className="cell author px-auto pt-3 pb-5">
       <div className="d-flex justify-content-center">
-        <div className="image" />
+        <Img className="image" fluid={profileImage} />
       </div>
       <h1 className="pt-3">About Me</h1>
       <p>

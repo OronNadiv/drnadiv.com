@@ -23,7 +23,7 @@ const postCard = ({ node, siteUrl }) => {
         <div className="row">
           <div className="col-8 text-left">
             <div className="d-flex flex-column justify-content-between h-100">
-              <div className="text-muted text-capitalize d-flex align-items-center align-content-center mb-2 mr-2">
+              <div className="text-muted text-capitalize d-none d-sm-flex align-items-center mb-2 mr-2">
                 <Link
                   to={`/categories/${node.frontmatter.category}`}
                   className="p-0"
@@ -35,7 +35,7 @@ const postCard = ({ node, siteUrl }) => {
               </div>
               <Link to={node.fields.slug}>
                 <h1 className="m-0 font-weight-bold">{title}</h1>
-                <p className="text-black-50 mt-2">
+                <p className="text-black-50 mt-2 d-none d-sm-block">
                   <Truncate lines={2} ellipsis={<span>...</span>}>
                     <div
                       dangerouslySetInnerHTML={{
@@ -56,7 +56,7 @@ const postCard = ({ node, siteUrl }) => {
                     <i className="fa fa-facebook" />
                   </FacebookShareButton>
                 </div>
-                <div className="comments">
+                <div className="comments d-none d-sm-block">
                   <FacebookProvider appId="634731470264758">
                     <span className="d-flex flex-row">
                       <CommentsCount
@@ -69,7 +69,7 @@ const postCard = ({ node, siteUrl }) => {
               </div>
             </div>
           </div>
-          <div className="col-4">
+          <div className="col-4 p-0 px-sm-2">
             <Link to={node.fields.slug}>
               <Img
                 className="img-fluid rounded"
