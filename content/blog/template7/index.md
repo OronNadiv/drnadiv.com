@@ -19,7 +19,7 @@ Plant-based diets can prevent and reverse high cholesterol, heart disease and di
 
 # Children Who Eat the Standard American Diet Have Fatty Streaks (Atherosclerosis) by Age 10. These Fatty Streaks Lead to Heart Disease
 
-![Standard American Diet](https://images.unsplash.com/photo-1594078186749-7500028c07da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)
+![Standard American Diet](./photo-1594078186749-7500028c07da.jpeg)
 
 Dr. Michael Gregor discusses the evidence behind plant-based nutrition and has a wealth of information on his web site, [nutritionfacts.org](nutritionfacts.org).
 
