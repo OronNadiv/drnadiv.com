@@ -14,7 +14,7 @@ const index = ({
     <div className="section-3">
       {children}
       <div className="post-container">
-        <div id="posts-list" className="container">
+        <div id="posts-list" className="container-fluid">
           <div className="row">
             <div className="col-12 col-lg-8 text-center order-last order-lg-first">
               {posts.map(({ node }, index) => (
