@@ -2,9 +2,8 @@ import React, { useEffect, useState } from 'react'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import PostCard from '../components/postCard'
-import PostsSidebar from '../components/postsSidebar'
 import _s from 'underscore.string'
+import Section3 from '../components/section-3'
 
 const mainImage = '/images/main-1.png'
 
@@ -23,13 +22,18 @@ const CategoryTemplate = ({ location, pageContext, data }) => {
 
   const posts = data.allMarkdownRemark.edges
   const siteUrl = data.site.siteMetadata.siteUrl
-  const title = `category "${category}"`
+  const title = `Category "${category}"`
   return (
     <Layout location={location} title={title}>
       <SEO title={title} image={`${siteUrl}${mainImage}`} />
       <div className="main">
-        <div id="posts-list" className="section-3">
-          <div className='mx-5'>
+        <Section3
+          posts={posts}
+          allCategoriesAndTags={data.allCategoriesAndTags}
+          mostResentPosts={data.mostResentPosts}
+          siteUrl={data.site.siteMetadata.siteUrl}
+        >
+          <div className="mx-5">
             <div className="rounded bg-white mb-5 py-5 px-5 col d-flex justify-content-between">
               <div className="brand">
                 <h5 className="d-inline text-black-50">Category: </h5>
@@ -40,22 +44,7 @@ const CategoryTemplate = ({ location, pageContext, data }) => {
               <Link to={'/'}>Back to Articles</Link>
             </div>
           </div>
-          <div className="post-container">
-            <div className="table-row">
-              <div className="cell posts">
-                {
-                  posts.map(({ node }, index) => {
-                    return <PostCard key={index} node={node} data={data} />
-                  })
-                }
-              </div>
-              <PostsSidebar
-                posts={data.allCategoriesAndTags.edges}
-                recent={data.mostResentPosts.edges}
-              />
-            </div>
-          </div>
-        </div>
+        </Section3>
       </div>
     </Layout>
   )
@@ -98,8 +87,12 @@ export const pageQuery = graphql`
             title
             featuredImage {
               childImageSharp {
-                sizes(maxWidth: 630) {
-                  ...GatsbyImageSharpSizes
+                fluid {
+                  aspectRatio
+                  base64
+                  sizes
+                  src
+                  srcSet
                 }
               }
             }
@@ -110,7 +103,10 @@ export const pageQuery = graphql`
     allMarkdownRemark: allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
       limit: 1000
-      filter: { fields: { category: { eq: $category } }, frontmatter: { isVisible: { ne: "no" } } }
+      filter: {
+        fields: { category: { eq: $category } }
+        frontmatter: { isVisible: { ne: "no" } }
+      }
     ) {
       totalCount
       edges {
@@ -128,8 +124,12 @@ export const pageQuery = graphql`
             tags
             featuredImage {
               childImageSharp {
-                sizes(maxWidth: 630) {
-                  ...GatsbyImageSharpSizes
+                fluid {
+                  aspectRatio
+                  base64
+                  sizes
+                  src
+                  srcSet
                 }
               }
             }

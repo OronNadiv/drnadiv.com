@@ -3,10 +3,7 @@
     "browser": true,
     "es6": true
   },
-  "extends": [
-    "standard",
-    "plugin:react/recommended"
-  ],
+  "extends": ["standard", "plugin:react/recommended"],
   "globals": {
     "__PATH_PREFIX__": "readonly",
     "Atomics": "readonly",
@@ -20,14 +17,9 @@
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
-  "plugins": [
-    "react",
-    "markdown"
-  ],
+  "plugins": ["react", "markdown"],
   "rules": {
-    "react/prop-types": [
-      0
-    ]
+    "react/prop-types": [0]
   },
   "settings": {
     "react": {

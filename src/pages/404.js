@@ -24,7 +24,7 @@ const notFound = () => {
         }}
       />
       <div
-        className=''
+        className=""
         style={{
           position: 'absolute',
           zIndex: 100,
@@ -33,17 +33,17 @@ const notFound = () => {
           width: '15rem'
         }}
       >
-        <div className='container'>
-          <div className='row'>
+        <div className="container">
+          <div className="row">
             <h1 style={{ color }}>Page not found</h1>
           </div>
-          <div className='row' style={{ color }}>
+          <div className="row" style={{ color }}>
             The page you are looking for has been removed or relocated.
           </div>
-          <div className='row my-3' style={{ color }}>
+          <div className="row my-3" style={{ color }}>
             The sadness :-(
           </div>
-          <div className='row'>
+          <div className="row">
             <Link to={'/'}>Back to Articles</Link>
           </div>
         </div>

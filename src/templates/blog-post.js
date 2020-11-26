@@ -72,7 +72,7 @@ const BlogPostTemplate = ({ data, location, pageContext }) => {
                       />
                       <PostTags tags={tags} />
                     </div>
-                    <div className="social float-right bg-white pt-0">
+                    <div className="d-flex justify-content-end social bg-white py-2 pr-3 mr-3">
                       <div className="share">
                         <span>share</span>
                         <TwitterShareButton url={linkUrl} className="d-inline">
@@ -83,7 +83,7 @@ const BlogPostTemplate = ({ data, location, pageContext }) => {
                         </FacebookShareButton>
                       </div>
                     </div>
-                    <div className="clearfix" />
+
                     <div className="social">
                       <div className="comments-single-post">
                         <FacebookProvider appId="634731470264758">
@@ -185,8 +185,12 @@ export const pageQuery = graphql`
             title
             featuredImage {
               childImageSharp {
-                sizes(maxWidth: 630) {
-                  ...GatsbyImageSharpSizes
+                fluid {
+                  aspectRatio
+                  base64
+                  sizes
+                  src
+                  srcSet
                 }
               }
             }

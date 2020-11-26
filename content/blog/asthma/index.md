@@ -16,14 +16,14 @@ Asthma is very common and is often underrecognized. To make life more complicate
 
 ## Medicines Commonly Used To Treat Asthma, And How They Work
 
-* ### Albuterol (Ventolin, Pro-Air) is a **RESCUE MEDICINE** that works quickly to open up tight airways, but only lasts for a few hours. 
-  * **SHOULD NOT BE NEEDED ON A DAILY BASIS!!**
+- ### Albuterol (Ventolin, Pro-Air) is a **RESCUE MEDICINE** that works quickly to open up tight airways, but only lasts for a few hours.
+  - **SHOULD NOT BE NEEDED ON A DAILY BASIS!!**
 
 ![Albuterol](./7665-300.jpg)
-  
-* ### Inhaled Corticosteroids (Flovent, Alvesco, Qvar, etc) are **CONTROLLER MEDICINES** that work more slowly but are longer lasting. They should be taken twice daily as directed by your doctor.  Some children take these medicines for 2 weeks at a time when asthma symptoms act up. Other children take these throughout the winter/cold season, and some take them year round. Many parents worry about the side effects of these medicines, but they are **[VERY SAFE](https://www.chop.edu/health-resources/safety-steroids-asthma)**
 
-* ### Singulair (Montelukast) = **CONTROLLER MEDICINE** that is not a steroid. It is a "mast cell inhibitor."
+- ### Inhaled Corticosteroids (Flovent, Alvesco, Qvar, etc) are **CONTROLLER MEDICINES** that work more slowly but are longer lasting. They should be taken twice daily as directed by your doctor. Some children take these medicines for 2 weeks at a time when asthma symptoms act up. Other children take these throughout the winter/cold season, and some take them year round. Many parents worry about the side effects of these medicines, but they are **[VERY SAFE](https://www.chop.edu/health-resources/safety-steroids-asthma)**
+
+- ### Singulair (Montelukast) = **CONTROLLER MEDICINE** that is not a steroid. It is a "mast cell inhibitor."
 
 ![Common Asthma Controllers](./asthma_medications3.jpg)
 
@@ -41,9 +41,8 @@ Asthma is very common and is often underrecognized. To make life more complicate
 
 ![Kaiser AAP page 2](./kaiserAAP/kaiserAAP-2.jpg)
 
-### Could My Toddler Have Asthma? 
+### Could My Toddler Have Asthma?
 
 ![Could My Toddler Have Asthma?](./Clues-Your-Toddler-May-Have-Asthma-Infographic.jpg)
 
 ---
-

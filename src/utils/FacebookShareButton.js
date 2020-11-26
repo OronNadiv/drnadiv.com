@@ -5,7 +5,7 @@ import assert from 'assert'
 import objectToGetParams from './objectToGetParams'
 import createShareButton from './createShareButton'
 
-function facebookLink (url, { quote, hashtag }) {
+function facebookLink(url, { quote, hashtag }) {
   assert(url, 'facebook.url')
 
   return (
@@ -21,7 +21,7 @@ function facebookLink (url, { quote, hashtag }) {
 const FacebookShareButton = createShareButton(
   'facebook',
   facebookLink,
-  props => {
+  (props) => {
     /* eslint-disable no-console */
     if (props.picture) {
       console.warn('FacebookShareButton warning: picture is a deprecated prop.')

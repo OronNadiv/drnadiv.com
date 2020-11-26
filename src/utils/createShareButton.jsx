@@ -2,7 +2,7 @@ import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
 import cx from 'classnames'
 
-const isPromise = obj =>
+const isPromise = (obj) =>
   !!obj &&
   (typeof obj === 'object' || typeof obj === 'function') &&
   typeof obj.then === 'function'
@@ -47,7 +47,7 @@ function windowOpen(
     url,
     '',
     Object.keys(config)
-      .map(key => `${key}=${config[key]}`)
+      .map((key) => `${key}=${config[key]}`)
       .join(', ')
   )
 
@@ -102,7 +102,7 @@ class ShareButton extends PureComponent {
     tabIndex: '0'
   }
 
-  onClick = e => {
+  onClick = (e) => {
     const { disabled, onClick, openWindow, beforeOnClick } = this.props
 
     if (disabled) {
@@ -130,13 +130,13 @@ class ShareButton extends PureComponent {
     }
   }
 
-  onKeyPress = e => {
+  onKeyPress = (e) => {
     if (e.key === 'Enter' || e.key === 13 || e.key === ' ' || e.key === 32) {
       this.onClick(e)
     }
   }
 
-  openWindow = link => {
+  openWindow = (link) => {
     const {
       windowPosition,
       onShareWindowClose,

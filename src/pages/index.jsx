@@ -3,9 +3,10 @@ import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import * as Scroll from 'react-scroll'
-import PostsSidebar from '../components/postsSidebar'
-import PostCard from '../components/postCard'
+import PostsSidebar from '../components/posts-sidebar'
+import PostCard from '../components/post-card'
 import { useFirebase } from 'gatsby-plugin-firebase'
+import Section3 from '../components/section-3'
 
 const ScrollLink = Scroll.Link
 
@@ -60,37 +61,12 @@ const index = ({ data, location }) => {
           </div>
         </div>
 
-        <div className="section-3">
-          <div className="post-container">
-            <div id="posts-list" className="container">
-              <div className="row">
-                <div className="col-12 col-lg-8 text-center">
-                  <div className="container">
-                    <div className="row">
-                      {posts.map(({ node }, index) => {
-                        return (
-                          <div
-                            key={index}
-                            className="col-12 col-md-6"
-                            style={{ margin: 0 }}
-                          >
-                            <PostCard node={node} data={data} />
-                          </div>
-                        )
-                      })}
-                    </div>
-                  </div>
-                </div>
-                <div className="col-12 col-lg-4 order-first order-md-last">
-                  <PostsSidebar
-                    posts={data.allCategoriesAndTags.edges}
-                    recent={data.mostResentPosts.edges}
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <Section3
+          posts={posts}
+          allCategoriesAndTags={data.allCategoriesAndTags}
+          mostResentPosts={data.mostResentPosts}
+          siteUrl={data.site.siteMetadata.siteUrl}
+        />
       </div>
     </Layout>
   )
@@ -133,8 +109,12 @@ export const pageQuery = graphql`
             title
             featuredImage {
               childImageSharp {
-                sizes(maxWidth: 630) {
-                  ...GatsbyImageSharpSizes
+                fluid {
+                  aspectRatio
+                  base64
+                  sizes
+                  src
+                  srcSet
                 }
               }
             }
@@ -161,8 +141,12 @@ export const pageQuery = graphql`
             description
             featuredImage {
               childImageSharp {
-                sizes(maxWidth: 630) {
-                  ...GatsbyImageSharpSizes
+                fluid {
+                  aspectRatio
+                  base64
+                  sizes
+                  src
+                  srcSet
                 }
               }
             }
