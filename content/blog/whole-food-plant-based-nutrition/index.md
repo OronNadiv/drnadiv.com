@@ -18,7 +18,7 @@ I am excited to share my thoughts with you about the health and environmental be
 
 As an example of a whole foods plant-based diet, I would like to share [Canada's Nutrition Guidelines](https://food-guide.canada.ca/en/):
 
-![Canada's Food Guide](https://food-guide.canada.ca/static/assets/visual_en.png)
+![Canada's Food Guide](./visual_en.png)
 
 I hope to inspire you to re-think what we eat and why. **I want to emphasize that thinking about changing our diets is HARD, and it doesn’t have to be 100%.** The more whole plant-based foods you can incorporate and the more animal products you can limit, the better, but we have to do what is best for our individual families. My goal is to raise awareness that the healthiest foods are whole foods and plant-based. Eating a whole foods plant-based diet is safe and health-promoting for children of all ages, and is also a crucial part of slowing global warming. With the worsening California wildfires, we are seeing the direct consequences of a warming planet. As we all experienced in the Bay Area this and past summers, the poor air quality limits our ability to be outside and exacerbates asthma and other respiratory issues. **Changing our collective eating habits is a necessary step to slow global warming.** In this post, I would like to share what I have learned about the environmental benefits of eating a plant-based diet. My next two blog posts are about 1) The Health Benefits and Safety of a Plant-Based Diet for Children and 2) How to Feed Children a Plant-Based Diet.
 
@@ -30,11 +30,11 @@ Always a tentative meat eater, I became a vegetarian during my junior year of co
 
 - [Food and agriculture production accounts for **26%** of global greenhouse gas emissions](https://ourworldindata.org/food-ghg-emissions)
 
-![How Food and Agriculture Contribute to Greenhouse Gas Emissions](https://ourworldindata.org/uploads/2019/11/How-much-of-GHGs-come-from-food-544x550.png)
+![How Food and Agriculture Contribute to Greenhouse Gas Emissions](./How-much-of-GHGs-come-from-food-544x550.png)
 
 - Half of the world’s habitable land is used for agriculture
 
-![Land Use for Agriculture](https://ourworldindata.org/uploads/2020/01/Global-land-use-graphic-800x506.png)
+![Land Use for Agriculture](./Global-land-use-graphic-800x506.png)
 
 - [70% of the world's freshwater consumption is used for agriculture](https://ourworldindata.org/water-use-stress), and this continues to increase over time.
 
@@ -42,7 +42,7 @@ Always a tentative meat eater, I became a vegetarian during my junior year of co
 
 - [Agriculture and aquaculture dramatically reduce the earth's biodiversity, and are the biggest contributors to further threatening endangered species. This BBC article illustrates why this is happening and what we can do to help](https://www.bbc.com/news/science-environment-54357899)
 
-![Restore biodiversity](https://ichef.bbci.co.uk/news/800/cpsprodpb/7007/production/_114697682_biodiversity_restore_plan_gra640-nc.png)
+![Restore biodiversity](./_114697682_biodiversity_restore_plan_gra640-nc.png)
 
 The [EAT-Lancet Commission on Food, Planet Health](https://eatforum.org/eat-lancet-commission/) asks, "Can we feed a future population of 10 billion people a healthy diet within planetary boundaries?" Their [report](https://eatforum.org/eat-lancet-commission/eat-lancet-commission-summary-report/) details how a diet rich in plants and lower in animal sources is both healthier and environmentally sustainable.
 
