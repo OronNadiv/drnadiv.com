@@ -1,5 +1,4 @@
 ---
-isVisible: no
 id: 'amsdhksjdfh8uy34jnsedf'
 title: 'Whole Food Plant Based Nutrition'
 date: '2020-11-08T00'
