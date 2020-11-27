@@ -1,3 +1,7 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins/_breakpoints";
+
 .scroll_down {
   position: absolute;
   bottom: 5vh;
@@ -34,24 +38,31 @@
 
 .main-page {
   div.heading {
-    min-height: 100vh;
     background-size: cover;
     position: relative;
+    // Extra small devices (portrait phones, less than 576px)
+    @include media-breakpoint-only(xs) {
+      min-height: 70vh;
+    }
 
-    @media (max-width: 479px) {
-      min-height: 420px;
-      background-position: top center;
-      background-size: cover
+    // Small devices (landscape phones, 576px and up)
+    @include media-breakpoint-only(sm) {
+      min-height: 70vh;
     }
-    @media (max-width: 991px) {
-      min-height: 70vh
 
+    // Medium devices (tablets, 768px and up)
+    @include media-breakpoint-only(md) {
+      min-height: 70vh;
     }
-    @media (max-width: 479px) {
-      min-height: 100vh
+
+    // Large devices (desktops, 992px and up)
+    @include media-breakpoint-only(lg) {
+      min-height: 100vh;
     }
-    @media only screen and (min-device-width: 480px) and (max-device-width: 860px) and (orientation: landscape) {
-      min-height: 120vh
+
+    // Extra large devices (large desktops, 1200px and up)
+    @include media-breakpoint-only(xl) {
+      min-height: 100vh;
     }
   }
 }
