@@ -42,7 +42,7 @@ Always a tentative meat eater, I became a vegetarian during my junior year of co
 
 - [Agriculture and aquaculture dramatically reduce the earth's biodiversity, and are the biggest contributors to further threatening endangered species. This BBC article illustrates why this is happening and what we can do to help](https://www.bbc.com/news/science-environment-54357899)
 
-![Restore biodiversity](./_114697682_biodiversity_restore_plan_gra640-nc.png)
+![Restore biodiversity](./biodiversity_restore_plan_gra640-nc.png)
 
 The [EAT-Lancet Commission on Food, Planet Health](https://eatforum.org/eat-lancet-commission/) asks, "Can we feed a future population of 10 billion people a healthy diet within planetary boundaries?" Their [report](https://eatforum.org/eat-lancet-commission/eat-lancet-commission-summary-report/) details how a diet rich in plants and lower in animal sources is both healthier and environmentally sustainable.
 
