@@ -1,5 +1,4 @@
 ---
-isVisible: no
 id: 'jhgdsfi7yw3urhjksdf'
 title: 'Asthma Basics'
 date: '2020-01-03T00'
