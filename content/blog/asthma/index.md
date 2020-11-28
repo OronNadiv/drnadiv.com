@@ -3,7 +3,7 @@ id: 'jhgdsfi7yw3urhjksdf'
 title: 'Asthma Basics'
 date: '2020-01-03T00'
 description: "Many children suffer from asthma and it's important for families to understand how to properly use asthma medications and prevent asthma triggers." 
-featuredImage: './featured.jpg' #https://blogs.ohsu.edu/doernbecher/files/2013/06/child-with-spacer-831x424.jpg
+featuredImage: './featured1.png' #https://blogs.ohsu.edu/doernbecher/files/2013/06/child-with-spacer-831x424.jpg
 category: Common_Health_Concerns
 tags:
   - asthma
