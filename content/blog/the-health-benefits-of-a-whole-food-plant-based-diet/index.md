@@ -53,4 +53,8 @@ Dr. Oski's book illuminated several key points about cow's milk consumption:
 
 4. Cow's milk contributes to iron deficiency anemia because cow's milk is low in iron, and it interferes with iron's absorption in the intestine. Some children are also sensitive to cow's milk, and in these children, drinking cow's milk can induce bleeding in their intestines. If a child has iron deficiency anemia and cow's milk allergy, taking an iron supplement will not treat the anemia until that child stops drinking cow's milk.
 
-5. Drinking cow's milk [increases an adolescent's risk for developing severe acne](https://nutritionguide.pcrm.org/nutritionguide/view/Nutrition_Guide_for_Clinicians/1342093/all/Acne_Vulgaris?q=fiber#7)
+5. Oski also discusses the link between cow's milk and diseases arteries (atherosclerosis) which can lead to heart disease. As I mentioned above, all children on Standard American Diets have fatty streaks in their arteries by age 10. Oski discusses research done by a pathologist who reviewed the heart vessels of 1,500 children who died as a result from accidents showing that many children had diseased arteries. Interestingly, the clearest distinguishing factor between children with and without diseases arteries was the child's early feeding history (breast milk or cow's milk based formula). Children who had been breast fed were more likely to have normal arteries and children exposed to cow's milk formula (or cow's milk) had diseased arteries. 
+
+mention willett article
+
+6. Drinking cow's milk [increases an adolescent's risk for developing severe acne](https://nutritionguide.pcrm.org/nutritionguide/view/Nutrition_Guide_for_Clinicians/1342093/all/Acne_Vulgaris?q=fiber#7)
