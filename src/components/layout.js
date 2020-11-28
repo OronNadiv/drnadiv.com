@@ -1,7 +1,7 @@
 import React from 'react'
 import Disclaimer from './disclaimer'
 import ScrollToTop from 'react-scroll-up'
-import '../style.scss'
+import '../styles/shared.scss'
 import './layout.scss'
 
 class Layout extends React.Component {
@@ -32,15 +32,15 @@ class Layout extends React.Component {
         {children}
         <footer>
           <p>
-            This website was built with <span style={{ color: 'red' }}>♥️</span>{' '}
-            by{' '}
-            <a
-              href="https://www.oronnadiv.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Oron Nadiv
-            </a>
+            This website was built <span
+            className='d-inline-block'> with <span
+            className='text-red'>♥️</span> by <a
+            className='d-inline-block'
+            href="https://www.oronnadiv.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          > Oron Nadiv </a>
+            </span>
           </p>
         </footer>
       </>

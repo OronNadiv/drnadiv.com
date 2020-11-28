@@ -2,60 +2,125 @@
 @import "node_modules/bootstrap/scss/variables";
 @import "node_modules/bootstrap/scss/mixins/_breakpoints";
 
-.scroll_down {
-  position: absolute;
-  bottom: 5vh;
-  width: 100%;
-  text-align: center;
-  color: #fff;
-  font-size: 13px;
-  z-index: 8;
+.main-page {
+  .scroll_down {
+    position: absolute;
+    bottom: 5vh;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+    z-index: 8;
 
-  i {
-    position: relative;
-    animation: bounce 2s infinite;
-    height: 50px;
-    width: 30px;
-    line-height: 60px;
-    border-radius: 30px;
-    border: 2px solid #555;
-    display: inline-block;
-    font-size: 12px;
+    i {
+      position: relative;
+      animation: bounce 2s infinite;
+      height: 50px;
+      width: 30px;
+      line-height: 60px;
+      border-radius: 30px;
+      border: 2px solid #555;
+      display: inline-block;
+      font-size: 12px;
 
-    &:after {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      border-radius: 50%;
-      z-index: -1;
-      transition: all .2s;
+      &:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        z-index: -1;
+        transition: all .2s;
+      }
     }
   }
-}
 
-.main-page {
+  .content {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 150px;
+    justify-content: center;
+
+    a {
+      line-height: 24px;
+      width: 200px;
+      padding: 10px 0;
+    }
+
+    // Medium devices (tablets, 768px and up)
+    @include media-breakpoint-up(md) {
+      position: absolute;
+      height: 30vh;
+      top: 40vh;
+      padding: 25px;
+      background: rgba(255, 255, 255, .5);
+      border-radius: 20px
+    }
+
+    // Medium devices (tablets, less than 992px)
+    @include media-breakpoint-down(md) {
+      height: 40vh
+    }
+
+    // Large devices (desktops, less than 1200px)
+    @include media-breakpoint-down(lg) {
+      margin: 0 50px
+    }
+
+    // Small devices (landscape phones, less than 768px)
+    @include media-breakpoint-down(sm) {
+      margin: 150px auto 0 auto;
+      padding: 15px;
+      text-align: center;
+      border-radius: 5px;
+      background: rgba(255, 255, 255, .5);
+      justify-content: center;
+
+      a {
+        margin: 0 auto
+      }
+    }
+
+    // Large devices (desktops, less than 1200px)
+    @include media-breakpoint-down(lg) {
+      max-height: 50vh;
+      min-height: 30vh;
+      max-width: 80%;
+      top: 0;
+      bottom: 0;
+      position: absolute;
+      margin: auto;
+      left: 0;
+      right: 0;
+    }
+
+    @media only screen and (min-device-width: 480px) and (max-device-width: 860px) and (orientation: landscape) {
+      min-height: 50vh !important;
+    }
+  }
+
   div.heading {
     background-size: cover;
     position: relative;
-    // Extra small devices (portrait phones, less than 576px)
+    // Extra small devices (portrait phones, less than 575.98px)
     @include media-breakpoint-only(xs) {
       min-height: 70vh;
     }
 
-    // Small devices (landscape phones, 576px and up)
+    // Small devices (landscape phones, 576px and up to 767.98px)
     @include media-breakpoint-only(sm) {
       min-height: 70vh;
     }
 
-    // Medium devices (tablets, 768px and up)
+    // Medium devices (tablets, 768px and up to 991.98px)
     @include media-breakpoint-only(md) {
       min-height: 70vh;
     }
 
-    // Large devices (desktops, 992px and up)
+    // Large devices (desktops, 992px and up to 1199.98px)
     @include media-breakpoint-only(lg) {
       min-height: 100vh;
     }
