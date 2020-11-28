@@ -57,4 +57,4 @@ Dr. Oski's book illuminated several key points about cow's milk consumption:
 
 mention willett article
 
-6. Drinking cow's milk [increases an adolescent's risk for developing severe acne](https://nutritionguide.pcrm.org/nutritionguide/view/Nutrition_Guide_for_Clinicians/1342093/all/Acne_Vulgaris?q=fiber#7)
+6. Drinking cow's milk [increases an adolescent's risk for developing severe acne](https://nutritionguide.pcrm.org/nutritionguide/view/Nutrition_Guide_for_Clinicians/1342093/all/Acne_Vulgaris)
