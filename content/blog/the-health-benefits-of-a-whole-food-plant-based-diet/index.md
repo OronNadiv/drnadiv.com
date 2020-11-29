@@ -1,9 +1,9 @@
 ---
-id: 'drnadiv.com/plant_based_nutrition__the_why'
+id: 'kjfhkljskjdfn3498okjsdgl'
 title: 'The Health Benefits of a Whole Food Plant Based Diet'
 date: '2020-11-11T00'
 description: 'The absolutely MOST important gift you can give your child is healthy nutrition! There are many ways to eat a healthy diet, and a well-planned plant-based diet is healthy and safe for children of all ages'
-featuredImage: './featured.jpg'
+featuredImage: './child-559415_1280.jpg'
 category: nutrition
 tags:
   - plant_based
