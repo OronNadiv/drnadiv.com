@@ -1,5 +1,5 @@
 ---
-id: '2-zsdasdjknkjhwerr2'
+id: '1-zsdasdjknkjhwerr2'
 title: '6 - 12 months: Starting Solids and Infant Development'
 date: '2020-01-02T00'
 description: 'Your 6-month-old is ready to explore eating, can sleep on her own, and is going to start moving soon (if she hasn’t already!). The next several months are busy and exciting. Read more about how to encourage your baby’s development!'
