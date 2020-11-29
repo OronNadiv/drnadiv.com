@@ -1,5 +1,4 @@
 ---
-isVisible: no
 id: 'drnadiv.com/plant_based_nutrition__the_why'
 title: 'The Health Benefits of a Whole Food Plant Based Diet'
 date: '2020-11-11T00'
