@@ -57,19 +57,23 @@ Dr. Oski's book illuminates several key points about cow's milk consumption:
 
 A recent New England Journal of Medicine (the most prestigious medical journal) recently published an article called _Milk and Health_ written by Drs. [Walter Willett](https://www.hsph.harvard.edu/walter-willett/) and [David Ludwig](https://www.childrenshospital.org/research/researchers/l/david-ludwig).  In their [February 2020 NEJM review article](https://www.nejm.org/doi/full/10.1056/NEJMra1903547), they start by stating that:
 
-> the health benefit of a high intake of milk products has not been established, and concerns exist about the risks of possible adverse health outcomes. Therefore, the role of dairy consumption in human nutrition and disease prevention warrants careful assessment.
+> The health benefit of a high intake of milk products has not been established, and concerns exist about the risks of possible adverse health outcomes. Therefore, the role of dairy consumption in human nutrition and disease prevention warrants careful assessment.
 
 and they add that:
 
->normal growth and development can be obtained throughout childhood without dairy products if attention is given to diet quality, including the use of supplemental B12 in diets that include few animal products and vitamin D to compensate for low sun exposure.
+> Normal growth and development can be obtained throughout childhood without dairy products if attention is given to diet quality, including the use of supplemental B12 in diets that include few animal products and vitamin D to compensate for low sun exposure.
 
-Many consider milk and other dairy products as an essential dietary source of calcium for healthy bones.  Willett and Ludwig note that, "paradoxically, countries with the highest intakes of milk and calcium tend to have the highest rates of hip fractures. Although this correlation may not be causal and might be due to confounding by factors such as vitamin D status and ethnicity, low dairy consumption is clearly compatible with low rates of hip fracture."
+Many consider milk and other dairy products as an essential dietary source of calcium for healthy bones.  Willett and Ludwig note that
+
+> Paradoxically, countries with the highest intakes of milk and calcium tend to have the highest rates of hip fractures. Although this correlation may not be causal and might be due to confounding by factors such as vitamin D status and ethnicity, low dairy consumption is clearly compatible with low rates of hip fracture.
 
 Willett and Ludwig go on to mention the possible correlation between milk protein allergy and allergic diseases (eczema, asthma, allergies).
 
 >Scattered reports suggest that milk consumption may exacerbate atopic tendencies, conferring a predisposition to asthma, eczema, and food allergies. Over a period of 10 years, infants with a family history of atopy who were randomly assigned to receive hydrolyzed protein formula had a lower risk of any allergic disease and of eczema than did infants who were randomly assigned to receive cow’s milk. In a double-blind crossover study of children with intolerance to cow’s milk, 44 of 65 children had a reduction in symptoms (including resolution of anal fissures) when they consumed soy milk, whereas there was no reduction in symptoms among children in the group that received cow’s milk. Beyond childhood, cow’s milk may precipitate asthmatic exacerbations and related conditions.
 
-They also discuss a meta-analysis looking at how protein sources in our diets contribute to mortality, and found that "when major protein sources were compared, consumption of dairy foods was associated with lower mortality than consumption of processed red meat and eggs, with similar mortality to consumption of unprocessed red meat, poultry, and fish, and with significantly higher mortality than consumption of plant-based sources of protein"
+They also discuss a meta-analysis looking at how protein sources in our diets contribute to mortality, and found that
+
+> When major protein sources were compared, consumption of dairy foods was associated with lower mortality than consumption of processed red meat and eggs, with similar mortality to consumption of unprocessed red meat, poultry, and fish, and with significantly higher mortality than consumption of plant-based sources of protein.
 
 They conclude that:
 
