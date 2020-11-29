@@ -1,5 +1,5 @@
 ---
-id: 'amsdhksjdfh8uy34jnsedf'
+id: '17-amsdhksjdfh8uy34jnsedf'
 title: 'Whole Food Plant Based Nutrition'
 date: '2020-11-08T00'
 description: 'I have been vegetarian for over twenty years, and although I knew that a fully plant-based diet was best for the environment, I always thought it was nutritionally incomplete.  It always seemed too impossible to have a healthy and balanced diet without any animal products. I recently took a course in plant-based nutrition and now feel confident being plant-based for myself and my family, and recommending plant-based diets for children'
