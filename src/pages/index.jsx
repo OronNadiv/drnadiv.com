@@ -65,7 +65,6 @@ const index = ({ data, location }) => {
         <Section3
           posts={posts}
           allCategoriesAndTags={data.allCategoriesAndTags}
-          mostResentPosts={data.mostResentPosts}
           siteUrl={data.site.siteMetadata.siteUrl}
           profileImage={data.profileImage.childImageSharp.fluid}
         />
@@ -81,13 +80,8 @@ export const pageQuery = graphql`
       name: { eq: "profile" }
     ) {
       childImageSharp {
-        fluid {
-          base64
-          tracedSVG
-          srcWebp
-          srcSetWebp
-          originalImg
-          originalName
+        fluid(maxWidth: 1400) {
+          ...GatsbyImageSharpFluid
         }
       }
     }
@@ -96,13 +90,8 @@ export const pageQuery = graphql`
       name: { eq: "main" }
     ) {
       childImageSharp {
-        fluid {
-          base64
-          tracedSVG
-          srcWebp
-          srcSetWebp
-          originalImg
-          originalName
+        fluid(maxWidth: 1400) {
+          ...GatsbyImageSharpFluid
         }
       }
     }
@@ -126,34 +115,6 @@ export const pageQuery = graphql`
         }
       }
     }
-    mostResentPosts: allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC }
-      limit: 3
-      filter: { frontmatter: { isVisible: { ne: "no" } } }
-    ) {
-      edges {
-        node {
-          fields {
-            slug
-          }
-          frontmatter {
-            date(formatString: "MMMM DD, YYYY")
-            title
-            featuredImage {
-              childImageSharp {
-                fluid {
-                  aspectRatio
-                  base64
-                  sizes
-                  src
-                  srcSet
-                }
-              }
-            }
-          }
-        }
-      }
-    }
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
       filter: { frontmatter: { isVisible: { ne: "no" } } }
@@ -173,12 +134,8 @@ export const pageQuery = graphql`
             description
             featuredImage {
               childImageSharp {
-                fluid {
-                  aspectRatio
-                  base64
-                  sizes
-                  src
-                  srcSet
+                fluid(maxWidth: 230) {
+                  ...GatsbyImageSharpFluid
                 }
               }
             }

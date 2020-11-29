@@ -6,7 +6,6 @@ import PostCard from './post-card'
 const index = ({
   posts,
   allCategoriesAndTags,
-  mostResentPosts,
   siteUrl,
   profileImage,
   children
@@ -25,7 +24,6 @@ const index = ({
             <div className="col-12 col-lg-4 order-first order-lg-last">
               <PostsSidebar
                 posts={allCategoriesAndTags.edges}
-                recent={mostResentPosts.edges}
                 profileImage={profileImage}
               />
             </div>
