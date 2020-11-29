@@ -3,7 +3,7 @@ id: 'kjfhkljskjdfn3498okjsdgl'
 title: 'The Health Benefits of a Whole Food Plant Based Diet'
 date: '2020-11-11T00'
 description: 'The absolutely MOST important gift you can give your child is healthy nutrition! There are many ways to eat a healthy diet, and a well-planned plant-based diet is healthy and safe for children of all ages'
-featuredImage: './child-559415_1280.jpg'
+featuredImage: './child-559415_1280.jpg' #https://pixabay.com/photos/child-eating-corn-health-kid-boy-559415/
 category: nutrition
 tags:
   - plant_based
