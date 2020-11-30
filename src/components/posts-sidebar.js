@@ -34,19 +34,19 @@ const postsSidebar = ({ posts, profileImage }) => {
 
       const tags = node.frontmatter.tags
       tags &&
-        tags.forEach((tag) => {
-          const tagLink = tag.toLowerCase()
-          const tagText = _s(tag).clean().titleize().value().replace(/_/g, ' ')
-          if (!tagsCollection[tagLink]) {
-            tagsCollection[tagLink] = {
-              count: 0,
-              link: tagLink,
-              text: tagText,
-              order: _.random(Number.MAX_SAFE_INTEGER)
-            }
+      tags.forEach((tag) => {
+        const tagLink = tag.toLowerCase()
+        const tagText = _s(tag).clean().titleize().value().replace(/_/g, ' ')
+        if (!tagsCollection[tagLink]) {
+          tagsCollection[tagLink] = {
+            count: 0,
+            link: tagLink,
+            text: tagText,
+            order: _.random(Number.MAX_SAFE_INTEGER)
           }
-          tagsCollection[tagLink].count += 1
-        })
+        }
+        tagsCollection[tagLink].count += 1
+      })
       setTags(tagsCollection)
     })
   }, [posts])
@@ -98,21 +98,23 @@ const postsSidebar = ({ posts, profileImage }) => {
           </ul>
         </div>
 
-        <div className="widget mt-5">
-          <div className="sidebar_widget_title font-weight-bold text-uppercase">
-            Tags
-          </div>
-          <div className="blog_tag d-flex flex-row flex-wrap justify-content-center my-3">
-            {_.sortBy(Object.keys(tags), (key) => tags[key].order).map(
-              (key, index) => {
-                const { link, text, count } = tags[key]
-                return (
-                  <Link className="p-2 m-1" key={index} to={`/tags/${link}`}>
-                    {text} ({count})
-                  </Link>
-                )
-              }
-            )}
+        <div className='d-none'>
+          <div className="widget mt-5">
+            <div className="sidebar_widget_title font-weight-bold text-uppercase">
+              Tags
+            </div>
+            <div className="blog_tag d-flex flex-row flex-wrap justify-content-center my-3 ">
+              {_.sortBy(Object.keys(tags), (key) => tags[key].order).map(
+                (key, index) => {
+                  const { link, text, count } = tags[key]
+                  return (
+                    <Link className="p-2 m-1" key={index} to={`/tags/${link}`}>
+                      {text} ({count})
+                    </Link>
+                  )
+                }
+              )}
+            </div>
           </div>
         </div>
       </div>

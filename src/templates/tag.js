@@ -27,6 +27,7 @@ const CategoryTemplate = ({ location, pageContext, data }) => {
           posts={posts}
           allCategoriesAndTags={data.allCategoriesAndTags}
           siteUrl={data.site.siteMetadata.siteUrl}
+          profileImage={data.profileImage.childImageSharp.fluid}
         >
           <div className="mx-5">
             <div className="rounded bg-white mb-5 py-5 px-5 col d-flex justify-content-between">
@@ -51,6 +52,16 @@ export const pageQuery = graphql`
       siteMetadata {
         title
         siteUrl
+      }
+    }
+    profileImage: file(
+      sourceInstanceName: { eq: "images" }
+      name: { eq: "profile" }
+    ) {
+      childImageSharp {
+        fluid(maxWidth: 1400) {
+          ...GatsbyImageSharpFluid
+        }
       }
     }
     allCategoriesAndTags: allMarkdownRemark(
