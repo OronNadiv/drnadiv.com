@@ -58,3 +58,10 @@ They conclude that:
 [Similarly, in their 2016 position paper, the American Dietetic Association writes that a well-planned vegetarian (including vegan) diet (including any needed supplements) is healthy and provides adequate nutrition for children of all ages](https://pubmed.ncbi.nlm.nih.gov/19562864/).
 
 To summarize, cow's milk does provide a convenient source of calcium, protein, fat and vitamin D, and can be an important part of a child's diet if the diet has lower overall nutritional value. However, it is not in any way necessary (since we can obtain these nutrients in other ways) and drinking cow's milk may be harmful to our children's health.
+
+### Additional Reading and Learning
+ * [_Nourish_](https://nourishthebook.com/) is a recently published book (November 2020) written by a pediatrician and a dietician that very thoroughly describes the myriad benefits of eating more plant-based foods, explains the evidence behind their recommendations, provides clear dietary guidelines and includes a section with recipes.
+ * [Pediatric Plant-Based Nutrition Quick Start Guide](https://plantricianproject.org/quickstartguide) is a briefer informational guide written by pediatricians and dieticians discussing the health benefits of a plant-based diet with practical tips on how to feed your children, also including recipes. 
+ * [Veggie Doctor Radio Podcast](https://veggiedoctor.libsyn.com/) is an upbeat, educational podcast featuring Washington-based pediatrician [Dr. Yami](https://www.doctoryami.com/) and a wide range of guests. 
+ * [The Physicians Commitee for Responsible Medicine](https://www.pcrm.org/good-nutrition/nutrition-for-kids) on good nutrition for kids
+ 
