@@ -39,4 +39,4 @@ As I’ve said many times, **parenting isn’t easy** and it’s not our job to 
 
 ![Adventures in Veggieland](https://images-na.ssl-images-amazon.com/images/I/715AuzZd1CL.jpg)
 
-## Eating vegetables can be fun and delicious! I have found a lot of kid-friendly recipes that taste great and are healthy! 
+**Eating vegetables can be fun and delicious! I have found a lot of kid-friendly recipes that taste great and are healthy!** 
