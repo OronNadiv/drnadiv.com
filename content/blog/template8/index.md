@@ -52,7 +52,7 @@ I have laid out the environmental and health benefits of eating mostly plant-bas
 
 ### In addition to these online resouces, I am here to support and guide you along the way.  
 
-# As Hippocrates famously said, “Let food be thy medicine and medicine be thy food.”
+### As Hippocrates famously said, “_Let food be thy medicine and medicine be thy food_.”
 
   
   
