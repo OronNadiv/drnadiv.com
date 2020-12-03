@@ -25,18 +25,18 @@ When I talk to families about starting babies on solids, I also emphasize that i
 
 [Evolutionarily, we are programmed to like sweet foods](https://www.smithsonianmag.com/arts-culture/the-evolution-of-the-sweet-tooth-79895734/), but we can learn to eat bitter and other savory foods.
 
-Now I know this is much easier said than done, and I get frequent complaints from my own kids when they don’t like the food I’ve made…
+Now I know this is much easier said than done, and I get frequent complaints from my own kids when they don’t like the food I’ve made.
 
 As I’ve said many times, **parenting isn’t easy** and it’s not our job to be our childrens’ friends. **Rather, we are their teachers, supporters and loving guides**.
 
 **There are ways to encourage healthy eating:**
 
-- Bring your kids to the farmer’s market and let them select produce
+- Bring your kids to the farmers' market and let them select produce
 - Role model healthy eating and prioritize family meals
 - Let your kids help with food prep and cooking
 - Get involved in a community garden, or grow a few plants at home
-- Check out [Adventures in Veggieland](https://www.youtube.com/watch?v=XwPy0AAavXY), expert feeding advice from [Melanie Potock](https://mymunchbug.com/)
+- Check out [Adventures in Veggieland](https://www.youtube.com/watch?v=XwPy0AAavXY), expert feeding advice from pediatric feeding therapist [Melanie Potock](https://mymunchbug.com/). 
 
-![Healthy plate 1](./healthyplate-page-001.jpg)
+![Adventures in Veggieland](https://images-na.ssl-images-amazon.com/images/I/715AuzZd1CL.jpg)
 
-![Healthy plate 2](./healthyplate-page-002.jpg)
+## Eating vegetables can be fun and delicious! I have found a lot of kid-friendly recipes that taste great and are healthy! 
