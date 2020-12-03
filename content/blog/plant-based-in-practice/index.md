@@ -2,7 +2,7 @@
 id: 'how to get your child to eat plant-based foods and like it'
 title: 'Teaching Your Children to Love Plant-Based Foods'
 date: '2020-12-02T00'
-description: 'I have discussed the health and environmental benefits of plant-based diets for kids, but what about the practical aspects? '
+description: 'In my last two posts, I talked about how eating whole plant-based foods is best for our bodies and the planet, but many parents worry that their children won't try new foods.? '
 featuredImage: './featured.jpg'
 category: Nutrition
 tags:
@@ -10,11 +10,15 @@ tags:
   - plant-based
 ---
 
-I have laid out the environmental and health benefits of eating mostly plant-based foods, but how can we get our kids on board?
+In my last two posts, I talked about how eating whole plant-based foods is best for our bodies and the planet, but many parents worry that their children won't try new foods. As a mother of two young children, I know it can be challenging to get your kids to eat and enjoy healthy foods. The key, however, is to focus on the [division of responsiblity when it comes to feeding.](https://www.drnadiv.com/veggies/) 
 
-* Get kids involved: farmer's market outings, cooking as a family, [help kids learn to enjoy new foods](https://www.drnadiv.com/veggies/)
-* Talk to kids about the reasons behind a plant based diet (take care of the earth, keep our bodies healthy)
-* Look at recipes with kids and involve them in deciding which foods to make
+![division of responsibilities](./8552hr.png)
+
+### How can I get my kids excited about trying new foods?
+
+* Get kids involved: farmers' market outings, cooking as a family, becoming acquainted with vegetables in a playful setting (see [Adventures in Veggieland](https://www.amazon.com/Adventures-Veggieland-Vegetables_with-Activities-Recipes/dp/1615194061) for details and fun activities to try with your kids!
+* Talk to kids about the reasons behind a plant based diet (take care of the earth, keep our bodies healthy). There are several wonderful childrens' books that can facilitate this discussion with your children
+* Look at recipes with your kids and involve them in deciding which foods to make
 * Start where they are by giving more of the healthy foods your children already like
 * Role model healthy eating and trying new foods
 
@@ -47,6 +51,6 @@ I have laid out the environmental and health benefits of eating mostly plant-bas
 * [Plant Based Pediatrician: Jackie Busse, MD](https://www.plantbasedpediatrician.com/) has an [extensive list](https://www.plantbasedpediatrician.com/resources-2) of resources about plant-based nutrition
  
 
-### In addition to these online resouces, I am here to support and guide you along the way.  
+**In addition to these online resouces, I am here to support and guide you along the way.**  
 
-### As Hippocrates famously said, “_Let food be thy medicine and medicine be thy food_.”
+**As Hippocrates famously said, “_Let food be thy medicine and medicine be thy food_.”**
