@@ -35,7 +35,7 @@ I have laid out the environmental and health benefits of eating mostly plant-bas
   
    * [_Nourish_](https://nourishthebook.com/) is a recently published book (November 2020) written by a pediatrician and a dietician that very thoroughly describes the myriad benefits of eating more plant-based foods, explains the evidence behind their recommendations, provides clear dietary guidelines and includes a section with recipes.
    
-    ![Nourish](https://d188rgcu4zozwl.cloudfront.net/content/B084G9K61L/resources/1979855281)
+    ![Nourish](https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9780757323621/nourish-9780757323621_hr.jpg)
    
  * [Pediatric Plant-Based Nutrition Quick Start Guide](https://plantricianproject.org/quickstartguide) is a briefer informational guide written by pediatricians and dieticians discussing the health benefits of a plant-based diet with practical tips on how to feed your children, also including recipes. 
  
