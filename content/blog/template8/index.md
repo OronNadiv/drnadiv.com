@@ -31,7 +31,7 @@ I have laid out the environmental and health benefits of eating mostly plant-bas
   6. Take a **Vitamin D supplement and enjoy the SUNSHINE**
   
   
-## Helpful resources
+## HELPFUL RESOURCES
   
    * [_Nourish_](https://nourishthebook.com/) is a recently published book (November 2020) written by a pediatrician and a dietician that very thoroughly describes the myriad benefits of eating more plant-based foods, explains the evidence behind their recommendations, provides clear dietary guidelines and includes a section with recipes.
    
