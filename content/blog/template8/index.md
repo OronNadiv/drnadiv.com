@@ -9,7 +9,7 @@ category: Nutrition
 tags:
   - nutrition
   - plant-based
-
+---
 
 I have laid out the environmental and health benefits of eating mostly plant-based foods, but how can we get our kids on board?
 
