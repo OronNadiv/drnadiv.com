@@ -19,7 +19,7 @@ I have laid out the environmental and health benefits of eating mostly plant-bas
 * Start where they are by giving more of the healthy foods your children already like
 * Role model healthy eating and trying new foods
 
-## How will I ensure that my kids are getting enough calcium, protein, and all other necessary vitamins and minerals
+### How will I ensure that my kids are getting enough calcium, protein, and all other necessary vitamins and minerals?
 
 * Consult a plant-based nutrition guide for details and apply these basic principals
 
@@ -31,7 +31,7 @@ I have laid out the environmental and health benefits of eating mostly plant-bas
   6. Take a **Vitamin D supplement and enjoy the SUNSHINE**
   
   
-  ## Helpful resources
+## Helpful resources
   
    * [_Nourish_](https://nourishthebook.com/) is a recently published book (November 2020) written by a pediatrician and a dietician that very thoroughly describes the myriad benefits of eating more plant-based foods, explains the evidence behind their recommendations, provides clear dietary guidelines and includes a section with recipes.
    
