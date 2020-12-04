@@ -18,7 +18,7 @@ In this post, I'd like to share the health benefits and safety of plant-based di
 
 `youtube: O7ijukNzlUg`
 
-More people are learning about plant-based diets thanks to documentaries such as ["Forks Over Knives"](https://www.forksoverknives.com/) and books like ["How Not to Die"](https://nutritionfacts.org/book/how-not-to-die/). Dr. Michael Gregor discusses the evidence behind plant-based nutrition and has a wealth of information on his web site, [nutritionfacts.org](nutritionfacts.org). While the recommendations in this and similar documentaries and books present an all or nothing approach, making small step-by-step changes can be very helpful for our children's health. **It doesn't have to be all or nothing** My goal in this post is to present the health benefits of a plant-centered diet and emphasize the safety of a well-planned plant-based diet for children of all ages.
+More people are learning about whole food plant-based diets thanks to documentaries such as ["Forks Over Knives"](https://www.forksoverknives.com/) and books like ["How Not to Die"](https://nutritionfacts.org/book/how-not-to-die/). Dr. Michael Gregor discusses the evidence behind plant-based nutrition and has a wealth of information on his web site, [nutritionfacts.org](nutritionfacts.org). While the recommendations in this and similar documentaries and books present an all or nothing approach, making small step-by-step changes can be very helpful for our children's health. **It doesn't have to be all or nothing** My goal in this post is to present the health benefits of a plant-centered diet and emphasize the safety of a well-planned plant-based diet for children of all ages.
 
 `youtube: vlubvTMLrLM`
 
@@ -55,7 +55,7 @@ They conclude that:
 
 > If diet quality is low, especially for children in low-income environments, dairy foods can improve nutrition, whereas if diet quality is high, increased intake is unlikely to provide substantial benefits, and harms are possible. 
 
-[Similarly, in their 2016 position paper, the American Dietetic Association writes that a well-planned vegetarian (including vegan) diet (including any needed supplements) is healthy and provides adequate nutrition for children of all ages](https://pubmed.ncbi.nlm.nih.gov/19562864/).
+**[Similarly, in their 2016 position paper, the American Dietetic Association writes that a well-planned vegetarian (including vegan) diet (including any needed supplements) is healthy and provides adequate nutrition for children of all ages](https://pubmed.ncbi.nlm.nih.gov/19562864/).**
 
 To summarize, cow's milk does provide a convenient source of calcium, protein, fat and vitamin D, and can be an important part of a child's diet if the diet has lower overall nutritional value. However, it is not in any way necessary (since we can obtain these nutrients in other ways) and drinking cow's milk may be harmful to our children's health.
 
