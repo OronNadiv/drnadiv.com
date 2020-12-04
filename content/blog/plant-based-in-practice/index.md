@@ -2,7 +2,7 @@
 id: 'how to get your child to eat plant-based foods and like it'
 title: 'Teaching Your Children to Love Plant-Based Foods'
 date: '2020-12-02T00'
-description: 'In my last two posts, I talked about how eating whole plant-based foods is best for our bodies and the planet, but many parents worry that their children won't try new foods.? '
+description: "In my last two posts, I talked about how eating whole plant-based foods is best for our bodies and the planet, but many parents worry that their children won't try new foods."
 featuredImage: './featured.jpg'
 category: Nutrition
 tags:
@@ -24,8 +24,9 @@ In my last two posts, I talked about how eating whole plant-based foods is best 
 
 ### How will I ensure that my kids are getting enough calcium, protein, and all other necessary vitamins and minerals?
 
-* Eat a rainbow of fruits and vegetables every day
-* **Eat protein and iron rich foods with every meal**
+* Eat a rainbow of fruits and vegetables every day. 
+* **Eat [protein](https://www.hsph.harvard.edu/nutritionsource/what-should-you-eat/protein/) and [iron](https://www.vrg.org/nutrition/iron.php) rich foods with every meal**
+* Ensure an adequate source of [calcium (e.g., fortified soy or pea protein milk, tofu, leafy greens, tahini, blackstrap molasses)](https://www.pcrm.org/good-nutrition/nutrition-information/health-concerns-about-dairy/calcium-and-strong-bones)
 * Eat whole grains (whole wheat bread, brown rice, whole grain or legume-based pasta)
 * Limit refined grains such as white bread, pasta, rice, sugary foods, and highly processed foods
 * If you are feeding your children exclusively plant-based foods, **give a supplement of Vitamin B12 and iodine** (unless you use iodized salt)
