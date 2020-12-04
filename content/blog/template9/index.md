@@ -1,7 +1,7 @@
 ---
 isVisible: no
 id: '14-kljshkdjhfksjdre9'
-title: 'We are taught from an early age to "drink our milk" for strong bones. While cow's milk is a good source of calcium, I would like to encourage you to re-think whether this is the right calcium source for your children.'
+title: "We are taught from an early age to \"drink our milk\" for strong bones. While cow's milk is a good source of calcium, I would like to encourage you to re-think whether this is the right calcium source for your children."
 date: '2030-09-01T00'
 description: 'Template description'
 featuredImage: './featured.jpg'
