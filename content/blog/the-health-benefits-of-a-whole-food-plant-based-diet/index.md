@@ -18,7 +18,7 @@ In this post, I'd like to share the health benefits and safety of plant-based di
 
 `youtube: O7ijukNzlUg`
 
-More people are learning about whole food plant-based diets thanks to documentaries such as ["Forks Over Knives"](https://www.forksoverknives.com/) and books like ["How Not to Die"](https://nutritionfacts.org/book/how-not-to-die/). Dr. Michael Gregor discusses the evidence behind plant-based nutrition and has a wealth of information on his web site, [nutritionfacts.org](nutritionfacts.org). While the recommendations in this and similar documentaries and books present an all or nothing approach, making small step-by-step changes can be very helpful for our children's health. **It doesn't have to be all or nothing** My goal in this post is to present the health benefits of a plant-centered diet and emphasize the safety of a well-planned plant-based diet for children of all ages.
+More people are learning about whole food plant-based diets thanks to documentaries such as ["Forks Over Knives"](https://www.forksoverknives.com/) and books like ["How Not to Die"](https://nutritionfacts.org/book/how-not-to-die/). Dr. Michael Gregor discusses the evidence behind plant-based nutrition and has a wealth of information on his web site, [nutritionfacts.org](nutritionfacts.org). While the recommendations in this and similar documentaries and books present an all or nothing approach, making small step-by-step changes can be very helpful for our children's health. **It doesn't have to be all or nothing.** My goal in this post is to present the health benefits of a plant-centered diet and emphasize the safety of a well-planned plant-based diet for children of all ages.
 
 `youtube: vlubvTMLrLM`
 
