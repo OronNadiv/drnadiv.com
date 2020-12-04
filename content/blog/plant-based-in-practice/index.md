@@ -17,18 +17,18 @@ In my last two posts, I talked about how eating whole plant-based foods is best 
 ### How can I get my kids excited about trying new foods?
 
 * Get kids involved: farmers' market outings, cooking as a family, becoming acquainted with vegetables in a playful setting (see [Adventures in Veggieland](https://www.amazon.com/Adventures-Veggieland-Vegetables_with-Activities-Recipes/dp/1615194061) for details and fun activities to try with your kids!
-* Talk to kids about the reasons behind a plant based diet (take care of the earth, keep our bodies healthy). There are several wonderful childrens' books that can facilitate this discussion with your children
+* Talk to kids about the reasons behind a plant based diet (take care of the earth, keep our bodies healthy). There are several wonderful children's books that can facilitate this discussion with your children
 * Look at recipes with your kids and involve them in deciding which foods to make
-* Start where they are by giving more of the healthy foods your children already like
+* Start where they are by giving more of the healthy foods they already like
 * Role model healthy eating and trying new foods
 
 ### How will I ensure that my kids are getting enough calcium, protein, and all other necessary vitamins and minerals?
 
 * Eat a rainbow of fruits and vegetables every day. 
 * **Eat [protein](https://www.hsph.harvard.edu/nutritionsource/what-should-you-eat/protein/) and [iron](https://www.vrg.org/nutrition/iron.php) rich foods with every meal**
-* Ensure an adequate source of [calcium (e.g., fortified soy or pea protein milk, tofu, leafy greens, tahini, blackstrap molasses)](https://www.pcrm.org/good-nutrition/nutrition-information/health-concerns-about-dairy/calcium-and-strong-bones)
-* Eat whole grains (whole wheat bread, brown rice, whole grain or legume-based pasta)
-* Limit refined grains such as white bread, pasta, rice, sugary foods, and highly processed foods
+* Ensure an adequate source of [calcium (e.g., fortified soy or pea protein milk, tofu, leafy greens, tahini, blackstrap molasses)](https://www.pcrm.org/good-nutrition/nutrition-information/health-concerns-about-dairy/calcium-and-strong-bones) every day
+* [Eat whole grains (whole wheat bread, brown rice, whole grain or legume-based pasta)](https://www.hsph.harvard.edu/nutritionsource/what-should-you-eat/whole-grains/)
+* Limit refined grains such as white bread, pasta, rice, sugary foods, and [highly processed foods](https://www.hsph.harvard.edu/nutritionsource/processed-foods/)
 * If you are feeding your children exclusively plant-based foods, **give a supplement of Vitamin B12 and iodine** (unless you use iodized salt)
 * Take a **Vitamin D supplement and enjoy the SUNSHINE**
   
