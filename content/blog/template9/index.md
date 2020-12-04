@@ -1,13 +1,16 @@
 ---
 isVisible: no
 id: '14-kljshkdjhfksjdre9'
-title: "We are taught from an early age to \"drink our milk\" for strong bones. While cow's milk is a good source of calcium, I would like to encourage you to re-think whether this is the right calcium source for your children."
+title: "Do kids need to drink cow's milk and eat dairy products?"
 date: '2030-09-01T00'
-description: 'Template description'
+description: 'We are taught from an early age to \"drink our milk\" for strong bones. While cow's milk is a good source of calcium, I would like to encourage you to re-think whether this is the right calcium source for your children.'
 featuredImage: './featured.jpg'
-category: template_category
+category: Nutrition
 tags:
   - nutrition
+  - cow's milk
+  - dairy
+  - plant-based diet
 ---
 
 We are taught from an early age to "drink our milk" for strong bones. While cow's milk is a good source of calcium, I would like to encourage you to re-think whether this is the right calcium source for your children. The United States, along with many other Western countries with strong dairy industries, promotes dairy as part of a healthy diet. **Dairy (along with fruits, vegetables, grains and protein) is part of the USDA [my plate](https://www.choosemyplate.gov/).** Canada, however, recommends water to drink.
