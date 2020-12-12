@@ -2,7 +2,7 @@
 id: 'hjgfytfytrfyhjgfytfujykgu6y'
 title: 'Whole Food Plant-Based Diets for Kids'
 date: '2020-12-02T00'
-description: "Whole plant-based foods worry that their children won't try new foods."
+description: "How To Provide Optimal Nutrition While Feeding Children a Plant-Based Diet."
 featuredImage: './featured.jpg'
 category: Nutrition
 tags:
@@ -10,13 +10,11 @@ tags:
   - plant-based
 ---
 
-As a mother of two young children, I know it can be challenging to get your kids to eat and enjoy healthy foods. The key, however, is to focus on the [division of responsiblity when it comes to feeding.](https://www.drnadiv.com/veggies/) 
+Feeling inspired to try more plant-based foods in your family's diet? I'd like you to keep a few key points in mind. 
 
-![division of responsibilities](./8552hr.png)
+### Get Kids on Board and Excited
 
-### How can I get my kids excited about trying new foods?
-
-* Get kids involved: farmers' market outings, cooking as a family, becoming acquainted with vegetables in a playful setting (see [Adventures in Veggieland](https://www.amazon.com/Adventures-Veggieland-Vegetables_with-Activities-Recipes/dp/1615194061) for details and fun activities to try with your kids!
+* Actively involve your children: farmers' market outings, cooking as a family, becoming acquainted with vegetables in a playful setting (see [Adventures in Veggieland](https://www.amazon.com/Adventures-Veggieland-Vegetables_with-Activities-Recipes/dp/1615194061) for details and fun activities to try with your kids!
 * Talk to kids about the reasons behind a plant based diet (take care of the earth, keep our bodies healthy). There are several wonderful children's books that can facilitate this discussion with your children
 * Look at recipes with your kids and involve them in deciding which foods to make
 * Start where they are by giving more of the healthy foods they already like
