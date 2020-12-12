@@ -7,9 +7,9 @@ featuredImage: './glass-1587258_1920.jpg' #https://pixabay.com/photos/glass-milk
 category: Nutrition
 tags:
   - nutrition
-  - cow's milk
+  - cow's_milk
   - dairy
-  - plant-based diet
+  - plant-based_diet
 ---
 
 We are taught from an early age to "drink our milk" for strong bones. While cow's milk is a good source of calcium, I would like to encourage you to re-think whether this is the right calcium source for your children. The United States, along with many other Western countries with strong dairy industries, promotes dairy as part of a healthy diet. **Dairy (along with fruits, vegetables, grains and protein) is part of the USDA [my plate](https://www.choosemyplate.gov/).** Canada, however, recommends water to drink.
