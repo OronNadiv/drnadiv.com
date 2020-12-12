@@ -1,8 +1,8 @@
 ---
-id: 'how to get your child to eat plant-based foods and like it'
-title: 'Teaching Your Children to Love Plant-Based Foods'
+id: 'hjgfytfytrfyhjgfytfujykgu6y'
+title: 'Whole Food Plant-Based Diets for Kids'
 date: '2020-12-02T00'
-description: "In my last two posts, I talked about how eating whole plant-based foods is best for our bodies and the planet, but many parents worry that their children won't try new foods."
+description: "Whole plant-based foods worry that their children won't try new foods."
 featuredImage: './featured.jpg'
 category: Nutrition
 tags:
@@ -10,7 +10,7 @@ tags:
   - plant-based
 ---
 
-In my last two posts, I talked about how eating whole plant-based foods is best for our bodies and the planet, but many parents worry that their children won't try new foods. As a mother of two young children, I know it can be challenging to get your kids to eat and enjoy healthy foods. The key, however, is to focus on the [division of responsiblity when it comes to feeding.](https://www.drnadiv.com/veggies/) 
+As a mother of two young children, I know it can be challenging to get your kids to eat and enjoy healthy foods. The key, however, is to focus on the [division of responsiblity when it comes to feeding.](https://www.drnadiv.com/veggies/) 
 
 ![division of responsibilities](./8552hr.png)
 
