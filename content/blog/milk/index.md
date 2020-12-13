@@ -1,7 +1,7 @@
 ---
 id: 'khjguygu7tuyfhdy5ry'
 title: "Do kids need to drink cow's milk and eat dairy products?"
-date: '2030-09-01T00'
+date: '2020-12-09T00'
 description: "We are taught from an early age to \"drink our milk\" for strong bones. While cow's milk is a good source of calcium, I would like to encourage you to re-think whether this is the right calcium source for your children."
 featuredImage: './glass-1587258_1920.jpg' #https://pixabay.com/photos/glass-milk-white-cow-s-milk-pour-a-1587258/
 category: Nutrition
