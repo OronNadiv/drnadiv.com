@@ -12,11 +12,10 @@ tags:
 
 # Yoga, Pilates, and Mindfulness for Kids and Teens
 
+I enjoy talking with families about the myriad benefits of yoga, mindfulness and pilates. 
 ## Mindfulness
 
-My patients often report that they feel stressed and anxious. In addition to providing a referral for psychotherapy as needed, I always suggest that kids check out mindfulness meditation. 
-
-Meditation is accessible to everyone, you can do it anywhere, and it has been shown to be helpful for a wide range of health issues. The [Child Mind Institute](https://childmind.org/article/the-power-of-mindfulness/) is an outstanding source of psychotherapy resources for families. 
+Mindfulness meditation is accessible to everyone, you can do it anywhere, and it has been shown to be helpful for a wide range of health issues. The [Child Mind Institute](https://childmind.org/article/the-power-of-mindfulness/) is an outstanding source of psychotherapy resources for families. 
 
 Kaiser offers free access to the mindfulness app, [Calm](https://healthy.kaiserpermanente.org/northern-california/health-wellness/mental-health/tools-resources/digital), and I recommend this often to children and teens who are feeling anxious.  
 
