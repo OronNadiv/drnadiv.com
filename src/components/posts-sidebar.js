@@ -70,8 +70,9 @@ const postsSidebar = ({ posts, profileImage }) => {
         Duke University and medical school at UCSD. I moved to the Bay Area in
         2005, and joined Kaiser full time in 2014. I live in San Carlos with my
         husband and two daughters. In my free time, I enjoy exercise of any
-        kind, being with my family, spending time in nature, reading and
-        participating in book clubs, photography, and traveling.
+        kind, eating and cooking plant-based foods, being with my family,
+        spending time in nature, reading and participating in book clubs,
+        photography, and traveling.
       </p>
 
       <div className="mt-3 blog_sidebar rounded text-center">
