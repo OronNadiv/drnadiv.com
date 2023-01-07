@@ -1,26 +1,36 @@
-version: 2
+version: 2.1
 jobs:
   build:
-    branches:
-      only:
-        - master
     docker:
-      - image: circleci/node:14
+      - image: cimg/node:16.14.2
+    # The resource_class feature allows configuring CPU and RAM resources for each job. Different resource classes are available for different executors. https://circleci.com/docs/2.0/configuration-reference/#resourceclass
+    resource_class: large
     steps:
       - checkout
-      - run:
-          name: Install Dependencies
-          command: |
-            npm install
-      - run:
-          name: Build Application
-          command: npm run build
-      - run:
-          name: lint
-          command: npm run lint
-      - run:
-          name: Install Firebase Tools
-          command: npm install --prefix=./firebase-deploy firebase-tools
-      - run:
-          name: Deploy to Firebase
-          command: ./firebase-deploy/node_modules/.bin/firebase deploy --token=$FIREBASE_DEPLOY_TOKEN --force
+      - when:
+          condition:
+            equal: [ master, << pipeline.git.branch >> ]
+          steps:
+            - run:
+                name: Install Dependencies
+                command: |
+                  npm install
+            - run:
+                name: Build Application
+                command: npm run build
+            - run:
+                name: lint
+                command: npm run lint
+            - run:
+                name: Install Firebase Tools
+                command: npm install --prefix=./firebase-deploy firebase-tools
+            - run:
+                name: Deploy to Firebase
+                command: ./firebase-deploy/node_modules/.bin/firebase deploy --token=$FIREBASE_DEPLOY_TOKEN --force
+
+workflows: # a single workflow with a single job called build
+  build:
+    jobs:
+    - build:
+        context: deploy-to-firebase
+
