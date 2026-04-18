@@ -41,6 +41,7 @@ exports.onCreateWebpackConfig = ({ stage, actions }) => {
   actions.setWebpackConfig(config)
 }
 
+// eslint-disable-next-line space-before-function-paren
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
 
