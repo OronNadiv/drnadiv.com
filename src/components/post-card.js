@@ -77,7 +77,7 @@ const postCard = ({ node, siteUrl }) => {
                 alt={title}
                 objectPosition="center center"
                 style={{
-                  width: '100%',
+                  width: '100%'
                 }}
               />
             </Link>

@@ -19,7 +19,7 @@ exports.onCreateWebpackConfig = ({ stage, actions }) => {
       url: 'commonjs url',
       assert: 'commonjs assert',
       fs: 'commonjs fs',
-      path: 'commonjs path',
+      path: 'commonjs path'
     })
   } else {
     config.resolve = {
@@ -41,7 +41,7 @@ exports.onCreateWebpackConfig = ({ stage, actions }) => {
   actions.setWebpackConfig(config)
 }
 
-exports.createPages = async({ graphql, actions }) => {
+exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
 
   const blogPost = path.resolve('./src/templates/blog-post.js')
