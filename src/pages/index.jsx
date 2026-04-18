@@ -1,12 +1,26 @@
 import './index.scss'
-import React from 'react'
+import React, { useEffect } from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import * as Scroll from 'react-scroll'
-import { useFirebase } from 'gatsby-plugin-firebase'
 import Section3 from '../components/section-3'
-import BackgroundImage from 'gatsby-background-image'
+import { getSrc } from 'gatsby-plugin-image'
+
+// Firebase modular SDK imports
+import { initializeApp } from 'firebase/app'
+import { getAnalytics } from 'firebase/analytics'
+
+const firebaseConfig = {
+  apiKey: 'AIzaSyC7vIjGwuSOdr0yDoMIKrgerPlWaL-yFLI',
+  authDomain: 'dr-nadiv.firebaseapp.com',
+  databaseURL: 'https://dr-nadiv.firebaseio.com',
+  projectId: 'dr-nadiv',
+  storageBucket: 'dr-nadiv.appspot.com',
+  messagingSenderId: '268607776968',
+  appId: '1:268607776968:web:3639471a5a4fd8f22fddfd',
+  measurementId: 'G-P1KNZQTJ42'
+}
 
 const ScrollLink = Scroll.Link
 
@@ -17,10 +31,16 @@ const index = ({ data, location }) => {
   const siteUrl = data.site.siteMetadata.siteUrl
   const posts = data.allMarkdownRemark.edges
 
-  useFirebase((firebase) => {
-    // initialize google analytics
-    firebase.analytics()
+  useEffect(() => {
+    try {
+      const app = initializeApp(firebaseConfig)
+      getAnalytics(app)
+    } catch (e) {
+      console.error('Firebase initialization error', e)
+    }
   }, [])
+
+  const bgImageSrc = getSrc(data.mainImage)
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -31,10 +51,14 @@ const index = ({ data, location }) => {
             <a href="/">Elizabeth Nadiv MD</a>
           </div>
         </div>
-        <BackgroundImage
-          Tag="div"
+        <div
           className="heading"
-          fluid={data.mainImage.childImageSharp.fluid}
+          style={{
+            backgroundImage: `url(${bgImageSrc})`,
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat',
+            backgroundSize: 'cover'
+          }}
         >
           <div className="content">
             <h2>The Well Child</h2>
@@ -60,13 +84,13 @@ const index = ({ data, location }) => {
               <i className="fa fa-chevron-down text-black-50" />
             </ScrollLink>
           </div>
-        </BackgroundImage>
+        </div>
 
         <Section3
           posts={posts}
           allCategoriesAndTags={data.allCategoriesAndTags}
           siteUrl={data.site.siteMetadata.siteUrl}
-          profileImage={data.profileImage.childImageSharp.fluid}
+          profileImage={data.profileImage}
         />
       </div>
     </Layout>
@@ -80,9 +104,7 @@ export const pageQuery = graphql`
       name: { eq: "profile" }
     ) {
       childImageSharp {
-        fluid(maxWidth: 1400) {
-          ...GatsbyImageSharpFluid
-        }
+        gatsbyImageData(width: 1400, layout: CONSTRAINED)
       }
     }
     mainImage: file(
@@ -90,9 +112,7 @@ export const pageQuery = graphql`
       name: { eq: "main" }
     ) {
       childImageSharp {
-        fluid(maxWidth: 1400) {
-          ...GatsbyImageSharpFluid
-        }
+        gatsbyImageData(width: 1400, layout: CONSTRAINED)
       }
     }
     site {
@@ -102,7 +122,7 @@ export const pageQuery = graphql`
       }
     }
     allCategoriesAndTags: allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { frontmatter: { date: DESC } }
       limit: 1000
       filter: { frontmatter: { isVisible: { ne: "no" } } }
     ) {
@@ -116,7 +136,7 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { frontmatter: { date: DESC } }
       filter: { frontmatter: { isVisible: { ne: "no" } } }
     ) {
       edges {
@@ -134,9 +154,7 @@ export const pageQuery = graphql`
             description
             featuredImage {
               childImageSharp {
-                fluid(maxWidth: 230) {
-                  ...GatsbyImageSharpFluid
-                }
+                gatsbyImageData(width: 230, layout: CONSTRAINED)
               }
             }
           }

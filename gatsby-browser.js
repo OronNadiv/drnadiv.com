@@ -4,3 +4,5 @@ import 'typeface-merriweather'
 
 import './node_modules/bootstrap/dist/css/bootstrap-reboot.min.css'
 import './node_modules/bootstrap/dist/css/bootstrap.min.css'
+
+import './src/styles/shared.scss'

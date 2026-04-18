@@ -1,13 +1,11 @@
 import PropTypes from 'prop-types'
 
-import assert from 'assert'
-
 import objectToGetParams from './objectToGetParams'
 import createShareButton from './createShareButton'
 
 function twitterLink(url, { title, via, hashtags = [] }) {
-  assert(url, 'twitter.url')
-  assert(Array.isArray(hashtags), 'twitter.hashtags is not an array')
+  if (!url) throw new Error('twitter.url is required')
+  if (!Array.isArray(hashtags)) throw new Error('twitter.hashtags is not an array')
 
   return (
     'https://twitter.com/share' +

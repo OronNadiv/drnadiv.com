@@ -13,7 +13,7 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-sass',
-    'gatsby-background-image',
+    'gatsby-plugin-image',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -76,7 +76,6 @@ module.exports = {
     },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
-    'gatsby-plugin-feed',
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
@@ -119,24 +118,6 @@ module.exports = {
         pathToConfigModule: 'src/utils/typography'
       }
     },
-    'gatsby-plugin-sass',
-    {
-      resolve: 'gatsby-plugin-firebase',
-      options: {
-        features: {
-          analytics: true
-        },
-        credentials: {
-          apiKey: 'AIzaSyC7vIjGwuSOdr0yDoMIKrgerPlWaL-yFLI',
-          authDomain: 'dr-nadiv.firebaseapp.com',
-          databaseURL: 'https://dr-nadiv.firebaseio.com',
-          projectId: 'dr-nadiv',
-          storageBucket: 'dr-nadiv.appspot.com',
-          messagingSenderId: '268607776968',
-          appId: '1:268607776968:web:3639471a5a4fd8f22fddfd',
-          measurementId: 'G-P1KNZQTJ42'
-        }
-      }
-    }
+    'gatsby-plugin-sass'
   ]
 }

@@ -1,4 +1,4 @@
-import Img from 'gatsby-image'
+import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { Link } from 'gatsby'
 import React, { useEffect, useState } from 'react'
 import _s from 'underscore.string'
@@ -34,19 +34,19 @@ const postsSidebar = ({ posts, profileImage }) => {
 
       const tags = node.frontmatter.tags
       tags &&
-      tags.forEach((tag) => {
-        const tagLink = tag.toLowerCase()
-        const tagText = _s(tag).clean().titleize().value().replace(/_/g, ' ')
-        if (!tagsCollection[tagLink]) {
-          tagsCollection[tagLink] = {
-            count: 0,
-            link: tagLink,
-            text: tagText,
-            order: _.random(Number.MAX_SAFE_INTEGER)
+        tags.forEach((tag) => {
+          const tagLink = tag.toLowerCase()
+          const tagText = _s(tag).clean().titleize().value().replace(/_/g, ' ')
+          if (!tagsCollection[tagLink]) {
+            tagsCollection[tagLink] = {
+              count: 0,
+              link: tagLink,
+              text: tagText,
+              order: _.random(Number.MAX_SAFE_INTEGER)
+            }
           }
-        }
-        tagsCollection[tagLink].count += 1
-      })
+          tagsCollection[tagLink].count += 1
+        })
       setTags(tagsCollection)
     })
   }, [posts])
@@ -54,7 +54,7 @@ const postsSidebar = ({ posts, profileImage }) => {
   return (
     <div className="cell author px-auto pt-3 pb-5">
       <div className="d-flex justify-content-center">
-        <Img className="image" fluid={profileImage} />
+        <GatsbyImage className="image" image={getImage(profileImage)} alt="Profile" />
       </div>
       <h1 className="pt-3">About Me</h1>
       <p>

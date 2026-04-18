@@ -1,5 +1,5 @@
 import { Link } from 'gatsby'
-import Img from 'gatsby-image'
+import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import React from 'react'
 import _s from 'underscore.string'
 import TwitterShareButton from '../utils/TwitterShareButton'
@@ -71,9 +71,14 @@ const postCard = ({ node, siteUrl }) => {
           </div>
           <div className="col-4 p-0 px-sm-2">
             <Link to={node.fields.slug}>
-              <Img
+              <GatsbyImage
                 className="img-fluid rounded"
-                fluid={node.frontmatter.featuredImage.childImageSharp.fluid}
+                image={getImage(node.frontmatter.featuredImage)}
+                alt={title}
+                objectPosition="center center"
+                style={{
+                  width: '100%',
+                }}
               />
             </Link>
           </div>

@@ -1,12 +1,10 @@
 import PropTypes from 'prop-types'
 
-import assert from 'assert'
-
 import objectToGetParams from './objectToGetParams'
 import createShareButton from './createShareButton'
 
 function facebookLink(url, { quote, hashtag }) {
-  assert(url, 'facebook.url')
+  if (!url) throw new Error('facebook.url is required')
 
   return (
     'https://www.facebook.com/sharer/sharer.php' +

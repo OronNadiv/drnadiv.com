@@ -1,7 +1,6 @@
 import React from 'react'
 import Disclaimer from './disclaimer'
 import ScrollToTop from 'react-scroll-up'
-import '../styles/shared.scss'
 import './layout.scss'
 
 class Layout extends React.Component {

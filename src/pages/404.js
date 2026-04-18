@@ -1,7 +1,7 @@
 import React from 'react'
 import { graphql, Link } from 'gatsby'
 import SEO from '../components/seo'
-import Img from 'gatsby-image'
+import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 
 const color = 'rgba(48, 41, 105)'
 
@@ -9,8 +9,9 @@ const notFound = ({ data }) => {
   return (
     <>
       <SEO title="Not Found" />
-      <Img
-        fluid={data.sadChildImage.childImageSharp.fluid}
+      <GatsbyImage
+        image={getImage(data.sadChildImage)}
+        alt="Sad Child"
         style={{
           position: 'absolute',
           zIndex: -100,
@@ -59,9 +60,7 @@ export const pageQuery = graphql`
       name: { eq: "sad-child-1380992577sV3" }
     ) {
       childImageSharp {
-        fluid(maxWidth: 1400) {
-          ...GatsbyImageSharpFluid
-        }
+        gatsbyImageData(layout: FULL_WIDTH)
       }
     }
   }

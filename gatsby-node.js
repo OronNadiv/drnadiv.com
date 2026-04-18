@@ -1,13 +1,44 @@
 const path = require('path')
 const { createFilePath } = require('gatsby-source-filesystem')
 
-exports.onCreateWebpackConfig = ({ actions }) => {
-  const { setWebpackConfig } = actions
-  setWebpackConfig({
+exports.onCreateWebpackConfig = ({ stage, actions }) => {
+  const config = {
     externals: {
       jquery: 'jQuery' // important: 'Q' capitalized
     }
-  })
+  }
+
+  if (stage === 'build-html' || stage === 'develop-html') {
+    Object.assign(config.externals, {
+      crypto: 'commonjs crypto',
+      stream: 'commonjs stream',
+      util: 'commonjs util',
+      http: 'commonjs http',
+      https: 'commonjs https',
+      zlib: 'commonjs zlib',
+      url: 'commonjs url',
+      assert: 'commonjs assert',
+      fs: 'commonjs fs',
+      path: 'commonjs path',
+    })
+  } else {
+    config.resolve = {
+      fallback: {
+        crypto: false,
+        stream: false,
+        util: false,
+        http: false,
+        https: false,
+        zlib: false,
+        url: false,
+        assert: false,
+        fs: false,
+        path: false
+      }
+    }
+  }
+
+  actions.setWebpackConfig(config)
 }
 
 exports.createPages = async({ graphql, actions }) => {
@@ -18,7 +49,7 @@ exports.createPages = async({ graphql, actions }) => {
     `
       {
         allMarkdownRemark(
-          sort: { fields: [frontmatter___date], order: DESC }
+          sort: { frontmatter: { date: DESC } }
           limit: 1000
         ) {
           edges {
