@@ -5,7 +5,7 @@ import _s from 'underscore.string'
 import _ from 'underscore'
 import './posts-sidebar.scss'
 
-const postsSidebar = ({ posts, profileImage }) => {
+const PostsSidebar = ({ posts, profileImage }) => {
   const [categories, setCategories] = useState({})
   const [tags, setTags] = useState({})
 
@@ -123,4 +123,4 @@ const postsSidebar = ({ posts, profileImage }) => {
   )
 }
 
-export default postsSidebar
+export default PostsSidebar

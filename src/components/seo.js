@@ -7,10 +7,10 @@
 
 import React from 'react'
 import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
+
 import { useStaticQuery, graphql } from 'gatsby'
 
-function SEO({ description, lang, meta, title, image }) {
+function SEO({ description, lang, meta, title, image, children }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -68,14 +68,14 @@ function SEO({ description, lang, meta, title, image }) {
   image && metaArray.push({ property: 'og:image', content: image })
 
   return (
-    <Helmet
-      htmlAttributes={{
-        lang
-      }}
-      title={title}
-      titleTemplate={`%s | ${site.siteMetadata.title}`}
-      meta={metaArray}
-    />
+    <>
+      <html lang={lang} />
+      <title>{`${title} | ${site.siteMetadata.title}`}</title>
+      {metaArray.map((m, i) => (
+        <meta key={i} {...m} />
+      ))}
+      {children}
+    </>
   )
 }
 

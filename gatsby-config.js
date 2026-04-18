@@ -111,7 +111,7 @@ module.exports = {
         templatePath: path.join(__dirname, '/src/templates/tag.js')
       }
     },
-    'gatsby-plugin-react-helmet',
+
     {
       resolve: 'gatsby-plugin-typography',
       options: {

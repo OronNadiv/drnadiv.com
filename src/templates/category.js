@@ -21,11 +21,10 @@ const CategoryTemplate = ({ location, pageContext, data }) => {
   }, [])
 
   const posts = data.allMarkdownRemark.edges
-  const siteUrl = data.site.siteMetadata.siteUrl
+
   const title = `Category "${category}"`
   return (
     <Layout location={location} title={title}>
-      <SEO title={title} image={`${siteUrl}${mainImage}`} />
       <div className="main">
         <Section3
           posts={posts}
@@ -117,5 +116,13 @@ export const pageQuery = graphql`
     }
   }
 `
+
+export const Head = ({ data, pageContext }) => {
+  const { category } = pageContext
+  const categoryPretty = _s(category).clean().titleize().value().replace(/_/g, ' ')
+  const siteUrl = data.site.siteMetadata.siteUrl
+  const title = `Category "${categoryPretty}"`
+  return <SEO title={title} image={`${siteUrl}${mainImage}`} />
+}
 
 export default CategoryTemplate

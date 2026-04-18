@@ -26,14 +26,6 @@ const BlogPostTemplate = ({ data, location, pageContext }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO
-        title={post.frontmatter.title}
-        description={post.frontmatter.description || post.excerpt}
-        image={
-          post.frontmatter.featuredImage.publicURL &&
-          `${siteUrl}${post.frontmatter.featuredImage.publicURL}`
-        }
-      />
       <div className="blog-post">
         <div
           className="heading"
@@ -144,6 +136,21 @@ const BlogPostTemplate = ({ data, location, pageContext }) => {
         />
       </div>
     </Layout>
+  )
+}
+
+export const Head = ({ data }) => {
+  const post = data.markdownRemark
+  const siteUrl = data.site.siteMetadata.siteUrl
+  return (
+    <SEO
+      title={post.frontmatter.title}
+      description={post.frontmatter.description || post.excerpt}
+      image={
+        post.frontmatter.featuredImage.publicURL &&
+        `${siteUrl}${post.frontmatter.featuredImage.publicURL}`
+      }
+    />
   )
 }
 

@@ -7,7 +7,7 @@ const KEY = 'disclaimer'
 const VALUE = 'accepted'
 const expires = 7
 
-const disclaimer = () => {
+const Disclaimer = () => {
   const [show, setShow] = useState(false)
 
   const handleAccept = () => {
@@ -56,4 +56,4 @@ const disclaimer = () => {
   )
 }
 
-export default disclaimer
+export default Disclaimer

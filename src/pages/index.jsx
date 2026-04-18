@@ -26,9 +26,9 @@ const ScrollLink = Scroll.Link
 
 const mainImage = '/images/main.png'
 
-const index = ({ data, location }) => {
+const Index = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
-  const siteUrl = data.site.siteMetadata.siteUrl
+
   const posts = data.allMarkdownRemark.edges
 
   useEffect(() => {
@@ -44,7 +44,6 @@ const index = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title={siteTitle} image={`${siteUrl}${mainImage}`} />
       <div className='main main-page'>
         <div className='nav'>
           <div className='brand'>
@@ -164,4 +163,10 @@ export const pageQuery = graphql`
   }
 `
 
-export default index
+export const Head = ({ data }) => {
+  const siteTitle = data.site.siteMetadata.title
+  const siteUrl = data.site.siteMetadata.siteUrl
+  return <SEO title={siteTitle} image={`${siteUrl}${mainImage}`} />
+}
+
+export default Index

@@ -5,10 +5,10 @@ import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 
 const color = 'rgba(48, 41, 105)'
 
-const notFound = ({ data }) => {
+const NotFound = ({ data }) => {
   return (
     <>
-      <SEO title="Not Found" />
+
       <GatsbyImage
         image={getImage(data.sadChildImage)}
         alt="Sad Child"
@@ -66,4 +66,6 @@ export const pageQuery = graphql`
   }
 `
 
-export default notFound
+export const Head = () => <SEO title="Not Found" />
+
+export default NotFound
