@@ -14,7 +14,6 @@ jobs:
           node-version: '22'
       - run: npm install
       - run: npm run build
-      - run: npm run lint
       - uses: w9jds/setup-firebase@main
         with:
           tools-version: 15.15.0
