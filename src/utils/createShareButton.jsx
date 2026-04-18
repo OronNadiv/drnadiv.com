@@ -59,9 +59,7 @@ function windowOpen(
           onClose(shareDialog)
         }
       } catch (e) {
-        /* eslint-disable no-console */
         console.error(e)
-        /* eslint-enable no-console */
       }
     }, 1000)
   }

@@ -45,14 +45,14 @@ const index = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title={siteTitle} image={`${siteUrl}${mainImage}`} />
-      <div className="main main-page">
-        <div className="nav">
-          <div className="brand">
-            <a href="/">Elizabeth Nadiv MD</a>
+      <div className='main main-page'>
+        <div className='nav'>
+          <div className='brand'>
+            <a href='/'>Elizabeth Nadiv MD</a>
           </div>
         </div>
         <div
-          className="heading"
+          className='heading'
           style={{
             backgroundImage: `url(${bgImageSrc})`,
             backgroundPosition: 'center',
@@ -60,28 +60,28 @@ const index = ({ data, location }) => {
             backgroundSize: 'cover'
           }}
         >
-          <div className="content">
+          <div className='content'>
             <h2>The Well Child</h2>
             <p>Advice for my patients and their families.</p>
             <ScrollLink
-              href="#"
-              className="scroll-down"
-              to="posts-list"
+              href='#'
+              className='scroll-down'
+              to='posts-list'
               smooth
               duration={800}
             >
               Scroll down for more
             </ScrollLink>
           </div>
-          <div className="scroll_down">
+          <div className='scroll_down'>
             <ScrollLink
-              href="#"
-              className="scroll"
-              to="posts-list"
+              href='#'
+              className='scroll'
+              to='posts-list'
               smooth
               duration={800}
             >
-              <i className="fa fa-chevron-down text-black-50" />
+              <i className='fa fa-chevron-down text-black-50' />
             </ScrollLink>
           </div>
         </div>

@@ -1,4 +1,3 @@
-/* eslint-disable prefer-template */
 export default function objectToGetParams(object) {
   return (
     '?' +
@@ -8,4 +7,3 @@ export default function objectToGetParams(object) {
       .join('&')
   )
 }
-/* eslint-enable prefer-template */

@@ -20,7 +20,6 @@ const FacebookShareButton = createShareButton(
   'facebook',
   facebookLink,
   (props) => {
-    /* eslint-disable no-console */
     if (props.picture) {
       console.warn('FacebookShareButton warning: picture is a deprecated prop.')
     }
@@ -35,7 +34,6 @@ const FacebookShareButton = createShareButton(
       console.warn(`FacebookShareButton warning: description is a deprecated prop.
       Use "quote" instead.`)
     }
-    /* eslint-enable no-console */
 
     return {
       quote: props.quote,
