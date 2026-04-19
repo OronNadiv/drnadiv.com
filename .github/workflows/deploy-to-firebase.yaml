@@ -2,7 +2,7 @@ name: Deploy the main branch
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   main:
     name: Deploy to Firebase
