@@ -19,9 +19,9 @@ class Layout extends React.Component {
         <div className="position-absolute" style={{ zIndex: 9999 }}>
           <div className="position-relative">
             <ScrollToTop showUnder={100} duration={800}>
-              <a className="scrolltop">
+              <span className="scrolltop">
                 <i className="fa fa-chevron-up" aria-hidden="true" />
-              </a>
+              </span>
             </ScrollToTop>
           </div>
         </div>

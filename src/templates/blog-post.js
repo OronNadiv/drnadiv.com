@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/layout'
-import SEO from '../components/seo'
+import Seo from '../components/seo'
 import { rhythm } from '../utils/typography'
 import { FacebookProvider, Comments } from 'react-facebook'
 import FacebookShareButton from '../utils/FacebookShareButton'
@@ -22,7 +22,7 @@ const BlogPostTemplate = ({ data, location, pageContext }) => {
 
   useEffect(() => {
     setTags(_.shuffle(post.frontmatter.tags))
-  }, [])
+  }, [post.frontmatter.tags])
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -48,6 +48,7 @@ const BlogPostTemplate = ({ data, location, pageContext }) => {
           </div>
           <div className="top-post">
             <span className="date">{post.frontmatter.date}</span>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#">
               <h1>{post.frontmatter.title}</h1>
             </a>
@@ -143,7 +144,7 @@ export const Head = ({ data }) => {
   const post = data.markdownRemark
   const siteUrl = data.site.siteMetadata.siteUrl
   return (
-    <SEO
+    <Seo
       title={post.frontmatter.title}
       description={post.frontmatter.description || post.excerpt}
       image={

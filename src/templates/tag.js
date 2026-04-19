@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/layout'
-import SEO from '../components/seo'
+import Seo from '../components/seo'
 import _s from 'underscore.string'
 import Section3 from '../components/section-3'
 
@@ -14,7 +14,7 @@ const CategoryTemplate = ({ location, pageContext, data }) => {
     const { tag } = pageContext
     const tagPretty = _s(tag).clean().titleize().value().replace(/_/g, ' ')
     setTag(tagPretty)
-  }, [])
+  }, [pageContext])
 
   const posts = data.allMarkdownRemark.edges
 
@@ -118,7 +118,7 @@ export const Head = ({ data, pageContext }) => {
   const tagPretty = _s(tag).clean().titleize().value().replace(/_/g, ' ')
   const siteUrl = data.site.siteMetadata.siteUrl
   const title = `Tag "${tagPretty}"`
-  return <SEO title={title} image={`${siteUrl}${mainImage}`} />
+  return <Seo title={title} image={`${siteUrl}${mainImage}`} />
 }
 
 export default CategoryTemplate

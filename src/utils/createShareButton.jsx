@@ -128,7 +128,7 @@ class ShareButton extends PureComponent {
     }
   }
 
-  onKeyPress = (e) => {
+  onKeyDown = (e) => {
     if (e.key === 'Enter' || e.key === 13 || e.key === ' ' || e.key === 32) {
       this.onClick(e)
     }
@@ -182,13 +182,14 @@ class ShareButton extends PureComponent {
     )
 
     return (
+      // eslint-disable-next-line jsx-a11y/no-static-element-interactions
       <div
         aria-label={network}
         {...additionalProps}
         role={role}
         tabIndex={tabIndex}
         onClick={this.onClick}
-        onKeyPress={this.onKeyPress}
+        onKeyDown={this.onKeyDown}
         className={classes}
         style={{
           ...style,

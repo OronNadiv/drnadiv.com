@@ -1,6 +1,6 @@
 import React from 'react'
 import { graphql, Link } from 'gatsby'
-import SEO from '../components/seo'
+import Seo from '../components/seo'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 
 const color = 'rgba(48, 41, 105)'
@@ -66,6 +66,6 @@ export const pageQuery = graphql`
   }
 `
 
-export const Head = () => <SEO title="Not Found" />
+export const Head = () => <Seo title="Not Found" />
 
 export default NotFound

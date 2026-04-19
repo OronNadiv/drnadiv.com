@@ -2,7 +2,7 @@ import './index.scss'
 import React, { useEffect } from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
-import SEO from '../components/seo'
+import Seo from '../components/seo'
 import * as Scroll from 'react-scroll'
 import Section3 from '../components/section-3'
 import { getSrc } from 'gatsby-plugin-image'
@@ -166,7 +166,7 @@ export const pageQuery = graphql`
 export const Head = ({ data }) => {
   const siteTitle = data.site.siteMetadata.title
   const siteUrl = data.site.siteMetadata.siteUrl
-  return <SEO title={siteTitle} image={`${siteUrl}${mainImage}`} />
+  return <Seo title={siteTitle} image={`${siteUrl}${mainImage}`} />
 }
 
 export default Index
