@@ -71,10 +71,10 @@ const BlogPostTemplate = ({ data, location, pageContext }) => {
                       <div className="share">
                         <span>share</span>
                         <TwitterShareButton url={linkUrl} className="d-inline">
-                          <i className="fa fa-twitter" />
+                          <i className="fa-brands fa-x-twitter" />
                         </TwitterShareButton>
                         <FacebookShareButton url={linkUrl} className="d-inline">
-                          <i className="fa fa-facebook" />
+                          <i className="fa-brands fa-facebook-f" />
                         </FacebookShareButton>
                       </div>
                     </div>
@@ -99,7 +99,9 @@ const BlogPostTemplate = ({ data, location, pageContext }) => {
                             rel="prev"
                             className="flex-row d-flex justify-content-start align-items-center"
                           >
-                            <i className="fa fa-chevron-left text-muted me-3 mt-2" />
+                            <span style={{ fontSize: '1.1em' }}>
+                              <i className="fa-solid fa-chevron-left text-muted me-3 mt-2" />
+                            </span>
                             <div className="text-start">
                               <span className="text-muted">Prev Post</span>
                               <h4>{previous.frontmatter.title}</h4>
@@ -118,7 +120,9 @@ const BlogPostTemplate = ({ data, location, pageContext }) => {
                               <div className="text-muted">Next Post</div>
                               <h4>{next.frontmatter.title}</h4>
                             </div>
-                            <i className="fa fa-chevron-right text-muted ms-3 mt-2" />
+                            <span style={{ fontSize: '1.1em' }}>
+                              <i className="fa-solid fa-chevron-right text-muted ms-3 mt-2" />
+                            </span>
                           </Link>
                         )}
                       </div>

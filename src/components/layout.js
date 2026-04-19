@@ -20,7 +20,7 @@ class Layout extends React.Component {
           <div className="position-relative">
             <ScrollToTop showUnder={100} duration={800}>
               <span className="scrolltop">
-                <i className="fa fa-chevron-up" aria-hidden="true" />
+                <i className="fa-solid fa-chevron-up mt-2" aria-hidden="true" />
               </span>
             </ScrollToTop>
           </div>

@@ -50,10 +50,10 @@ const PostCard = ({ node, siteUrl }) => {
                 <div className="share">
                   <span>share</span>
                   <TwitterShareButton url={linkUrl} className="d-inline">
-                    <i className="fa fa-twitter" />
+                    <i className="fa-brands fa-x-twitter" />
                   </TwitterShareButton>
                   <FacebookShareButton url={linkUrl} className="d-inline">
-                    <i className="fa fa-facebook" />
+                    <i className="fa-brands fa-facebook-f" />
                   </FacebookShareButton>
                 </div>
                 <div className="comments d-none d-sm-block">
