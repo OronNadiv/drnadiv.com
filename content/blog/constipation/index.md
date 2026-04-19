@@ -20,7 +20,6 @@ When this is a concern, I always counsel parents to keep a "poop diary"---gross,
 # **How To Manage Constipation**
 
 - Minimize constipating foods:
-
   - Give no more than 16 ounces of milk per day.
   - Bananas, white rice, white bread, bagels, pizza, cheese, ice cream can also be constipating
 

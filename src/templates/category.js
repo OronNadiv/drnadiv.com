@@ -119,7 +119,11 @@ export const pageQuery = graphql`
 
 export const Head = ({ data, pageContext }) => {
   const { category } = pageContext
-  const categoryPretty = _s(category).clean().titleize().value().replace(/_/g, ' ')
+  const categoryPretty = _s(category)
+    .clean()
+    .titleize()
+    .value()
+    .replace(/_/g, ' ')
   const siteUrl = data.site.siteMetadata.siteUrl
   const title = `Category "${categoryPretty}"`
   return <Seo title={title} image={`${siteUrl}${mainImage}`} />

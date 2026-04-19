@@ -8,7 +8,6 @@ const color = 'rgba(48, 41, 105)'
 const NotFound = ({ data }) => {
   return (
     <>
-
       <GatsbyImage
         image={getImage(data.sadChildImage)}
         alt="Sad Child"

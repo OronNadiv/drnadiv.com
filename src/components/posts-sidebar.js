@@ -54,7 +54,11 @@ const PostsSidebar = ({ posts, profileImage }) => {
   return (
     <div className="cell author px-auto pt-3 pb-5">
       <div className="d-flex justify-content-center">
-        <GatsbyImage className="image" image={getImage(profileImage)} alt="Profile" />
+        <GatsbyImage
+          className="image"
+          image={getImage(profileImage)}
+          alt="Profile"
+        />
       </div>
       <h1 className="pt-3">About Me</h1>
       <p>
@@ -99,7 +103,7 @@ const PostsSidebar = ({ posts, profileImage }) => {
           </ul>
         </div>
 
-        <div className='d-none'>
+        <div className="d-none">
           <div className="widget mt-5">
             <div className="sidebar_widget_title fw-bold text-uppercase">
               Tags

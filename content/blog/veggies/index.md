@@ -35,8 +35,8 @@ As I’ve said many times, **parenting isn’t easy** and it’s not our job to 
 - Role model healthy eating and prioritize family meals
 - Let your kids help with food prep and cooking
 - Get involved in a community garden, or grow a few plants at home
-- Check out [Adventures in Veggieland](https://www.youtube.com/watch?v=XwPy0AAavXY), expert feeding advice from pediatric feeding therapist [Melanie Potock](https://mymunchbug.com/). 
+- Check out [Adventures in Veggieland](https://www.youtube.com/watch?v=XwPy0AAavXY), expert feeding advice from pediatric feeding therapist [Melanie Potock](https://mymunchbug.com/).
 
 ![Adventures in Veggieland](https://images-na.ssl-images-amazon.com/images/I/715AuzZd1CL.jpg)
 
-**Eating vegetables can be fun and delicious! I have found a lot of kid-friendly recipes that taste great and are healthy!** 
+**Eating vegetables can be fun and delicious! I have found a lot of kid-friendly recipes that taste great and are healthy!**

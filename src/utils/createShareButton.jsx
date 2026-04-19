@@ -135,12 +135,8 @@ class ShareButton extends PureComponent {
   }
 
   openWindow = (link) => {
-    const {
-      windowPosition,
-      onShareWindowClose,
-      windowWidth,
-      windowHeight
-    } = this.props
+    const { windowPosition, onShareWindowClose, windowWidth, windowHeight } =
+      this.props
 
     const windowConfig = {
       height: windowHeight,
