@@ -2,14 +2,14 @@ import React from 'react'
 import { Link } from 'gatsby'
 import './post-tags.scss'
 
-const postTags = ({ tags = [] }) => {
+const PostTags = ({ tags = [] }) => {
   return (
     tags.length && (
       <div className="tags d-flex flex-row justify-content-start flex-wrap py-5">
         {tags.map((tag, index) => {
           return (
             <Link
-              className="text-uppercase mb-3 mr-2 py-2 px-3"
+              className="text-uppercase mb-3 me-2 py-2 px-3"
               key={index}
               to={`/tags/${tag.toLowerCase()}`}
             >
@@ -22,4 +22,4 @@ const postTags = ({ tags = [] }) => {
   )
 }
 
-export default postTags
+export default PostTags

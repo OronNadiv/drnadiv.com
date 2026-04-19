@@ -8,7 +8,7 @@ import { CommentsCount, FacebookProvider } from 'react-facebook'
 import './post-card.scss'
 import Truncate from 'react-truncate'
 
-const postCard = ({ node, siteUrl }) => {
+const PostCard = ({ node, siteUrl }) => {
   const title = node.frontmatter.title || node.fields.slug
   const category =
     node.frontmatter.category &&
@@ -21,9 +21,9 @@ const postCard = ({ node, siteUrl }) => {
     >
       <div className="container-fluid">
         <div className="row">
-          <div className="col-8 text-left">
+          <div className="col-8 text-start">
             <div className="d-flex flex-column justify-content-between h-100">
-              <div className="text-muted text-capitalize d-none d-sm-flex align-items-center mb-2 mr-2">
+              <div className="text-muted text-capitalize d-none d-sm-flex align-items-center mb-2 me-2">
                 <Link
                   to={`/categories/${node.frontmatter.category}`}
                   className="p-0"
@@ -34,7 +34,7 @@ const postCard = ({ node, siteUrl }) => {
                 <h3>{node.frontmatter.date}</h3>
               </div>
               <Link to={node.fields.slug}>
-                <h1 className="m-0 font-weight-bold">{title}</h1>
+                <h1 className="m-0 fw-bold">{title}</h1>
                 <p className="text-black-50 mt-2 d-none d-sm-block">
                   <Truncate lines={2} ellipsis={<span>...</span>}>
                     <div
@@ -88,4 +88,4 @@ const postCard = ({ node, siteUrl }) => {
   )
 }
 
-export default postCard
+export default PostCard

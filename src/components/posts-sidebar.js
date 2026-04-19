@@ -77,10 +77,10 @@ const PostsSidebar = ({ posts, profileImage }) => {
 
       <div className="mt-3 blog_sidebar rounded text-center">
         <div className="widget mt-5">
-          <div className="sidebar_widget_title font-weight-bold text-uppercase">
+          <div className="sidebar_widget_title fw-bold text-uppercase">
             Categories
           </div>
-          <ul className="list-unstyled widget_list my-3 ml-0">
+          <ul className="list-unstyled widget_list my-3 ms-0">
             {Object.keys(categories)
               .sort(_s.naturalCmp)
               .map((key, index) => {
@@ -101,7 +101,7 @@ const PostsSidebar = ({ posts, profileImage }) => {
 
         <div className='d-none'>
           <div className="widget mt-5">
-            <div className="sidebar_widget_title font-weight-bold text-uppercase">
+            <div className="sidebar_widget_title fw-bold text-uppercase">
               Tags
             </div>
             <div className="blog_tag d-flex flex-row flex-wrap justify-content-center my-3 ">

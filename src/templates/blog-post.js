@@ -60,13 +60,13 @@ const BlogPostTemplate = ({ data, location, pageContext }) => {
               <div className="post-container">
                 <div className="cell posts">
                   <div className="post">
-                    <div className="text pb-0 text-left">
+                    <div className="text pb-0 text-start">
                       <section
                         dangerouslySetInnerHTML={{ __html: post.html }}
                       />
                       <PostTags tags={tags} />
                     </div>
-                    <div className="d-flex justify-content-end social bg-white py-2 pr-3 mr-3">
+                    <div className="d-flex justify-content-end social bg-white py-2 pe-3 me-3">
                       <div className="share">
                         <span>share</span>
                         <TwitterShareButton url={linkUrl} className="d-inline">
@@ -98,8 +98,8 @@ const BlogPostTemplate = ({ data, location, pageContext }) => {
                             rel="prev"
                             className="flex-row d-flex justify-content-start align-items-center"
                           >
-                            <i className="fa fa-chevron-left text-muted mr-3 mt-2" />
-                            <div className="text-left">
+                            <i className="fa fa-chevron-left text-muted me-3 mt-2" />
+                            <div className="text-start">
                               <span className="text-muted">Prev Post</span>
                               <h4>{previous.frontmatter.title}</h4>
                             </div>
@@ -113,11 +113,11 @@ const BlogPostTemplate = ({ data, location, pageContext }) => {
                             rel="next"
                             className="flex-row d-flex justify-content-end align-items-center"
                           >
-                            <div className="text-right">
+                            <div className="text-end">
                               <div className="text-muted">Next Post</div>
                               <h4>{next.frontmatter.title}</h4>
                             </div>
-                            <i className="fa fa-chevron-right text-muted ml-3 mt-2" />
+                            <i className="fa fa-chevron-right text-muted ms-3 mt-2" />
                           </Link>
                         )}
                       </div>

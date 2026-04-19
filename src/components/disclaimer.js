@@ -48,7 +48,7 @@ const Disclaimer = () => {
         <Button className="border-dark" variant="light" onClick={handleDecline}>
           Decline
         </Button>
-        <Button className="ml-4" variant="success" onClick={handleAccept}>
+        <Button className="ms-4" variant="success" onClick={handleAccept}>
           I Accept
         </Button>
       </Modal.Footer>
