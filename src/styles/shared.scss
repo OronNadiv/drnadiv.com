@@ -29,13 +29,15 @@ ul {
   padding: 0
 }
 
-ul, ol {
+ul,
+ol {
   margin-left: 2em;
   margin-bottom: 1em;
   padding: 0;
 }
 
-ul li, ol li {
+ul li,
+ol li {
   margin-bottom: 1em;
 }
 
@@ -224,13 +226,14 @@ p {
 
 .cell {
   text-align: center
-  /*text-align: left*/
+    /*text-align: left*/
 }
 
 @-webkit-keyframes fade {
   0% {
     opacity: 0
   }
+
   100% {
     opacity: 1
   }
@@ -240,6 +243,7 @@ p {
   0% {
     opacity: 0
   }
+
   100% {
     opacity: 1
   }
@@ -282,7 +286,8 @@ p {
       border: 0;
     }
 
-    i, span {
+    i,
+    span {
       padding-right: 5px
     }
 
@@ -293,7 +298,8 @@ p {
   }
 }
 
-.comments, .comments-single-post {
+.comments,
+.comments-single-post {
   display: flex;
   flex-direction: column;
   vertical-align: middle;
@@ -353,6 +359,7 @@ p {
 }
 
 .scrolltop i {
+  -webkit-text-stroke-width: 1px;
   color: white;
 }
 
@@ -403,6 +410,7 @@ p {
   blockquote {
     padding-left: 0.75rem;
   }
+
   img {
     width: 100%;
   }
@@ -410,7 +418,12 @@ p {
   .text {
     padding: 20px;
 
-    h1, h2, h3, h4, h5, h6 {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
       margin-bottom: 1rem;
     }
 
@@ -427,6 +440,7 @@ p {
     h1 {
       font-size: 180%;
       margin-bottom: 15px;
+
       @media (max-width: 768px) {
         padding: 10px 0;
       }
@@ -444,6 +458,7 @@ p {
     p {
       text-align: left;
       margin-bottom: 15px;
+
       @media (max-width: 768px) {
         text-align: justify;
       }

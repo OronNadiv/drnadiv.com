@@ -80,9 +80,7 @@ const Index = ({ data, location }) => {
               smooth
               duration={800}
             >
-              <span style={{ fontSize: '1.1em' }}>
-                <i className="fa-solid fa-chevron-down text-black-50" />
-              </span>
+              <i className="fa-solid fa-chevron-down text-black-50" />
             </ScrollLink>
           </div>
         </div>
