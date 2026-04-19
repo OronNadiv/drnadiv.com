@@ -7,7 +7,7 @@ Link: [www.DrNadiv.com](https://www.drnadiv.com)
 #### Tools, technologies and third parties:
 
 - Gatsby (headless CMS built using React and markdown)
-- Bootstrap v4
+- Bootstrap v5
 - Firebase hosting
 - Firebase analytics
 - CircleCI
