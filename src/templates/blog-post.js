@@ -98,7 +98,13 @@ const BlogPostTemplate = ({ data, location, pageContext }) => {
                             rel="prev"
                             className="flex-row d-flex justify-content-start align-items-center"
                           >
-                            <i className="fa-solid fa-chevron-left text-muted me-3 mt-2" style={{ fontSize: '1.1em', webkitTextStrokeWidth: '1px' }} />
+                            <i
+                              className="fa-solid fa-chevron-left text-muted me-3 mt-2"
+                              style={{
+                                fontSize: '1.1em',
+                                webkitTextStrokeWidth: '1px'
+                              }}
+                            />
                             <div className="text-start">
                               <span className="text-muted">Prev Post</span>
                               <h4>{previous.frontmatter.title}</h4>
@@ -117,7 +123,13 @@ const BlogPostTemplate = ({ data, location, pageContext }) => {
                               <div className="text-muted">Next Post</div>
                               <h4>{next.frontmatter.title}</h4>
                             </div>
-                            <i className="fa-solid fa-chevron-right text-muted ms-3 mt-2" style={{ fontSize: '1.1em', webkitTextStrokeWidth: '1px' }} />
+                            <i
+                              className="fa-solid fa-chevron-right text-muted ms-3 mt-2"
+                              style={{
+                                fontSize: '1.1em',
+                                webkitTextStrokeWidth: '1px'
+                              }}
+                            />
                           </Link>
                         )}
                       </div>
