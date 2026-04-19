@@ -3,7 +3,6 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/layout'
 import Seo from '../components/seo'
 import { rhythm } from '../utils/typography'
-import { FacebookProvider, Comments } from 'react-facebook'
 import FacebookShareButton from '../utils/FacebookShareButton'
 import TwitterShareButton from '../utils/TwitterShareButton'
 import PostTags from '../components/post-tags'
@@ -79,16 +78,16 @@ const BlogPostTemplate = ({ data, location, pageContext }) => {
                       </div>
                     </div>
 
-                    <div className="social">
+                    {/* <div className="social">
                       <div className="comments-single-post">
-                        <FacebookProvider appId="634731470264758">
+                        <FacebookProvider appId="1496134842183792">
                           <Comments
                             href={`${siteUrl}/${post.frontmatter.id}`}
                             width="100%"
                           />
                         </FacebookProvider>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                   <nav>
                     <div className="row mx-2">

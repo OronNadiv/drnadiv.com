@@ -4,7 +4,6 @@ import React from 'react'
 import _s from 'underscore.string'
 import TwitterShareButton from '../utils/TwitterShareButton'
 import FacebookShareButton from '../utils/FacebookShareButton'
-import { CommentsCount, FacebookProvider } from 'react-facebook'
 import './post-card.scss'
 import Truncate from 'react-truncate'
 
@@ -56,8 +55,8 @@ const PostCard = ({ node, siteUrl }) => {
                     <i className="fa-brands fa-facebook-f" />
                   </FacebookShareButton>
                 </div>
-                <div className="comments d-none d-sm-block">
-                  <FacebookProvider appId="634731470264758">
+                {/* <div className="comments d-none d-sm-block">
+                  <FacebookProvider appId="1496134842183792">
                     <span className="d-flex flex-row">
                       <CommentsCount
                         href={`${siteUrl}/${node.frontmatter.id}`}
@@ -65,7 +64,7 @@ const PostCard = ({ node, siteUrl }) => {
                       &nbsp;comments
                     </span>
                   </FacebookProvider>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
