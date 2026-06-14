@@ -104,31 +104,12 @@
   }
 
   div.heading {
-    background-size: cover;
     position: relative;
+    background-size: cover;
+    min-height: 70vh;
 
-    // Extra small devices (portrait phones, less than 575.98px)
-    @include media-breakpoint-only(xs) {
-      min-height: 70vh;
-    }
-
-    // Small devices (landscape phones, 576px and up to 767.98px)
-    @include media-breakpoint-only(sm) {
-      min-height: 70vh;
-    }
-
-    // Medium devices (tablets, 768px and up to 991.98px)
-    @include media-breakpoint-only(md) {
-      min-height: 70vh;
-    }
-
-    // Large devices (desktops, 992px and up to 1199.98px)
-    @include media-breakpoint-only(lg) {
-      min-height: 100vh;
-    }
-
-    // Extra large devices (large desktops, 1200px and up)
-    @include media-breakpoint-up(xl) {
+    // Large devices (desktops, 992px and up)
+    @include media-breakpoint-up(lg) {
       min-height: 100vh;
     }
   }
