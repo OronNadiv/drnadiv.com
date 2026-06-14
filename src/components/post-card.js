@@ -34,7 +34,7 @@ const PostCard = ({ node, siteUrl }) => {
               </div>
               <Link to={node.fields.slug}>
                 <h1 className="m-0 fw-bold">{title}</h1>
-                <p className="text-black-50 mt-2 d-none d-sm-block">
+                <div className="text-black-50 mt-2 d-none d-sm-block">
                   <Truncate lines={2} ellipsis={<span>...</span>}>
                     <div
                       dangerouslySetInnerHTML={{
@@ -42,7 +42,7 @@ const PostCard = ({ node, siteUrl }) => {
                       }}
                     ></div>
                   </Truncate>
-                </p>
+                </div>
               </Link>
 
               <div className="social d-flex justify-content-between p-0 m-0 bg-transparent">
