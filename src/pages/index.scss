@@ -128,7 +128,7 @@
     }
 
     // Extra large devices (large desktops, 1200px and up)
-    @include media-breakpoint-only(xl) {
+    @include media-breakpoint-up(xl) {
       min-height: 100vh;
     }
   }
